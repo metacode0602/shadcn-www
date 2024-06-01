@@ -77,6 +77,8 @@
 		"mode-watcher": "^0.2.2",
 		"nanoid": "^5.0.6",
 		"paneforge": "^0.0.2",
+		"prettier": "^3.2.5",
+		"prettier-plugin-svelte": "^3.2.3",
 		"sharp": "^0.33.4",
 		"svelte-headless-table": "^0.18.2",
 		"svelte-legos": "^0.2.2",
