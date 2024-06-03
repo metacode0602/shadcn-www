@@ -14,13 +14,24 @@
 	</a>
 	<nav class="flex items-center gap-6 text-sm">
 		<a
+			href="/examples"
+			class={cn(
+				"transition-colors hover:text-foreground/80",
+				$page.url.pathname.startsWith("/examples")
+					? "text-foreground"
+					: "text-foreground/60"
+			)}
+		>
+			首页
+		</a>		
+		<a
 			href="/docs"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
 				$page.url.pathname === "/docs" ? "text-foreground" : "text-foreground/60"
 			)}
 		>
-			Docs
+			分类
 		</a>
 		<a
 			href="/docs/components"
@@ -31,7 +42,7 @@
 					: "text-foreground/60"
 			)}
 		>
-			Components
+		排行
 		</a>
 		<a
 			href="/themes"
@@ -40,19 +51,9 @@
 				$page.url.pathname.startsWith("/themes") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
-			Themes
+			开源
 		</a>
-		<a
-			href="/examples"
-			class={cn(
-				"transition-colors hover:text-foreground/80",
-				$page.url.pathname.startsWith("/examples")
-					? "text-foreground"
-					: "text-foreground/60"
-			)}
-		>
-			Examples
-		</a>
+
 		<a
 			href="/blocks"
 			class={cn(
@@ -60,7 +61,7 @@
 				$page.url.pathname.startsWith("/blocks") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
-			Blocks
+		知识库
 		</a>
 		<a
 			href={siteConfig.links.github}

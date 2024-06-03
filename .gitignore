@@ -108,3 +108,5 @@ yarn.lock
 generated-assets
 
 .svelte-kit
+.yarn
+node_modules

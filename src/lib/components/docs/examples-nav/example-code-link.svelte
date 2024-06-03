@@ -13,7 +13,7 @@
 		rel="nofollow"
 		class="absolute right-0 top-0 hidden items-center rounded-[0.5rem] text-sm font-medium md:flex"
 	>
-		View Code
+		查看更多
 		<ArrowRight class="ml-1 h-4 w-4" />
 	</a>
 {/if}

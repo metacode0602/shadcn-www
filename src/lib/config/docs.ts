@@ -8,11 +8,11 @@ type DocsConfig = {
 export const docsConfig: DocsConfig = {
 	mainNav: [
 		{
-			title: "Documentation",
+			title: "首页",
 			href: "/docs",
 		},
 		{
-			title: "Components",
+			title: "组件",
 			href: "/docs/components/accordion",
 		},
 		{
@@ -349,43 +349,63 @@ type Example = {
 };
 export const examples: Example[] = [
 	{
-		name: "Mail",
+		name: "今日最新",
 		href: "/examples/mail",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/mail",
 	},
 	{
-		name: "Dashboard",
+		name: "图像处理",
 		href: "/examples/dashboard",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/dashboard",
 	},
 	{
-		name: "Cards",
+		name: "写作灵感",
 		href: "/examples/cards",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/cards",
 	},
 	{
-		name: "Tasks",
+		name: "视频创作",
 		href: "/examples/tasks",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/tasks",
 	},
 	{
-		name: "Playground",
+		name: "效率助手",
 		href: "/examples/playground",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/playground",
 	},
 	{
-		name: "Forms",
+		name: "艺术灵感",
 		href: "/examples/forms",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/forms",
 	},
 	{
-		name: "Music",
+		name: "开发编程",
 		href: "/examples/music",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/music",
 	},
 	{
-		name: "Authentication",
+		name: "聊天机器人",
 		href: "/examples/authentication",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
 	},
+	{
+		name: "医疗健康",
+		href: "/examples/authentication",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
+	},	
+	{
+		name: "教育学习",
+		href: "/examples/authentication",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
+	},	
+	{
+		name: "智能营销",
+		href: "/examples/authentication",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
+	},	
+	{
+		name: "趣味",
+		href: "/examples/authentication",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
+	},			
 ];
