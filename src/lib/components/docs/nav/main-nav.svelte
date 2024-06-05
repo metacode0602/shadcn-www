@@ -12,7 +12,7 @@
 			{siteConfig.name}
 		</span>
 	</a>
-	<nav class="flex items-center gap-6 text-sm">
+	<nav class="flex items-center gap-6">
 		<a
 			href="/examples"
 			class={cn(

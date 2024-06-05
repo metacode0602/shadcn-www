@@ -1,36 +1,32 @@
 <script lang="ts">
-	import { siteConfig } from "$lib/config/site.js";
+	import * as Avatar from "$lib/registry/default/ui/avatar/index.js";
 </script>
-
-<footer class="py-6 md:px-8 md:py-0">
-	<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-		<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-			<p class="text-center text-sm leading-loose text-muted-foreground md:text-left">
-				Built & designed by
+<footer class="py-6 md:px-8 md:py-4">
+	<div class="container items-center justify-between gap-4">
+		<div class="flex flex-col items-center px-8 md:px-0">
+			<p class="text-center text-xs leading-loose text-muted-foreground md:text-center">
+				Copyright ©2023-2025 天津聚链科技有限公司版权所有 
 				<a
-					href={siteConfig.links.shadTwitter}
+					href=https://beian.miit.gov.cn/
 					target="_blank"
 					rel="noreferrer"
-					class="font-medium underline underline-offset-4"
+					class="font-medium"
 				>
-					shadcn</a
-				>. Ported to Svelte by
+				津ICP备2023007973号-1</a
+				>
+				</p>
+				<p class="flex flex-row text-center text-xs leading-loose text-muted-foreground md:text-center">
+					<span class="rounded-full pr-1">
+						<img src="/images/gongan.png" alt="津公网安备12011402001495号" style="position:relative;top:5px;marigin-right:2px;vertical-align:baseline;width:16px">						
+					</span>  					
 				<a
-					href={siteConfig.links.twitter}
+					href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12011402001495"
 					target="_blank"
 					rel="noreferrer"
-					class="font-medium underline underline-offset-4"
+					class="font-medium"
 				>
-					huntabyte</a
-				>. The source code is available on
-				<a
-					href={siteConfig.links.github}
-					target="_blank"
-					rel="noreferrer"
-					class="font-medium underline underline-offset-4"
+				津公网安备12011402001495号</a
 				>
-					GitHub</a
-				>.
 			</p>
 		</div>
 	</div>
