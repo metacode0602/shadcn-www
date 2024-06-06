@@ -1,41 +1,47 @@
 <script lang="ts">
-  import { homeCategories, listenNowAlbums } from "$lib/types/category.js";
-  import PlusCircled from "svelte-radix/PlusCircled.svelte";
-  import AlbumProduct from "$lib/components/island/album-product.svelte";
-  import { Button } from "$lib/registry/new-york/ui/button/index.js";
-  import { Separator } from "$lib/registry/new-york/ui/separator/index.js";
-  import * as Tabs from "$lib/registry/new-york/ui/tabs/index.js";
+	import type { ComponentType } from "svelte";
+	import ChevronRight from "lucide-svelte/icons/chevron-right";
+	import type { PageData } from "./$types.js";
+	import { page } from "$app/stores";
+	import { DocsPager, TableOfContents } from "$lib/components/docs/index.js";
+	import { cn } from "$lib/utils.js";
+
+	export let data: PageData;
+
+	type Component = $$Generic<ComponentType>;
+	$: component = data.component as unknown as Component;
+	$: doc = data.metadata;
 </script>
 
-<div class="hidden md:block">
-  <div class="border-t">
-    <div class="bg-background">
-      <div class="w-full h-full px-4 py-6 lg:px-8">
-        <div class="border-none p-0 outline-none">
-          <div class="flex items-center justify-between">
-            <div class="space-y-1">
-              <h2 class="text-2xl font-semibold tracking-tight">
-                收藏最多
-              </h2>
-            </div>
-          </div>
-          <Separator class="my-4" />
-          <div class="relative">
-            <div class="flex space-x-4 pb-4">
-              {#each listenNowAlbums as album}
-                <AlbumProduct
-                  {album}
-                  class="w-[250px]"
-                  aspectRatio="portrait"
-                  width={221}
-                  height={310}
-                />
-              {/each}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+	<div class="mx-auto w-full min-w-0">
+		<div class="mb-4 flex items-center space-x-1 text-sm text-muted-foreground">
+			<div class="overflow-hidden text-ellipsis whitespace-nowrap">Docs</div>
+			<ChevronRight class="h-4 w-4" />
+			<div class="font-medium text-foreground">{doc.title}</div>
+		</div>
+		<div class="space-y-2">
+			<h1 class={cn("scroll-m-20 text-4xl font-bold tracking-tight")}>
+				{doc.title}
+			</h1>
+			{#if doc.description}
+				<p class="text-balance text-lg text-muted-foreground">
+					{doc.description}
+				</p>
+			{/if}
+		</div>
 
-</div>
+		<div class="markdown pb-12 pt-8" id="markdown">
+			<svelte:component this={component} />
+		</div>
+
+		<DocsPager />
+	</div>
+	<div class="hidden text-sm xl:block">
+		<div class="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] overflow-hidden pt-6">
+			{#key $page.url.pathname}
+				<TableOfContents />
+			{/key}
+		</div>
+	</div>
+</main>
