@@ -12,9 +12,10 @@
 			{siteConfig.name}
 		</span>
 	</a>
+	{#if $page.url.pathname != "/"}
 	<nav class="flex items-center gap-6">
 		<a
-			href="/examples"
+			href="/"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
 				$page.url.pathname.startsWith("/examples")
@@ -25,40 +26,40 @@
 			首页
 		</a>		
 		<a
-			href="/docs"
+			href="/home"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
-				$page.url.pathname === "/docs" ? "text-foreground" : "text-foreground/60"
+				$page.url.pathname.includes("/home") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
-			分类
+			产品库
 		</a>
 		<a
-			href="/docs/components"
+			href="/projects"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
-				$page.url.pathname.startsWith("/docs/components")
+				$page.url.pathname.startsWith("/projects")
 					? "text-foreground"
 					: "text-foreground/60"
 			)}
 		>
-		排行
+		开源项目
 		</a>
 		<a
-			href="/themes"
+			href="/posters"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
-				$page.url.pathname.startsWith("/themes") ? "text-foreground" : "text-foreground/60"
+				$page.url.pathname.startsWith("/posters") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
-			开源
+			创意海报
 		</a>
 
 		<a
-			href="/blocks"
+			href="/knowledges"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
-				$page.url.pathname.startsWith("/blocks") ? "text-foreground" : "text-foreground/60"
+				$page.url.pathname.startsWith("/knowledges") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
 		知识库
@@ -74,4 +75,5 @@
 			GitHub
 		</a>
 	</nav>
+	{/if}
 </div>

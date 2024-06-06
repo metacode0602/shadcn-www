@@ -26,13 +26,13 @@
 			<LinkedCard href="/home">
 				<p class="font-medium text-2xl">产品库</p>
 			</LinkedCard>
-			<LinkedCard href="/blocks">
+			<LinkedCard href="/knowledges">
 				<p class="font-medium text-2xl">知识库</p>
 			</LinkedCard>
-			<LinkedCard href="/themes">
+			<LinkedCard href="/projects">
 				<p class="font-medium text-2xl">开源项目</p>
 			</LinkedCard>
-			<LinkedCard href="/examples/music">
+			<LinkedCard href="/poster">
 				<p class="font-medium text-2xl">创意海报</p>
 			</LinkedCard>
 		</div>

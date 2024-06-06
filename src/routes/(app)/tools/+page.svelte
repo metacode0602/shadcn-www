@@ -12,7 +12,7 @@
 	$: component = data.component as unknown as Component;
 	$: doc = data.metadata;
 </script>
-
+这里的tools的 page。svelte
 <div class="flex items-center space-x-1 py-6">
 	<div class="overflow-hidden text-ellipsis whitespace-nowrap">Docs</div>
 	<ChevronRight class="h-4 w-4" />

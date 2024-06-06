@@ -6,5 +6,9 @@
 </script>
 
 <div class="container relative pb-10">
-<slot/>
+	<section class="my-10">
+		<div class="overflow-hidden rounded-[0.5rem] border bg-background shadow-xl">
+			<slot />
+		</div>
+	</section>
 </div>
