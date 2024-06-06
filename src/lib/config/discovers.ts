@@ -1,50 +1,22 @@
 import type { NavItem, SidebarNavItem } from "$lib/types/nav.js";
 
 type DocsConfig = {
-	mainNav: NavItem[];
 	sidebarNav: SidebarNavItem[];
 };
 
 export const docsConfig: DocsConfig = {
-	mainNav: [
-		{
-			title: "首页",
-			href: "/docs",
-		},
-		{
-			title: "组件",
-			href: "/docs/components/accordion",
-		},
-		{
-			title: "Themes",
-			href: "/themes",
-		},
-		{
-			title: "Examples",
-			href: "/examples/dashboard",
-		},
-		{
-			title: "Blocks",
-			href: "/blocks",
-		},
-		{
-			title: "GitHub",
-			href: "https://github.com/huntabyte/shadcn-svelte",
-			external: true,
-		},
-	],
 	sidebarNav: [
 		{
-			title: "Getting Started",
+			title: "图像处理",
 			items: [
 				{
-					title: "Introduction",
-					href: "/docs",
+					title: "图片背景移除",
+					href: "/dicover/37-49",
 					items: [],
 				},
 				{
-					title: "Installation",
-					href: "/docs/installation",
+					title: "图片无损放大",
+					href: "/dicover/37-40",
 					items: [],
 				},
 				{
@@ -90,7 +62,7 @@ export const docsConfig: DocsConfig = {
 			],
 		},
 		{
-			title: "Components",
+			title: "视频创作",
 			items: [
 				{
 					title: "Accordion",
@@ -388,24 +360,24 @@ export const examples: Example[] = [
 		href: "/examples/authentication",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
 	},
-	// {
-	// 	name: "医疗健康",
-	// 	href: "/examples/authentication",
-	// 	code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
-	// },
-	// {
-	// 	name: "教育学习",
-	// 	href: "/examples/authentication",
-	// 	code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
-	// },
-	// {
-	// 	name: "智能营销",
-	// 	href: "/examples/authentication",
-	// 	code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
-	// },
-	// {
-	// 	name: "趣味",
-	// 	href: "/examples/authentication",
-	// 	code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
-	// },
+	{
+		name: "医疗健康",
+		href: "/examples/authentication",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
+	},
+	{
+		name: "教育学习",
+		href: "/examples/authentication",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
+	},
+	{
+		name: "智能营销",
+		href: "/examples/authentication",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
+	},
+	{
+		name: "趣味",
+		href: "/examples/authentication",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
+	},
 ];

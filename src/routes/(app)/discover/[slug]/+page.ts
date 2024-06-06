@@ -3,11 +3,9 @@ import type { EntryGenerator, PageLoad } from "./$types.js";
 import { getDoc } from "$lib/utils.js";
 
 export const load: PageLoad = async (event) => {
-	if (event.params.slug === "components") {
-		redirect(303, "/docs/components/accordion");
-	}
-
+	console.warn("in slug dic page.ts beore get doc:", event.params.slug);
 	const { component, title, metadata } = await getDoc(event.params.slug);
+	console.warn("in slug dic page.ts:", event.params.slug, JSON.stringify(metadata), title);
 
 	return {
 		component,
@@ -21,6 +19,7 @@ export const entries: EntryGenerator = () => {
 	const modules = import.meta.glob("/src/content/**/*.md");
 	const entries = [];
 
+	console.warn("EntryGenerator modules", modules)
 	for (const path of Object.keys(modules)) {
 		const slug = path.replace("/src/content/", "").replace(".md", "").replace("/index", "");
 		entries.push({ slug });

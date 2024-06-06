@@ -19,7 +19,7 @@
 		<section
 		  class="flex w-full items-center justify-center space-x-4 py-4 md:pb-10"
 		>
-		  <Button href="/home" class="rounded-[6px]">今天</Button>
+		  <Button href="/discover" class="rounded-[6px]">发现</Button>
 		  <Button href="/home/favorite" variant="outline" class="rounded-[6px]"
 			>最多收藏</Button
 		  >

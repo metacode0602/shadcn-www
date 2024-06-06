@@ -29,7 +29,7 @@
 			href="/home"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
-				$page.url.pathname.includes("/home") ? "text-foreground" : "text-foreground/60"
+				$page.url.pathname.startsWith("/home") || $page.url.pathname.startsWith("/discover") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
 			产品库
@@ -65,14 +65,14 @@
 		知识库
 		</a>
 		<a
-			href={siteConfig.links.github}
-			target="_blank"
+			href="/submit"
 			rel="noopener noreferrer"
 			class={cn(
-				"hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
+				"transition-colors hover:text-foreground/80",
+				$page.url.pathname.startsWith("/submit") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
-			GitHub
+			提交
 		</a>
 	</nav>
 	{/if}
