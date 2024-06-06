@@ -1,28 +1,20 @@
 <script lang="ts">
-	import { Announcement } from "$lib/components/docs/index.js";
-	import { Button } from "$lib/registry/new-york/ui/button/index.js";
-	import * as PageHeader from "$lib/components/docs/page-header/index.js";
+	import { ScrollArea } from "$lib/registry/new-york/ui/scroll-area/index.js";
+	import { DocsSidebarNav } from "$lib/components/docs/index.js";
+	import { docsConfig } from "$lib/config/docs.js";
 </script>
 
-<div class="container relative">
-	<PageHeader.Root class="max-w-3xl">
-		<Announcement />
-		<PageHeader.Heading class="text-balance">Building Blocks for the Web</PageHeader.Heading>
-		<PageHeader.Description>
-			Beautifully designed. Copy and paste into your apps. Open source.
-		</PageHeader.Description>
-		<PageHeader.Actions>
-			<Button href="#blocks">Browse</Button>
-			<Button
-				href="https://github.com/shadcn-ui/ui/discussions/new?category=blocks-request"
-				target="_blank"
-				variant="outline"
-			>
-				Request a block
-			</Button>
-		</PageHeader.Actions>
-	</PageHeader.Root>
-	<section id="blocks" class="grid scroll-mt-24 gap-24 lg:gap-48">
+<div class="border-b">
+	<div
+		class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"
+	>
+		<aside
+			class="fixed top-14 z-30 -ml-2 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 md:sticky md:block"
+		>
+			<ScrollArea class="h-full py-6 pr-6 lg:py-8">
+				<DocsSidebarNav items={docsConfig.sidebarNav} />
+			</ScrollArea>
+		</aside>
 		<slot />
-	</section>
+	</div>
 </div>
