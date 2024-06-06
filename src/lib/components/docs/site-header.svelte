@@ -9,6 +9,10 @@
 	import { buttonVariants } from "$lib/registry/new-york/ui/button/index.js";
 	import { siteConfig } from "$lib/config/site.js";
 	import { cn } from "$lib/utils.js";
+	import LoginDialog from "$lib/components/island/login-dialog.svelte";
+
+	let showLoginDialog = false;
+
 </script>
 
 <header
@@ -36,7 +40,9 @@
 						<span class="sr-only">GitHub</span>
 					</div>
 				</a>
-				<a href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
+				<button on:click={
+					() => {showLoginDialog = true;}
+				}>
 					<div
 						class={cn(
 							buttonVariants({
@@ -47,11 +53,13 @@
 						)}
 					>
 						<Icons.twitter class="h-3 w-3 fill-current" />
-						<span class="sr-only">X (formerly known as Twitter)</span>
+						<span class="sr-only">登录注册</span>
 					</div>
-				</a>
+				</button>
 				<ModeToggle />
 			</nav>
 		</div>
 	</div>
+
+	<LoginDialog bind:showDialog={showLoginDialog} />
 </header>

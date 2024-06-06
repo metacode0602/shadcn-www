@@ -1,22 +1,33 @@
 <script lang="ts">
-	import { Announcement, ExamplesNav } from "$lib/components/docs/index.js";
-	import * as PageHeader from "$lib/components/docs/page-header/index.js";
-	import { Button } from "$lib/registry/default/ui/button/index.js";
-	import Search from "$lib/components/island/search.svelte";
+  import PlusCircled from "svelte-radix/PlusCircled.svelte";
+  import {
+    AlbumArtwork,
+    Menu,
+    PodcastEmptyPlaceholder,
+    Sidebar,
+  } from "./(components)/index.js";
+  import { listenNowAlbums, madeForYouAlbums } from "./(data)/albums.js";
+  import { Button } from "$lib/registry/new-york/ui/button/index.js";
+  import { Separator } from "$lib/registry/new-york/ui/separator/index.js";
+  import * as Tabs from "$lib/registry/new-york/ui/tabs/index.js";
+  import { ScrollArea } from "$lib/registry/new-york/ui/scroll-area/index.js";
 </script>
 
-<div class="container relative pb-10">
-	<PageHeader.Root>
-		<PageHeader.Heading class="hidden md:block">发现你的专属应用</PageHeader.Heading>
-		<PageHeader.Description  balanced={false}>
-			优选最佳人工智能产品和服务，覆盖从AI绘画到智能营销的各个领，并持续更新。
-		</PageHeader.Description>
-        <Search />
-
-	</PageHeader.Root>
-	<section>
-		<ExamplesNav />
-		<div class="overflow-hidden rounded-[0.5rem] border bg-background shadow-xl">
-		</div>
-	</section>
+<div class="hidden md:block">
+  <div class="border-t">
+    <div class="bg-background">
+      <div class="h-full px-4 py-6 lg:px-8">
+          <div class="grid grid-cols-6 gap-4">
+            {#each madeForYouAlbums as album}
+              <AlbumArtwork
+                {album}
+                aspectRatio="square"
+                width={150}
+                height={150}
+              />
+            {/each}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
