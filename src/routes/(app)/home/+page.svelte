@@ -68,7 +68,7 @@
                   </div>
                   <div class="space-between flex items-center">
                     <div class="ml-auto mr-4">
-                      <Button href="/home/discover/{category.id}">
+                      <Button href="/discover/{category.id}">
                         <PlusCircled class="mr-2 h-4 w-4" />
                         查看更多
                       </Button>

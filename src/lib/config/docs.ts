@@ -392,20 +392,20 @@ export const examples: Example[] = [
 		name: "医疗健康",
 		href: "/examples/authentication",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
-	},	
+	},
 	{
 		name: "教育学习",
 		href: "/examples/authentication",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
-	},	
+	},
 	{
 		name: "智能营销",
 		href: "/examples/authentication",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
-	},	
+	},
 	{
 		name: "趣味",
 		href: "/examples/authentication",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/authentication",
-	},			
+	},
 ];

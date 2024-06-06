@@ -1,13 +1,12 @@
-// import { redirect } from "@sveltejs/kit";
+import { redirect } from "@sveltejs/kit";
 import type { EntryGenerator, PageLoad } from "./$types.js";
 import { getDoc } from "$lib/utils.js";
 
 export const load: PageLoad = async (event) => {
+	if (event.params.slug === "components") {
+		redirect(303, "/docs/components/accordion");
+	}
 
-	// if (event.params.slug === "components") {
-	// 	redirect(303, "/docs/components/accordion");
-	// }
-	console.warn("current slug:", event.params.slug)
 	const { component, title, metadata } = await getDoc(event.params.slug);
 
 	return {
