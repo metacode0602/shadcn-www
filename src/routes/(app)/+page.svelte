@@ -1,9 +1,7 @@
 <script lang="ts">
-  import { Announcement } from "$lib/components/docs/index.js";
   import * as PageHeader from "$lib/components/docs/page-header/index.js";
   import { Icons } from "$lib/components/docs/icons/index.js";
   import { buttonVariants } from "$lib/registry/new-york/ui/button/index.js";
-  import { siteConfig } from "$lib/config/site.js";
   import { cn } from "$lib/utils.js";
   import { LinkedCard } from "$lib/components/docs/index.js";
 </script>
@@ -32,7 +30,7 @@
 			<LinkedCard href="/projects">
 				<p class="font-medium text-2xl">开源项目</p>
 			</LinkedCard>
-			<LinkedCard href="/poster">
+			<LinkedCard href="/posters">
 				<p class="font-medium text-2xl">创意海报</p>
 			</LinkedCard>
 		</div>
