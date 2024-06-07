@@ -36,6 +36,7 @@ import RadixSvelte from "./radix-svelte.svelte";
 import Tailwind from "./tailwind.svelte";
 import Twitter from "./twitter.svelte";
 import Yarn from "./yarn.svelte";
+import ListenNow from "./listen-now.svelte";
 
 export type Icon = SvelteComponent;
 
@@ -77,4 +78,5 @@ export const Icons = {
 	apple: Apple,
 	paypal: PayPal,
 	Hamburger,
+	listenNow: ListenNow
 };

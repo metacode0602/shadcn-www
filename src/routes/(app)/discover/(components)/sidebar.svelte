@@ -3,6 +3,7 @@
 	import { Button } from '$lib/registry/new-york/ui/button/index.js';
 	import { ScrollArea } from '$lib/registry/new-york/ui/scroll-area/index.js';
 	import type { SidebarNavItem } from '$lib/types/nav.js';
+	import { Icons } from '$lib/components/docs/icons/index.js';
 
 	let className: string | null | undefined = undefined;
 	export let playlists: SidebarNavItem[];
@@ -18,19 +19,9 @@
 					<div class="space-y-1">
 						{#each menu.items as child}
 							<Button variant="secondary" class="w-full justify-start" href={child.href}>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									class="mr-2 h-4 w-4"
-								>
-									<circle cx="12" cy="12" r="10" />
-									<polygon points="10 8 16 12 10 16 10 8" />
-								</svg>
+								{#if child.icon}
+									<svelte:component this={Icons[child.icon]} class="mr-2 h-4 w-4" />
+								{/if}
 								{child.title}
 							</Button>
 						{/each}

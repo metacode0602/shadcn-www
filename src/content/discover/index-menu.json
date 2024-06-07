@@ -7,6 +7,7 @@
 			{
 				"id": "11-11",
 				"name": "beijingyichu",
+				"icon": "listenNow",
 				"title": "背景移除",
 				"href": "/dicover/37-49",
 				"items": []
@@ -15,12 +16,14 @@
 				"id": "11-12",
 				"name": "wusunfangda",
 				"title": "无损放大",
+				"icon": "page",
 				"href": "/dicover/37-40",
 				"items": []
 			},
 			{
 				"id": "11-13",
 				"name": "components",
+				"icon": "warning",
 				"title": "components.json",
 				"href": "/dicover/components-json",
 				"items": []

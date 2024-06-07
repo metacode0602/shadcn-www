@@ -7,8 +7,8 @@
 	import * as Tabs from '$lib/registry/new-york/ui/tabs/index.js';
 </script>
 
-<div class="h-full px-4 py-6 lg:px-8">
-	<Tabs.Root value="music" class="h-full space-y-6">
+<div class=" px-4 py-6 lg:px-8">
+	<Tabs.Root value="music" class="space-y-6">
 		<div class="space-between flex items-center my-6">
 			<Tabs.List>
 				<Tabs.Trigger value="music" class="relative">最新</Tabs.Trigger>
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 		</Tabs.Content>
-		<Tabs.Content value="podcasts" class="h-full flex-col border-none p-0 data-[state=active]:flex">
+		<Tabs.Content value="podcasts" class="flex-col border-none p-0 data-[state=active]:flex">
 			<div class="relative my-10">
 				<div class="grid grid-cols-6 gap-4">
 					{#each indexHotData as album}
