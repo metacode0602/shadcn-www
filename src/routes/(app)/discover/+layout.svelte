@@ -1,14 +1,6 @@
 <script lang="ts">
-	import { ScrollArea } from "$lib/registry/new-york/ui/scroll-area/index.js";
-	import { DocsSidebarNav } from "$lib/components/docs/index.js";
-	import { docsConfig } from "$lib/config/discovers.js";
-	import PlusCircled from "svelte-radix/PlusCircled.svelte";
-	import { Sidebar } from "./(components)/index.js";
-	import { playlists } from "./(data)/playlists.js";
-	// import { listenNowAlbums, madeForYouAlbums } from "./(data)/albums.js";
-	import { Button } from "$lib/registry/new-york/ui/button/index.js";
-	import { Separator } from "$lib/registry/new-york/ui/separator/index.js";
-	import * as Tabs from "$lib/registry/new-york/ui/tabs/index.js";
+	import { Sidebar } from './(components)/index.js';
+	import { playlists } from './(data)/playlists.js';
 </script>
 
 <div class="container relative pb-10">

@@ -5,10 +5,12 @@ import Bot from "lucide-svelte/icons/bot";
 import SquareTerminal from "lucide-svelte/icons/square-terminal";
 import CodeXML from "lucide-svelte/icons/code-xml";
 import Settings2 from "lucide-svelte/icons/settings-2";
+import { number, string } from "zod";
 
 export type Category = {
   id: string; //id
   name: string; //分类名称
+  icon?: ComponentType<SvelteComponent>; //显示的图标
   path?: string; //访问路径
   cover?: string; //分类封面图
   children?: Category[]; //子分类
@@ -23,10 +25,25 @@ export type Product = {
   tags: string[]; //标签
   cover: string; //封面图
   desc?: string; //长介绍，markdown
-  website?: string; //官方网站
-  pv?: string; //浏览量
-  uv?: string; //用户数
+  url?: string; //官方网站
   note?: string; //card中简介
+  logo?: string; //"https://pic.chinaz.com/ai/logo/2024/0605/30913.jpg",  //icon图标
+  procform?: number;// 1,                      //1 - 网站 2 - 小程序 3 - 插件 4 - 桌面客户端 5 - 模型 6 - 其他 7 - app
+  procformname?: string;  //": "网站",              //产品形式 网站 / 桌面 / 小程序 / App / 插件
+  procattr?: number; // 10,
+  procattrname?: string;// "商业",              //二级分类
+  proctype?: number; //": 4,
+  proctypename?: string;  //"国外精选",           //产品类型 普通商品 / 国外精选 / 国内精选
+  lang?: string; //"en",
+  isicp?: number;  //2,  //是否已经ICP备案
+  isqian?: number;  //2, //是否已经公安备案
+  iswx?: number; //2,   //是否有微信
+  isqq?: number; //2,   //是否有qq
+  iscom?: number; //2,  //是否有联系方式
+  updateTime?: string; //": "2024-06-05 17:05:10", //更新时间
+  createTime?: string;// "2024-06-05 17:05:10", //创建时间
+  auditTime?: string; //"2024-06-05 17:05:10",  ##审核时间
+  price?: string; // "付费",
 };
 
 // 分类下的产品列表，即对应的AI产品
@@ -37,6 +54,7 @@ export type LavelValue = {
   title?: string; //标题
   cover?: string; //封面图
   note?: string; //card中简介
+  url?: string;  //"https://www.exante.app/",  //跳转链接
 };
 
 //生成比例的数据
