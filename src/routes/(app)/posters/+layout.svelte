@@ -22,17 +22,17 @@
 				href="/posters/rewrite"
 				variant="{$page.url.pathname.startsWith("/posters/rewrite") ? 'default' : 'outline'}"
 			>
-			生成海报 
+			仿写笔记
 			</Button>
 			<Button
 				href="/posters/banner"
 				variant="{$page.url.pathname.startsWith("/posters/banner") ? 'default' : 'outline'}"
 			>
-			仿写笔记
+			生成海报
 			</Button>			
 		</PageHeader.Actions>
 	</PageHeader.Root>
-	<section id="blocks" class="grid scroll-mt-24 gap-24 lg:gap-48">
+	<section id="blocks" class="">
 		<slot />
 	</section>
 </div>

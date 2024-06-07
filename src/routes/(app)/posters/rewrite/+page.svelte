@@ -1,256 +1,77 @@
 <script lang="ts">
-	import ChevronLeft from "lucide-svelte/icons/chevron-left";
-	import Home from "lucide-svelte/icons/home";
-	import LineChart from "lucide-svelte/icons/line-chart";
-	import Package from "lucide-svelte/icons/package";
-	import Package2 from "lucide-svelte/icons/package-2";
-	import PanelLeft from "lucide-svelte/icons/panel-left";
-	import CirclePlus from "lucide-svelte/icons/circle-plus";
-	import Search from "lucide-svelte/icons/search";
-	import Settings from "lucide-svelte/icons/settings";
-	import ShoppingCart from "lucide-svelte/icons/shopping-cart";
-	import Upload from "lucide-svelte/icons/upload";
-	import UsersRound from "lucide-svelte/icons/users-round";
-  
-	import { Badge } from "$lib/registry/default/ui/badge/index.js";
-	import * as Breadcrumb from "$lib/registry/default/ui/breadcrumb/index.js";
-	import { Button } from "$lib/registry/default/ui/button/index.js";
-	import * as Card from "$lib/registry/default/ui/card/index.js";
-	import * as DropdownMenu from "$lib/registry/default/ui/dropdown-menu/index.js";
-	import { Input } from "$lib/registry/default/ui/input/index.js";
-	import { Label } from "$lib/registry/default/ui/label/index.js";
-	import * as Select from "$lib/registry/default/ui/select/index.js";
-	import * as Sheet from "$lib/registry/default/ui/sheet/index.js";
-	import * as Table from "$lib/registry/default/ui/table/index.js";
-	import { Textarea } from "$lib/registry/default/ui/textarea/index.js";
-	import * as ToggleGroup from "$lib/registry/default/ui/toggle-group/index.js";
-	import * as Tooltip from "$lib/registry/default/ui/tooltip/index.js";
-  </script>
-  
-  <div class="flex min-h-screen w-full flex-col bg-muted/40">
-	<div class="flex flex-col sm:gap-4 sm:py-4 sm:pl-14">
-	  <main class="grid flex-1 items-start gap-4 p-4 sm:px-6 sm:py-0 md:gap-8">
-		<div class="mx-auto grid max-w-[59rem] flex-1 auto-rows-max gap-4">
-		  <div class="grid gap-4 md:grid-cols-[1fr_250px] lg:grid-cols-3 lg:gap-8">
-			<div class="grid auto-rows-max items-start gap-4 lg:col-span-2 lg:gap-8">
-			  <Card.Root>
-				<Card.Header>
-				  <Card.Title>Product Details</Card.Title>
-				  <Card.Description>
-					Lipsum dolor sit amet, consectetur adipiscing elit
-				  </Card.Description>
-				</Card.Header>
-				<Card.Content>
-				  <div class="grid gap-6">
-					<div class="grid gap-3">
-					  <Label for="name">Name</Label>
-					  <Input
-						id="name"
-						type="text"
-						class="w-full"
-						value="Gamer Gear Pro Controller"
-					  />
-					</div>
-					<div class="grid gap-3">
-					  <Label for="description">Description</Label>
-					  <Textarea
-						id="description"
-						value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc."
-						class="min-h-32"
-					  />
-					</div>
-				  </div>
-				</Card.Content>
-			  </Card.Root>
-			  <Card.Root>
-				<Card.Header>
-				  <Card.Title>Stock</Card.Title>
-				  <Card.Description>
-					Lipsum dolor sit amet, consectetur adipiscing elit
-				  </Card.Description>
-				</Card.Header>
-				<Card.Content>
-				  <Table.Root>
-					<Table.Header>
-					  <Table.Row>
-						<Table.Head class="w-[100px]">SKU</Table.Head>
-						<Table.Head>Stock</Table.Head>
-						<Table.Head>Price</Table.Head>
-						<Table.Head class="w-[100px]">Size</Table.Head>
-					  </Table.Row>
-					</Table.Header>
-					<Table.Body>
-					  <Table.Row>
-						<Table.Cell class="font-semibold">GGPC-001</Table.Cell>
-						<Table.Cell>
-						  <Label for="stock-1" class="sr-only">Stock</Label>
-						  <Input id="stock-1" type="number" value="100" />
-						</Table.Cell>
-						<Table.Cell>
-						  <Label for="price-1" class="sr-only">Price</Label>
-						  <Input id="price-1" type="number" value="99.99" />
-						</Table.Cell>
-						<Table.Cell>
-						  <ToggleGroup.Root
-							type="single"
-							value="s"
-							variant="outline"
-						  >
-							<ToggleGroup.Item value="s">S</ToggleGroup.Item>
-							<ToggleGroup.Item value="m">M</ToggleGroup.Item>
-							<ToggleGroup.Item value="l">L</ToggleGroup.Item>
-						  </ToggleGroup.Root>
-						</Table.Cell>
-					  </Table.Row>
-					  <Table.Row>
-						<Table.Cell class="font-semibold">GGPC-002</Table.Cell>
-						<Table.Cell>
-						  <Label for="stock-2" class="sr-only">Stock</Label>
-						  <Input id="stock-2" type="number" value="143" />
-						</Table.Cell>
-						<Table.Cell>
-						  <Label for="price-2" class="sr-only">Price</Label>
-						  <Input id="price-2" type="number" value="99.99" />
-						</Table.Cell>
-						<Table.Cell>
-						  <ToggleGroup.Root
-							type="single"
-							value="m"
-							variant="outline"
-						  >
-							<ToggleGroup.Item value="s">S</ToggleGroup.Item>
-							<ToggleGroup.Item value="m">M</ToggleGroup.Item>
-							<ToggleGroup.Item value="l">L</ToggleGroup.Item>
-						  </ToggleGroup.Root>
-						</Table.Cell>
-					  </Table.Row>
-					  <Table.Row>
-						<Table.Cell class="font-semibold">GGPC-003</Table.Cell>
-						<Table.Cell>
-						  <Label for="stock-3" class="sr-only">Stock</Label>
-						  <Input id="stock-3" type="number" value="32" />
-						</Table.Cell>
-						<Table.Cell>
-						  <Label for="price-3" class="sr-only">Stock</Label>
-						  <Input id="price-3" type="number" value="99.99" />
-						</Table.Cell>
-						<Table.Cell>
-						  <ToggleGroup.Root
-							type="single"
-							value="s"
-							variant="outline"
-						  >
-							<ToggleGroup.Item value="s">S</ToggleGroup.Item>
-							<ToggleGroup.Item value="m">M</ToggleGroup.Item>
-							<ToggleGroup.Item value="l">L</ToggleGroup.Item>
-						  </ToggleGroup.Root>
-						</Table.Cell>
-					  </Table.Row>
-					</Table.Body>
-				  </Table.Root>
-				</Card.Content>
-				<Card.Footer class="justify-center border-t p-4">
-				  <Button size="sm" variant="ghost" class="gap-1">
-					<CirclePlus class="h-3.5 w-3.5" />
-					Add Variant
-				  </Button>
-				</Card.Footer>
-			  </Card.Root>
-			</div>
-			<div class="grid auto-rows-max items-start gap-4 lg:gap-8">
-			  <Card.Root>
-				<Card.Header>
-				  <Card.Title>Product Status</Card.Title>
-				</Card.Header>
-				<Card.Content>
-				  <div class="grid gap-6">
-					<div class="grid gap-3">
-					  <Label for="status">Status</Label>
-					  <Select.Root>
-						<Select.Trigger id="status" aria-label="Select status">
-						  <Select.Value placeholder="Select status" />
-						</Select.Trigger>
-						<Select.Content>
-						  <Select.Item value="draft" label="Draft"
-							>Draft</Select.Item
-						  >
-						  <Select.Item value="published" label="Active"
-							>Active</Select.Item
-						  >
-						  <Select.Item value="archived" label="Archived"
-							>Archived</Select.Item
-						  >
-						</Select.Content>
-					  </Select.Root>
-					</div>
-				  </div>
-				</Card.Content>
-			  </Card.Root>
-			  <Card.Root class="overflow-hidden">
-				<Card.Header>
-				  <Card.Title>Product Images</Card.Title>
-				  <Card.Description>
-					Lipsum dolor sit amet, consectetur adipiscing elit
-				  </Card.Description>
-				</Card.Header>
-				<Card.Content>
-				  <div class="grid gap-2">
-					<img
-					  alt="Product"
-					  class="aspect-square w-full rounded-md object-cover"
-					  height="300"
-					  src="/images/placeholder.svg"
-					  width="300"
-					/>
-					<div class="grid grid-cols-3 gap-2">
-					  <button>
-						<img
-						  alt="Product"
-						  class="aspect-square w-full rounded-md object-cover"
-						  height="84"
-						  src="/images/placeholder.svg"
-						  width="84"
-						/>
-					  </button>
-					  <button>
-						<img
-						  alt="Product"
-						  class="aspect-square w-full rounded-md object-cover"
-						  height="84"
-						  src="/images/placeholder.svg"
-						  width="84"
-						/>
-					  </button>
-					  <button
-						class="flex aspect-square w-full items-center justify-center rounded-md border border-dashed"
-					  >
-						<Upload class="h-4 w-4 text-muted-foreground" />
-						<span class="sr-only">Upload</span>
-					  </button>
-					</div>
-				  </div>
-				</Card.Content>
-			  </Card.Root>
-			  <Card.Root>
-				<Card.Header>
-				  <Card.Title>Archive Product</Card.Title>
-				  <Card.Description>
-					Lipsum dolor sit amet, consectetur adipiscing elit.
-				  </Card.Description>
-				</Card.Header>
-				<Card.Content>
-				  <div></div>
-				  <Button size="sm" variant="secondary">Archive Product</Button>
-				</Card.Content>
-			  </Card.Root>
-			</div>
-		  </div>
-		  <div class="flex items-center justify-center gap-2 md:hidden">
-			<Button variant="outline" size="sm">Discard</Button>
-			<Button size="sm">Save Product</Button>
-		  </div>
+  import Triangle from "lucide-svelte/icons/triangle";
+  import Bot from "lucide-svelte/icons/bot";
+  import SquareTerminal from "lucide-svelte/icons/square-terminal";
+  import CodeXML from "lucide-svelte/icons/code-xml";
+  import Settings2 from "lucide-svelte/icons/settings-2";
+  import LifeBuoy from "lucide-svelte/icons/life-buoy";
+  import Book from "lucide-svelte/icons/book";
+  import SquareUser from "lucide-svelte/icons/square-user";
+  import Settings from "lucide-svelte/icons/settings";
+  import Rabbit from "lucide-svelte/icons/rabbit";
+  import Bird from "lucide-svelte/icons/bird";
+  import Turtle from "lucide-svelte/icons/turtle";
+  import Share from "lucide-svelte/icons/share";
+  import Paperclip from "lucide-svelte/icons/paperclip";
+  import Mic from "lucide-svelte/icons/mic";
+  import CornerDownLeft from "lucide-svelte/icons/corner-down-left";
+  import { Switch } from "$lib/registry/default/ui/switch/index.js";
+  import * as RadioGroup from "$lib/registry/default/ui/radio-group/index.js";
+  import { listenNowAlbums } from "$lib/types/category.js";
+  import { Badge } from "$lib/registry/default/ui/badge/index.js";
+  import { Button } from "$lib/registry/default/ui/button/index.js";
+  import * as Tooltip from "$lib/registry/default/ui/tooltip/index.js";
+  import { Textarea } from "$lib/registry/default/ui/textarea/index.js";
+  import { Input } from "$lib/registry/default/ui/input/index.js";
+
+  import { Label } from "$lib/registry/default/ui/label/index.js";
+  import * as Select from "$lib/registry/default/ui/select/index.js";
+  import RadioGroupImg from "$lib/components/island/radio-group-img.svelte";
+</script>
+
+<div class="w-full">
+  <div class="grid gap-3 m-4">
+    <Label for="url" class="text-xl flex flex-row items-center"><Badge variant="default" class="rounded mr-1">1</Badge>提取笔记文案</Label>
+    <Input
+      id="url"
+      placeholder="输入文案笔记链接，例如：https://www.julian.top/"
+    />
+  </div>
+</div>
+<div class="w-full lg:grid lg:min-h-[400px] lg:grid-cols-2 xl:min-h-[600px] gap-4 pb-10">
+  <div class="flex items-center justify-center py-1 border rounded-lg">
+    <div class="flex h-full w-full flex-col p-4">
+      <div class="grid gap-3">
+        <Label for="content" class="text-xl flex flex-row items-center"><Badge variant="default" class="rounded mr-1">2</Badge>获取文案</Label>
+        <Textarea
+          id="content"
+          placeholder="获取的文案内容"
+          class="min-h-[30rem] "
+        />
+      </div>
+	  <div class="flex justify-between items-center mt-6">
+		<Button type="submit" class="w-4/5">小红书文案生成</Button>
+		<Button variant="outline" class="">购买积分</Button>
+	  </div>
+	  <div class=" text-left text-sm mt-4">
+		普通笔记每次生成需要消耗 1 积分；爆款笔记模式需要消耗 20 积分
+	  </div>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-center py-1 border rounded-lg">
+	<div class="flex h-full w-full flex-col p-4">
+		<div class="grid gap-3">
+		<Label for="generated" class="text-xl flex flex-row items-center"><Badge variant="default" class="rounded mr-1">3</Badge>生成笔记文案</Label>
+		<Textarea
+			id="content"
+			placeholder="生成的新笔记文案"
+			class="min-h-[30rem]"
+		/>
 		</div>
-	  </main>
+		<div class="flex justify-center items-center mt-6">
+		<Button type="submit" variant="outline" class="w-3/4">复制笔记内容</Button>
+		</div>
 	</div>
   </div>
-  
+</div>
