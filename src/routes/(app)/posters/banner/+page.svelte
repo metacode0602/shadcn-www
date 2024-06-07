@@ -1,302 +1,176 @@
 <script lang="ts">
-	import CounterClockwiseClock from "svelte-radix/CounterClockwiseClock.svelte";
-	import {
-		CodeViewer,
-		MaxLengthSelector,
-		ModelSelector,
-		PresetActions,
-		PresetSave,
-		PresetSelector,
-		PresetShare,
-		TemperatureSelector,
-		TopPSelector,
-	} from "./(components)/index.js";
-	import { models, types } from "./(data)/models.js";
-	import { presets } from "./(data)/presets.js";
-	import { Button } from "$lib/registry/new-york/ui/button/index.js";
-	import { Label } from "$lib/registry/new-york/ui/label/index.js";
-	import { Separator } from "$lib/registry/new-york/ui/separator/index.js";
-	import * as Tabs from "$lib/registry/new-york/ui/tabs/index.js";
-	import { Textarea } from "$lib/registry/new-york/ui/textarea/index.js";
-	import * as HoverCard from "$lib/registry/new-york/ui/hover-card/index.js";
+	import LifeBuoy from 'lucide-svelte/icons/life-buoy';
+	import Book from 'lucide-svelte/icons/book';
+	import Rabbit from 'lucide-svelte/icons/rabbit';
+	import Bird from 'lucide-svelte/icons/bird';
+	import Turtle from 'lucide-svelte/icons/turtle';
+	import { Switch } from '$lib/registry/default/ui/switch/index.js';
+	import * as RadioGroup from '$lib/registry/default/ui/radio-group/index.js';
+	import { listenNowAlbums } from '$lib/types/category.js';
+	import { ratioRadioGroup, festivalsSelects } from '$lib/types/category.js';
+	import { Button } from '$lib/registry/default/ui/button/index.js';
+	import { Textarea } from '$lib/registry/default/ui/textarea/index.js';
+	import { Label } from '$lib/registry/default/ui/label/index.js';
+	import * as Select from '$lib/registry/default/ui/select/index.js';
+	import Upload from 'lucide-svelte/icons/upload';
+	import { ScrollArea } from '$lib/registry/new-york/ui/scroll-area/index.js';
+	import RadioGroupImg from '$lib/components/island/radio-group-img.svelte';
 </script>
 
-<div class="hidden h-full flex-col md:flex">
-	<div
-		class="container flex flex-col items-start justify-between space-y-2 py-4 sm:flex-row sm:items-center sm:space-y-0 md:h-16"
-	>
-		<h2 class="text-lg font-semibold">Playground</h2>
-		<div class="ml-auto flex w-full space-x-2 sm:justify-end">
-			<PresetSelector {presets} />
-			<PresetSave />
-			<div class="hidden space-x-2 md:flex">
-				<CodeViewer />
-				<PresetShare />
+<div class="w-full lg:grid lg:min-h-[600px] lg:grid-cols-5 xl:min-h-[800px] border rounded-xl">
+	<div class="flex items-center justify-center py-1 col-span-3">
+		<div class="flex h-full w-full flex-col p-4">
+			<div
+				class="border rounded-xl border-dashed border-2 border-secondary-300 hover:bg-gray-100 flex flex-col h-full items-center justify-center text-sm"
+			>
+				<div><Book /></div>
+				<!-- 假设 Book 是一个组件 -->
+				<div class="my-1">灵感创意海报</div>
+				<div>在右侧输入你的灵感创意即可生成创意海报</div>
 			</div>
-			<PresetActions />
 		</div>
 	</div>
-	<Separator />
-	<Tabs.Root value="complete" class="flex-1">
-		<div class="container h-full py-6">
-			<div class="grid h-full items-stretch gap-6 md:grid-cols-[1fr_200px]">
-				<div class="hidden flex-col space-y-4 sm:flex md:order-2">
-					<div class="grid gap-2">
-						<HoverCard.Root openDelay={200}>
-							<HoverCard.Trigger asChild let:builder>
-								<span
-									class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-									use:builder.action
-									{...builder}
-								>
-									Mode
-								</span>
-							</HoverCard.Trigger>
-							<HoverCard.Content class="w-[320px] text-sm" side="left">
-								Choose the interface that best suits your task. You can provide: a
-								simple prompt to complete, starting and ending text to insert a
-								completion within, or some text with instructions to edit it.
-							</HoverCard.Content>
-						</HoverCard.Root>
-						<Tabs.List class="grid grid-cols-3">
-							<Tabs.Trigger value="complete">
-								<span class="sr-only">Complete</span>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="none"
-									class="h-5 w-5"
-								>
-									<rect
-										x="4"
-										y="3"
-										width="12"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="4"
-										y="7"
-										width="12"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="4"
-										y="11"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="4"
-										y="15"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="8.5"
-										y="11"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="8.5"
-										y="15"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="13"
-										y="11"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-								</svg>
-							</Tabs.Trigger>
-							<Tabs.Trigger value="insert">
-								<span class="sr-only">Insert</span>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="none"
-									class="h-5 w-5"
-								>
-									<path
-										fill-rule="evenodd"
-										clip-rule="evenodd"
-										d="M14.491 7.769a.888.888 0 0 1 .287.648.888.888 0 0 1-.287.648l-3.916 3.667a1.013 1.013 0 0 1-.692.268c-.26 0-.509-.097-.692-.268L5.275 9.065A.886.886 0 0 1 5 8.42a.889.889 0 0 1 .287-.64c.181-.17.427-.267.683-.269.257-.002.504.09.69.258L8.903 9.87V3.917c0-.243.103-.477.287-.649.183-.171.432-.268.692-.268.26 0 .509.097.692.268a.888.888 0 0 1 .287.649V9.87l2.245-2.102c.183-.172.432-.269.692-.269.26 0 .508.097.692.269Z"
-										fill="currentColor"
-									/>
-									<rect
-										x="4"
-										y="15"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="8.5"
-										y="15"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="13"
-										y="15"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-								</svg>
-							</Tabs.Trigger>
-							<Tabs.Trigger value="edit">
-								<span class="sr-only">Edit</span>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="none"
-									class="h-5 w-5"
-								>
-									<rect
-										x="4"
-										y="3"
-										width="12"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="4"
-										y="7"
-										width="12"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="4"
-										y="11"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="4"
-										y="15"
-										width="4"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<rect
-										x="8.5"
-										y="11"
-										width="3"
-										height="2"
-										rx="1"
-										fill="currentColor"
-									/>
-									<path
-										d="M17.154 11.346a1.182 1.182 0 0 0-1.671 0L11 15.829V17.5h1.671l4.483-4.483a1.182 1.182 0 0 0 0-1.671Z"
-										fill="currentColor"
-									/>
-								</svg>
-							</Tabs.Trigger>
-						</Tabs.List>
+
+	<div class="hidden lg:block col-span-2 py-5 pr-4">
+		<ScrollArea>
+			<form class="grid w-full items-start">
+				<fieldset class="grid gap-6 rounded-lg border p-4">
+					<div class="grid gap-3">
+						<Label for="content">创意描述（3-20）字</Label>
+						<Textarea id="content" placeholder="输入3-20个字表达你的创意" class="min-h-[5.5rem]" />
 					</div>
-					<ModelSelector {types} {models} />
-					<TemperatureSelector value={[0.56]} />
-					<MaxLengthSelector value={[256]} />
-					<TopPSelector value={[0.9]} />
-				</div>
-				<div class="md:order-1">
-					<Tabs.Content value="complete" class="mt-0 border-0 p-0">
-						<div class="flex h-full flex-col space-y-4">
-							<Textarea
-								placeholder="Write a tagline for an ice cream shop"
-								class="min-h-[400px] flex-1 p-4 md:min-h-[700px] lg:min-h-[700px]"
-							/>
-							<div class="flex items-center space-x-2">
-								<Button>Submit</Button>
-								<Button variant="secondary">
-									<span class="sr-only">Show history</span>
-									<CounterClockwiseClock class="h-4 w-4" />
-								</Button>
-							</div>
-						</div>
-					</Tabs.Content>
-					<Tabs.Content value="insert" class="mt-0 border-0 p-0">
-						<div class="flex flex-col space-y-4">
-							<div
-								class="grid h-full grid-rows-2 gap-6 lg:grid-cols-2 lg:grid-rows-1"
-							>
-								<Textarea
-									placeholder="We're writing to [inset]. Congrats from OpenAI!"
-									class="h-full min-h-[300px] lg:min-h-[700px] xl:min-h-[700px]"
-								/>
-								<div class="rounded-md border bg-muted" />
-							</div>
-							<div class="flex items-center space-x-2">
-								<Button>Submit</Button>
-								<Button variant="secondary">
-									<span class="sr-only">Show history</span>
-									<CounterClockwiseClock class="h-4 w-4" />
-								</Button>
-							</div>
-						</div>
-					</Tabs.Content>
-					<Tabs.Content value="edit" class="mt-0 border-0 p-0">
-						<div class="flex flex-col space-y-4">
-							<div class="grid h-full gap-6 lg:grid-cols-2">
-								<div class="flex flex-col space-y-4">
-									<div class="flex flex-1 flex-col space-y-2">
-										<Label for="input">Input</Label>
-										<Textarea
-											id="input"
-											placeholder="We is going to the market."
-											class="flex-1 lg:min-h-[580px]"
-										/>
+					<div class="grid gap-3">
+						<Label for="model">选择商品类型</Label>
+						<Select.Root>
+							<Select.Trigger id="model" class="items-start [&_[data-description]]:hidden">
+								<Select.Value placeholder="选择商品类型" />
+							</Select.Trigger>
+							<Select.Content>
+								<Select.Item value="genesis">
+									<div class="flex items-start gap-3 text-muted-foreground">
+										<Rabbit class="size-5" />
+										<div class="grid gap-0.5">
+											<p>
+												Neural
+												<span class="font-medium text-foreground"> Genesis </span>
+											</p>
+											<p class="text-xs" data-description>Our fastest model for general use cases.</p>
+										</div>
 									</div>
-									<div class="flex flex-col space-y-2">
-										<Label for="instructions">Instructions</Label>
-										<Textarea
-											id="instructions"
-											placeholder="Fix the grammar."
-										/>
+								</Select.Item>
+								<Select.Item value="explorer">
+									<div class="flex items-start gap-3 text-muted-foreground">
+										<Bird class="size-5" />
+										<div class="grid gap-0.5">
+											<p>
+												Neural
+												<span class="font-medium text-foreground"> Explorer </span>
+											</p>
+											<p class="text-xs" data-description>Performance and speed for efficiency.</p>
+										</div>
 									</div>
-								</div>
-								<div
-									class="mt-[21px] min-h-[400px] rounded-md border bg-muted lg:min-h-[700px]"
+								</Select.Item>
+								<Select.Item value="quantum">
+									<div class="flex items-start gap-3 text-muted-foreground">
+										<Turtle class="size-5" />
+										<div class="grid gap-0.5">
+											<p>
+												Neural
+												<span class="font-medium text-foreground"> Quantum </span>
+											</p>
+											<p class="text-xs" data-description>The most powerful model for complex computations.</p>
+										</div>
+									</div>
+								</Select.Item>
+							</Select.Content>
+						</Select.Root>
+					</div>
+					<div class="grid gap-3">
+						<Label for="festival">选择节日</Label>
+						<Select.Root>
+							<Select.Trigger id="festival" class="items-start [&_[data-description]]:hidden">
+								<Select.Value placeholder="选择节日" />
+							</Select.Trigger>
+							<Select.Content>
+								{#each festivalsSelects as item}
+									<Select.Item value={item.id}>
+										<div class="flex items-start gap-3 text-muted-foreground">
+											<svelte:component this={item.icon} class="size-5" aria-hidden="true" />
+											<div class="grid gap-0.5">
+												<p>
+													{item.title}
+													<span class="font-medium text-foreground"> {item.name} </span>
+												</p>
+												<p class="text-xs" data-description>
+													{item.note}
+												</p>
+											</div>
+										</div>
+									</Select.Item>
+								{/each}
+							</Select.Content>
+						</Select.Root>
+					</div>
+					<div class="grid gap-3">
+						<Label for="temperature">海报风格</Label>
+						<RadioGroupImg albums={listenNowAlbums} width={60} height={60} />
+					</div>
+					<div class="grid gap-3">
+						<Label for="temperature">上传参考图</Label>
+						<div class="grid grid-cols-3 gap-2">
+							<button>
+								<img
+									alt="Product"
+									class="aspect-square w-full rounded-md object-cover"
+									height="72"
+									src="/images/placeholder.svg"
+									width="72"
 								/>
-							</div>
-							<div class="flex items-center space-x-2">
-								<Button>Submit</Button>
-								<Button variant="secondary">
-									<span class="sr-only">Show history</span>
-									<CounterClockwiseClock class="h-4 w-4" />
-								</Button>
-							</div>
+							</button>
+							<button>
+								<img
+									alt="Product"
+									class="aspect-square w-full rounded-md object-cover"
+									height="72"
+									src="/images/placeholder.svg"
+									width="72"
+								/>
+							</button>
+							<button class="flex aspect-square w-full items-center justify-center rounded-md border border-dashed">
+								<Upload class="h-4 w-4 text-muted-foreground" />
+								<span class="sr-only">Upload</span>
+							</button>
 						</div>
-					</Tabs.Content>
-				</div>
-			</div>
-		</div>
-	</Tabs.Root>
+					</div>
+					<div class="grid gap-3">
+						<Label for="temperature">比例</Label>
+
+						<RadioGroup.Root value="card" class="grid grid-cols-5 gap-2">
+							{#each ratioRadioGroup as ratio}
+								<Label
+									for={ratio.id}
+									class="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-transparent p-2 hover:bg-accent hover:text-accent-foreground [&:has([data-state=checked])]:border-primary"
+								>
+									<RadioGroup.Item value={ratio.id} id={ratio.id} class="sr-only" aria-label={ratio.name} />
+									{ratio.name}
+								</Label>
+							{/each}
+						</RadioGroup.Root>
+					</div>
+					<div class="flex justify-between items-center">
+						<Label for="necessary" class="flex flex-row items-center ">
+							<LifeBuoy class="mx-1" /><span>高清画质</span>
+						</Label>
+						<Switch id="necessary" checked aria-label="Necessary" />
+					</div>
+
+					<div class="flex justify-between items-center">
+						<Button type="submit" class="w-2/3">开始生成创意</Button>
+						<Button variant="outline" class="">购买积分</Button>
+					</div>
+					<div class=" text-left text-sm">普通创意生成每张需要消耗 10 积分；高清创意模式需要消耗 50 积分</div>
+				</fieldset>
+			</form>
+		</ScrollArea>
+	</div>
 </div>
