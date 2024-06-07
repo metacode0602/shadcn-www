@@ -16,7 +16,7 @@
 	<a
 		target="_blank"
 		href="/tool/{album.id}"
-		class={cn('items-start rounded-lg border text-left text-sm transition-all hover:bg-accent')}
+		class={cn('items-start rounded-lg text-left text-sm transition-all hover:bg-accent')}
 	>
 		<ContextMenu.Root>
 			<ContextMenu.Trigger>

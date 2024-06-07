@@ -1,29 +1,37 @@
 <script lang="ts">
-	import ChevronRight from "svelte-radix/ChevronRight.svelte";
-	import Code from "svelte-radix/Code.svelte";
-	import ExternalLink from "svelte-radix/ExternalLink.svelte";
-	import type { PageData } from "./$types.js";
-	import { config } from "$lib/stores/index.js";
-	import { page } from "$app/stores";
-	import { DocsPager, TableOfContents } from "$lib/components/docs/index.js";
-	import { badgeVariants } from "$lib/registry/new-york/ui/badge/index.js";
-	import { cn } from "$lib/utils.js";
-
+	import type { ComponentType } from 'svelte';
+	import ChevronRight from 'lucide-svelte/icons/chevron-right';
+	import type { PageData } from './$types.js';
+	import { page } from '$app/stores';
+	import { ProductPager } from '$lib/components/island/index.js';
+	import { cn } from '$lib/utils.js';
+	import { madeForYouAlbums } from '$lib/types/category.js';
+	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
+	import AlbumProduct from '$lib/components/island/album-product.svelte';
 	export let data: PageData;
-	$: markdown = data.component;
+
+	type Component = $$Generic<ComponentType>;
+	$: component = data.component as unknown as Component;
 	$: doc = data.metadata;
-	$: componentSource = data.metadata.source?.replace("default", $config.style ?? "default");
 </script>
 
-<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
-	<div class="mx-auto w-full min-w-0">
-		<div class="mb-4 flex items-center space-x-1 text-sm text-muted-foreground">
-			<div class="overflow-hidden text-ellipsis whitespace-nowrap">Docs</div>
-			<ChevronRight class="h-4 w-4" />
-			<div class="font-medium text-foreground">{doc.title}</div>
+<div class="flex items-center space-x-1 py-6">
+	<a href="/home">
+		<div class="overflow-hidden text-ellipsis whitespace-nowrap">产品库</div>
+	</a>
+	<ChevronRight class="h-4 w-4" />
+	<div class="font-medium text-foreground">{doc.title}</div>
+</div>
+
+<main class="relative py-6 lg:gap-10 lg:py-8 grid lg:grid-cols-5">
+	<div class="hidden text-sm xl:block col-span-2">
+		<div class="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] overflow-hidden pt-6">
+			<img src="https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80" alt={doc.title} />
 		</div>
+	</div>
+	<div class="col-span-3">
 		<div class="space-y-2">
-			<h1 class={cn("scroll-m-20 text-4xl font-bold tracking-tight")}>
+			<h1 class={cn('scroll-m-20 text-4xl font-bold tracking-tight')}>
 				{doc.title}
 			</h1>
 			{#if doc.description}
@@ -32,42 +40,28 @@
 				</p>
 			{/if}
 		</div>
-		{#if doc.source || doc.bits}
-			<div class="flex items-center space-x-2 pt-4">
-				{#if componentSource}
-					<a
-						href={componentSource}
-						target="_blank"
-						rel="noreferrer"
-						class={cn(badgeVariants({ variant: "secondary" }), "gap-1")}
-					>
-						Component Source
-						<Code class="h-3.5 w-3.5" />
-					</a>
-				{/if}
-				{#if doc.bits}
-					<a
-						href={doc.bits}
-						target="_blank"
-						rel="noreferrer"
-						class={cn(badgeVariants({ variant: "secondary" }), "gap-1")}
-					>
-						Primitive API Reference
-						<ExternalLink class="h-3 w-3" />
-					</a>
-				{/if}
-			</div>
-		{/if}
 		<div class="markdown pb-12 pt-8" id="markdown">
-			<svelte:component this={markdown} form={data.form} />
+			<svelte:component this={component} />
 		</div>
-		<DocsPager />
-	</div>
-	<div class="hidden text-sm xl:block">
-		<div class="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] overflow-hidden pt-4">
-			{#key $page.url.pathname}
-				<TableOfContents />
-			{/key}
-		</div>
+		<ProductPager />
 	</div>
 </main>
+
+<Separator class="my-6" />
+
+<div class="w-full h-full py-6">
+	<div class="border-none p-0 outline-none">
+		<div class="flex items-center justify-between">
+			<div class="space-y-1">
+				<h2 class="text-2xl font-semibold tracking-tight">类似产品</h2>
+			</div>
+		</div>
+		<div class="relative mt-10">
+			<div class="grid grid-cols-6 gap-4">
+				{#each madeForYouAlbums as album}
+					<AlbumProduct {album} aspectRatio="portrait" width={221} height={221} />
+				{/each}
+			</div>
+		</div>
+	</div>
+</div>

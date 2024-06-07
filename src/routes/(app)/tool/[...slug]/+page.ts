@@ -8,7 +8,7 @@ export const load: PageLoad = async (event) => {
 	}
 
 	const { component, title, metadata } = await getDoc(event.params.slug);
-	console.warn("PageLoad:", event.params.slug)
+	console.warn("PageLoad--:", event.params.slug, JSON.stringify(component))
 	return {
 		component,
 		metadata,

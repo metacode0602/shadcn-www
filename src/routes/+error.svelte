@@ -17,7 +17,7 @@
 			<div class="overflow-hidden rounded-[0.5rem] border bg-background shadow-xl p-4">
 				<h1 class="text-xl text-center my-4">{$page.status} - {$page.error?.message}</h1>
 				<div class="json-formatter">
-					<pre class="whitespace-pre break-words p-1 bg-neutral-700 border border-neutral-300 rounded-lg">
+					<pre class="whitespace-pre break-words p-1 border border-neutral-300 rounded-lg">
 					<code>{JSON.stringify($page, null, 2)}</code>
 					</pre>
 				</div>
