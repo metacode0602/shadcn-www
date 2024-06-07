@@ -16,12 +16,12 @@ export const load: PageLoad = async (event) => {
 
 export const entries: EntryGenerator = () => {
 	console.info("Prerendering /docs");
-	const modules = import.meta.glob("/src/content/**/*.md");
+	const modules = import.meta.glob("/src/content/discover/**/*.md");
 	const entries = [];
 
 	console.warn("EntryGenerator modules", modules)
 	for (const path of Object.keys(modules)) {
-		const slug = path.replace("/src/content/", "").replace(".md", "").replace("/index", "");
+		const slug = path.replace("/src/content/discover/", "").replace(".md", "").replace("/index", "");
 		entries.push({ slug });
 	}
 

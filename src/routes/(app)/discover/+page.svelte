@@ -1,12 +1,9 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { cn } from '$lib/utils.js';
-	import { DocsSidebarNav } from '$lib/components/docs/index.js';
 	import PlusCircled from 'svelte-radix/PlusCircled.svelte';
 	import AlbumProduct from '$lib/components/island/album-product.svelte';
-	import { homeCategories, madeForYouAlbums } from '$lib/types/category.js';
 	import { Button } from '$lib/registry/new-york/ui/button/index.js';
-	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
+	import indexNewData from '../../../content/discover/index-new.json';
+	import indexHotData from '../../../content/discover/index-hot.json';
 	import * as Tabs from '$lib/registry/new-york/ui/tabs/index.js';
 </script>
 
@@ -27,7 +24,7 @@
 		<Tabs.Content value="music" class="border-none p-0 outline-none">
 			<div class="relative my-10">
 				<div class="grid grid-cols-6 gap-4">
-					{#each madeForYouAlbums as album}
+					{#each indexNewData as album}
 						<AlbumProduct {album} aspectRatio="portrait" width={250} height={330} />
 					{/each}
 				</div>
@@ -36,7 +33,7 @@
 		<Tabs.Content value="podcasts" class="h-full flex-col border-none p-0 data-[state=active]:flex">
 			<div class="relative my-10">
 				<div class="grid grid-cols-6 gap-4">
-					{#each madeForYouAlbums as album}
+					{#each indexHotData as album}
 						<AlbumProduct {album} aspectRatio="portrait" width={250} height={330} />
 					{/each}
 				</div>

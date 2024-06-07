@@ -11,7 +11,7 @@ export type Category = {
   id: string; //id
   name: string; //分类名称
   icon?: ComponentType<SvelteComponent>; //显示的图标
-  path?: string; //访问路径
+  href?: string; //访问路径
   cover?: string; //分类封面图
   children?: Category[]; //子分类
   products?: Product[]; //分类下的产品列表
