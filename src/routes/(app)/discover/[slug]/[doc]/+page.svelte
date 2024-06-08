@@ -9,10 +9,12 @@
 	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
 	import AlbumProduct from '$lib/components/island/album-product.svelte';
 	export let data: PageData;
+	import { AlbumFrontMatter } from '$lib/components/island/index.js';
 
 	type Component = $$Generic<ComponentType>;
 	$: component = data.component as unknown as Component;
 	$: doc = data.metadata;
+	$: relates = data.relates; //推荐商品列表
 </script>
 
 <div class="border-b">
@@ -22,7 +24,7 @@
 				<div class="overflow-hidden text-ellipsis whitespace-nowrap">产品库</div>
 			</a>
 			<ChevronRight class="h-4 w-4" />
-			<div class="font-medium text-foreground">{doc.title}</div>
+			<div class="font-medium text-foreground">{doc?.title}</div>
 		</div>
 
 		<main class="relative py-6 lg:gap-10 lg:py-8 grid lg:grid-cols-5">
@@ -34,11 +36,11 @@
 			<div class="col-span-3">
 				<div class="space-y-2">
 					<h1 class={cn('scroll-m-20 text-4xl font-bold tracking-tight')}>
-						{doc.title}
+						{doc?.title}
 					</h1>
-					{#if doc.description}
+					{#if doc?.description}
 						<p class="text-balance text-lg text-muted-foreground">
-							{doc.description}
+							{doc?.description}
 						</p>
 					{/if}
 				</div>
@@ -60,8 +62,8 @@
 				</div>
 				<div class="relative mt-10">
 					<div class="grid grid-cols-6 gap-4">
-						{#each madeForYouAlbums as album}
-							<AlbumProduct {album} aspectRatio="portrait" width={221} height={221} />
+						{#each relates as album}
+							<AlbumFrontMatter parent="discover" {album} aspectRatio="portrait" width={221} height={221} />
 						{/each}
 					</div>
 				</div>

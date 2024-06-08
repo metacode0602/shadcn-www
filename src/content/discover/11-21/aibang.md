@@ -14,6 +14,8 @@ external:
 
 relates:
   - /11-21/about.md
-  - /11-22/index.md
-  - /11-11/name.md
+  - /11-21/aibang.md
+  - /11-22/name.md
 ---
+
+### 这是aibang

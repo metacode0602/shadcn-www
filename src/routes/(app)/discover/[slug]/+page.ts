@@ -1,6 +1,6 @@
 import type { EntryGenerator, PageLoad } from "./$types.js";
 import { getDoc, slugFromPath } from "$lib/utils.js";
-import type { DocResolver, FrontMatter, FrontMatterWithPath } from "$lib/types/docs.js";
+import type { DocResolver, FrontMatterWithPath } from "$lib/types/docs.js";
 // 使用Record类型定义map
 
 export const load: PageLoad = async (event) => {
@@ -19,8 +19,7 @@ export const load: PageLoad = async (event) => {
 				match = { path, resolver: resolver as unknown as DocResolver };
 				doc = await match?.resolver?.();
 				if (doc && doc.metadata) {
-					items.push({ path: getSlugFilePath(path), ...doc?.metadata });
-					console.warn("path:", getSlugFilePath(path), doc?.metadata)
+					items.push({ path: getSlugFilePath(slug, path), ...doc?.metadata });
 				}
 			}
 		}
@@ -63,8 +62,8 @@ export const entries: EntryGenerator = () => {
  * @param path 文件名
  * @returns
  */
-const getSlugFilePath = (path: string) => {
-	return (path.split("/").pop() ?? "").replace(".md", "");
+const getSlugFilePath = (slug: string, path: string) => {
+	return slug + "/" + (path.split("/").pop() ?? "").replace(".md", "");
 }
 
 // 函数：对items数组进行排序并返回FrontMatterMap类型的对象实例

@@ -11,7 +11,6 @@
 	$: slug = data.slug;
 </script>
 
-{JSON.stringify(items)}
 <div class="hidden md:block">
 	<div class="border-t">
 		<div class="bg-background">
@@ -26,7 +25,7 @@
 					<div class="relative">
 						<div class="grid grid-cols-6 gap-4">
 							{#each items as album}
-								<AlbumFrontMatter parent="discover/{slug}" {album} aspectRatio="portrait" width={221} height={221} />
+								<AlbumFrontMatter parent="discover" {album} aspectRatio="portrait" width={221} height={221} />
 							{/each}
 						</div>
 					</div>

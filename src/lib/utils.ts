@@ -4,7 +4,7 @@ import { cubicOut } from "svelte/easing";
 import { derived, writable } from "svelte/store";
 import type { TransitionConfig } from "svelte/transition";
 import { twMerge } from "tailwind-merge";
-import { error } from "@sveltejs/kit";
+import { error, redirect } from '@sveltejs/kit';
 import { persisted } from "svelte-local-storage-store";
 import type { DocResolver } from "$lib/types/docs.js";
 
@@ -14,6 +14,11 @@ export function cn(...inputs: ClassValue[]) {
 
 export const isBrowser = typeof document !== "undefined";
 
+/**
+ *
+ * @param path 集合下的目录
+ * @returns
+ */
 export function slugFromPath(path: string) {
 	return path.replace("/src/content/", "").replace(".md", "");
 }
@@ -223,6 +228,36 @@ export async function getDoc(slug: string) {
 		component: doc.default,
 		metadata: doc.metadata,
 		title: doc.metadata.title,
+	};
+}
+
+
+/**
+ *
+ * @param slug 根据slug获取slug对应的md文件数据
+ * @returns
+ */
+export async function getDocInDiscover(slug: string, redirect: boolean) {
+	const modules = import.meta.glob(`/src/content/discover/**/*.md`);
+	// const match = findMatch(slug, modules);
+	let match: { path?: string; resolver?: DocResolver } = {};
+	let temp: string;
+	for (const [path, resolver] of Object.entries(modules)) {
+		temp = path.replace("/src/content/discover/", "").replace(".md", "")
+		console.warn("getDocInDiscover:", temp, slug, path);
+		if (temp === slug) {
+			match = { path, resolver: resolver as unknown as DocResolver };
+			break;
+		}
+	}
+	const doc = await match?.resolver?.();
+	if ((!doc || !doc.metadata) && redirect) {
+		error(404);
+	}
+	return {
+		component: doc?.default,
+		metadata: doc?.metadata,
+		title: doc?.metadata.title,
 	};
 }
 
