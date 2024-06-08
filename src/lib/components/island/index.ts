@@ -7,3 +7,4 @@ export { default as TopPSelector } from "./top-p-selector.svelte";
 export { default as ProductPager } from "./product-pager.svelte";
 
 export { default as AlbumFrontMatter } from "./album-frontmatter.svelte";
+export { default as AlbumProduct } from "./album-product.svelte";

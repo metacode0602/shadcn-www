@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { cn } from '$lib/utils.js';
 	import { Button } from '$lib/registry/new-york/ui/button/index.js';
-	import { ScrollArea } from '$lib/registry/new-york/ui/scroll-area/index.js';
 	import type { SidebarNavItem } from '$lib/types/nav.js';
 	import { Icons } from '$lib/components/docs/icons/index.js';
 	import { page } from '$app/stores';
