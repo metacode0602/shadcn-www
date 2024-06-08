@@ -11,7 +11,6 @@
 
 	$: indexHotData = data.indexHotData;
 	$: indexNewData = data.indexNewData;
-	$: doc = data.metadata;
 </script>
 
 <div class=" px-4 py-6 lg:px-8">

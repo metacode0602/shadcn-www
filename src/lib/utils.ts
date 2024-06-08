@@ -205,6 +205,11 @@ function getIndexDocIfExists(slug: string, modules: Modules) {
 	return match;
 }
 
+/**
+ *
+ * @param slug 根据slug获取slug对应的md文件数据
+ * @returns
+ */
 export async function getDoc(slug: string) {
 	const modules = import.meta.glob(`/src/content/**/*.md`);
 	const match = findMatch(slug, modules);
