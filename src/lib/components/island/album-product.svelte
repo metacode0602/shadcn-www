@@ -15,7 +15,7 @@
 <div class={cn('space-y-3', className)} {...$$restProps}>
 	<a
 		target="_blank"
-		href="/discover/{album.href}"
+		href="/discover/{album.path}"
 		class={cn('items-start rounded-lg text-left text-sm transition-all hover:bg-accent')}
 	>
 		<ContextMenu.Root>

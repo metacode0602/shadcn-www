@@ -23,7 +23,7 @@ export type Product = {
   tags: string[]; //标签
   cover: string; //封面图
   description?: string; //长介绍，markdown
-  href?: string; //本地链接
+  path?: string; //本地链接
   bits?: string; //官方网站
   note?: string; //card中简介
   logo?: string; //"https://pic.chinaz.com/ai/logo/2024/0605/30913.jpg",  //icon图标

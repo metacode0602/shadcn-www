@@ -1,12 +1,14 @@
 <script lang="ts">
-	import { homeCategories, madeForYouAlbums } from '$lib/types/category.js';
+	import { madeForYouAlbums } from '$lib/types/category.js';
 	import PlusCircled from 'svelte-radix/PlusCircled.svelte';
 	import AlbumProduct from '$lib/components/island/album-product.svelte';
 	import { Button } from '$lib/registry/new-york/ui/button/index.js';
 	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
-	import { AlbumFrontMatter } from '$lib/components/island/index.js';
+	import type { PageData } from './$types.js';
 
-	import * as Tabs from '$lib/registry/new-york/ui/tabs/index.js';
+	export let data: PageData;
+
+	$: faveritesData = data.faveritesData; //收藏最多商品列表
 </script>
 
 <div class="hidden md:block">
@@ -29,7 +31,7 @@
 					<Separator class="my-6" />
 					<div class="relative">
 						<div class="grid grid-cols-6 gap-4">
-							{#each madeForYouAlbums as album}
+							{#each faveritesData as album}
 								<AlbumProduct {album} aspectRatio="portrait" width={221} height={221} />
 							{/each}
 						</div>
