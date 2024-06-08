@@ -8,7 +8,6 @@ import Settings2 from "lucide-svelte/icons/settings-2";
 import { number, string } from "zod";
 
 export type Category = {
-  id: string; //id
   name: string; //分类名称
   icon?: ComponentType<SvelteComponent>; //显示的图标
   href?: string; //访问路径
@@ -19,13 +18,12 @@ export type Category = {
 
 // 分类下的产品列表，即对应的AI产品
 export type Product = {
-  id: string; //id
   name: string; // 名称
   title: string; //标题
   tags: string[]; //标签
   cover: string; //封面图
-  desc?: string; //长介绍，markdown
-  url?: string; //官方网站
+  description?: string; //长介绍，markdown
+  bits?: string; //官方网站
   note?: string; //card中简介
   logo?: string; //"https://pic.chinaz.com/ai/logo/2024/0605/30913.jpg",  //icon图标
   procform?: number;// 1,                      //1 - 网站 2 - 小程序 3 - 插件 4 - 桌面客户端 5 - 模型 6 - 其他 7 - app

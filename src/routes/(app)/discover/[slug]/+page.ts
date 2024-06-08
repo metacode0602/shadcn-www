@@ -1,5 +1,5 @@
 import type { EntryGenerator, PageLoad } from "./$types.js";
-import { getDoc, slugFromPath } from "$lib/utils.js";
+import { error } from "@sveltejs/kit";
 import type { DocResolver, FrontMatterWithPath } from "$lib/types/docs.js";
 // 使用Record类型定义map
 
@@ -12,7 +12,8 @@ export const load: PageLoad = async (event) => {
 	let doc;
 	//获取目录下所有的文件
 	for (const [path, resolver] of Object.entries(modules)) {
-		if (path.startsWith("/src/content/discover/" + slug)) {
+		console.warn("=in discover slug page:", path, path.startsWith("/src/content/discover/" + slug + "/"))
+		if (path.startsWith("/src/content/discover/" + slug + "/")) {
 			if (path.includes("index.md")) { //当前页面的index.md
 				indexMatch = { path, resolver: resolver as unknown as DocResolver };
 			} else {//非index.md
@@ -24,7 +25,9 @@ export const load: PageLoad = async (event) => {
 			}
 		}
 	}
-
+	if (!items || items.length == 0) {
+		error(404);
+	}
 	// 对items数组按照sort字段进行降序排列，未设置sort的排在后面
 	items.sort((a, b) => {
 		// 使用Number.MAX_VALUE作为未设置的sort值
