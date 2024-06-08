@@ -2,9 +2,16 @@
 	import PlusCircled from 'svelte-radix/PlusCircled.svelte';
 	import AlbumProduct from '$lib/components/island/album-product.svelte';
 	import { Button } from '$lib/registry/new-york/ui/button/index.js';
-	import indexNewData from '../../../content/discover/index-new.json';
-	import indexHotData from '../../../content/discover/index-hot.json';
+	// import indexNewData from '../../../content/discover/index-new.json';
+	// import indexHotData from '../../../content/discover/index-hot.json';
 	import * as Tabs from '$lib/registry/new-york/ui/tabs/index.js';
+	import type { PageData } from './$types.js';
+
+	export let data: PageData;
+
+	$: indexHotData = data.indexHotData;
+	$: indexNewData = data.indexNewData;
+	$: doc = data.metadata;
 </script>
 
 <div class=" px-4 py-6 lg:px-8">

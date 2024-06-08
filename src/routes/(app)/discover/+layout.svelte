@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { Sidebar } from './(components)/index.js';
-	import type { PageData } from './$types.js';
+	import type { LayoutData } from './$types.js';
 
-	export let data: PageData;
+	export let data: LayoutData;
 	$: sidebarNav = data.sidebarNav;
 </script>
 
