@@ -15,7 +15,7 @@
 <div class={cn('space-y-3', className)} {...$$restProps}>
 	<a
 		target="_blank"
-		href="/tool/{album.id}"
+		href="/discover/{album.href}"
 		class={cn('items-start rounded-lg text-left text-sm transition-all hover:bg-accent')}
 	>
 		<ContextMenu.Root>
@@ -40,9 +40,9 @@
 				<ContextMenu.Item>分享</ContextMenu.Item>
 			</ContextMenu.Content>
 		</ContextMenu.Root>
-		<div class="space-y-1 text-sm">
-			<h3 class="font-medium leading-none">{album.name}</h3>
-			<p class="text-xs text-muted-foreground">{album.title}</p>
+		<div class="space-y-1 text-sm my-4">
+			<h3 class="font-medium leading-none">{album.title}</h3>
+			<p class="text-xs text-muted-foreground">{album.note ?? ''}</p>
 		</div>
 	</a>
 </div>

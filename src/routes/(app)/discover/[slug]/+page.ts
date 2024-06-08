@@ -12,7 +12,6 @@ export const load: PageLoad = async (event) => {
 	let doc;
 	//获取目录下所有的文件
 	for (const [path, resolver] of Object.entries(modules)) {
-		console.warn("=in discover slug page:", path, path.startsWith("/src/content/discover/" + slug + "/"))
 		if (path.startsWith("/src/content/discover/" + slug + "/")) {
 			if (path.includes("index.md")) { //当前页面的index.md
 				indexMatch = { path, resolver: resolver as unknown as DocResolver };

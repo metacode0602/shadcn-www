@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { get } from 'svelte/store';
 	// import { homeNewData } from '$lib/types/category.js';
 	import PlusCircled from 'svelte-radix/PlusCircled.svelte';
 	import AlbumProduct from '$lib/components/island/album-product.svelte';
@@ -6,10 +7,25 @@
 	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
 	import * as Tabs from '$lib/registry/new-york/ui/tabs/index.js';
 	import type { PageData } from './$types.js';
+	import { writable } from 'svelte/store';
 
 	export let data: PageData;
 
-	type Component = $$Generic<ComponentType>;
+	// 定义一个writable store，其类型为Record<string, string>
+	const stringStringRecord = writable(new Map<string, string>());
+	/**
+	 * 当前目录下的子目录被点击了
+	 * @param category
+	 * @param child
+	 */
+	function onChildClick(categoryName: string, childName: string) {
+		// 更新store，保存当前选中的分类和子分类
+		stringStringRecord.update((record) => {
+			record.set(categoryName, childName);
+			return record;
+		});
+	}
+
 	$: homeCategories = data.homeCategories; //分类推荐商品列表
 	$: homeNewData = data.homeNewData; //新品推荐商品列表
 </script>
@@ -27,9 +43,9 @@
 					</div>
 					<Separator class="my-4" />
 					<div class="relative">
-						<div class="flex space-x-4 pb-4">
+						<div class="grid grid-cols-5 gap-4">
 							{#each homeNewData as album}
-								<AlbumProduct {album} class="w-[250px]" aspectRatio="portrait" width={221} height={310} />
+								<AlbumProduct {album} class="w-[250px]" aspectRatio="portrait" width={221} height={231} />
 							{/each}
 						</div>
 					</div>
@@ -53,7 +69,13 @@
 											</h2>
 											<Tabs.List>
 												{#each category.children as child}
-													<Tabs.Trigger value={child.name} class="relative">
+													<Tabs.Trigger
+														value={child.name}
+														class="relative"
+														on:click={() => {
+															onChildClick(category.name, child.name);
+														}}
+													>
 														{child.title}
 													</Tabs.Trigger>
 												{/each}
@@ -61,7 +83,7 @@
 										</div>
 										<div class="space-between flex items-center">
 											<div class="ml-auto mr-4">
-												<Button href="/discover/{category.name}">
+												<Button href="/discover/{$stringStringRecord.get(category.name) ?? category.children[0].name}">
 													<PlusCircled class="mr-2 h-4 w-4" />
 													查看更多
 												</Button>
@@ -81,7 +103,7 @@
 																	class="w-[250px]"
 																	aspectRatio="portrait"
 																	width={250}
-																	height={330}
+																	height={270}
 																/>
 															{/each}
 														</div>
