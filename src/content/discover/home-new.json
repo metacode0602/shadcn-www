@@ -5,12 +5,14 @@
 		"tags": ["AI作画", "编程"],
 		"description": "",
 		"source": "",
+		"href": "11-21/aibang",
 		"component": true,
 		"path": "11-21/aibang",
 		"cover": "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=300&dpr=2&q=80"
 	},
 	{
 		"name": "Async-Awakenings",
+		"href": "11-21/aibang",
 		"title": "Nina Netcode",
 		"tags": ["AI作画", "编程"],
 		"description": "",
@@ -21,6 +23,7 @@
 	},
 	{
 		"name": "The-Art-of-Reusability",
+		"href": "11-21/about",
 		"title": "Lena Logic",
 		"tags": ["AI作画", "编程"],
 		"description": "",
@@ -34,6 +37,7 @@
 		"title": "Beth Binary",
 		"tags": ["AI作画", "编程"],
 		"description": "",
+		"href": "11-21/about",
 		"source": "",
 		"component": true,
 		"path": "11-21/aibang",
@@ -44,6 +48,7 @@
 		"title": "Nina Netcode",
 		"tags": ["AI作画", "编程"],
 		"description": "",
+		"href": "11-21/about",
 		"source": "",
 		"component": true,
 		"path": "11-21/aibang",
@@ -54,6 +59,8 @@
 		"title": "Nina Netcode",
 		"tags": ["AI作画", "编程"],
 		"description": "",
+		"href": "11-21/about",
+
 		"source": "",
 		"component": true,
 		"path": "11-21/aibang",
@@ -63,6 +70,8 @@
 		"name": "Async-Awakenings",
 		"title": "Nina Netcode",
 		"tags": ["AI作画", "编程"],
+		"href": "11-21/about",
+
 		"description": "",
 		"source": "",
 		"component": true,
