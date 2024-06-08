@@ -17,7 +17,7 @@
 	<Tabs.Root value="music" class="space-y-6">
 		<div class="space-between flex items-center my-6">
 			<Tabs.List>
-				<Tabs.Trigger value="music" class="relative">最新</Tabs.Trigger>
+				<Tabs.Trigger value="music">最新</Tabs.Trigger>
 				<Tabs.Trigger value="podcasts">热门</Tabs.Trigger>
 			</Tabs.List>
 			<div class="ml-auto mr-4">
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 		</Tabs.Content>
-		<Tabs.Content value="podcasts" class="flex-col border-none p-0 data-[state=active]:flex">
+		<Tabs.Content value="podcasts" class="border-none p-0 outline-none">
 			<div class="relative my-10">
 				<div class="grid grid-cols-5 gap-4">
 					{#each indexHotData as album}
