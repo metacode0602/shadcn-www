@@ -1,6 +1,6 @@
 
 import type { LayoutLoad } from "./$types.js";
-import sidebarNav from '../../../content/discover/index-menu.json';
+import sidebarNav from '../../../content/discover/discover-menu.json';
 
 /**
  *
