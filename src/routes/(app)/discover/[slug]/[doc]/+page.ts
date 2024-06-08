@@ -3,10 +3,11 @@ import { getDocInDiscover } from "$lib/utils.js";
 import type { FrontMatter, FrontMatterWithPath } from "$lib/types/docs.js";
 
 export const load: PageLoad = async (event) => {
-	console.warn("in [doc] PageLoad--:", event.params.slug, event.params.doc)
+	const slug = event.params.slug;
+	console.warn("in [doc] PageLoad--:", slug, event.params.doc)
 
 	// 这是用户要访问的md文件，如果找不到，则404跳转
-	const { component, title, metadata } = await getDocInDiscover(event.params.slug + "/" + event.params.doc, true);
+	const { component, title, metadata } = await getDocInDiscover(slug + "/" + event.params.doc, true);
 
 	let relates: FrontMatterWithPath[] = [];
 	//检查是否有推荐商品
@@ -29,6 +30,7 @@ export const load: PageLoad = async (event) => {
 		metadata,
 		title,
 		relates,
+		slug,
 	};
 };
 

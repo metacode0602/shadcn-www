@@ -7,7 +7,7 @@
 </script>
 
 <!-- 这是/discover/11-12格式 -->
-{#if $page.url.pathname.split('/').length == 3}
+{#if $page.url.pathname === '/discover' || $page.url.pathname.split('/').length == 3}
 	<div class="container relative pb-10">
 		<div class="border-t">
 			<div class="bg-background">

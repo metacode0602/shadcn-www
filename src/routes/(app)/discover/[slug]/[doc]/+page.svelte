@@ -15,6 +15,7 @@
 	$: component = data.component as unknown as Component;
 	$: doc = data.metadata;
 	$: relates = data.relates; //推荐商品列表
+	$: slug = data.slug;
 </script>
 
 <div class="border-b">
@@ -22,6 +23,10 @@
 		<div class="flex items-center space-x-1 py-6">
 			<a href="/home">
 				<div class="overflow-hidden text-ellipsis whitespace-nowrap">产品库</div>
+			</a>
+			<ChevronRight class="h-4 w-4" />
+			<a href="/discover/{slug}">
+				<div class="overflow-hidden text-ellipsis whitespace-nowrap">{slug}</div>
 			</a>
 			<ChevronRight class="h-4 w-4" />
 			<div class="font-medium text-foreground">{doc?.title}</div>

@@ -7,21 +7,21 @@
 				"name": "beijingyichu",
 				"icon": "listenNow",
 				"title": "背景移除",
-				"href": "/dicover/37-49",
+				"href": "/discover/11-21",
 				"items": []
 			},
 			{
 				"name": "wusunfangda",
 				"title": "无损放大",
 				"icon": "page",
-				"href": "/dicover/37-40",
+				"href": "/discover/11-22",
 				"items": []
 			},
 			{
 				"name": "components",
 				"icon": "warning",
 				"title": "components.json",
-				"href": "/dicover/components-json",
+				"href": "/discover/components-json",
 				"items": []
 			},
 			{

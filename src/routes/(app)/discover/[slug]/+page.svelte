@@ -23,9 +23,9 @@
 					</div>
 					<Separator class="my-6" />
 					<div class="relative">
-						<div class="grid grid-cols-6 gap-4">
+						<div class="grid grid-cols-5 gap-4">
 							{#each items as album}
-								<AlbumFrontMatter parent="discover" {album} aspectRatio="portrait" width={221} height={221} />
+								<AlbumFrontMatter parent="discover" {album} aspectRatio="portrait" width={321} height={321} />
 							{/each}
 						</div>
 					</div>

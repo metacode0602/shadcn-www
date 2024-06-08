@@ -4,9 +4,11 @@
 	import { ScrollArea } from '$lib/registry/new-york/ui/scroll-area/index.js';
 	import type { SidebarNavItem } from '$lib/types/nav.js';
 	import { Icons } from '$lib/components/docs/icons/index.js';
+	import { page } from '$app/stores';
 
 	let className: string | null | undefined = undefined;
 	export let sidebarNav: SidebarNavItem[];
+
 	export { className as class };
 </script>
 
@@ -18,7 +20,8 @@
 					<h2 class="mb-2 px-4 text-lg font-semibold tracking-tight">{menu.title}</h2>
 					<div class="space-y-1">
 						{#each menu.items as child}
-							<Button variant="secondary" class="w-full justify-start" href={child.href}>
+							{@const isActive = child.href ? $page.url.pathname.includes(child.href) : false}
+							<Button variant={isActive ? 'secondary' : 'ghost'} class="w-full justify-start" href={child.href}>
 								{#if child.icon}
 									<svelte:component this={Icons[child.icon]} class="mr-2 h-4 w-4" />
 								{/if}
