@@ -1,14 +1,11 @@
 <script lang="ts">
 	import type { PageData } from './$types.js';
-	import { madeForYouAlbums } from '$lib/types/category.js';
-	import AlbumProduct from '$lib/components/island/album-product.svelte';
 	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
 	import { AlbumFrontMatter } from '$lib/components/island/index.js';
 
 	export let data: PageData;
 	$: doc = data.metadata;
-	$: items = data.items;
-	$: slug = data.slug;
+	$: items = data.items; //分类下所有的md文件列表
 </script>
 
 <div class="hidden md:block">

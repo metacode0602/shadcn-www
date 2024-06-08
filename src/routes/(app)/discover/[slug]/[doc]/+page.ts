@@ -8,6 +8,8 @@ export const load: PageLoad = async (event) => {
 
 	// 这是用户要访问的md文件，如果找不到，则404跳转
 	const { component, title, metadata } = await getDocInDiscover(slug + "/" + event.params.doc, true);
+	// 取分类的metacode
+	const { metadata: indexMetadata } = await getDocInDiscover(slug + "/index", false);
 
 	let relates: FrontMatterWithPath[] = [];
 	//检查是否有推荐商品
@@ -31,6 +33,7 @@ export const load: PageLoad = async (event) => {
 		title,
 		relates,
 		slug,
+		indexMetadata
 	};
 };
 

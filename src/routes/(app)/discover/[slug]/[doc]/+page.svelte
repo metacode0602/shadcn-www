@@ -2,12 +2,9 @@
 	import type { ComponentType } from 'svelte';
 	import ChevronRight from 'lucide-svelte/icons/chevron-right';
 	import type { PageData } from './$types.js';
-	import { page } from '$app/stores';
 	import { ProductPager } from '$lib/components/island/index.js';
 	import { cn } from '$lib/utils.js';
-	import { madeForYouAlbums } from '$lib/types/category.js';
 	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
-	import AlbumProduct from '$lib/components/island/album-product.svelte';
 	export let data: PageData;
 	import { AlbumFrontMatter } from '$lib/components/island/index.js';
 
@@ -16,6 +13,7 @@
 	$: doc = data.metadata;
 	$: relates = data.relates; //推荐商品列表
 	$: slug = data.slug;
+	$: indexMetadata = data.indexMetadata; //上级分类的metadata
 </script>
 
 <div class="border-b">
@@ -26,7 +24,7 @@
 			</a>
 			<ChevronRight class="h-4 w-4" />
 			<a href="/discover/{slug}">
-				<div class="overflow-hidden text-ellipsis whitespace-nowrap">{slug}</div>
+				<div class="overflow-hidden text-ellipsis whitespace-nowrap">{indexMetadata?.title}</div>
 			</a>
 			<ChevronRight class="h-4 w-4" />
 			<div class="font-medium text-foreground">{doc?.title}</div>
