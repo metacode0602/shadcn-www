@@ -7,7 +7,7 @@ export const load: PageLoad = async (event) => {
 	console.warn("in [doc] PageLoad--:", slug, event.params.doc)
 
 	// 这是用户要访问的md文件，如果找不到，则404跳转
-	const { component, title, metadata } = await getDocInDiscover(slug + "/" + event.params.doc, true);
+	const { component, title, metadata } = await getDocInDiscover(slug + "/" + event.params.doc, false);
 	// 取分类的metacode
 	const { metadata: indexMetadata } = await getDocInDiscover(slug + "/index", false);
 

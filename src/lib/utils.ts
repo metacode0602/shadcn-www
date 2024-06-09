@@ -185,7 +185,7 @@ function findMatch(slug: string, modules: Modules) {
 	let match: { path?: string; resolver?: DocResolver } = {};
 
 	for (const [path, resolver] of Object.entries(modules)) {
-		console.warn("findMatch -->", slug, slugFromPath(path) === slug, path)
+		// console.warn("findMatch -->", slug, slugFromPath(path) === slug, path)
 		if (slugFromPath(path) === slug) {
 			match = { path, resolver: resolver as unknown as DocResolver };
 			break;
@@ -245,7 +245,6 @@ export async function getDocInDiscover(slug: string, redirect: boolean) {
 	let temp: string;
 	for (const [path, resolver] of Object.entries(modules)) {
 		temp = path.replace("/src/content/discover/", "").replace(".md", "")
-		console.warn("getDocInDiscover:", temp, slug, path);
 		if (temp === slug) {
 			match = { path, resolver: resolver as unknown as DocResolver };
 			break;
