@@ -62,18 +62,18 @@ const config = {
 				if (details.id === '#') return;
 				console.warn(details.message);
 			},
-      // 这里定义 handleHttpError
-      handleHttpError: ({ status, path, referrer, referenceType, message }) => {
-        // 根据需要处理错误
-        // 例如，可以选择忽略特定的错误，或者打印警告，或者让构建失败
-        if (status === 404) {
-          // 忽略404错误
-          console.warn(`Page not found: ${path}`);
-        } else {
-          // 其他情况下，让构建失败
-          throw new Error(message);
-        }
-      }
+			// 这里定义 handleHttpError
+			handleHttpError: ({ status, path, referrer, referenceType, message }) => {
+				// 根据需要处理错误
+				// 例如，可以选择忽略特定的错误，或者打印警告，或者让构建失败
+				if (status === 404 || status === 500) {
+					// 忽略404错误
+					console.warn(`Page not found: ${path}`, message);
+				} else {
+					// 其他情况下，让构建失败
+					throw new Error(message);
+				}
+			},
 		},
 	},
 };
