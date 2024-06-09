@@ -23,10 +23,7 @@
 			<ContextMenu.Trigger>
 				<div class="overflow-hidden rounded-md">
 					<img
-						class={cn(
-							'h-auto w-auto object-cover transition-all hover:scale-105',
-							aspectRatio === 'portrait' ? 'aspect-[3/4]' : 'aspect-square'
-						)}
+						class={cn(' object-cover transition-all hover:scale-105', 'aspect-[4/3]')}
 						src={album.cover}
 						alt={album.title}
 						{width}
@@ -41,9 +38,14 @@
 				<ContextMenu.Item>分享</ContextMenu.Item>
 			</ContextMenu.Content>
 		</ContextMenu.Root>
-		<div class="space-y-1 text-sm">
-			<h3 class="font-medium leading-none">{album.title}</h3>
-			<p class="text-xs text-muted-foreground">{album.description}</p>
+		<div class="space-y-2 my-3">
+			<h3 class="font-medium leading-none text-xl max-w-xs overflow-hidden whitespace-nowrap text-overflow-ellipsis">
+				{album.title}
+			</h3>
+			<p class="max-w-xs overflow-hidden whitespace-nowrap text-overflow-ellipsis">{album.label}</p>
+			<p class="text-sm text-muted-foreground max-w-sm overflow-hidden text-ellipsis leading-tight line-clamp-2">
+				{album.description}
+			</p>
 		</div>
 	</a>
 </div>

@@ -35,7 +35,7 @@ export type FrontMatter = {
 		url: string;
 	};
 	tags?: string[]; //tag标签
-	label?: string;//
+	label?: string;//note，即显示在card中的简要介绍。
 	bits?: string;  //原来设计为bits地址，现在设计为官网的url地址
 	cover?: string; //https://pic.chinaz.com/ai/logo/2024/0605/30913.jpg
 	logo?: string; //远程img的url地址https://pic.chinaz.com/ai/logo/2024/0605/30913.jpg

@@ -11,9 +11,9 @@
 	<div class="container relative pb-10">
 		<div class="border-t">
 			<div class="bg-background">
-				<div class="grid lg:grid-cols-5">
+				<div class="grid md:grid-cols-5 lg:grid-cols-5">
 					<Sidebar {sidebarNav} class="hidden lg:block" />
-					<div class="col-span-3 lg:col-span-4 lg:border-l">
+					<div class="col-span-4 lg:col-span-4 lg:border-l">
 						<slot />
 					</div>
 				</div>

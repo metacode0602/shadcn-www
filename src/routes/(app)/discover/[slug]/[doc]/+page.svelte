@@ -7,6 +7,7 @@
 	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
 	export let data: PageData;
 	import { AlbumFrontMatter } from '$lib/components/island/index.js';
+	import { Badge } from '$lib/registry/new-york/ui/badge/index.js';
 
 	type Component = $$Generic<ComponentType>;
 	$: component = data.component as unknown as Component;
@@ -23,23 +24,33 @@
 				<div class="overflow-hidden text-ellipsis whitespace-nowrap">产品库</div>
 			</a>
 			<ChevronRight class="h-4 w-4" />
-			<a href="/discover/{slug}">
-				<div class="overflow-hidden text-ellipsis whitespace-nowrap">{indexMetadata?.title}</div>
-			</a>
-			<ChevronRight class="h-4 w-4" />
+			{#if indexMetadata}
+				<a href="/discover/{slug}">
+					<div class="overflow-hidden text-ellipsis whitespace-nowrap">{indexMetadata?.title}</div>
+				</a>
+				<ChevronRight class="h-4 w-4" />
+			{/if}
 			<div class="font-medium text-foreground">{doc?.title}</div>
 		</div>
 
 		<main class="relative py-6 lg:gap-10 lg:py-8 grid lg:grid-cols-5">
 			<div class="hidden text-sm xl:block col-span-2">
 				<div class="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] overflow-hidden pt-6">
-					<img src="https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80" alt={doc.title} />
+					<img src={doc?.cover} alt={doc?.title} />
 				</div>
 			</div>
 			<div class="col-span-3">
 				<div class="space-y-2">
 					<h1 class={cn('scroll-m-20 text-4xl font-bold tracking-tight')}>
 						{doc?.title}
+
+						{#if doc?.tags}
+							<div>
+								{#each doc.tags as tag}
+									<Badge variant="secondary" class="text-sm m-2 p-2">{tag}</Badge>
+								{/each}
+							</div>
+						{/if}
 					</h1>
 					{#if doc?.description}
 						<p class="text-balance text-lg text-muted-foreground">
