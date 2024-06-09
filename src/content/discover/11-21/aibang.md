@@ -15,7 +15,7 @@ external:
 relates:
   - /11-21/about.md
   - /11-21/aibang.md
-  - /11-22/name.md
+  - /11-22/command.md
 ---
 
 ### 这是aibang

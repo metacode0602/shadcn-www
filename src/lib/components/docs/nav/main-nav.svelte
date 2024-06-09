@@ -18,7 +18,7 @@
 				href="/"
 				class={cn(
 					'transition-colors hover:text-foreground/80',
-					$page.url.pathname.startsWith('/examples') ? 'text-foreground' : 'text-foreground/60'
+					$page.url.pathname === '/' ? 'text-foreground' : 'text-foreground/60'
 				)}
 			>
 				首页

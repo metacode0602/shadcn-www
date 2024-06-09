@@ -20,7 +20,7 @@ export const isBrowser = typeof document !== "undefined";
  * @returns
  */
 export function slugFromPath(path: string) {
-	return path.replace("/src/content/", "").replace(".md", "");
+	return path.replace("/src/content/docs/", "").replace(".md", "");
 }
 
 export function hexToHsl(hex: string): [number, number, number] {
@@ -185,6 +185,7 @@ function findMatch(slug: string, modules: Modules) {
 	let match: { path?: string; resolver?: DocResolver } = {};
 
 	for (const [path, resolver] of Object.entries(modules)) {
+		console.warn("findMatch -->", slug, slugFromPath(path) === slug, path)
 		if (slugFromPath(path) === slug) {
 			match = { path, resolver: resolver as unknown as DocResolver };
 			break;
@@ -216,7 +217,7 @@ function getIndexDocIfExists(slug: string, modules: Modules) {
  * @returns
  */
 export async function getDoc(slug: string) {
-	const modules = import.meta.glob(`/src/content/**/*.md`);
+	const modules = import.meta.glob(`/src/content/docs/**/*.md`);
 	const match = findMatch(slug, modules);
 	const doc = await match?.resolver?.();
 
