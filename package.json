@@ -26,7 +26,6 @@
 	"devDependencies": {
 		"@playwright/test": "^1.44.1",
 		"@prettier/sync": "0.5.2",
-		"@sveltejs/adapter-cloudflare": "4.4.0",
 		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/enhanced-img": "^0.2.1",
 		"@sveltejs/kit": "^2.5.10",

@@ -1,30 +1,30 @@
 <script lang="ts">
-	import Circle from "svelte-radix/Circle.svelte";
-	import File from "svelte-radix/File.svelte";
-	import Laptop from "svelte-radix/Laptop.svelte";
-	import Moon from "svelte-radix/Moon.svelte";
-	import Sun from "svelte-radix/Sun.svelte";
-	import { onMount } from "svelte";
-	import { resetMode, setMode } from "mode-watcher";
-	import * as Command from "$lib/registry/new-york/ui/command/index.js";
-	import { Button } from "$lib/registry/new-york/ui/button/index.js";
-	import { cn } from "$lib/utils.js";
-	import { docsConfig } from "$lib/config/docs.js";
-	import { goto } from "$app/navigation";
+	import Circle from 'svelte-radix/Circle.svelte';
+	import File from 'svelte-radix/File.svelte';
+	import Laptop from 'svelte-radix/Laptop.svelte';
+	import Moon from 'svelte-radix/Moon.svelte';
+	import Sun from 'svelte-radix/Sun.svelte';
+	import { onMount } from 'svelte';
+	import { resetMode, setMode } from 'mode-watcher';
+	import * as Command from '$lib/registry/new-york/ui/command/index.js';
+	import { Button } from '$lib/registry/new-york/ui/button/index.js';
+	import { cn } from '$lib/utils.js';
+	import { docsConfig } from '$lib/config/docs.js';
+	import { goto } from '$app/navigation';
 
 	let open = false;
 
 	onMount(() => {
 		function handleKeydown(e: KeyboardEvent) {
-			if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
+			if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
 				e.preventDefault();
 				open = true;
 			}
 		}
-		document.addEventListener("keydown", handleKeydown);
+		document.addEventListener('keydown', handleKeydown);
 
 		return () => {
-			document.removeEventListener("keydown", handleKeydown);
+			document.removeEventListener('keydown', handleKeydown);
 		};
 	});
 
@@ -39,14 +39,12 @@
 
 <Button
 	variant="outline"
-	class={cn(
-		"relative w-full justify-start text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64"
-	)}
+	class={cn('relative w-full justify-start text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64')}
 	on:click={() => (open = true)}
 	{...$$restProps}
 >
-	<span class="hidden lg:inline-flex"> Search documentation... </span>
-	<span class="inline-flex lg:hidden">Search...</span>
+	<span class="hidden lg:inline-flex"> 产品快速查询... </span>
+	<span class="inline-flex lg:hidden">搜索...</span>
 	<kbd
 		class="pointer-events-none absolute right-1.5 top-1.5 hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex"
 	>
@@ -54,10 +52,10 @@
 	</kbd>
 </Button>
 <Command.Dialog bind:open>
-	<Command.Input placeholder="Type a command or search" />
+	<Command.Input placeholder="输入内容进行搜索" />
 	<Command.List>
-		<Command.Empty>No results found.</Command.Empty>
-		<Command.Group heading="Links">
+		<Command.Empty>站内没有找到内容，可以试试AI问问。</Command.Empty>
+		<Command.Group heading="站内链接">
 			{#each mainNav as navItem}
 				<Command.Item
 					value={navItem.title}
@@ -91,11 +89,11 @@
 		{/each}
 		<Command.Separator />
 		<Command.Group heading="Theme">
-			<Command.Item value="light" onSelect={() => runCommand(() => setMode("light"))}>
+			<Command.Item value="light" onSelect={() => runCommand(() => setMode('light'))}>
 				<Sun class="mr-2 h-4 w-4" />
 				Light
 			</Command.Item>
-			<Command.Item value="dark" onSelect={() => runCommand(() => setMode("dark"))}>
+			<Command.Item value="dark" onSelect={() => runCommand(() => setMode('dark'))}>
 				<Moon class="mr-2 h-4 w-4" />
 				Dark
 			</Command.Item>

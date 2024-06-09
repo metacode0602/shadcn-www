@@ -47,13 +47,20 @@ export const load: PageLoad = async (event) => {
 	};
 };
 
+/**
+ * 这里只需要分类的目录就可以了
+ */
 export const entries: EntryGenerator = () => {
-	const modules = import.meta.glob("/src/content/discover/**/*.md");
+	const modules = import.meta.glob("/src/content/discover/**/index.md");
 	const entries = [];
-
+	console.warn("in discover [slug] modules is:", modules);
 	for (const path of Object.keys(modules)) {
-		const slug = path.replace("/src/content/discover/", "").replace(".md", "").replace("/index", "");
-		entries.push({ slug });
+		if (!path.startsWith("/src/content/discover/index.md")){
+			const slug = path.replace("/src/content/discover/", "").replace("/index.md", "");
+			entries.push({ slug });
+		}
+		// const slug = path.replace("/src/content/discover/", "").replace(".md", "").replace("/index", "");
+		// entries.push({ slug });
 	}
 	console.warn("in discover [slug] page.ts, entiries:", entries);
 	return entries;
@@ -67,22 +74,3 @@ export const entries: EntryGenerator = () => {
 const getSlugFilePath = (slug: string, path: string) => {
 	return slug + "/" + (path.split("/").pop() ?? "").replace(".md", "");
 }
-
-// 函数：对items数组进行排序并返回FrontMatterMap类型的对象实例
-// function sortItemsAndMapToRecord(items: FileWithFrontMatter[]): FrontMatterMap {
-// 	// 根据sort字段降序排列，未设置sort的排在后面
-// 	const sortedItems = items.sort((a, b) => {
-// 		const sortA = a.frontMatter.sort ?? Infinity; // 使用Infinity代替未设置的sort值
-// 		const sortB = b.frontMatter.sort ?? Infinity;
-// 		return sortB - sortA;
-// 	});
-
-// 	// 将排序后的数组转换为FrontMatterMap类型的对象实例
-// 	// 直接使用items数组的path作为键，frontMatter作为值，创建新的Record对象
-// 	const frontMatterMap: FrontMatterMap = items.reduce((record, { path, frontMatter }) => {
-// 		record[path] = frontMatter;
-// 		return record;
-// 	}, {} as FrontMatterMap);
-
-// 	return frontMatterMap;
-// }
