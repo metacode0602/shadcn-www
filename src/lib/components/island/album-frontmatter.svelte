@@ -23,7 +23,10 @@
 			<ContextMenu.Trigger>
 				<div class="overflow-hidden rounded-md">
 					<img
-						class={cn(' object-cover transition-all hover:scale-105', aspectRatio === 'portrait' ? 'aspect-[3/4]' : 'aspect-[4/3]')}
+						class={cn(
+							' object-cover transition-all hover:scale-105',
+							aspectRatio === 'portrait' ? 'aspect-[3/4]' : 'aspect-[5/3]'
+						)}
 						src={album.cover}
 						alt={album.title}
 						{width}

@@ -110,5 +110,3 @@ generated-assets
 .svelte-kit
 .yarn
 node_modules
-
-static/cover
