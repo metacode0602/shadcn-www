@@ -12,7 +12,7 @@
 		<div class="border-t">
 			<div class="bg-background">
 				<div class="grid md:grid-cols-5 lg:grid-cols-5">
-					<Sidebar {sidebarNav} class="hidden lg:block" />
+					<Sidebar {sidebarNav} class="hidden lg:block h-full overflow-y-auto" />
 					<div class="col-span-4 lg:col-span-4 lg:border-l">
 						<slot />
 					</div>
