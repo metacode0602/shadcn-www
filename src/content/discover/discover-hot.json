@@ -1,66 +1,176 @@
 [
 	{
-		"name": "React-Rendezvous",
-		"title": "Ethan Byte",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/about",
-		"cover": "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=300&dpr=2&q=80"
+		"title": "Exante",
+		"path": "shujufenxi/exante",
+		"cover": "/cover/20240610/6/10/20240610_70895f69.jpg",
+		"label": "AI驱动的合同管理平台，提高效率，降低风险。",
+		"logo": "/logo/20240610/6/10/20240610_501d00e6.jpg",
+		"description": "Exante是一个AI驱动的合同管理平台，旨在通过自动化合同数据提取、集中化的合同仪表板和个性化的AI合同助手，简化合同管理流程，提供可操作的洞察，并实现无需复杂实施即可使用的解决方案。它为忙碌的商业运营者提供了一种现代化的合同管理方法，帮助他们提高效率，降低风险，并发现有价值的洞察。",
+		"tags": ["AI", "合同管理", "自动化", "数据分析", "合规性"]
 	},
 	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
+		"title": "hoop.dev",
+		"path": "kehufuwu/hoop-dev",
+		"cover": "/cover/20240610/6/10/20240610_51492873.jpg",
+		"label": "用户友好的Web数据库客户端，简化数据库访问，保障数据安全。",
+		"logo": "/logo/20240610/6/10/20240610_41b6265e.jpg",
+		"description": "hoop.dev是一个现代的、基于Web的数据库客户端，旨在简化数据库访问流程，同时不牺牲安全性。它通过AI数据掩码技术保护个人可识别信息，支持从浏览器即时登录访问数据库，无需安装等待。此外，它还提供实时更新和Slack集成，确保团队成员间的信息同步和安全。hoop.dev支持将脚本转化为无代码应用，通过链接Git仓库、嵌入变量来实现。它还提供了多种快速启动选项，如Kubernetes、Docker、Unix等，适用于金融科技、健康科技等高度监管的行业。",
+		"tags": ["数据库管理", "AI", "Web客户端", "团队协作", "安全性"]
 	},
 	{
-		"name": "The-Art-of-Reusability",
-		"title": "Lena Logic",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-
-		"cover": "https://images.unsplash.com/photo-1528143358888-6d3c7f67bd5d?w=300&dpr=2&q=80"
+		"title": "LookOnceToHear",
+		"path": "yuyinchuli/lookoncetohear",
+		"cover": "/cover/20240610/6/10/20240610_e46302b5.jpg",
+		"label": "实时语音提取智能耳机交互系统",
+		"logo": "/logo/20240610/6/10/20240610_35493a70.jpg",
+		"description": "LookOnceToHear 是一种创新的智能耳机交互系统，允许用户通过简单的视觉识别来选择想要听到的目标说话者。这项技术在 CHI 2024 上获得了最佳论文荣誉提名。它通过合成音频混合、头相关传输函数(HRTFs)和双耳房间脉冲响应(BRIRs)来实现实时语音提取，为用户提供了一种新颖的交互方式。",
+		"tags": ["语音识别", "实时处理", "智能耳机", "交互系统"]
 	},
 	{
-		"name": "Stateful-Symphony",
-		"title": "Beth Binary",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-
-		"cover": "https://images.unsplash.com/photo-1490300472339-79e4adc6be4a?w=300&dpr=2&q=80"
+		"title": "easywithai.com",
+		"path": "dianzishangwu/easywithai-com",
+		"cover": "/cover/20240610/6/10/20240610_afa8d77b.jpg",
+		"label": "Easy With AI是一个集成了50多个不同类别AI工具和资源的平台。",
+		"logo": "/logo/20240610/6/10/20240610_de6f2ff3.jpg",
+		"description": "Easy With AI是一个拥有互联网上最大的AI工具和资源收藏的平台。您可以在50多个不同的类别中查找和搜索AI工具。Easy With AI为各种用户提供了便利和丰富的AI工具资源，包括AI写作助手、社交媒体工具、电子邮件工具、AI内容检测工具、客户服务工具、网站建设工具、电子商务工具、图像工具、音频工具、视频工具、音乐生成器、视频生成器、播客工具、演示制作工具、设计工具、直播工具、聊天机器人、语音工具、移动应用、转录工具、会议助手、建筑工具、生产力工具、教育工具、AI Chrome扩展和更多。您可以根据您的需求和兴趣，在Easy With AI上找到适合您的AI工具。",
+		"tags": [
+			"AI工具",
+			"资源",
+			"写作",
+			"社交媒体",
+			"电子邮件",
+			"网站建设",
+			"电子商务",
+			"图像",
+			"音频",
+			"视频",
+			"音乐",
+			"演示",
+			"设计",
+			"直播",
+			"聊天机器人",
+			"语音",
+			"移动应用",
+			"转录",
+			"会议",
+			"建筑",
+			"生产力",
+			"教育",
+			"Chrome扩展"
+		]
 	},
 	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
+		"title": "Heero",
+		"path": "renliziyuan/heero",
+		"cover": "/cover/20240610/6/10/20240610_c8ee611c.jpg",
+		"label": "使用最好的AI求职信生成器轻松创建专业的求职信。免费基于工作描述生成AI生成的求职信。",
+		"logo": "/logo/20240610/6/10/20240610_e6afe0ea.jpg",
+		"description": "Heero是一个AI增强的求职工具，包括AI求职信生成器。通过AI生成的求职信，根据工作描述轻松地打造专业的求职信。突出产品的AI生成求职信和求职信扫描等功能，强调其提供的优势和背景信息，定位为职业发展的必备工具。",
+		"tags": ["AI求职信", "简历生成器", "职业发展", "求职工具"]
 	},
 	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
+		"title": "Better Headshots",
+		"path": "touxiangshengcheng/better-headshots",
+		"cover": "/cover/20240610/6/10/20240610_16a1c092.jpg",
+		"label": "专业头像AI摄影工具",
+		"logo": "/logo/20240610/6/10/20240610_442610e3.jpg",
+		"description": "Better Headshots一款专业的头像AI摄影工具，通过上传自拍照片，用户可以在两小时内获得专业的头像照片。用户可以选择不同风格的拍摄，包括个性化和公司风格。产品定价灵活，覆盖个人和企业用户，提供不同套餐选择。AI摄影师能够生成高质量的头像照片，并经过人工审核，确保专业性和质量。",
+		"tags": ["头像", "摄影", "AI"]
+	},
+	{
+		"source": "",
+		"title": "MidiCall",
+		"path": "xiaoshouguanli/midicall",
+		"cover": "/cover/20240610/6/10/20240610_fdd8493c.jpg",
+		"label": "MidiCall是一个通过滑动来呼叫的应用程序，从一个私人的商业列表中生成。免费试用，每天有五个免费呼叫或滑动。",
+		"logo": "/logo/20240610/6/10/20240610_038bf9a1.jpg",
+		"description": "MidiCall是一个通过滑动来呼叫的CRM，可以与您的客户和潜在客户进行联系。它使用人工智能技术提供功能，并强调其主要优点是帮助企业找到客户和潜在用户测试者。它适用于初创企业和其他寻找客户或潜在用户测试者的企业。",
+		"tags": ["销售", "客户联系", "人工智能", "CRM"]
+	},
+	{
+		"source": "",
+		"title": "风平智能",
+		"path": "jiaoyizhushou/fengpingzhineng",
+		"cover": "/cover/20240610/6/10/20240610_d3566626.jpg",
+		"label": "提供虚拟数字人定制、AI 短视频内容生产和数字人直播的智能化 IP 打造平台。",
+		"logo": "/logo/20240610/6/10/20240610_f357d949.jpg",
+		"description": "风平 IP 智造平台是基于 AIGC 的智能化 IP 打造平台，致力于提供虚拟数字人定制、AI 短视频内容生产和数字人直播的一站式解决方案。通过结合领先的 AI 技术，平台实现了数字人的高质量生产和互动能力，为用户打造全新的数字人 IP 体验。",
+		"tags": ["数字人", "虚拟人物", "AI 内容生产", "IP 交易"]
+	},
+	{
+		"source": "",
+		"title": "豆包桌面 AI 助手",
+		"path": "bangongzhushou/doubaozhuomian-ai-zhushou",
+		"cover": "/cover/20240610/6/10/20240610_16382b72.jpg",
+		"label": "你的全能 AI 助手，助力每日工作学习",
+		"logo": "/logo/20240610/6/10/20240610_67132262.jpg",
+		"description": "豆包桌面 AI 助手是一款集成了多种 AI 功能的桌面应用程序，豆包电脑版客户端旨在提升用户的工作和学习效率。它通过 AI 划词翻译、搜索、AI 伴读 PDF 等功能，帮助用户快速获取信息，节省时间，提高生产力。产品由北京春田知韵科技有限公司开发，拥有简洁的界面和强大的功能，是现代办公和学习的得力助手。",
+		"tags": ["AI", "翻译", "搜索", "PDF", "效率", "创作"]
+	},
+	{
+		"source": "",
+		"title": "Iconik AI",
+		"path": "tubiaoshengcheng/iconik-ai",
+		"cover": "/cover/20240610/6/10/20240610_967e1521.jpg",
+		"label": "使用AI免费生成美丽的应用程序图标",
+		"logo": "/logo/20240610/6/10/20240610_22b8b607.jpg",
+		"description": "Iconik AI是一款使用人工智能生成应用程序图标的免费工具。它可以在5分钟内为Android、iOS和Web应用程序生成惊人的应用程序图标，无需设计技能。用户可以从多种设计选项中选择，包括极简主义、陶瓷、金属、像素、复古、卡通、水彩和2D游戏。Iconik AI的免费计划可以生成无限的应用程序图标，只有在下载时才需要付费。它已经得到了开发人员和设计师的高度评价。",
+		"tags": ["应用程序图标", "人工智能", "设计工具", "艺术灵感", "Ai图标生成"]
+	},
+	{
+		"source": "",
+		"title": "法行宝",
+		"path": "falvzhushou/fahangbao",
+		"cover": "/cover/20240610/6/10/20240610_e9024e87.jpg",
+		"label": "AI智能法律分析工具",
+		"logo": "/logo/20240610/6/10/20240610_f78246be.jpg",
+		"description": "法行宝是一款集成了人工智能技术的法律服务平台，旨在为用户提供专业的法律意见和文书参考。通过预设问题引导用户提供必要信息，结合《中华人民共和国民法典》等相关法律法规，生成详细的法律意见书。法行宝不仅提供离婚流程指导、文书模板下载，还包含人性化的行动建议和扩展资料，帮助用户全面理解并应对法律问题。",
+		"tags": ["法律咨询", "离婚案件", "文书模板", "法律流程"]
+	},
+	{
+		"source": "",
+		"title": "CodeScope",
+		"path": "sousuoyinqingyouhua/codescope",
+		"cover": "/cover/20240610/6/10/20240610_84de657e.jpg",
+		"label": "构建和编辑令人惊叹的AI应用",
+		"logo": "/logo/20240610/6/10/20240610_c6c8d60d.jpg",
+		"description": "CodeScope旨在成为技术和营销行业专业人士的必备工具，通过持续创新、用户中心设计和战略合作，帮助您构建AI应用、加速开发并实现市场增长。主要优点包括：快速开发流程、安全编码、SEO报告、自定义API构建器、无头CMS等。",
+		"tags": ["AI应用", "软件开发", "Web应用开发", "快速开发", "市场增长", "SEO优化", "自定义API", "无头CMS"]
+	},
+	{
+		"source": "",
+		"title": "Codestral",
+		"path": "daimafuzhu/codestral",
+		"cover": "/cover/20240610/6/10/20240610_317a366d.jpg",
+		"label": "Codestral是为代码生成任务设计的AI模型。",
+		"logo": "/logo/20240610/6/10/20240610_7e6ddce8.jpg",
+		"description": "Codestral是Mistral AI团队推出的首个代码生成AI模型，它能够通过共享指令和完成API端点帮助开发者编写和与代码交互。它在80多种编程语言上进行了训练，包括Python、Java、C、C++、JavaScript和Bash等，能够完成编码功能、编写测试和使用中间填充机制完成部分代码。Codestral在性能上设立了新的标准，它拥有32k的上下文窗口，比竞争对手的4k、8k或16k更大，从而在RepoBench上超越了所有其他模型。此外，它还提供了专用的API端点codestral.mistral.ai，允许用户在IDE中使用Instruct或Fill-In-the-Middle路由，并且提供了8周的免费beta期。Codestral还集成到了LlamaIndex和LangChain等应用框架中，以及VSCode和JetBrains环境中，使得开发者可以在这些环境中生成和与代码进行交互。",
+		"tags": ["代码生成", "AI辅助开发", "集成开发环境", "多语言支持"]
+	},
+	{
+		"source": "",
+		"title": "Ai-to-pptx",
+		"path": "bangongzhushou/ai-to-pptx",
+		"cover": "/cover/20240610/6/10/20240610_cc351611.jpg",
+		"label": "使用AI技术来自动生成PPTX 支持在线修改",
+		"logo": "/logo/20240610/6/10/20240610_e32d8205.jpg",
+		"description": "Ai-to-pptx 是一个使用 AI 技术 (ChatGpt 和 Gemini) 制作 PPTX 的助手，支持在线修改和导出 PPTX。主要功能包括使用 ChatGPT 等大语言模型生成大纲、允许用户再次修改内容、选择不同模板、在线修改 PPTX 的文字、样式、图片等，支持导出 PPTX、PDF、PNG 等多种格式。价格为付费，商业授权价格为 22000 元人民币或 3000 美元。",
+		"tags": ["PPTX", "AI 技术", "在线修改"]
+	},
+	{
+		"source": "",
+		"title": "ChatGPT Edu",
+		"path": "shujufenxi/chatgpt-edu",
+		"cover": "/cover/20240610/6/10/20240610_1e7f4436.jpg",
+		"label": "AI助力教育，智能校园助手",
+		"logo": "/logo/20240610/6/10/20240610_3f28c531.jpg",
+		"description": "ChatGPT Edu是OpenAI为大学校园设计的一款AI模型，旨在负责任地将人工智能技术引入学生、教职工、研究人员和校园运营中。该模型基于GPT-4o构建，能够进行文本和视觉推理，并使用数据分析等高级工具。它具有企业级的安全和控制功能，价格对教育机构而言是可承受的。ChatGPT Edu的推出基于牛津大学、宾夕法尼亚大学沃顿商学院、德克萨斯大学奥斯汀分校、亚利桑那州立大学和纽约哥伦比亚大学等在使用ChatGPT企业版时取得的成功。",
+		"tags": ["AI教育", "智能助手", "校园AI", "数据分析"]
 	}
 ]

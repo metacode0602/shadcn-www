@@ -1,72 +1,152 @@
 [
 	{
-		"name": "React-Rendezvous",
-		"title": "Ethan Byte",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=300&dpr=2&q=80"
+		"title": "AudioLCM",
+		"path": "yuyinchuli/audiolcm",
+		"cover": "/cover/20240610/6/10/20240610_1a22f34b.jpg",
+		"label": "高效的文本到音频生成模型，具有潜在一致性。",
+		"logo": "/logo/20240610/6/10/20240610_9762965b.jpg",
+		"description": "AudioLCM是一个基于PyTorch实现的文本到音频生成模型，它通过潜在一致性模型来生成高质量且高效的音频。该模型由Huadai Liu等人开发，提供了开源的实现和预训练模型。它能够将文本描述转化为接近真实的音频，具有重要的应用价值，尤其是在语音合成、音频制作等领域。",
+		"tags": ["文本到音频", "语音合成", "音频生成", "PyTorch"]
 	},
 	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
+		"title": "Fryderyk",
+		"path": "yinlechuangzuo/fryderyk",
+		"cover": "/cover/20240610/6/10/20240610_25d64493.jpg",
+		"label": "AI辅助的音乐创作伙伴",
+		"logo": "/logo/20240610/6/10/20240610_accd839f.jpg",
+		"description": "Fryderyk是一个集成了AI助手的音乐制作网页应用程序，它提供了一个浏览器内的音乐创作环境，支持即插即用，连接麦克风或任何MIDI乐器。用户可以访问广泛的虚拟乐器库，应用混响、失真、延迟等效果和混合工具，进行音频编辑、录制和编辑音频。Fryderyk还提供云存储功能，项目自动保存并同步至所有设备。它的内置生成性AI能够扩展用户的想法或在用户遇到创作瓶颈时提供新的想法。",
+		"tags": ["音乐创作", "AI辅助", "云同步", "音效编辑"]
 	},
 	{
-		"name": "The-Art-of-Reusability",
-		"title": "Lena Logic",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1528143358888-6d3c7f67bd5d?w=300&dpr=2&q=80"
+		"title": "多平台AI艺术生成器",
+		"path": "yishuchuangzuo/duopingtaiaiyishushengchengqi",
+		"cover": "/cover/20240610/6/10/20240610_3343e27c.jpg",
+		"label": "一个支持多种AI艺术生成平台的创意工具，让艺术创作更简单。",
+		"logo": "/logo/20240610/6/10/20240610_8019f5ec.jpg",
+		"description": "多平台AI艺术生成器是一个集成了多个AI艺术生成平台的在线工具，如MidJourney、DALL-E 3、Leonardo等，为用户提供了丰富的艺术创作选项。它通过简单的操作流程，允许用户选择不同的AI平台和模型，设置分辨率，输入提示语，并生成艺术作品。该产品的主要优点在于其便捷性、创意性和多样性，它不仅适用于专业设计师寻找灵感，也适合普通用户进行个性化艺术创作。目前，该产品的具体价格和定位信息未在页面上提供。",
+		"tags": ["AI艺术", "创意工具", "在线生成", "多平台支持", "个性化创作"]
 	},
 	{
-		"name": "Stateful-Symphony",
-		"title": "Beth Binary",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1490300472339-79e4adc6be4a?w=300&dpr=2&q=80"
+		"title": "Feedback Navigator",
+		"path": "kehufuwu/feedback-navigator",
+		"cover": "/cover/20240610/6/10/20240610_c76cb32e.jpg",
+		"label": "快速收集并提取客户反馈的宝贵见解。",
+		"logo": "/logo/20240610/6/10/20240610_99f1543e.jpg",
+		"description": "Feedback Navigator 是一个AI驱动的客户反馈分析平台，它允许用户从多个平台导入客户反馈，通过内置的数据源、自定义类别、情感分析等工具，迅速提取有价值的见解。该平台支持自动化工作流，并通过CSV导出功能，使用户能够在外部进行自定义分析或可视化。",
+		"tags": ["客户反馈", "情感分析", "自动化", "数据导出"]
 	},
 	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
+		"title": "Latercut",
+		"path": "shipinchuangzuo/latercut",
+		"cover": "/cover/20240610/6/10/20240610_4cc2084d.jpg",
+		"label": "快速制作社交媒体短视频。",
+		"logo": "/logo/20240610/6/10/20240610_73c7cd94.jpg",
+		"description": "Latercut是一个专注于短视频制作的在线平台，支持快速剪辑和发布到各大社交媒体平台。它利用AI模板技术，简化视频编辑流程，帮助用户节省时间，提高内容创作效率。",
+		"tags": ["短视频", "社交媒体", "AI编辑", "内容创作"]
 	},
 	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
+		"title": "Kallo",
+		"path": "falvzhushou/kallo",
+		"cover": "/cover/20240610/6/10/20240610_d0084e05.jpg",
+		"label": "您的AI合作伙伴 | 教育、STEM、法律",
+		"logo": "/logo/20240610/6/10/20240610_0dca0d6a.jpg",
+		"description": "Kallo是您个人文档和资源库的即时专家，为您提供答案、生成见解，并邀请您的团队进行多用户协作。我们专注于使复杂的文档和信息易于访问和高度可操作。",
+		"tags": ["AI合作伙伴", "教育", "STEM", "法律"]
 	},
 	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
 		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
+		"title": "Chat-Flow",
+		"path": "xuexijiaoyu/chat-flow",
+		"cover": "/cover/20240610/6/10/20240610_b5bc2b80.jpg",
+		"label": "AI驱动的客户支持解决方案，提升中小企业的客户满意度。",
+		"logo": "/logo/20240610/6/10/20240610_33114e3d.jpg",
+		"description": "ChatFlow是一款为初创企业和中小企业设计的AI驱动客户支持平台。它通过现代化、可扩展和智能的解决方案，帮助企业构建客户满意度。主要功能包括实时聊天、AI驱动的聊天机器人、自动化票务系统、多渠道集成、分析和报告以及知识库。ChatFlow的AI聊天机器人能够处理常规咨询，释放人工客服处理更复杂的任务。此外，它还提供24/7的自动化客户支持，无需等待，即时解决客户问题。",
+		"tags": ["AI", "客户支持", "自动化", "多渠道", "知识库"]
+	},
+	{
+		"source": "",
+		"title": "LeadShark",
+		"path": "xiaoshouguanli/leadshark",
+		"cover": "/cover/20240610/6/10/20240610_2250e7c1.jpg",
+		"label": "自动化B2B销售自动化工具，通过智能推荐和ICP，简化冷启动，并生成更多潜在客户。",
+		"logo": "/logo/20240610/6/10/20240610_a82620e1.jpg",
+		"description": "LeadShark是一款B2B销售自动化工具，通过智能推荐和ICP（理想客户画像），简化冷启动过程。它可以帮助用户寻找更多潜在客户，并提供验证的联系方式。LeadShark还提供自动化的潜在客户生成，以扩大销售渠道。用户可以将潜在客户导出到Excel或Google Sheets，并将其上传到CRM系统或开始营销活动。通过LeadShark，用户可以加速潜在客户的开发，并以更快的速度关闭销售。",
+		"tags": ["B2B", "销售", "自动化", "潜在客户", "冷启动"]
+	},
+	{
+		"source": "",
+		"title": "CleanerPro",
+		"path": "tuxiangshengcheng/cleanerpro",
+		"cover": "/cover/20240610/6/10/20240610_ff7b0e3e.jpg",
+		"label": "AI驱动的图片编辑器，快速清除图片中的不需要元素。",
+		"logo": "/logo/20240610/6/10/20240610_28d7861f.jpg",
+		"description": "CleanerPro是一款AI驱动的图片编辑器，专为Shopify商店设计，能够迅速去除图片中的不需要的对象、缺陷或文字。它通过AI技术，提供了一键式去除元素、背景以及提升图片分辨率的功能。产品背景信息显示，CleanerPro由Cleaner App, Inc.开发，并且提供了三种不同的订阅计划，以满足不同用户的需求。",
+		"tags": ["AI编辑", "图片处理", "Shopify", "营销工具"]
+	},
+	{
+		"source": "",
+		"title": "AI-signals",
+		"path": "jiaoyizhushou/ai-signals",
+		"cover": "/cover/20240610/6/10/20240610_21c7ad61.jpg",
+		"label": "AI-signals - AI 交易指标",
+		"logo": "/logo/20240610/6/10/20240610_9bffec8a.jpg",
+		"description": "AI-signals 利用复杂算法和实时数据指示最准确的买卖点、反转点、供需区域等，帮助您在交易中降低情绪干扰并遵循一个系统。",
+		"tags": ["AI", "交易", "指标"]
+	},
+	{
+		"source": "",
+		"title": "I2VEdit",
+		"path": "shipinchuangzuo/i2vedit",
+		"cover": "/cover/20240610/6/10/20240610_16133f1a.jpg",
+		"label": "一种基于图像到视频扩散模型的视频编辑技术",
+		"logo": "/logo/20240610/6/10/20240610_fd174924.jpg",
+		"description": "I2VEdit是一种创新的视频编辑技术，通过预训练的图像到视频模型，将单一帧的编辑扩展到整个视频。这项技术能够适应性地保持源视频的视觉和运动完整性，并有效处理全局编辑、局部编辑以及适度的形状变化，这是现有方法所不能实现的。I2VEdit的核心包括两个主要过程：粗略运动提取和外观细化，通过粗粒度注意力匹配进行精确调整。此外，还引入了跳过间隔策略，以减轻多个视频片段自动回归生成过程中的质量下降。实验结果表明，I2VEdit在细粒度视频编辑方面的优越性能，证明了其能够产生高质量、时间一致的输出。",
+		"tags": ["视频编辑", "图像到视频", "扩散模型"]
+	},
+	{
+		"source": "",
+		"title": "Growf AI",
+		"path": "sousuoyinqingyouhua/growf-ai",
+		"cover": "/cover/20240610/6/10/20240610_9c50c03e.jpg",
+		"label": "用Growf轻松优化您的营销策略 - 这是一个AI驱动的营销专家，可以在几分钟内制定数据支持的策略。告别营销猜测，迎接精准成功。立即访问！",
+		"logo": "/logo/20240610/6/10/20240610_42355361.jpg",
+		"description": "Growf是一个AI驱动的营销专家，通过连接产品的特点与实际优势，为您制定数据支持的营销策略。它提供精确的目标受众研究、价值主张传达、SEO和SEA工具、内容生成、LinkedIn广告等功能。通过使用Growf，您不仅仅是获取一个工具，还能获得一位深入了解您的目标受众的营销合作伙伴。",
+		"tags": ["营销", "AI", "数据支持", "SEO", "SEA", "内容生成", "LinkedIn广告"]
+	},
+	{
+		"source": "",
+		"title": "ChatTTS.com",
+		"path": "yuyinchuli/chattts-com",
+		"cover": "/cover/20240610/6/10/20240610_56947b5e.jpg",
+		"label": "自然对话场景下的文字转语音模型",
+		"logo": "/logo/20240610/6/10/20240610_e4a216c9.jpg",
+		"description": "ChatTTS是一个为对话场景设计的声音生成模型，特别适用于大型语言模型助手的对话任务，以及对话式音频和视频介绍等应用。它支持中英文，通过使用约10万小时的中英文数据训练，展现出高质量和自然度的语音合成能力。",
+		"tags": ["语音合成", "对话", "多语言", "开源"]
+	},
+	{
+		"source": "",
+		"title": "Hashtag Guru: AI Assist for IG",
+		"path": "shejiaomeiti/hashtag-guru-ai-assist-for-ig",
+		"cover": "/cover/20240609/6/10/20240609_563ff683.jpg",
+		"label": "AI驱动的标签和标题生成器，提升社交媒体影响力。",
+		"logo": "/logo/20240609/6/10/20240609_5e9b6b9a.jpg",
+		"description": "Hashtag Guru是一款AI驱动的社交媒体辅助工具，专为Instagram和TikTok等平台设计。它通过先进的AI技术，帮助用户生成吸引眼球的标签和标题，从而增加帖子的曝光率和互动性。产品的主要优点包括个性化的标签生成、基于图片和描述的标题生成、以及便捷的标签和标题管理功能。背景信息显示，该应用由Marton Zeisler开发，适合希望提升社交媒体影响力的用户，无论是个人还是企业。",
+		"tags": ["社交媒体", "AI生成", "标签", "标题", "互动提升"]
+	},
+	{
+		"source": "",
+		"title": "Leadog",
+		"path": "youjianzhushou/leadog",
+		"cover": "/cover/20240609/6/9/20240609_4eb58286.jpg",
+		"label": "AI驱动的冷邮件营销、线索跟踪和互动",
+		"logo": "/logo/20240609/6/9/20240609_3b56c2d9.jpg",
+		"description": "Leadog.io是一款AI驱动的冷邮件营销平台，提供冷邮件发送、线索跟踪和互动等功能。它采用先进的AI技术来优化冷邮件营销策略，提供精确的邮件投递和跟踪，帮助用户更好地了解和转化潜在客户。",
+		"tags": ["冷邮件", "线索跟踪", "营销工具"]
 	}
 ]

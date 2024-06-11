@@ -1,8 +1,6 @@
 <script lang="ts">
 	import PlusCircled from 'svelte-radix/PlusCircled.svelte';
 	import { Button } from '$lib/registry/new-york/ui/button/index.js';
-	// import indexNewData from '../../../content/discover/index-new.json';
-	// import indexHotData from '../../../content/discover/index-hot.json';
 	import * as Tabs from '$lib/registry/new-york/ui/tabs/index.js';
 	import type { PageData } from './$types.js';
 	import { AlbumFrontMatter, AlbumProduct } from '$lib/components/island/index.js';
@@ -29,19 +27,23 @@
 		</div>
 		<Tabs.Content value="music" class="border-none p-0 outline-none">
 			<div class="relative my-10">
-				<div class="grid grid-cols-5 gap-4">
-					{#each indexNewData as album}
-						<AlbumFrontMatter {album} aspectRatio="portrait" width={250} height={330} />
-					{/each}
+				<div class="grid grid-cols-3 gap-6">
+					{#if indexNewData && indexNewData.length}
+						{#each indexNewData as album}
+							<AlbumFrontMatter {album} width={250} height={330} />
+						{/each}
+					{/if}
 				</div>
 			</div>
 		</Tabs.Content>
 		<Tabs.Content value="podcasts" class="border-none p-0 outline-none">
 			<div class="relative my-10">
-				<div class="grid grid-cols-5 gap-4">
-					{#each indexHotData as album}
-						<AlbumFrontMatter {album} aspectRatio="portrait" width={250} height={330} />
-					{/each}
+				<div class="grid grid-cols-3 gap-6">
+					{#if indexHotData && indexHotData.length}
+						{#each indexHotData as album}
+							<AlbumFrontMatter {album} width={250} height={330} />
+						{/each}
+					{/if}
 				</div>
 			</div>
 		</Tabs.Content>

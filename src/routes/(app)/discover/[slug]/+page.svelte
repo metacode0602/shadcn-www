@@ -34,7 +34,7 @@
 					</div>
 					<Separator class="my-6" />
 					<div class="relative">
-						<div class="grid grid-cols-3 gap-4">
+						<div class="grid grid-cols-3 gap-6">
 							{#each visibleItems as album}
 								<AlbumFrontMatter parent="discover" {album} width={321} height={221} />
 							{/each}

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { madeForYouAlbums } from '$lib/types/category.js';
 	import PlusCircled from 'svelte-radix/PlusCircled.svelte';
-	import AlbumProduct from '$lib/components/island/album-product.svelte';
+	import { AlbumFrontMatter, AlbumProduct } from '$lib/components/island/index.js';
 	import { Button } from '$lib/registry/new-york/ui/button/index.js';
 	import { Separator } from '$lib/registry/new-york/ui/separator/index.js';
 	import type { PageData } from './$types.js';
@@ -30,9 +30,11 @@
 					</div>
 					<Separator class="my-6" />
 					<div class="relative">
-						<div class="grid grid-cols-6 gap-4">
+						<div class="grid grid-cols-4 gap-6">
 							{#each faveritesData as album}
-								<AlbumProduct {album} aspectRatio="portrait" width={221} height={221} />
+								{#if album}
+									<AlbumFrontMatter {album} width={221} height={221} />
+								{/if}
 							{/each}
 						</div>
 					</div>

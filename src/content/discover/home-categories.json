@@ -1,126 +1,3551 @@
 [
 	{
-		"title": "图像处理",
-		"name": "11",
-		"cover": "https://images.unsplash.com/photo-1615247001958-f4bc92fa6a4a?w=300&dpr=2&q=80",
-		"children": [
+		"title": "文本",
+		"name": "wenben",
+		"href": "wenben",
+		"total": 8462,
+		"items": [
 			{
-				"name": "11-22",
-				"title": "图像生成",
+				"title": "文案写作",
+				"name": "wenanxiezuo",
+				"href": "/discover/wenanxiezuo",
+				"total": 2486,
 				"products": [
 					{
-						"name": "Era3D",
-						"title": "高分辨率多视角扩散模型，使用高效",
-						"path": "11-21/about.md",
-						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。图像生成多视角",
-						"tags": ["图像生成", "多视角"],
-						"cover": "https://images.unsplash.com/photo-1513745405825-efaf9a49315f?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "AI Summary Extension",
+						"path": "wenanxiezuo/ai-summary-extension",
+						"cover": "/cover/20240609/6/10/20240609_4a69f12e.jpg",
+						"label": "快速获取网页内容的AI生成摘要。",
+						"logo": "/logo/20240609/6/10/20240609_dc7facea.jpg",
+						"description": "AI Summary Extension是一个Chrome浏览器插件，利用OpenAI技术快速生成网页内容的摘要，并可以与Reabble的Send To Kindle扩展结合使用，提供摘要和全文，非常适合快速阅读和移动阅读。",
+						"tags": ["网页摘要", "ai", "浏览器插件", "kindle"]
 					},
 					{
-						"name": "Era3D",
-						"path": "11-21/about.md",
-						"title": "高分辨率多视角扩散模型，使用高效",
-						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。图像生成多视角",
-						"tags": ["图像生成", "多视角"],
-						"cover": "https://images.unsplash.com/photo-1615247001958-f4bc92fa6a4a?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "AIModels.fyi",
+						"path": "wenanxiezuo/aimodels-fyi",
+						"cover": "/cover/20240609/6/10/20240609_ba2d902f.jpg",
+						"label": "发现真正重要的AI突破",
+						"logo": "/logo/20240609/6/10/20240609_abdfb849.jpg",
+						"description": "AIModels.fyi是一个专注于AI领域的平台，提供每日更新的AI论文、模型和工具的摘要。它通过算法筛选出具有重大影响力的AI发展，并将复杂的模型和论文转化为简短、清晰的指南，帮助用户快速吸收和应用。此外，订阅者还可以获得个性化的AI内容，无需博士学位即可理解的顶级模型、论文和工具指南，以及与AI专家和构建者交流的独家Discord社区访问权限。",
+						"tags": ["AI", "研究", "模型", "工具", "摘要", "社区"]
 					},
 					{
-						"name": "Stateful Symphony",
-						"path": "11-21/about.md",
-						"title": "Beth Binary",
-						"tags": ["AI作画", "编程"],
-						"cover": "https://images.unsplash.com/photo-1490300472339-79e4adc6be4a?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "AudioLCM",
+						"path": "wenanxiezuo/audiolcm",
+						"cover": "/cover/20240609/6/10/20240609_1a22f34b.jpg",
+						"label": "高效的文本到音频生成模型，具有潜在一致性。",
+						"logo": "/logo/20240609/6/10/20240609_9762965b.jpg",
+						"description": "AudioLCM是一个基于PyTorch实现的文本到音频生成模型，它通过潜在一致性模型来生成高质量且高效的音频。该模型由Huadai Liu等人开发，提供了开源的实现和预训练模型。它能够将文本描述转化为接近真实的音频，具有重要的应用价值，尤其是在语音合成、音频制作等领域。",
+						"tags": ["文本到音频", "语音合成", "音频生成", "PyTorch"]
+					},
+					{
+						"source": "",
+						"title": "AudiowaveAI",
+						"path": "wenanxiezuo/audiowaveai",
+						"cover": "/cover/20240609/6/9/20240609_15c23c9a.jpg",
+						"label": "将任何文本转换为有声读物质量的声音。",
+						"logo": "/logo/20240609/6/9/20240609_2ef3318d.jpg",
+						"description": "AudiowaveAI是一款利用人工智能技术将文本转换成高质量音频的应用程序。它与传统的文本到语音技术不同，提供了更加自然、富有情感的语音输出，让听众在学习和享受内容时获得更好的听觉体验。产品背景信息包括它是由全球创新公司和自由职业者信赖的产品，其主要优点在于其引人入胜的声音、自然的声音效果以及令人愉悦的听觉享受。产品定位为教育工具，旨在帮助用户在移动中学习，享受夏日阳光。",
+						"tags": ["人工智能", "文本到语音", "教育工具", "移动学习", "高质量音频"]
+					},
+					{
+						"source": "",
+						"title": "AutoCoder",
+						"path": "wenanxiezuo/autocoder",
+						"cover": "/cover/20240609/6/9/20240609_65d225f2.jpg",
+						"label": "代码生成任务的新型模型，测试准确率高于GPT-4 Turbo。",
+						"logo": "/logo/20240609/6/9/20240609_2d292fab.jpg",
+						"description": "AutoCoder是一个专为代码生成任务设计的新型模型，其在HumanEval基准数据集上的测试准确率超过了GPT-4 Turbo（2024年4月）和GPT-4o。与之前的开源模型相比，AutoCoder提供了一个新功能：它可以自动安装所需的包，并在用户希望执行代码时尝试运行代码，直到确定没有问题。",
+						"tags": ["机器学习", "文本生成", "代码生成", "nlp-machine-learning", "humaneval", "llm", "code-interpreter"]
+					},
+					{
+						"source": "",
+						"title": "百小应",
+						"path": "wenanxiezuo/baixiaoying",
+						"cover": "/cover/20240609/6/9/20240609_8e1489b5.jpg",
+						"label": "百川智能的语言 AI 助手，懂搜索的 AI 助手。",
+						"logo": "/logo/20240609/6/9/20240609_f5075828.jpg",
+						"description": "百小应是百川智能旗下的语言 AI 助手，融合了意图理解、信息检索以及强化学习技术。其主要优点包括深度理解用户意图、精准搜索信息、智能生成文本内容。百小应定位为帮助用户轻松获取知识和专业服务的智能助手。",
+						"tags": ["知识", "搜索", "文本生成", "智能助手"]
+					},
+					{
+						"source": "",
+						"title": "BypassAI",
+						"path": "wenanxiezuo/bypassai",
+						"cover": "/cover/20240609/6/9/20240609_0d364bab.jpg",
+						"label": "AI文本人性化工具，转换AI生成文本为人类风格。",
+						"logo": "/logo/20240609/6/9/20240609_7feb4dca.jpg",
+						"description": "Bypass AI是一个AI到人类文本生成器工具，它创建类似人类的内容，确保看起来像是真人编写的，同时保持高原创性标准。它旨在通过先进的人性化技术避免AI检测并提高可读性。",
+						"tags": ["AI文本人性化", "SEO优化", "内容创作", "学术研究"]
+					},
+					{
+						"source": "",
+						"title": "ChatGPT Notepad",
+						"path": "wenanxiezuo/chatgpt-notepad",
+						"cover": "/cover/20240609/6/9/20240609_90bc9177.jpg",
+						"label": "在线文本编辑器，提供文本编辑、保存、复制、剪切等功能。",
+						"logo": "/logo/20240609/6/9/20240609_afa288c3.jpg",
+						"description": "ChatGPT Notepad是一款在线文本编辑器，旨在帮助用户高效地编辑和处理文本内容。它支持基本的文本编辑功能，如保存、复制、剪切等，同时提供全屏模式和大小写转换等高级功能。该产品重视用户隐私保护，不使用第三方跟踪工具，确保用户数据安全。",
+						"tags": ["在线编辑器", "文本处理", "隐私保护", "用户友好"]
+					},
+					{
+						"source": "",
+						"title": "ChatTTS",
+						"path": "wenanxiezuo/chattts",
+						"cover": "/cover/20240609/6/9/20240609_fbbe159a.jpg",
+						"label": "一个用于文本到语音转换的开源项目。",
+						"logo": "/logo/20240609/6/9/20240609_f3c8c75a.jpg",
+						"description": "ChatTTS是一个开源的文本到语音转换(TTS)模型，它允许用户将文本转换为语音。该模型主要面向学术研究和教育目的，不适用于商业或法律用途。它使用深度学习技术，能够生成自然流畅的语音输出，适合研究和开发语音合成技术的人员使用。",
+						"tags": ["文本到语音", "深度学习", "学术研究", "开源项目"]
+					},
+					{
+						"source": "",
+						"title": "橙篇AI",
+						"path": "wenanxiezuo/chengpianai",
+						"cover": "/cover/20240609/6/9/20240609_dfb53419.jpg",
+						"label": "智能写作助手，一键生成内容，提升写作效率。",
+						"logo": "/logo/20240609/6/9/20240609_4326386f.jpg",
+						"description": "橙篇AI是一款针对写作领域的智能工具，旨在通过AI技术提升用户的写作效率和质量。它拥有一键生成长文、资料搜索、文档总结、全文校正等功能，帮助用户快速整理思路、搜集资料和校对文本。橙篇AI的背景是随着AI技术的发展，越来越多的行业开始利用AI来提高工作效率，尤其是在内容创作领域。产品定位于辅助用户进行高效写作，无论是学术论文、商业报告还是日常笔记，都能通过橙篇AI得到快速生成和优化。目前产品提供免费试用，具体价格未在页面上明确标注。",
+						"tags": ["AI写作", "资料搜索", "文本校对", "格式整理", "数据可视化"]
 					}
 				]
 			},
 			{
-				"name": "11-23",
-				"title": "Ai图像转视频",
-				"cover": "",
+				"title": "邮件助手",
+				"name": "youjianzhushou",
+				"href": "/discover/youjianzhushou",
+				"total": 408,
 				"products": [
 					{
-						"name": "Era3D",
-						"path": "11-21/about.md",
-						"title": "高分辨率多视角扩散模型，使用高效",
-						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。图像生成多视角",
-						"tags": ["图像生成", "多视角"],
-						"cover": "https://images.unsplash.com/photo-1513745405825-efaf9a49315f?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "Boost Inbox",
+						"path": "youjianzhushou/boost-inbox",
+						"cover": "/cover/20240609/6/9/20240609_614d90f4.jpg",
+						"label": "提升收件箱，提高邮件送达率、开信率和参与度。",
+						"logo": "/logo/20240609/6/9/20240609_e69c7a9b.jpg",
+						"description": "Boost Inbox是一款优秀的邮件预热服务，可提高邮件的送达率、开信率和参与度。通过定制计划、实时监控和无缝集成，提供最佳的邮件预热体验。",
+						"tags": ["邮件预热", "送达率", "开信率", "参与度", "营销", "企业邮箱", "个人邮箱"]
 					},
 					{
-						"path": "11-21/about.md",
-						"name": "Era3D",
-						"title": "高分辨率多视角扩散模型，使用高效",
-						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。图像生成多视角",
-						"tags": ["图像生成", "多视角"],
-						"cover": "https://images.unsplash.com/photo-1615247001958-f4bc92fa6a4a?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "ColdCraft",
+						"path": "youjianzhushou/coldcraft",
+						"cover": "/cover/20240609/6/9/20240609_1eccd96e.jpg",
+						"label": "ColdCraft帮助您打造个性化、有效的冷邮件，节省时间并提高回复率。",
+						"logo": "/logo/20240609/6/9/20240609_c7efefcb.jpg",
+						"description": "ColdCraft是一个AI平台，可以帮助您将简单的要点和LinkedIn个人资料转化为有效的冷邮件。它可以节省时间并提高回复率。该插件可以直接在Gmail中将要点转化为完整的冷邮件，并可以从LinkedIn个人资料直接撰写和发送电子邮件。",
+						"tags": ["冷邮件", "个性化", "有效", "AI平台", "插件", "Gmail", "LinkedIn"]
+					},
+					{
+						"source": "",
+						"title": "Email Generator AI Tool",
+						"path": "youjianzhushou/email-generator-ai-tool",
+						"cover": "/cover/20240609/6/9/20240609_40e052d8.jpg",
+						"label": "Email Generator AI工具是一款帮助您高效撰写电子邮件的人工智能工具。",
+						"logo": "/logo/20240609/6/9/20240609_e4be2527.jpg",
+						"description": "Email Generator AI工具可以帮助您快速、高效地生成电子邮件内容，节省您的时间和精力。",
+						"tags": ["生产力", "工具", "电子邮件", "人工智能"]
+					},
+					{
+						"source": "",
+						"title": "Email whisperer",
+						"path": "youjianzhushou/email-whisperer",
+						"cover": "/cover/20240609/6/9/20240609_1a762083.jpg",
+						"label": "写作完美邮件，让你的电子邮件沟通更上一层楼！",
+						"logo": "/logo/20240609/6/9/20240609_f92eb842.jpg",
+						"description": "Email Whisperer是一个用于Gmail和Outlook的AI电子邮件编写工具。它可以帮助你轻松地写出完美的电子邮件，提供重新表达、拼写检查和修正功能。它能够提高你电子邮件的清晰度和风格，并确保邮件无错误。Email Whisperer是一个提高电子邮件写作效率的工具，让你的邮件专业而准确。",
+						"tags": ["生产力", "电子邮件", "AI工具", "Gmail", "Outlook"]
+					},
+					{
+						"source": "",
+						"title": "Inboxly AI",
+						"path": "youjianzhushou/inboxly-ai",
+						"cover": "/cover/20240609/6/9/20240609_4d8d3d0c.jpg",
+						"label": "Inboxly是一个AI邮箱，带有内置的AI助手，可从所有平台整理、优先处理和回复邮件，让您不再错过有价值的新机会。",
+						"logo": "/logo/20240609/6/9/20240609_b43d2e44.jpg",
+						"description": "Inboxly是一个AI邮箱，可以帮助用户整理、优先处理和回复来自各个平台的邮件。它的主要优点是提高工作效率、节省时间和保护隐私。Inboxly适用于个人和小型企业，提供AI助手、自动回复、智能过滤等功能。它是一个具有高影响力的低成本解决方案。",
+						"tags": ["AI邮箱", "工作效率", "时间管理", "邮件整理", "自动回复"]
+					},
+					{
+						"source": "",
+						"title": "Inpost",
+						"path": "youjianzhushou/inpost",
+						"cover": "/cover/20240609/6/9/20240609_7e273502.jpg",
+						"label": "一款AI驱动的移动应用程序，可以改善个人电子邮件体验。",
+						"logo": "/logo/20240609/6/9/20240609_c0c83316.jpg",
+						"description": "Inpost.ai是一款基于AI的移动应用程序，可以优化个人电子邮件体验。它帮助用户智能地组织和清理收件箱，专注于重要的电子邮件。它提供无缝的邮件交互，提供增强的安全性和独家功能。通过高级AI模型分析邮件内容，而不暴露用户的敏感信息。用户可以轻松追踪支出、管理发票，并利用促销优惠来优化个人预算。Inpost.ai还提供定制的收件箱分类，让用户能够个性化和高效地管理和优化收件箱。",
+						"tags": ["电子邮件", "AI", "个人化", "收件箱管理", "发票管理"]
+					},
+					{
+						"source": "",
+						"title": "Leadog",
+						"path": "youjianzhushou/leadog",
+						"cover": "/cover/20240609/6/9/20240609_4eb58286.jpg",
+						"label": "AI驱动的冷邮件营销、线索跟踪和互动",
+						"logo": "/logo/20240609/6/9/20240609_3b56c2d9.jpg",
+						"description": "Leadog.io是一款AI驱动的冷邮件营销平台，提供冷邮件发送、线索跟踪和互动等功能。它采用先进的AI技术来优化冷邮件营销策略，提供精确的邮件投递和跟踪，帮助用户更好地了解和转化潜在客户。",
+						"tags": ["冷邮件", "线索跟踪", "营销工具"]
+					},
+					{
+						"source": "",
+						"title": "Limodify.AI | Email Marketing Design Meets AI",
+						"path": "youjianzhushou/limodify-ai-email-marketing-design-meets-ai",
+						"cover": "/cover/20240609/6/9/20240609_89eb7371.jpg",
+						"label": "Limodify.AI通过AI技术提供电子商务邮件创建服务。",
+						"logo": "/logo/20240609/6/9/20240609_a1bd92ab.jpg",
+						"description": "Limodify.AI革新了电子商务邮件的创建过程，只需点击几下，选择格式，输入关键信息，即可在30秒内获得准备好发送的AI设计的邮件。节省时间，利用先进技术，精确实现您的营销目标。立即免费开始使用。",
+						"tags": ["电子商务", "邮件营销", "AI"]
+					},
+					{
+						"source": "",
+						"title": "Mailman Workcation",
+						"path": "youjianzhushou/mailman-workcation",
+						"cover": "/cover/20240609/6/9/20240609_60610f27.jpg",
+						"label": "智能邮递员 - 自动化影响力的智能Twitter机器人",
+						"logo": "/logo/20240609/6/9/20240609_d6c4d43a.jpg",
+						"description": "AI Mailman利用最新的人工智能技术创建世界上最准确的邮件，比人类更快速和高质量。它提供简单的用户界面，能够创建世界上最强大的邮件模板，打开率更高。使用AI Mailman创建的邮件打开率是其他方式的10倍，生成时间只需10秒。",
+						"tags": ["邮件", "自动化", "影响力", "人工智能"]
+					},
+					{
+						"source": "",
+						"title": "MailReply",
+						"path": "youjianzhushou/mailreply",
+						"cover": "/cover/20240609/6/9/20240609_602259fe.jpg",
+						"label": "MailReply是一款AI助手，可生成专业且人性化的邮件回复，节省时间。",
+						"logo": "/logo/20240609/6/9/20240609_864201a8.jpg",
+						"description": "MailReply通过AI生成邮件回复，帮助用户节省时间。它可以在保持人类写作风格的同时，根据邮件内容生成上下文相关的回复。MailReply适用于Windows和macOS，并兼容多种邮件客户端。",
+						"tags": ["邮件回复", "AI助手", "工具"]
+					}
+				]
+			},
+			{
+				"title": "聊天机器人",
+				"name": "liaotianjiqiren",
+				"href": "/discover/liaotianjiqiren",
+				"total": 2588,
+				"products": []
+			},
+			{
+				"title": "社交媒体",
+				"name": "shejiaomeiti",
+				"href": "/discover/shejiaomeiti",
+				"total": 1852,
+				"products": [
+					{
+						"source": "",
+						"title": "Biofy",
+						"path": "shejiaomeiti/biofy",
+						"cover": "/cover/20240609/6/10/20240609_7fcbe786.jpg",
+						"label": "一站式社交媒体链接管理平台",
+						"logo": "/logo/20240609/6/10/20240609_40a9288c.jpg",
+						"description": "Biofy是一个多功能的社交媒体链接管理平台，它允许用户通过一个链接整合所有社交媒体和在线内容，包括链接到应用商店、YouTube深层链接、URL缩短、QR码生成和分析等。Biofy特别适用于内容创作者、品牌和企业，帮助他们更有效地管理和推广自己的在线存在。",
+						"tags": ["社交媒体", "链接管理", "内容推广", "品牌营销"]
+					},
+					{
+						"source": "",
+						"title": "BlogToPin",
+						"path": "shejiaomeiti/blogtopin",
+						"cover": "/cover/20240609/6/10/20240609_d8967d0c.jpg",
+						"label": "一键将博客文章转换为Pinterest引人入胜的图钉。",
+						"logo": "/logo/20240609/6/10/20240609_778209c5.jpg",
+						"description": "BlogToPin是一个专为Pinterest设计的工具，旨在帮助用户自动化地将博客文章转化为吸引人的图钉（Pins），从而吸引更多的有机流量和潜在客户。它通过简化图钉的创建和管理，让用户能够专注于内容创作，而不必花费大量时间在Pinterest上手动创建和安排图钉。",
+						"tags": ["Pinterest", "自动化", "内容营销", "社交媒体管理"]
+					},
+					{
+						"source": "",
+						"title": "CleanerPro",
+						"path": "shejiaomeiti/cleanerpro",
+						"cover": "/cover/20240609/6/10/20240609_ff7b0e3e.jpg",
+						"label": "AI驱动的图片编辑器，快速清除图片中的不需要元素。",
+						"logo": "/logo/20240609/6/10/20240609_28d7861f.jpg",
+						"description": "CleanerPro是一款AI驱动的图片编辑器，专为Shopify商店设计，能够迅速去除图片中的不需要的对象、缺陷或文字。它通过AI技术，提供了一键式去除元素、背景以及提升图片分辨率的功能。产品背景信息显示，CleanerPro由Cleaner App, Inc.开发，并且提供了三种不同的订阅计划，以满足不同用户的需求。",
+						"tags": ["AI编辑", "图片处理", "Shopify", "营销工具"]
+					},
+					{
+						"source": "",
+						"title": "Dailycrowds",
+						"path": "shejiaomeiti/dailycrowds",
+						"cover": "/cover/20240609/6/10/20240609_c1496a27.jpg",
+						"label": "一个连接一切的社交网络和灵感引擎。",
+						"logo": "/logo/20240609/6/10/20240609_d2f454bf.jpg",
+						"description": "Dailycrowds是一个旨在成为您日常娱乐和成就助手的协作社区和灵感引擎，通过一个专注于实际效用的社交网络概念，帮助您使日常生活更加有趣、有组织和鼓舞人心。",
+						"tags": ["社交网络", "灵感", "个性化推荐", "社区协作", "日常助手"]
+					},
+					{
+						"source": "",
+						"title": "Debriefs AI",
+						"path": "shejiaomeiti/debriefs-ai",
+						"cover": "/cover/20240609/6/10/20240609_b82176fb.jpg",
+						"label": "智能媒体分析，简化复杂话题，深入行业洞察。",
+						"logo": "/logo/20240609/6/10/20240609_d4def896.jpg",
+						"description": "Debriefs AI是一个利用人工智能技术提供媒体分析和新闻消费的智能平台。它通过强大的AI助手帮助用户快速找到、总结并理解信息，节省时间，同时提供实时的语义网数据，增强用户体验。Debriefs AI通过深度学习和大型语言模型（LLMs）为用户提供定制化的信息摘要和分析，帮助用户从大量更新中提取有价值的洞察，并将信息转化为可操作的见解。",
+						"tags": ["人工智能", "媒体分析", "信息摘要", "行业洞察", "投资智能"]
+					},
+					{
+						"source": "",
+						"title": "Doly for iPhone",
+						"path": "shejiaomeiti/doly-for-iphone",
+						"cover": "/cover/20240609/6/10/20240609_3e3ca692.jpg",
+						"label": "快速轻松生成出色的3D产品视频。",
+						"logo": "/logo/20240609/6/10/20240609_f6426766.jpg",
+						"description": "Doly是一款为iPhone 11及以上版本设计的应用程序，它允许用户通过简单的操作生成高质量的3D产品视频。这款应用通过提供一系列3D模板，使得用户能够快速创建出吸引人的产品展示视频，从而提升产品在社交媒体、广告或产品页面上的呈现效果。Doly的主要优点包括易用性、成本效益和高效的视频生成速度。",
+						"tags": ["3D视频", "产品展示", "社交媒体", "广告", "营销"]
+					},
+					{
+						"source": "",
+						"title": "Hashtag Guru: AI Assist for IG",
+						"path": "shejiaomeiti/hashtag-guru-ai-assist-for-ig",
+						"cover": "/cover/20240609/6/10/20240609_563ff683.jpg",
+						"label": "AI驱动的标签和标题生成器，提升社交媒体影响力。",
+						"logo": "/logo/20240609/6/10/20240609_5e9b6b9a.jpg",
+						"description": "Hashtag Guru是一款AI驱动的社交媒体辅助工具，专为Instagram和TikTok等平台设计。它通过先进的AI技术，帮助用户生成吸引眼球的标签和标题，从而增加帖子的曝光率和互动性。产品的主要优点包括个性化的标签生成、基于图片和描述的标题生成、以及便捷的标签和标题管理功能。背景信息显示，该应用由Marton Zeisler开发，适合希望提升社交媒体影响力的用户，无论是个人还是企业。",
+						"tags": ["社交媒体", "AI生成", "标签", "标题", "互动提升"]
+					},
+					{
+						"source": "",
+						"title": "Indie Affiliates",
+						"path": "shejiaomeiti/indie-affiliates",
+						"cover": "/cover/20240609/6/10/20240609_a6bd9d2f.jpg",
+						"label": "轻松分享你的联盟营销计划",
+						"logo": "/logo/20240609/6/10/20240609_f0612e38.jpg",
+						"description": "Indie Affiliates是一个帮助初创公司和企业轻松分享他们的联盟营销计划给全球联盟营销人员的平台，从而增加收入、反向链接和品牌曝光。",
+						"tags": ["联盟营销", "收入增加", "品牌曝光", "产品推广"]
+					},
+					{
+						"source": "",
+						"title": "Latercut",
+						"path": "shejiaomeiti/latercut",
+						"cover": "/cover/20240609/6/10/20240609_4cc2084d.jpg",
+						"label": "快速制作社交媒体短视频。",
+						"logo": "/logo/20240609/6/10/20240609_73c7cd94.jpg",
+						"description": "Latercut是一个专注于短视频制作的在线平台，支持快速剪辑和发布到各大社交媒体平台。它利用AI模板技术，简化视频编辑流程，帮助用户节省时间，提高内容创作效率。",
+						"tags": ["短视频", "社交媒体", "AI编辑", "内容创作"]
+					},
+					{
+						"source": "",
+						"title": "llama-fs",
+						"path": "shejiaomeiti/llama-fs",
+						"cover": "/cover/20240609/6/10/20240609_eddde8b2.jpg",
+						"label": "自组织文件系统，智能管理文件",
+						"logo": "/logo/20240609/6/10/20240609_0849c52f.jpg",
+						"description": "LlamaFS是一个自组织文件管理器，它基于文件内容和已知约定（例如时间）自动重命名和组织文件。支持多种文件类型，包括通过Moondream处理的图片和通过Whisper处理的音频文件。它有两种运行模式：批量处理（批处理模式）和交互式守护进程（监视模式）。在监视模式下，LlamaFS启动守护进程监视目录，拦截所有文件系统操作，使用最近的编辑上下文主动学习和预测您如何重命名文件。此外，它还具有“隐身模式”的切换功能，允许通过Ollama而不是Groq路由每个请求，以确保隐私。",
+						"tags": ["文件管理", "自动化", "隐私保护", "多媒体支持"]
+					}
+				]
+			},
+			{
+				"title": "搜索引擎优化",
+				"name": "sousuoyinqingyouhua",
+				"href": "/discover/sousuoyinqingyouhua",
+				"total": 584,
+				"products": [
+					{
+						"source": "",
+						"title": "Ahrefs",
+						"path": "sousuoyinqingyouhua/ahrefs",
+						"cover": "/cover/20240610/6/10/20240610_decc116f.jpg",
+						"label": "Ahrefs 是一套强大但易于学习的 SEO 工具，帮助您提高排名并获得更多流量。",
+						"logo": "/logo/20240610/6/10/20240610_da3977b3.jpg",
+						"description": "Ahrefs 是一款全能的 SEO 工具集，具有分析竞争对手、审核和优化网站、发现关键词、获取内容创意和链接机会以及跟踪排名进展等功能。其数据和指标是 SEO 行业中最受信任的，深受市场营销人员和领先公司的信赖。",
+						"tags": ["SEO", "关键词分析", "竞争对手分析", "链接建设", "网站排名"]
+					},
+					{
+						"source": "",
+						"title": "AI Blog Articles",
+						"path": "sousuoyinqingyouhua/ai-blog-articles",
+						"cover": "/cover/20240610/6/10/20240610_a9777564.jpg",
+						"label": "在5分钟内生成高质量AI博客文章",
+						"logo": "/logo/20240610/6/10/20240610_de908dfc.jpg",
+						"description": "AI Blog Articles使用顶级AI模型为您生成最佳内容。发送关键字给我们，我们将生成超高质量的AI博客文章。",
+						"tags": ["SEO", "内容创作", "博客", "人工智能"]
+					},
+					{
+						"source": "",
+						"title": "AI SEO Service in Australia | Optidan",
+						"path": "sousuoyinqingyouhua/ai-seo-service-in-australia-optidan",
+						"cover": "/cover/20240610/6/10/20240610_162cffa2.jpg",
+						"label": "AI数字营销和SEO服务",
+						"logo": "/logo/20240610/6/10/20240610_9082c683.jpg",
+						"description": "Optidan AI是澳大利亚顶级AI数字营销机构，提供AI SEO服务、Shopify SEO服务、去抄袭和内容创作服务。我们通过性能管理、Web诊断和战略优化提升SEO卓越，快速增长您的在线业务。",
+						"tags": ["AI", "数字营销", "SEO", "Shopify", "去抄袭", "内容创作"]
+					},
+					{
+						"source": "",
+						"title": "CodeScope",
+						"path": "sousuoyinqingyouhua/codescope",
+						"cover": "/cover/20240610/6/10/20240610_84de657e.jpg",
+						"label": "构建和编辑令人惊叹的AI应用",
+						"logo": "/logo/20240610/6/10/20240610_c6c8d60d.jpg",
+						"description": "CodeScope旨在成为技术和营销行业专业人士的必备工具，通过持续创新、用户中心设计和战略合作，帮助您构建AI应用、加速开发并实现市场增长。主要优点包括：快速开发流程、安全编码、SEO报告、自定义API构建器、无头CMS等。",
+						"tags": ["AI应用", "软件开发", "Web应用开发", "快速开发", "市场增长", "SEO优化", "自定义API", "无头CMS"]
+					},
+					{
+						"source": "",
+						"title": "ContentPie",
+						"path": "sousuoyinqingyouhua/contentpie",
+						"cover": "/cover/20240610/6/10/20240610_79ba34f2.jpg",
+						"label": "使用AI技术驱动内容创作，提升网站流量和SEO排名。",
+						"logo": "/logo/20240610/6/10/20240610_03c46216.jpg",
+						"description": "ContentPie是一个AI驱动的内容创作平台，旨在帮助用户通过自动生成SEO优化的内容来增加有机流量和提升网站排名。它提供一站式SEO解决方案，减少用户在多个工具间切换的时间，同时提供灵感和创意，保持内容的吸引力。此外，ContentPie还提供与文章匹配的定制AI图像，支持多语言内容生成，以及与Webflow、Wordpress和Shopify等平台的集成，确保内容的快速发布和更新。",
+						"tags": ["AI内容创作", "SEO优化", "一键发布", "多语言支持", "个性化内容"]
+					},
+					{
+						"source": "",
+						"title": "CrawlSpider Internal Link Builder",
+						"path": "sousuoyinqingyouhua/crawlspider-internal-link-builder",
+						"cover": "/cover/20240610/6/10/20240610_77c04ee6.jpg",
+						"label": "智能且不费力的WordPress内部链接构建工具，提升搜索引擎排名。",
+						"logo": "/logo/20240610/6/10/20240610_33c5adf0.jpg",
+						"description": "CrawlSpider是一款革命性的WordPress插件，旨在简化内部链接构建，帮助网站优化SEO结构，提升搜索引擎排名。它使用先进的匹配算法和NLP技术，自动进行内部链接的分配、关键词优化，并遵循SEO指南。",
+						"tags": ["SEO优化", "内部链接", "自动化", "关键词提取", "数据可视化"]
+					},
+					{
+						"source": "",
+						"title": "Fal AI",
+						"path": "sousuoyinqingyouhua/fal-ai",
+						"cover": "/cover/20240610/6/10/20240610_a59c014b.jpg",
+						"label": "AI图片生成式开发者平台",
+						"logo": "/logo/20240610/6/10/20240610_2743b9d9.jpg",
+						"description": "fal.ai 是一款面向开发者的生成媒体平台，提供了业界最快的推理引擎，可以让您以更低的成本运行扩散模型，创造出全新的用户体验。它拥有实时、无缝的 WebSocket 推理基础设施，为开发者带来了卓越的使用体验。fal.ai 的定价方案根据实际使用情况灵活调整，确保您只为消耗的计算资源付费，实现了最佳的可扩展性和经济性。",
+						"tags": ["生成媒体", "推理引擎", "开发者工具", "低成本", "高性能"]
+					},
+					{
+						"source": "",
+						"title": "FAQ Generator",
+						"path": "sousuoyinqingyouhua/faq-generator",
+						"cover": "/cover/20240610/6/10/20240610_6d0c6cff.jpg",
+						"label": "免费AI生成FAQ，无需注册即可创建网站FAQ模板。",
+						"logo": "/logo/20240610/6/10/20240610_82057ce8.jpg",
+						"description": "AI FAQ Generator是一款利用先进AI技术，通过分析常见问题自动生成FAQ列表的工具。它能够快速高效地生成FAQ，节省时间和资源，同时提供准确的答案，帮助提高客户满意度，并改善SEO效果。",
+						"tags": ["AI技术", "自动化", "FAQ创建", "SEO优化", "用户体验"]
+					},
+					{
+						"source": "",
+						"title": "GenSearch",
+						"path": "sousuoyinqingyouhua/gensearch",
+						"cover": "/cover/20240610/6/10/20240610_9382a735.jpg",
+						"label": "使用生成式人工智能改变搜索体验",
+						"logo": "/logo/20240610/6/10/20240610_c167d235.jpg",
+						"description": "GenSearch是一款使用生成式人工智能技术的搜索引擎，通过强大的功能和用户友好的设计，提供精确的搜索结果，增强用户参与度和满意度。它不需要编写任何代码即可实现搜索引擎的部署和交付。GenSearch正在不断改进，计划推出API接口、数据驱动洞察和对话式搜索等功能。",
+						"tags": ["搜索引擎", "人工智能", "生成式AI"]
+					},
+					{
+						"source": "",
+						"title": "Growf AI",
+						"path": "sousuoyinqingyouhua/growf-ai",
+						"cover": "/cover/20240610/6/10/20240610_9c50c03e.jpg",
+						"label": "用Growf轻松优化您的营销策略 - 这是一个AI驱动的营销专家，可以在几分钟内制定数据支持的策略。告别营销猜测，迎接精准成功。立即访问！",
+						"logo": "/logo/20240610/6/10/20240610_42355361.jpg",
+						"description": "Growf是一个AI驱动的营销专家，通过连接产品的特点与实际优势，为您制定数据支持的营销策略。它提供精确的目标受众研究、价值主张传达、SEO和SEA工具、内容生成、LinkedIn广告等功能。通过使用Growf，您不仅仅是获取一个工具，还能获得一位深入了解您的目标受众的营销合作伙伴。",
+						"tags": ["营销", "AI", "数据支持", "SEO", "SEA", "内容生成", "LinkedIn广告"]
+					}
+				]
+			},
+			{
+				"title": "智能翻译",
+				"name": "zhinengfanyi",
+				"href": "/discover/zhinengfanyi",
+				"total": 544,
+				"products": [
+					{
+						"source": "",
+						"title": "Dub AI",
+						"path": "zhinengfanyi/dub-ai",
+						"cover": "/cover/20240609/6/10/20240609_60d15c5c.jpg",
+						"label": "用AI在几分钟内为您的视频提供本地化服务",
+						"logo": "/logo/20240609/6/10/20240609_d890c179.jpg",
+						"description": "Dub AI是一款AI驱动的语音克隆和翻译工具，可以帮助您轻松为视频添加翻译和配音，扩大全球观众。",
+						"tags": ["语音克隆", "视频翻译", "本地化"]
+					},
+					{
+						"source": "",
+						"title": "流畅阅读FluentRead",
+						"path": "zhinengfanyi/liuchangyuedufluentread",
+						"cover": "/cover/20240609/6/10/20240609_b3726eb1.jpg",
+						"label": "一款高效的浏览器翻译插件，提供基于母语般的阅读体验。",
+						"logo": "/logo/20240609/6/10/20240609_1311e34f.jpg",
+						"description": "流畅阅读（FluentRead）是一款基于人工智能翻译引擎的浏览器插件，它能够将网页上的文字翻译成任何语言，支持快捷键翻译、滑动翻译等多种翻译方式，并具备翻译缓存与回译功能。该插件采用TypeScript + Vue3 + Element-Plus + WXT框架编写，支持编译成可安装在绝大多数浏览器的插件。它的重要性在于为非母语读者提供流畅的阅读体验，减少语言障碍，提高信息获取效率。",
+						"tags": ["翻译", "浏览器插件", "人工智能"]
+					},
+					{
+						"source": "",
+						"title": "Menusso",
+						"path": "zhinengfanyi/menusso",
+						"cover": "/cover/20240609/6/10/20240609_d7123f2c.jpg",
+						"label": "Menusso是一个完整的餐厅菜单系统，可在仪表板上管理您的餐厅菜单。",
+						"logo": "/logo/20240609/6/10/20240609_c8efcea0.jpg",
+						"description": "Menusso是一个帮助餐厅管理菜单的应用程序。它具有多语言翻译功能，可提供15种语言的翻译服务。Menusso使餐厅能够轻松管理菜单，并提供了一些主要优点，如背景信息、价格和定位等。",
+						"tags": ["餐厅", "菜单管理", "多语言翻译", "定价"]
+					},
+					{
+						"source": "",
+						"title": "Notta Showcase",
+						"path": "zhinengfanyi/notta-showcase",
+						"cover": "/cover/20240609/6/10/20240609_aea83fec.jpg",
+						"label": "通过AI技术，轻松实现视频的多语言翻译和配音，连接全球观众。",
+						"logo": "/logo/20240609/6/10/20240609_6ed34ed1.jpg",
+						"description": "Notta Showcase是一款在线视频翻译和配音工具，它通过AI技术帮助用户将视频内容翻译成15种不同的语言，同时保持原始的语音风格和情感，以提供自然的听觉体验。该产品的主要优点包括高效率、成本效益、用户友好的界面、高准确度的转录和翻译，以及支持多种文件格式和平台。它适用于营销、社交媒体和教育等多个领域，可以显著扩大内容的全球影响力。",
+						"tags": ["AI翻译", "视频配音", "内容本地化"]
+					},
+					{
+						"source": "",
+						"title": "Xpolyglot",
+						"path": "zhinengfanyi/xpolyglot",
+						"cover": "/cover/20240609/6/10/20240609_9b81ce68.jpg",
+						"label": "Xpolyglot是一款帮助您本地化Xcode项目的macOS应用。",
+						"logo": "/logo/20240609/6/10/20240609_f0306f4e.jpg",
+						"description": "Xpolyglot是一款使用人工智能技术帮助本地化Xcode项目的应用。它能够帮助开发者轻松导入Xcode项目，自动翻译字符串目录，管理全球元数据，快速更新应用版本，并提供节省成本的翻译服务。Xpolyglot通过提供准确的翻译和全球化支持，帮助开发者将应用推向全球市场。",
+						"tags": ["翻译", "本地化", "Xcode", "开发者工具"]
 					}
 				]
 			}
 		]
 	},
 	{
-		"name": "12",
-		"title": "写作灵感",
-		"cover": "https://images.unsplash.com/photo-1513745405825-efaf9a49315f?w=300&dpr=2&q=80",
-		"children": [
+		"title": "图片",
+		"name": "tupian",
+		"href": "tupian",
+		"total": 4262,
+		"items": [
 			{
-				"name": "12-11",
-				"title": "图像生成",
+				"title": "艺术创作",
+				"name": "yishuchuangzuo",
+				"href": "/discover/yishuchuangzuo",
+				"total": 703,
 				"products": [
 					{
-						"name": "Era3D",
-						"path": "11-21/aibang",
-						"title": "高分辨率多视角扩散模型，使用高效",
-						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。图像生成多视角",
-						"tags": ["图像生成", "多视角"],
-						"cover": "https://images.unsplash.com/photo-1513745405825-efaf9a49315f?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "AI Anime Girl Studio",
+						"path": "yishuchuangzuo/ai-anime-girl-studio",
+						"cover": "/cover/20240610/6/10/20240610_29505be2.jpg",
+						"label": "AI生成二次元美少女",
+						"logo": "/logo/20240610/6/10/20240610_e5c099ef.jpg",
+						"description": "AI AnimeGirl Creator是一个免费的AI生成二次元美少女的工具。它可以轻松生成令人惊叹的二次元美少女艺术品。",
+						"tags": ["AI", "二次元", "美少女", "艺术创作"]
 					},
 					{
-						"name": "Era3D",
-						"path": "11-21/aibang",
-						"title": "高分辨率多视角扩散模型，使用高效",
-						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。图像生成多视角",
-						"tags": ["图像生成", "多视角"],
-						"cover": "https://images.unsplash.com/photo-1615247001958-f4bc92fa6a4a?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "AI Sticker Generator",
+						"path": "yishuchuangzuo/ai-sticker-generator",
+						"cover": "/cover/20240610/6/10/20240610_9fde930d.jpg",
+						"label": "使用AI Sticker Generator生成独特的贴纸",
+						"logo": "/logo/20240610/6/10/20240610_aeb133e1.jpg",
+						"description": "AI Sticker Generator利用人工智能创建独特且具有视觉吸引力的贴纸，主要优点是自定义生成贴纸，免费使用，适合创意人士。",
+						"tags": ["设计", "艺术", "创意"]
 					},
 					{
-						"name": "Stateful Symphony",
-						"path": "11-21/aibang",
-						"title": "Beth Binary",
-						"tags": ["AI作画", "编程"],
-						"cover": "https://images.unsplash.com/photo-1490300472339-79e4adc6be4a?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "aiportrait.art",
+						"path": "yishuchuangzuo/aiportrait-art",
+						"cover": "/cover/20240610/6/10/20240610_6a254f15.jpg",
+						"label": "使用我们的AI肖像生成器，即可将您的照片立即转换为独特的AI肖像艺术品。探索数百种艺术风格，并创建您完美的艺术肖像。",
+						"logo": "/logo/20240610/6/10/20240610_54c22ebe.jpg",
+						"description": "AIPortrait.Art是一个AI肖像生成器，能够将您的照片在几秒钟内转换为艺术杰作。通过混搭数百种风格，创作出独特的AI艺术肖像。无需艺术技能，只需上传照片即可。数千名用户使用我们的产品来探索、创作和分享完美的艺术肖像。我们提供高分辨率的输出和下载功能。",
+						"tags": ["艺术", "肖像", "照片", "生成器"]
+					},
+					{
+						"source": "",
+						"title": "Coloring Pages AI",
+						"path": "yishuchuangzuo/coloring-pages-ai",
+						"cover": "/cover/20240610/6/10/20240610_3c0d9596.jpg",
+						"label": "创建令人惊叹的AI填色页面，满足孩子们的愿望并为他们创建令人惊叹的填色页面。",
+						"logo": "/logo/20240610/6/10/20240610_6eb59788.jpg",
+						"description": "Coloring Pages AI是一个可以根据您的指令生成填色页面的AI工具。它可以帮助您节省时间，不再需要手动创建填色页面或搜索带有水印和低质量图像的页面。您只需要登录并使用Coloring Pages AI，根据您的想法编写提示，即可生成并下载填色页面。",
+						"tags": ["填色", "创意", "儿童", "艺术", "AI"]
+					},
+					{
+						"source": "",
+						"title": "多平台AI艺术生成器",
+						"path": "yishuchuangzuo/duopingtaiaiyishushengchengqi",
+						"cover": "/cover/20240610/6/10/20240610_3343e27c.jpg",
+						"label": "一个支持多种AI艺术生成平台的创意工具，让艺术创作更简单。",
+						"logo": "/logo/20240610/6/10/20240610_8019f5ec.jpg",
+						"description": "多平台AI艺术生成器是一个集成了多个AI艺术生成平台的在线工具，如MidJourney、DALL-E 3、Leonardo等，为用户提供了丰富的艺术创作选项。它通过简单的操作流程，允许用户选择不同的AI平台和模型，设置分辨率，输入提示语，并生成艺术作品。该产品的主要优点在于其便捷性、创意性和多样性，它不仅适用于专业设计师寻找灵感，也适合普通用户进行个性化艺术创作。目前，该产品的具体价格和定位信息未在页面上提供。",
+						"tags": ["AI艺术", "创意工具", "在线生成", "多平台支持", "个性化创作"]
+					},
+					{
+						"source": "",
+						"title": "Free Midjourney AI Art Generator",
+						"path": "yishuchuangzuo/free-midjourney-ai-art-generator",
+						"cover": "/cover/20240610/6/10/20240610_bbc2c92d.jpg",
+						"label": "Midjourney V6是一款免费在线AI艺术生成器，通过文本提示创作图像",
+						"logo": "/logo/20240610/6/10/20240610_e31ad082.jpg",
+						"description": "Midjourney V6 API是一款通过人工智能将文本描述转化为生动艺术品的先进平台。它提供了多种模型选择，高度逼真的效果，以及灵活的尺寸适应。该产品的主要优点包括增强的现实感、丰富的功能和用户友好的界面。",
+						"tags": ["人工智能", "艺术", "设计", "图像生成"]
+					},
+					{
+						"source": "",
+						"title": "Fun Gifts",
+						"path": "yishuchuangzuo/fun-gifts",
+						"cover": "/cover/20240610/6/10/20240610_e72e2bb8.jpg",
+						"label": "个性化AI生成的桌面游戏，上传照片即可打印和邮寄一款独特的AI生成的个性化记忆卡片游戏。",
+						"logo": "/logo/20240610/6/10/20240610_d9019674.jpg",
+						"description": "FunGifts.AI是一个提供个性化AI生成的记忆游戏的平台。用户可以上传照片，通过AI生成独特的艺术作品，并打印成为一款记忆卡片游戏。这款游戏拥有30张卡片，印有训练人物的AI艺术作品。FunGifts.AI提供快速的打印和寄送服务，为用户打造一款独一无二的记忆游戏。",
+						"tags": ["个性化", "记忆游戏", "AI生成", "礼物", "游戏", "卡片", "艺术作品"]
+					},
+					{
+						"source": "",
+						"title": "Glaze",
+						"path": "yishuchuangzuo/glaze",
+						"cover": "/cover/20240610/6/10/20240610_68149bfd.jpg",
+						"label": "保护艺术家风格的AI工具",
+						"logo": "/logo/20240610/6/10/20240610_26585c1a.jpg",
+						"description": "Glaze是一个旨在保护人类艺术家免受AI风格模仿的系统。通过机器学习算法对艺术作品进行微小改动，使其对人类眼睛看起来不变，但对AI模型则呈现出完全不同的艺术风格。这样，当有人试图模仿特定艺术家的风格时，AI生成的结果将与预期大相径庭。Glaze不是永久解决方案，但是一个必要的第一步，为艺术家提供抵抗AI模仿的工具。",
+						"tags": ["艺术保护", "AI模仿抵抗", "风格保护"]
+					},
+					{
+						"source": "",
+						"title": "HiDiffusion",
+						"path": "yishuchuangzuo/hidiffusion",
+						"cover": "/cover/20240610/6/10/20240610_989e82b3.jpg",
+						"label": "HiDiffusion，解锁预训练扩散模型中的高分辨率创作与效率。",
+						"logo": "/logo/20240610/6/10/20240610_2517bcb1.jpg",
+						"description": "HiDiffusion是一个预训练扩散模型，通过仅添加一行代码即可提高扩散模型的分辨率和速度。该模型通过Resolution-Aware U-Net (RAU-Net)和Modified Shifted Window Multi-head Self-Attention (MSW-MSA)技术，动态调整特征图大小以解决对象复制问题，并优化窗口注意力以减少计算量。HiDiffusion能够将图像生成分辨率扩展到4096×4096，同时保持1.5-6倍于以往方法的推理速度。",
+						"tags": ["图像合成", "人工智能", "机器学习", "视觉艺术", "高效计算"]
+					},
+					{
+						"source": "",
+						"title": "Illusion Diffusion Web",
+						"path": "yishuchuangzuo/illusion-diffusion-web",
+						"cover": "/cover/20240610/6/10/20240610_642c13c3.jpg",
+						"label": "Illusion Diffusion是一款免费创新的AI工具，通过文本提示将普通照片转化为迷人的图像，将艺术之美与AI技术相结合。",
+						"logo": "/logo/20240610/6/10/20240610_95b8c54d.jpg",
+						"description": "Illusion Diffusion是一款免费创新的AI工具，通过Stable Diffusion和Controlnet AI模型，将普通照片转化为艺术品，提供文本提示来生成视觉错觉和超现实图像。",
+						"tags": ["图像", "设计", "艺术", "AI", "视觉错觉"]
 					}
 				]
 			},
 			{
-				"name": "12-13",
-				"title": "Ai图像转视频",
-				"cover": "",
+				"title": "头像生成",
+				"name": "touxiangshengcheng",
+				"href": "/discover/touxiangshengcheng",
+				"total": 160,
 				"products": [
 					{
-						"name": "Era3D",
-						"title": "高分辨率多视角扩散模型，使用高效",
-						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。图像生成多视角",
-						"tags": ["图像生成", "多视角"],
-						"cover": "https://images.unsplash.com/photo-1513745405825-efaf9a49315f?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "AI Headshot Generator for Social Media",
+						"path": "touxiangshengcheng/ai-headshot-generator-for-social-media",
+						"cover": "/cover/20240610/6/10/20240610_c2eace04.jpg",
+						"label": "轻松快速生成逼真的高清AI头像和社交媒体个人形象",
+						"logo": "/logo/20240610/6/10/20240610_2f9a4531.jpg",
+						"description": "AI Headshot Generator插件可以轻松快速地将普通照片转换为专业逼真的高清AI头像和个人形象。它适用于各种需求，包括商务个人资料、简历、社交媒体等。\n\n主要功能：\n- 生成专业头像\n- 多样化的头像风格\n- 社交媒体个人形象\n- 团队成员头像\n- 优化LinkedIn个人资料\n- 提升社交媒体能见度\n- 高质量的头像\n\n定价：免费\n定位：面向社交媒体用户的AI头像生成工具",
+						"tags": ["头像", "社交媒体", "AI", "图像"]
 					},
 					{
-						"name": "Era3D",
-						"title": "高分辨率多视角扩散模型，使用高效",
-						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。图像生成多视角",
-						"tags": ["图像生成", "多视角"],
-						"cover": "https://images.unsplash.com/photo-1615247001958-f4bc92fa6a4a?w=300&dpr=2&q=80"
+						"source": "",
+						"title": "AI Photo Generator For LinkedIn™",
+						"path": "touxiangshengcheng/ai-photo-generator-for-linkedin-",
+						"cover": "",
+						"label": "快速生成专业的LinkedIn个人头像",
+						"logo": "/logo/20240610/6/10/20240610_b002441c.jpg",
+						"description": "使用先进的Arting AI生成器轻松创建专业质量和逼真的LinkedIn个人头像。上传自拍照片并转换为令人印象深刻的头像，提高在LinkedIn、简历、社交媒体等方面的成功机会。使用AI提升您的线上形象，只需几分钟。",
+						"tags": ["头像", "AI", "LinkedIn"]
+					},
+					{
+						"source": "",
+						"title": "Ai Profile Pictures",
+						"path": "touxiangshengcheng/ai-profile-pictures",
+						"cover": "/cover/20240610/6/10/20240610_dde62da7.jpg",
+						"label": "AI生成个性化头像，定制你的形象",
+						"logo": "/logo/20240610/6/10/20240610_8638cea7.jpg",
+						"description": "Ai Profile Pictures是一款通过上传个人照片进行训练，然后由AI模型生成个性化头像的服务。用户首先需要购买积分，然后上传至少10张个人照片，等待2-3小时后即可获得200多张个性化头像。用户可在7天内提交补充照片，如果不满意，可联系客服再次生成。",
+						"tags": ["头像", "个性化", "人工智能"]
+					},
+					{
+						"source": "",
+						"title": "AiGlamorous",
+						"path": "touxiangshengcheng/aiglamorous",
+						"cover": "/cover/20240610/6/10/20240610_5855f3fb.jpg",
+						"label": "AiGlamorous - 快速生成专业头像和肖像照片",
+						"logo": "/logo/20240610/6/10/20240610_b3c4041a.jpg",
+						"description": "AiGlamorous是一个基于人工智能的图像生成工具，可以快速生成专业头像、商务肖像照片等。它利用先进的人脸识别和图像修饰技术，提供无需摄影师即可生成完美照片的便利。用户只需上传一张照片，AiGlamorous就能自动处理并生成高质量的图像。该工具适用于个人形象展示、社交媒体头像、企业品牌形象等多种场景。",
+						"tags": ["头像照片", "肖像照片", "人工智能图像生成", "头像生成工具"]
+					},
+					{
+						"source": "",
+						"title": "aiphoto.studio",
+						"path": "touxiangshengcheng/aiphoto-studio",
+						"cover": "/cover/20240610/6/10/20240610_69f4b501.jpg",
+						"label": "用AI头像生成器获得专业AI头像",
+						"logo": "/logo/20240610/6/10/20240610_8b5114e0.jpg",
+						"description": "AI头像生成器是一款使用最先进的人工智能技术生成专业头像的工具。通过上传照片，AI头像生成器会根据不同的光线、背景和姿势生成多个风格独特的头像供用户选择。我们的技术准确、精细，超越竞争对手，如果您对我们的作品不满意，我们提供100%退款保证。",
+						"tags": [
+							"AI头像",
+							"AI头像生成器",
+							"AI头像生成",
+							"AI头像生成工具",
+							"免费AI头像",
+							"AI头像照片",
+							"AI头像生成器网站"
+						]
+					},
+					{
+						"source": "",
+						"title": "Amazing.photos",
+						"path": "touxiangshengcheng/amazing-photos",
+						"cover": "/cover/20240610/6/10/20240610_fa829a98.jpg",
+						"label": "打造惊艳头像，AI助力完美形象",
+						"logo": "/logo/20240610/6/10/20240610_dc1aeff8.jpg",
+						"description": "Amazing.photos是一款AI头像生成工具，通过使用AI技术为用户生成高质量的个人头像。该产品利用AI模型创建逼真的头像，让用户在个人形象展示上脱颖而出。其优势在于提供数千张4K分辨率的头像图片，并承诺比其他同类产品提供更出色的成果。定价方面，用户可以免费生成头像，也可以花费21美元购买AI头像。产品定位于提供个性化、高质量的头像生成服务。",
+						"tags": ["头像生成", "AI", "个人形象", "图片处理"]
+					},
+					{
+						"source": "",
+						"title": "BakedAvatar",
+						"path": "touxiangshengcheng/bakedavatar",
+						"cover": "/cover/20240610/6/10/20240610_ddc6151b.jpg",
+						"label": "使用单眼视频记录产生实时4D头像合成的神经网络方法",
+						"logo": "/logo/20240610/6/10/20240610_e7704a48.jpg",
+						"description": "BakedAvatar是一种用于实时神经头像合成的全新表示，可部署在标准多边形光栅化流水线中。该方法从学习到的头部等值面提取可变形的多层网格，并计算可烘焙到静态纹理中的表情、姿势和视角相关外观，从而为实时4D头像合成提供支持。我们提出了一个三阶段的神经头像合成流水线，包括学习连续变形、流形和辐射场，提取分层网格和纹理，以及通过微分光栅化来微调纹理细节。实验结果表明，我们的表示产生了与其他最先进方法相当的综合结果，并显著减少了所需的推理时间。我们进一步展示了从单眼视频中产生的各种头像合成结果，包括视图合成、面部重现、表情编辑和姿势编辑，所有这些都以交互式帧率进行。",
+						"tags": ["头像合成", "神经网络", "实时渲染"]
+					},
+					{
+						"source": "",
+						"title": "Better Headshots",
+						"path": "touxiangshengcheng/better-headshots",
+						"cover": "/cover/20240610/6/10/20240610_16a1c092.jpg",
+						"label": "专业头像AI摄影工具",
+						"logo": "/logo/20240610/6/10/20240610_442610e3.jpg",
+						"description": "Better Headshots一款专业的头像AI摄影工具，通过上传自拍照片，用户可以在两小时内获得专业的头像照片。用户可以选择不同风格的拍摄，包括个性化和公司风格。产品定价灵活，覆盖个人和企业用户，提供不同套餐选择。AI摄影师能够生成高质量的头像照片，并经过人工审核，确保专业性和质量。",
+						"tags": ["头像", "摄影", "AI"]
+					},
+					{
+						"source": "",
+						"title": "CloneByMe",
+						"path": "touxiangshengcheng/clonebyme",
+						"cover": "/cover/20240610/6/10/20240610_e8ac4a3d.jpg",
+						"label": "数字身份增强AI",
+						"logo": "/logo/20240610/6/10/20240610_17fd28b3.jpg",
+						"description": "CloneByMe利用最先进的2D/3D头像创建技术和人工智能，增强您在数字世界、元宇宙和视频游戏中的身份。我们致力于为您提供一个平台，在这里您可以真实地表达自己，没有任何限制。您可以通过自拍构建自己的2D/3D头像，利用人工智能进行个性化定制，将头像注入独特的个性，通过文本、PDF、音频、视频等形式进行个性化。您可以随时使用智能头像进行聊天、创作内容并实现身份变现。通过我们的API，您可以将智能头像集成到您最需要的平台中。",
+						"tags": ["数字身份", "头像创建", "人工智能", "个性化", "元宇宙"]
+					},
+					{
+						"source": "",
+						"title": "CORPORATEHEADSHOTS",
+						"path": "touxiangshengcheng/corporateheadshots",
+						"cover": "/cover/20240610/6/10/20240610_357b388d.jpg",
+						"label": "AI 助力企业头像，方便高效",
+						"logo": "/logo/20240610/6/10/20240610_57bbf892.jpg",
+						"description": "CORPORATEHEADSHOTS.AI 是一款利用人工智能技术，为用户提供高效便捷的企业头像生成服务的网站。通过上传自拍照片，用户可以在不费力、不花大价钱的情况下获得专业的企业头像。该产品由 Google 领先的人工智能工具提供支持，用户可以随时随地生成高质量的头像，而且价格实惠。用户可以选择不同的套餐，享受不同数量和风格的头像生成服务。同时，该产品也提供常见问题解答，保障数据隐私，以及用户条款等相关信息。",
+						"tags": ["人工智能", "头像生成", "企业形象"]
+					}
+				]
+			},
+			{
+				"title": "图标生成",
+				"name": "tubiaoshengcheng",
+				"href": "/discover/tubiaoshengcheng",
+				"total": 69,
+				"products": [
+					{
+						"source": "",
+						"title": "Adobe Express Logo Creator",
+						"path": "tubiaoshengcheng/adobe-express-logo-creator",
+						"cover": "/cover/20240610/6/10/20240610_a173eb14.jpg",
+						"label": "免费的Logo制作工具",
+						"logo": "/logo/20240610/6/10/20240610_375a2608.jpg",
+						"description": "Adobe Express Logo Creator是一款免费的Logo制作工具，用户可以通过输入品牌或商业名称、选择喜欢的风格、图标和字体等，快速生成高质量的Logo。该工具还提供了丰富的动画效果和字体推荐功能，用户可以在在线编辑器中进一步定制Logo，并将其下载为高质量的PNG和JPG文件，方便在各种平台上使用。",
+						"tags": ["Logo制作", "设计工具", "动画效果", "字体推荐", "艺术灵感", "Ai图标生成"]
+					},
+					{
+						"source": "",
+						"title": "AI Color Wheel",
+						"path": "tubiaoshengcheng/ai-color-wheel",
+						"cover": "/cover/20240610/6/10/20240610_d7fa23a2.jpg",
+						"label": "自动上色工具，快速生成配色方案",
+						"logo": "/logo/20240610/6/10/20240610_a66d7947.jpg",
+						"description": "AI Color Wheel是一款自动上色工具，可以快速生成配色方案。用户只需上传设计稿件，即可生成数千种独特的配色方案，支持经典和现代艺术风格。AI Color Wheel还支持调整类似色、互补色等配色方案，适用于设计师、插画师等多种职业。上传的设计稿件将保存在浏览器中，无需注册即可使用。AI Color Wheel免费提供API，支持非商业用途。",
+						"tags": ["自动上色", "配色方案", "设计工具", "插画工具", "艺术灵感", "Ai图标生成"]
+					},
+					{
+						"source": "",
+						"title": "标小智",
+						"path": "tubiaoshengcheng/biaoxiaozhi",
+						"cover": "/cover/20240610/6/10/20240610_c214890f.jpg",
+						"label": "人工智能在线LOGO设计，打造个性品牌！",
+						"logo": "/logo/20240610/6/10/20240610_ba606eaa.jpg",
+						"description": "标小智LOGO神器是一款基于设计原理、历史数据和用户操作等多方数据源的AI原创方案，提供矢量、反色、黑白、透明等10多种LOGO文件格式在线输出。同时，提供LOGO字体商用授权，一次购买永久授权。作为智能品牌创建平台，标小智LOGO神器还将为您的LOGO定制生成配套名片、企业VI、宣传海报、社交应用等全套的品牌资源，助您轻松实现品牌自动化！",
+						"tags": ["LOGO设计", "品牌创建", "人工智能", "艺术灵感", "Ai图标生成"]
+					},
+					{
+						"source": "",
+						"title": "GPT Icon Changer",
+						"path": "tubiaoshengcheng/gpt-icon-changer",
+						"cover": "/cover/20240610/6/10/20240610_a010c122.jpg",
+						"label": "个性化定制ChatGPT聊天图标",
+						"logo": "/logo/20240610/6/10/20240610_33b89b2c.jpg",
+						"description": "GPT Icon Changer是一个插件，允许您轻松定制ChatGPT聊天图标。上传您喜欢的图片，并将其应用为图标。您还可以自由调整图标大小。用个性化图标沉浸自己在独特的聊天体验中！",
+						"tags": ["图标", "个性化", "聊天应用"]
+					},
+					{
+						"source": "",
+						"title": "iconGeniusAi",
+						"path": "tubiaoshengcheng/icongeniusai",
+						"cover": "/cover/20240610/6/10/20240610_f521af9b.jpg",
+						"label": "一分钟内创建您需要的任何图标",
+						"logo": "/logo/20240610/6/10/20240610_d47d56a9.jpg",
+						"description": "iconGeniusAi是一款由AI驱动的图标生成工具，可以为您的业务、应用程序、印刷品或标志创建完美的图标，并以惊人的速度交付。每个图标都以1024x1024的高分辨率生成，您可以在下载后以最高质量使用它们。AI模型都是关于提示的，我们投入了大量时间开发多个经过充分测试的提示，以满足每个需求的最佳结果。您可以选择主要颜色、样式并简要详细描述所需的图标，完全可定制。没有订阅，需要时使用积分。现在注册并创建您的图标！",
+						"tags": ["图标生成", "AI", "设计工具", "定制化", "快速生成", "艺术灵感", "Ai图标生成"]
+					},
+					{
+						"source": "",
+						"title": "Iconik AI",
+						"path": "tubiaoshengcheng/iconik-ai",
+						"cover": "/cover/20240610/6/10/20240610_967e1521.jpg",
+						"label": "使用AI免费生成美丽的应用程序图标",
+						"logo": "/logo/20240610/6/10/20240610_22b8b607.jpg",
+						"description": "Iconik AI是一款使用人工智能生成应用程序图标的免费工具。它可以在5分钟内为Android、iOS和Web应用程序生成惊人的应用程序图标，无需设计技能。用户可以从多种设计选项中选择，包括极简主义、陶瓷、金属、像素、复古、卡通、水彩和2D游戏。Iconik AI的免费计划可以生成无限的应用程序图标，只有在下载时才需要付费。它已经得到了开发人员和设计师的高度评价。",
+						"tags": ["应用程序图标", "人工智能", "设计工具", "艺术灵感", "Ai图标生成"]
+					},
+					{
+						"source": "",
+						"title": "IconLab Ai",
+						"path": "tubiaoshengcheng/iconlab-ai",
+						"cover": "/cover/20240610/6/10/20240610_4d4d9fb3.jpg",
+						"label": "AI 设计一键生成 App 图标与 Logo",
+						"logo": "/logo/20240610/6/10/20240610_a83dd3b1.jpg",
+						"description": "IconLab Ai是一款 AI 设计工具，可在短短几秒内生成令人惊叹的 App 图标和 Logo。它使用 AI 技术，训练了大量的图形、图标和素材库，能够提供多样化的图标风格选择。用户可以根据选择的图形或品牌颜色自动生成配色方案。生成的图标可预览并以 1024x1024 高清图像的形式下载。用户完全拥有生成的图标的所有权（包括销售权和版权）。Icon Generator 已受到 1600 多个客户的信任。",
+						"tags": ["AI 设计工具", "App 图标生成", "Logo 设计", "独特风格", "易用性"]
+					},
+					{
+						"source": "",
+						"title": "Iconomy",
+						"path": "tubiaoshengcheng/iconomy",
+						"cover": "/cover/20240610/6/10/20240610_d0f10e19.jpg",
+						"label": "简化图标创建，使用简单提示生成美观图标",
+						"logo": "/logo/20240610/6/10/20240610_de2d0bdf.jpg",
+						"description": "Iconomy是一个简化图标创建的工具，通过简单的提示，快速生成美观的图标。用户可以使用自定义样式，创建符合自己需求的图标集。Iconomy还提供了Figma插件，方便用户在Figma中使用。",
+						"tags": ["图标", "设计", "Figma插件"]
+					},
+					{
+						"source": "",
+						"title": "illostration AIBeta",
+						"path": "tubiaoshengcheng/illostration-aibeta",
+						"cover": "/cover/20240610/6/10/20240610_f2df3342.jpg",
+						"label": "AI生成插画，秒速独特",
+						"logo": "/logo/20240610/6/10/20240610_de8f6aaa.jpg",
+						"description": "illostration AI Beta是一款AI插画生成工具，用户可以在几秒钟内生成独特的插画作品。用户只需选择插画风格、描述插画对象并进行AI升级，就能轻松生成插画。此外，该产品还提供了多种功能，如插画批量生成、背景移除、插画编辑等。用户可以通过等待列表免费注册并获得10个免费积分。",
+						"tags": [
+							"AI插画",
+							"插画生成",
+							"插画风格",
+							"背景移除",
+							"插画编辑",
+							"Figma插件",
+							"SVG文件",
+							"艺术灵感",
+							"Ai图标生成"
+						]
+					},
+					{
+						"source": "",
+						"title": "Imagin",
+						"path": "tubiaoshengcheng/imagin",
+						"cover": "/cover/20240610/6/10/20240610_47566a20.jpg",
+						"label": "AI图标生成器",
+						"logo": "/logo/20240610/6/10/20240610_12835323.jpg",
+						"description": "Imagin是一款AI驱动的图标生成器，能够轻松生成独特的图标。使用Imagin，您可以自定义颜色和风格，获得无限可能。节省宝贵的时间，让我们的先进算法来处理繁重的工作。无限创意，尽在Imagin。",
+						"tags": ["图标生成", "设计工具", "AI技术"]
+					}
+				]
+			},
+
+			{
+				"title": "图像生成",
+				"name": "tuxiangshengcheng",
+				"href": "/discover/tuxiangshengcheng",
+				"total": 1948,
+				"products": [
+					{
+						"source": "",
+						"title": "CamCo",
+						"path": "tuxiangshengcheng/camco",
+						"cover": "/cover/20240610/6/10/20240610_620b213d.jpg",
+						"label": "3D一致性的视频生成框架",
+						"logo": "/logo/20240610/6/10/20240610_d6e63d0d.jpg",
+						"description": "CamCo是一个创新的图像到视频生成框架，它能够生成具有3D一致性的高质量视频。该框架通过Plücker坐标引入相机信息，并提出了一种符合几何一致性的双线约束注意力模块。此外，CamCo在通过运动结构算法估计相机姿态的真实世界视频上进行了微调，以更好地合成物体运动。",
+						"tags": ["视频生成", "3D一致性", "相机控制", "图像到视频"]
+					},
+					{
+						"source": "",
+						"title": "CleanerPro",
+						"path": "tuxiangshengcheng/cleanerpro",
+						"cover": "/cover/20240610/6/10/20240610_ff7b0e3e.jpg",
+						"label": "AI驱动的图片编辑器，快速清除图片中的不需要元素。",
+						"logo": "/logo/20240610/6/10/20240610_28d7861f.jpg",
+						"description": "CleanerPro是一款AI驱动的图片编辑器，专为Shopify商店设计，能够迅速去除图片中的不需要的对象、缺陷或文字。它通过AI技术，提供了一键式去除元素、背景以及提升图片分辨率的功能。产品背景信息显示，CleanerPro由Cleaner App, Inc.开发，并且提供了三种不同的订阅计划，以满足不同用户的需求。",
+						"tags": ["AI编辑", "图片处理", "Shopify", "营销工具"]
+					},
+					{
+						"source": "",
+						"title": "ComfyUI_omost",
+						"path": "tuxiangshengcheng/comfyui-omost",
+						"cover": "/cover/20240610/6/10/20240610_28f5fb3d.jpg",
+						"label": "ComfyUI实现的Omost模型",
+						"logo": "/logo/20240610/6/10/20240610_933606e9.jpg",
+						"description": "ComfyUI_omost是一个基于ComfyUI框架实现的Omost模型，它允许用户与大型语言模型(LLM)进行交互，以获取类似JSON的结构化布局提示。该模型目前处于开发阶段，其节点结构可能会有变化。它通过LLM Chat和Region Condition两个部分，将JSON条件转换为ComfyUI的区域格式，用于图像生成和编辑。",
+						"tags": ["图像生成", "LLM交互", "ComfyUI"]
+					},
+					{
+						"source": "",
+						"title": "Consistent character",
+						"path": "tuxiangshengcheng/consistent-character",
+						"cover": "/cover/20240610/6/10/20240610_7e02a849.jpg",
+						"label": "创建不同姿势的给定角色图像",
+						"logo": "/logo/20240610/6/10/20240610_377af742.jpg",
+						"description": "cog-consistent-character 是一个基于 AI 的图像生成模型，允许用户创建给定角色在不同姿势下的图像。它利用了 Stable Diffusion 技术，通过 ComfyUI 提供了一个用户友好的界面，使得即使是没有编程背景的用户也能轻松生成高质量的图像。",
+						"tags": ["AI图像生成", "Stable Diffusion", "ComfyUI", "角色设计", "图像编辑"]
+					},
+					{
+						"source": "",
+						"title": "Era3D",
+						"path": "tuxiangshengcheng/era3d",
+						"cover": "/cover/20240610/6/10/20240610_67090cd8.jpg",
+						"label": "高分辨率多视角扩散模型，使用高效行注意力机制。",
+						"logo": "/logo/20240610/6/10/20240610_19dc721e.jpg",
+						"description": "Era3D是一个开源的高分辨率多视角扩散模型，它通过高效的行注意力机制来生成高质量的图像。该模型能够生成多视角的颜色和法线图像，支持自定义参数以获得最佳结果。Era3D在图像生成领域具有重要性，因为它提供了一种新的方法来生成逼真的三维图像。",
+						"tags": ["图像生成", "多视角", "扩散模型", "注意力机制"]
+					},
+					{
+						"source": "",
+						"title": "HyperDreamBooth",
+						"path": "tuxiangshengcheng/hyperdreambooth",
+						"cover": "/cover/20240610/6/10/20240610_e738fcda.jpg",
+						"label": "快速个性化文本到图像模型",
+						"logo": "/logo/20240610/6/10/20240610_cfcf3b01.jpg",
+						"description": "HyperDreamBooth是由Google Research开发的一种超网络，用于快速个性化文本到图像模型。它通过从单张人脸图像生成一组小型的个性化权重，结合快速微调，能够在多种上下文和风格中生成具有高主题细节的人脸图像，同时保持模型对多样化风格和语义修改的关键知识。",
+						"tags": ["个性化", "图像生成", "超网络", "文本到图像"]
+					},
+					{
+						"source": "",
+						"title": "I2VEdit",
+						"path": "tuxiangshengcheng/i2vedit",
+						"cover": "/cover/20240610/6/10/20240610_16133f1a.jpg",
+						"label": "一种基于图像到视频扩散模型的视频编辑技术",
+						"logo": "/logo/20240610/6/10/20240610_fd174924.jpg",
+						"description": "I2VEdit是一种创新的视频编辑技术，通过预训练的图像到视频模型，将单一帧的编辑扩展到整个视频。这项技术能够适应性地保持源视频的视觉和运动完整性，并有效处理全局编辑、局部编辑以及适度的形状变化，这是现有方法所不能实现的。I2VEdit的核心包括两个主要过程：粗略运动提取和外观细化，通过粗粒度注意力匹配进行精确调整。此外，还引入了跳过间隔策略，以减轻多个视频片段自动回归生成过程中的质量下降。实验结果表明，I2VEdit在细粒度视频编辑方面的优越性能，证明了其能够产生高质量、时间一致的输出。",
+						"tags": ["视频编辑", "图像到视频", "扩散模型"]
+					},
+					{
+						"source": "",
+						"title": "InstaDrag",
+						"path": "tuxiangshengcheng/instadrag",
+						"cover": "/cover/20240610/6/10/20240610_87c14314.jpg",
+						"label": "快速高质量的基于拖拽的图像编辑技术",
+						"logo": "/logo/20240610/6/10/20240610_2acb4137.jpg",
+						"description": "InstaDrag 是一种快速高质量的基于拖拽的图像编辑技术，利用视频中的信息进行训练，能够在大约 1 秒内实现像素级控制。通过消除梯度导向等耗时操作，提高了编辑速度和准确性。该技术能够广泛应用于图像编辑领域。",
+						"tags": ["图像编辑", "拖拽"]
+					},
+					{
+						"source": "",
+						"title": "Intel AI Playground",
+						"path": "tuxiangshengcheng/intel-ai-playground",
+						"cover": "/cover/20240610/6/10/20240610_4e690391.jpg",
+						"label": "易于使用的AI PC启动应用程序，为Intel Arc GPU用户带来图像创造与编辑的全新体验。",
+						"logo": "/logo/20240610/6/10/20240610_25483970.jpg",
+						"description": "AI Playground是Intel为Arc GPU用户推出的一款桌面客户端应用程序，旨在简化AI图像创造、编辑和AI驱动的答案获取过程。它利用Intel Xe-cores和专为AI设计的XMX引擎，为用户提供了一种无需深入了解AI即可轻松使用AI的方式。该应用程序预计将于今年夏天免费提供下载，支持本地控制，保护用户数据隐私，并且界面友好，易于操作。此外，AI Playground还提供了模型灵活性和开放项目，鼓励开发者和AI爱好者进行实验和创新。",
+						"tags": ["Intel", "AI", "图像编辑", "本地控制", "免费下载"]
+					},
+					{
+						"source": "",
+						"title": "llama3v",
+						"path": "tuxiangshengcheng/llama3v",
+						"cover": "/cover/20240610/6/10/20240610_5def5bfd.jpg",
+						"label": "基于llama3 8B的SOTA视觉模型",
+						"logo": "/logo/20240610/6/10/20240610_047c8a2d.jpg",
+						"description": "llama3v是一个基于Llama3 8B和siglip-so400m的SOTA（State of the Art，即最先进技术）视觉模型。它是一个开源的VLLM（视觉语言多模态学习模型），在Huggingface上提供模型权重，支持快速本地推理，并发布了推理代码。该模型结合了图像识别和文本生成，通过添加投影层将图像特征映射到LLaMA嵌入空间，以提高模型对图像的理解能力。",
+						"tags": ["视觉模型", "多模态学习", "图像识别", "文本生成"]
+					}
+				]
+			},
+			{
+				"title": "设计助手",
+				"name": "shejizhushou",
+				"href": "/discover/shejizhushou",
+				"total": 1355,
+				"products": [
+					{
+						"source": "",
+						"title": "2D to 3D Image Converter",
+						"path": "shejizhushou/2d-to-3d-image-converter",
+						"cover": "/cover/20240610/6/10/20240610_09ac9322.jpg",
+						"label": "快速将2D图像转换为3D，开启全新的视觉体验和无限可能性。",
+						"logo": "/logo/20240610/6/10/20240610_ea3ba934.jpg",
+						"description": "Stylar AI的2D to 3D Image Converter是一个强大的图像转换工具，它利用先进的Image-to-Image技术，将平面2D图像转换为3D图像。这款工具提供高质量的图像转换和多种风格选项，能够满足用户对图像进行3D化的需求。产品的主要功能包括上传图片、选择3D效果、下载3D创作等。它还提供了多种3D风格，如3D卡通效果、3D艺术作品等，以及将草图转换为3D设计的功能。",
+						"tags": ["3D图像转换", "AI图像编辑", "设计辅助", "创意工具", "图像增强", "艺术创作", "视觉效果"]
+					},
+					{
+						"source": "",
+						"title": "AI CSS Animations",
+						"path": "shejizhushou/ai-css-animations",
+						"cover": "/cover/20240610/6/10/20240610_b1652d88.jpg",
+						"label": "AI CSS Animations是一个使用人工智能技术轻松创建令人惊叹的CSS动画效果的工具。",
+						"logo": "/logo/20240610/6/10/20240610_534211b6.jpg",
+						"description": "AI CSS Animations是一个使用人工智能技术创建CSS动画效果的工具。它可以帮助用户轻松地为网站添加引人注目、动态的效果。AI CSS Animations具有简单易用的界面和强大的算法，可以根据用户的语音指令生成定制的CSS动画代码，用户可以根据需要调整细节。",
+						"tags": ["CSS动画", "人工智能", "网站设计", "前端开发", "动态效果"]
+					},
+					{
+						"source": "",
+						"title": "AI 智能图像分割",
+						"path": "shejizhushou/ai-zhinengtuxiangfenge",
+						"cover": "/cover/20240610/6/10/20240610_2c5501f4.jpg",
+						"label": "利用 AI 技术，一键从图片中提取设计元素。",
+						"logo": "/logo/20240610/6/10/20240610_0b357a95.jpg",
+						"description": "AI 智能图像分割是一款基于 Figma 的插件，利用先进的 Segment Anything 模型 (SAM) 和  Transformers.js 技术，为设计师和艺术家提供了一个交互式和精确的图像分割工具。它通过点击交互的方式，简化了从图像中提取对象或区域的过程，极大提升了设计效率，释放了创造力。该插件免费使用且开源，允许用户自定义并为其开发做出贡献。",
+						"tags": ["AI", "图像分割", "设计工具", "Figma插件"]
+					},
+					{
+						"source": "",
+						"title": "AI创意商拍",
+						"path": "shejizhushou/aichuangyishangpai",
+						"cover": "/cover/20240610/6/10/20240610_27acc112.jpg",
+						"label": "10秒搞定电商出图设计",
+						"logo": "/logo/20240610/6/10/20240610_2fe9b4e0.jpg",
+						"description": "美间AI创意商拍是一个专注于电商领域的在线设计平台，它通过人工智能技术，帮助用户快速生成电商所需的各种设计图，如主图、头图等。该平台的核心优势在于其高效的设计生成速度和丰富的模板资源，能够满足不同品类商品的设计需求，从而提升电商运营的效率和效果。",
+						"tags": ["AI设计", "电商图片制作", "图像生成", "模板", "素材", "在线设计"]
+					},
+					{
+						"source": "",
+						"title": "AutoAgentX",
+						"path": "shejizhushou/autoagentx",
+						"cover": "/cover/20240610/6/10/20240610_89cc886e.jpg",
+						"label": "探索GAIA艺术家社区创作的令人惊叹的AI艺术作品。从动漫艺术、像素艺术到数字艺术和逼真视觉，从我们多样化的艺术画廊中获取灵感。",
+						"logo": "/logo/20240610/6/10/20240610_339a8a83.jpg",
+						"description": "GAIA是一个网站，聚集了来自GAIA艺术家社区创作的令人惊叹的AI艺术作品。通过GAIA，用户可以探索各种类型的艺术作品，包括动漫艺术、像素艺术、数字艺术和逼真视觉。GAIA为艺术家提供了一个平台，展示他们的创造力，并为用户提供了灵感和创意。",
+						"tags": ["艺术", "创意", "设计", "动漫", "像素艺术", "数字艺术", "逼真视觉"]
+					},
+					{
+						"source": "",
+						"title": "BestBlogs.dev",
+						"path": "shejizhushou/bestblogs-dev",
+						"cover": "/cover/20240610/6/10/20240610_baceb7b5.jpg",
+						"label": "为开发者提供高质量编程、AI等领域阅读体验",
+						"logo": "/logo/20240610/6/10/20240610_d3643c47.jpg",
+						"description": "BestBlogs.dev 是一个专注于编程、人工智能、产品设计、商业科技及个人成长领域的阅读平台。它通过先进的语言模型，为开发者提供智能摘要、精准评分与多语言辅助，帮助用户高效过滤信息噪音，节约时间，实现技术与认知的双重飞跃。",
+						"tags": ["编程", "人工智能", "产品设计", "商业科技", "个人成长"]
+					},
+					{
+						"source": "",
+						"title": "Clay Filter AI",
+						"path": "shejizhushou/clay-filter-ai",
+						"cover": "/cover/20240610/6/10/20240610_95590aae.jpg",
+						"label": "将您的角色照片转换成粘土动画风格的图像",
+						"logo": "/logo/20240610/6/10/20240610_371695da.jpg",
+						"description": "粘土 AI 是一款 AI 工具，可以将照片转换成粘土动画风格的图像。通过分析面部特征，生成逼真的效果，提供灵活的编辑功能。价格定位为免费使用。使用比较简单，上传你的照片并提交，稍等10-20 秒可以获得粘土动画风格的图像。",
+						"tags": ["图像处理", "艺术设计", "人工智能"]
+					},
+					{
+						"source": "",
+						"title": "Consistent character",
+						"path": "shejizhushou/consistent-character",
+						"cover": "/cover/20240610/6/10/20240610_7e02a849.jpg",
+						"label": "创建不同姿势的给定角色图像",
+						"logo": "/logo/20240610/6/10/20240610_377af742.jpg",
+						"description": "cog-consistent-character 是一个基于 AI 的图像生成模型，允许用户创建给定角色在不同姿势下的图像。它利用了 Stable Diffusion 技术，通过 ComfyUI 提供了一个用户友好的界面，使得即使是没有编程背景的用户也能轻松生成高质量的图像。",
+						"tags": ["AI图像生成", "Stable Diffusion", "ComfyUI", "角色设计", "图像编辑"]
+					},
+					{
+						"source": "",
+						"title": "大设",
+						"path": "shejizhushou/dashe",
+						"cover": "/cover/20240610/6/10/20240610_8844a429.jpg",
+						"label": "AI 智能绘画平台，让文本和图片成为艺术作品。",
+						"logo": "/logo/20240610/6/10/20240610_43c747d4.jpg",
+						"description": "大设是基于 Stable Diffusion 的免费 AI 绘画网站，提供一键生成高清精绘大图、SDXL 模型教程、AI 提示词工具。背景包括清华大学研发，定位为 AI 智能绘画平台。",
+						"tags": ["AI 绘画", "艺术创作", "创意工具", "智能设计"]
+					},
+					{
+						"source": "",
+						"title": "DESIGN ROAST",
+						"path": "shejizhushou/design-roast",
+						"cover": "/cover/20240610/6/10/20240610_e44c26dd.jpg",
+						"label": "AI驱动的设计审核，免费获取设计反馈。",
+						"logo": "/logo/20240610/6/10/20240610_d083c7a5.jpg",
+						"description": "DESIGN ROAST是一个利用人工智能技术为设计师提供设计作品审核的平台。用户可以上传自己的设计图像，系统将基于AI技术对其进行分析并提供反馈，帮助设计师改进和提升设计质量。该产品的主要优点在于能够快速、客观地评估设计作品，并给出专业的建议。",
+						"tags": ["AI设计审核", "设计反馈", "设计改进"]
 					}
 				]
 			}
 		]
 	},
 	{
-		"name": "视频创作",
-		"cover": "https://images.unsplash.com/photo-1614113489855-66422ad300a4?w=300&dpr=2&q=80"
+		"title": "代码",
+		"name": "daima",
+		"href": "daima",
+		"total": 2286,
+		"items": [
+			{
+				"title": "代码辅助",
+				"name": "daimafuzhu",
+				"href": "/discover/daimafuzhu",
+				"total": 1210,
+				"products": [
+					{
+						"source": "",
+						"title": "AmbientGPT",
+						"path": "daimafuzhu/ambientgpt",
+						"cover": "/cover/20240610/6/10/20240610_d67674eb.jpg",
+						"label": "在本地运行GPT-4和基础模型，无需上传屏幕上下文。",
+						"logo": "/logo/20240610/6/10/20240610_dd4ace7e.jpg",
+						"description": "AmbientGPT是一个革命性的编程辅助工具，它允许开发者在本地运行GPT-4和基础模型，同时能够直接推断屏幕上下文，从而无需手动上传上下文信息。这大大提高了代码编写和问题解决的效率。产品目前处于测试阶段，适用于拥有ARM64架构MacBook的开发者，并且需要一个兼容的OpenAI API密钥。",
+						"tags": ["AI编程辅助", "本地模型运行", "屏幕上下文推断"]
+					},
+					{
+						"source": "",
+						"title": "AnyNode",
+						"path": "daimafuzhu/anynode",
+						"cover": "/cover/20240610/6/10/20240610_a4352ba5.jpg",
+						"label": "ComfyUI的节点，能够根据用户指令生成任何类型的输出。",
+						"logo": "/logo/20240610/6/10/20240610_4bd0d04b.jpg",
+						"description": "AnyNode是一个为ComfyUI设计的插件，它利用LLMs（大型语言模型）的能力，根据用户的输入生成所需的输出。它支持使用OpenAI API或本地LLMs API，允许用户通过简单的配置和指令，实现复杂的编程任务，无需编写代码。该插件的主要优点包括易用性、灵活性和强大的功能，能够显著提高开发效率，尤其适合需要快速原型开发和自动化任务的开发者。",
+						"tags": ["ComfyUI", "LLMs", "自动化", "编程"]
+					},
+					{
+						"source": "",
+						"title": "AutoCoder",
+						"path": "daimafuzhu/autocoder",
+						"cover": "/cover/20240610/6/10/20240610_65d225f2.jpg",
+						"label": "代码生成任务的新型模型，测试准确率高于GPT-4 Turbo。",
+						"logo": "/logo/20240610/6/10/20240610_2d292fab.jpg",
+						"description": "AutoCoder是一个专为代码生成任务设计的新型模型，其在HumanEval基准数据集上的测试准确率超过了GPT-4 Turbo（2024年4月）和GPT-4o。与之前的开源模型相比，AutoCoder提供了一个新功能：它可以自动安装所需的包，并在用户希望执行代码时尝试运行代码，直到确定没有问题。",
+						"tags": ["机器学习", "文本生成", "代码生成", "nlp-machine-learning", "humaneval", "llm", "code-interpreter"]
+					},
+					{
+						"source": "",
+						"title": "Berkeley Function-Calling Leaderboard",
+						"path": "daimafuzhu/berkeley-function-calling-leaderboard",
+						"cover": "/cover/20240610/6/10/20240610_f5197164.jpg",
+						"label": "评估大型语言模型调用函数能力的排行榜",
+						"logo": "/logo/20240610/6/10/20240610_f5c566c3.jpg",
+						"description": "Berkeley Function-Calling Leaderboard（伯克利函数调用排行榜）是一个专门用来评估大型语言模型（LLMs）准确调用函数（或工具）能力的在线平台。该排行榜基于真实世界数据，定期更新，提供了一个衡量和比较不同模型在特定编程任务上表现的基准。它对于开发者、研究人员以及对AI编程能力有兴趣的用户来说是一个宝贵的资源。",
+						"tags": ["AI评估", "编程", "模型比较", "技术研究"]
+					},
+					{
+						"source": "",
+						"title": "BestBlogs.dev",
+						"path": "daimafuzhu/bestblogs-dev",
+						"cover": "/cover/20240610/6/10/20240610_baceb7b5.jpg",
+						"label": "为开发者提供高质量编程、AI等领域阅读体验",
+						"logo": "/logo/20240610/6/10/20240610_d3643c47.jpg",
+						"description": "BestBlogs.dev 是一个专注于编程、人工智能、产品设计、商业科技及个人成长领域的阅读平台。它通过先进的语言模型，为开发者提供智能摘要、精准评分与多语言辅助，帮助用户高效过滤信息噪音，节约时间，实现技术与认知的双重飞跃。",
+						"tags": ["编程", "人工智能", "产品设计", "商业科技", "个人成长"]
+					},
+					{
+						"source": "",
+						"title": "Codestral-22B-v0.1",
+						"path": "daimafuzhu/codestral-22b-v0-1",
+						"cover": "/cover/20240610/6/10/20240610_bb1ba31d.jpg",
+						"label": "一款支持80+编程语言的AI代码生成模型",
+						"logo": "/logo/20240610/6/10/20240610_23de1d48.jpg",
+						"description": "Codestral-22B-v0.1是由Mistral AI Team开发的大型语言模型，它经过了80多种编程语言的训练，包括Python、Java、C、C++、JavaScript和Bash等。该模型能够根据指令生成代码，或对代码片段进行解释、重构等。它还支持Fill in the Middle (FIM)功能，用于预测代码中的中间部分，特别适合软件开发工具的插件使用，如VS Code。该模型目前没有内容审查机制，但开发团队正在寻求社区合作，以实现在需要内容审查的环境中部署。",
+						"tags": ["AI编程", "代码生成", "多语言支持", "软件开发"]
+					},
+					{
+						"source": "",
+						"title": "Codestral",
+						"path": "daimafuzhu/codestral",
+						"cover": "/cover/20240610/6/10/20240610_317a366d.jpg",
+						"label": "Codestral是为代码生成任务设计的AI模型。",
+						"logo": "/logo/20240610/6/10/20240610_7e6ddce8.jpg",
+						"description": "Codestral是Mistral AI团队推出的首个代码生成AI模型，它能够通过共享指令和完成API端点帮助开发者编写和与代码交互。它在80多种编程语言上进行了训练，包括Python、Java、C、C++、JavaScript和Bash等，能够完成编码功能、编写测试和使用中间填充机制完成部分代码。Codestral在性能上设立了新的标准，它拥有32k的上下文窗口，比竞争对手的4k、8k或16k更大，从而在RepoBench上超越了所有其他模型。此外，它还提供了专用的API端点codestral.mistral.ai，允许用户在IDE中使用Instruct或Fill-In-the-Middle路由，并且提供了8周的免费beta期。Codestral还集成到了LlamaIndex和LangChain等应用框架中，以及VSCode和JetBrains环境中，使得开发者可以在这些环境中生成和与代码进行交互。",
+						"tags": ["代码生成", "AI辅助开发", "集成开发环境", "多语言支持"]
+					},
+					{
+						"source": "",
+						"title": "Dolphin 2.9.1 Mixtral 1x22b",
+						"path": "daimafuzhu/dolphin-2-9-1-mixtral-1x22b",
+						"cover": "/cover/20240610/6/10/20240610_46fa0d0e.jpg",
+						"label": "基于Dolphin-2.9-Mixtral-8x22b的先进AI模型",
+						"logo": "/logo/20240610/6/10/20240610_3da78cec.jpg",
+						"description": "Dolphin 2.9.1 Mixtral 1x22b是由Cognitive Computations团队精心训练和策划的AI模型，基于Dolphin-2.9-Mixtral-8x22b版本，拥有Apache-2.0许可。该模型具备64k上下文容量，通过16k序列长度的全权重微调，经过27小时在8个H100 GPU上的训练完成。Dolphin 2.9.1具有多样的指令、对话和编码技能，还具备初步的代理能力和支持函数调用。该模型未进行审查，数据集已过滤去除对齐和偏见，使其更加合规。建议在作为服务公开之前，实施自己的对齐层。",
+						"tags": ["AI模型", "文本生成", "编程辅助", "对话系统"]
+					},
+					{
+						"source": "",
+						"title": "Forloop",
+						"path": "daimafuzhu/forloop",
+						"cover": "/cover/20240610/6/10/20240610_56d0aa6c.jpg",
+						"label": "无需编码即可快速收集和自动化数据流程。",
+						"logo": "/logo/20240610/6/10/20240610_d13c33ab.jpg",
+						"description": "Forloop是一个易于使用的AI工具，专为快速增长的数据团队设计，用于数据准备和管道管理。它支持从各种数据源创建管道，如数据仓库、存储和驱动器。无代码环境允许数据科学家独立于DevOps团队工作，主要针对AI初创公司和拥有机器学习产品的公司。",
+						"tags": ["数据自动化", "无代码", "AI", "数据提取"]
+					},
+					{
+						"source": "",
+						"title": "GLM-4-9B-Chat",
+						"path": "daimafuzhu/glm-4-9b-chat",
+						"cover": "/cover/20240610/6/10/20240610_8d1eb064.jpg",
+						"label": "新一代多语言预训练模型，支持长文本和代码执行。",
+						"logo": "/logo/20240610/6/10/20240610_e4b4ab3f.jpg",
+						"description": "GLM-4-9B-Chat是智谱AI推出的新一代预训练模型GLM-4系列中的开源版本，具备多轮对话、网页浏览、代码执行、自定义工具调用和长文本推理等高级功能。支持包括日语、韩语、德语在内的26种语言，并且推出了支持1M上下文长度的模型。",
+						"tags": ["预训练模型", "多语言支持", "长文本处理", "代码执行", "自定义工具调用"]
+					}
+				]
+			},
+			{
+				"title": "低代码/无代码",
+				"name": "didaimawudaima",
+				"href": "/discover/didaimawudaima",
+				"total": 207,
+				"products": [
+					{
+						"source": "",
+						"title": "16x Prompt",
+						"path": "didaimawudaima/16x-prompt",
+						"cover": "/cover/20240610/6/10/20240610_b11b40de.jpg",
+						"label": "简化编码任务的ChatGPT提示生成",
+						"logo": "/logo/20240610/6/10/20240610_0683d405.jpg",
+						"description": "16x Prompt是一款桌面应用程序,旨在简化为ChatGPT创建编码任务提示的过程。用户可以轻松添加上下文、源代码和格式化说明。主要功能包括零设置即可使用、添加格式化说明、管理源代码、支持GPT-4和ChatGPT Plus、支持现有代码库、离线和本地化使用、提高生产力、与OpenAI API集成等。产品定位于开发人员,帮助他们利用ChatGPT在5分钟内完成编码任务。可免费下载使用,付费版本每日提示数不受限制。",
+						"tags": ["编程助手", "低代码", "ChatGPT"]
+					},
+					{
+						"source": "",
+						"title": "Actionize",
+						"path": "didaimawudaima/actionize",
+						"cover": "/cover/20240610/6/10/20240610_7416a085.jpg",
+						"label": "让GPT与数千应用轻松连接的无代码平台",
+						"logo": "/logo/20240610/6/10/20240610_66cb20a1.jpg",
+						"description": "Actionize是一个无代码平台，它允许用户将自定义GPT（如ChatGPT）连接到数千个应用程序。它充当GPT和在Zapier、Make.com等自动化平台上创建的工作流程之间的“粘合剂”。用户无需担心编写OpenAPI规范或如何使用不同的API。Actionize在Alpha阶段提供，为早期采用者提供折扣，并提供一次性购买永久拥有的选项。",
+						"tags": ["无代码", "自动化", "集成", "GPT", "ChatGPT"]
+					},
+					{
+						"source": "",
+						"title": "AI Assistant and Bot Builder",
+						"path": "didaimawudaima/ai-assistant-and-bot-builder",
+						"cover": "/cover/20240610/6/10/20240610_f4dd608a.jpg",
+						"label": "使用OpenAI、Claude 3和Azure等模型构建AI助手，轻松连接工具和数据库，并将其作为API聊天机器人或HTML嵌入式小部件发布",
+						"logo": "/logo/20240610/6/10/20240610_051f2dee.jpg",
+						"description": "AI助手构建器使用OpenAI、Claude和Azure等模型，提供了一个简单的无代码方式来构建AI助手。它可以轻松连接到您的工具和数据库，并以API聊天机器人或HTML嵌入式小部件的形式发布。它具有灵活的低代码功能，可以满足各种需求。",
+						"tags": ["AI助手", "聊天机器人", "无代码", "OpenAI", "Claude", "Azure"]
+					},
+					{
+						"source": "",
+						"title": "AiU",
+						"path": "didaimawudaima/aiu",
+						"cover": "/cover/20240610/6/10/20240610_d52dec29.jpg",
+						"label": "Ai由你创造，Ai为你存在，Ai伴你同行。",
+						"logo": "/logo/20240610/6/10/20240610_12d5cbbc.jpg",
+						"description": "AiU是一个人工智能技术平台,旨在让用户能够创造和使用人工智能产品。它强调人与人工智能的互动,将人工智能技术与用户需求相结合。该平台提供了一系列工具和资源,让用户能够根据自己的需求定制和开发人工智能应用。AiU的核心理念是将人工智能的力量回馈给普通用户,并为用户提供无限可能。",
+						"tags": ["人工智能", "低代码开发", "教育", "创新"]
+					},
+					{
+						"source": "",
+						"title": "AIxBlock",
+						"path": "didaimawudaima/aixblock",
+						"cover": "/cover/20240610/6/10/20240610_d22d2985.jpg",
+						"label": "一站式去中心化AI平台,集成了去中心化超级计算机",
+						"logo": "/logo/20240610/6/10/20240610_dfaef354.jpg",
+						"description": "AIxBlock是一个综合性的链上AI平台,集成了去中心化超级计算机。主要功能包括:数据引擎进行数据采集、整理和标注;低代码MLOps平台轻松构建和部署AI模型;通过链上共识机制实时验证AI模型质量;提供去中心化计算力交易市场,节省90%计算成本;基于P2P无手续费交易;通过区块链共识确保数据质量;所有交易在链上安全透明记录。适用于AI开发者、计算力供应商、自由职业者等。",
+						"tags": ["AI平台", "去中心化", "低代码", "MLOps", "计算力市场"]
+					},
+					{
+						"source": "",
+						"title": "百度智能云千帆AppBuilder",
+						"path": "didaimawudaima/baiduzhinengyunqianfanappbuilder",
+						"cover": "/cover/20240610/6/10/20240610_9bc1d50a.jpg",
+						"label": "高效开发你的AI原生应用",
+						"logo": "/logo/20240610/6/10/20240610_fbb1e6c1.jpg",
+						"description": "百度智能云千帆AppBuilder是一款专门用于高效开发AI原生应用的平台。它提供了一站式的AI原生应用开发资源和工具,包括开箱即用的应用框架、丰富的AI能力组件以及连接云资源等。主要功能有:1.开源应用框架,如知识增强应用框架(RAG)、Agent框架等。2.丰富AI组件,如语音识别、TTS、文生图、向量引擎等。3.连接云资源,提供CPU/GPU计算、存储等服务。该平台降低了AI应用开发门槛,帮助企业高效开发AI原生应用。",
+						"tags": ["AI开发", "低代码", "应用开发", "知识增强", "Agent"]
+					},
+					{
+						"source": "",
+						"title": "ChatDev AI",
+						"path": "didaimawudaima/chatdev-ai",
+						"cover": "/cover/20240610/6/10/20240610_681dcd4a.jpg",
+						"label": "通过自然语言描述创建定制软件(基于LLM的多智能体协作)",
+						"logo": "/logo/20240610/6/10/20240610_36c81a4d.jpg",
+						"description": "ChatDev是一个虚拟软件公司,由扮演不同角色(如CEO、产品经理、技术总监、程序员、测试员等)的智能体组成。这些智能体通过参与设计、编码、测试等专门的功能研讨会来协作开发软件。ChatDev旨在提供一个易于使用、高度可定制和可扩展的框架,基于大型语言模型(LLM),是研究集体智能的理想场景。它支持定制化设置,如自定义软件开发流程、角色设置等。用户只需使用自然语言描述想法,ChatDev就能高效生成对应的软件。",
+						"tags": ["低代码开发", "人工智能", "集体智能", "大型语言模型"]
+					},
+					{
+						"source": "",
+						"title": "DataLab",
+						"path": "didaimawudaima/datalab",
+						"cover": "/cover/20240610/6/10/20240610_d771b6ba.jpg",
+						"label": "DataLab让数据洞察变得直观且有趣，无需技术技能即可轻松获取数据洞察。",
+						"logo": "/logo/20240610/6/10/20240610_9ad0854d.jpg",
+						"description": "DataLab是一个由DataCamp提供的强大在线数据分析平台，它通过AI技术简化了数据处理流程，使得用户无需编程或数据分析的高级技能即可快速获取数据洞察。它支持多种数据源，包括CSV文件、Google Sheets、Snowflake和BigQuery等，同时提供企业级的安全保障，包括数据加密和单点登录等。DataLab的主要优点在于它的易用性、AI辅助分析、以及对数据安全性的重视。",
+						"tags": ["数据分析", "AI辅助", "数据安全", "无代码", "数据洞察"]
+					},
+					{
+						"source": "",
+						"title": "Forloop",
+						"path": "didaimawudaima/forloop",
+						"cover": "/cover/20240610/6/10/20240610_56d0aa6c.jpg",
+						"label": "无需编码即可快速收集和自动化数据流程。",
+						"logo": "/logo/20240610/6/10/20240610_d13c33ab.jpg",
+						"description": "Forloop是一个易于使用的AI工具，专为快速增长的数据团队设计，用于数据准备和管道管理。它支持从各种数据源创建管道，如数据仓库、存储和驱动器。无代码环境允许数据科学家独立于DevOps团队工作，主要针对AI初创公司和拥有机器学习产品的公司。",
+						"tags": ["数据自动化", "无代码", "AI", "数据提取"]
+					},
+					{
+						"source": "",
+						"title": "Goptimise Beta",
+						"path": "didaimawudaima/goptimise-beta",
+						"cover": "/cover/20240610/6/10/20240610_5579ed58.jpg",
+						"label": "无需编程经验，使用 Goptimise.com 的无代码 API 后端构建工具，轻松创建稳健可扩展的 API。支持 CRUD 操作。简化开发流程，提高效率，加速项目进度。体验使用我们创新的无代码解决方案构建强大后端的简便性。立即开始优化您的工作流程！",
+						"logo": "/logo/20240610/6/10/20240610_52fc8794.jpg",
+						"description": "Goptimise 是一款无代码 AI 助力可扩展后端构建工具。它允许用户轻松创建稳健可扩展的 API，无需编程经验。支持 CRUD 操作，简化开发流程，提高效率。Goptimise 的主要优点包括简单易用的可视化界面、智能的 API 设计建议、自动化部署和可定制的工作流程。它适用于需要构建强大后端的各种项目。",
+						"tags": ["无代码", "API", "后端构建工具", "自动化", "效率"]
+					}
+				]
+			},
+			{
+				"title": "开发者工具",
+				"name": "kaifazhegongju",
+				"href": "/discover/kaifazhegongju",
+				"total": 869,
+				"products": [
+					{
+						"source": "",
+						"title": "Agents",
+						"path": "kaifazhegongju/agents",
+						"cover": "/cover/20240610/6/10/20240610_d4f50f2e.jpg",
+						"label": "一个优雅的LLM（大语言模型）应用开发框架",
+						"logo": "/logo/20240610/6/10/20240610_d0e72bce.jpg",
+						"description": "Agents Flex是一个Java框架，用于开发LLM（大语言模型）应用。它提供了多种网络协议，如HTTP、SSE和WS，可连接到各种LLM，包括OpenAI LLama和Others AI Prompt。Agents Flex提供丰富的开发模板和Prompt框架，包括FEW-SHOT、CRISPE、BROKE和ICIO。它还支持本地方法定义、解析回调和执行本地方法来获取结果。",
+						"tags": [
+							"LLM应用开发",
+							"网络协议",
+							"开发模板",
+							"Prompt框架",
+							"本地方法",
+							"内存模块",
+							"嵌入功能",
+							"向量存储",
+							"Agents实现",
+							"顺序链",
+							"异步链",
+							"循环链"
+						]
+					},
+					{
+						"source": "",
+						"title": "AI CSS Animations",
+						"path": "kaifazhegongju/ai-css-animations",
+						"cover": "/cover/20240610/6/10/20240610_b1652d88.jpg",
+						"label": "AI CSS Animations是一个使用人工智能技术轻松创建令人惊叹的CSS动画效果的工具。",
+						"logo": "/logo/20240610/6/10/20240610_534211b6.jpg",
+						"description": "AI CSS Animations是一个使用人工智能技术创建CSS动画效果的工具。它可以帮助用户轻松地为网站添加引人注目、动态的效果。AI CSS Animations具有简单易用的界面和强大的算法，可以根据用户的语音指令生成定制的CSS动画代码，用户可以根据需要调整细节。",
+						"tags": ["CSS动画", "人工智能", "网站设计", "前端开发", "动态效果"]
+					},
+					{
+						"source": "",
+						"title": "All in AI",
+						"path": "kaifazhegongju/all-in-ai",
+						"cover": "/cover/20240610/6/10/20240610_2c7fc14d.jpg",
+						"label": "探索最佳的AI产品和工具",
+						"logo": "/logo/20240610/6/10/20240610_7ec75351.jpg",
+						"description": "All in AI是一个集合了多种AI产品和服务的平台，旨在帮助用户发现包括人工智能、大型模型学习、生成工具等在内的最佳AI产品和工具。平台提供了从图像生成、聊天机器人、文本写作到视频创作、代码辅助、设计辅助、教育学习、音乐生成等多种AI应用的导航和工具目录。",
+						"tags": ["AI", "工具", "导航", "创新", "教育", "企业", "开发"]
+					},
+					{
+						"source": "",
+						"title": "AutoPilotI18n",
+						"path": "kaifazhegongju/autopiloti18n",
+						"cover": "/cover/20240610/6/10/20240610_bf630b70.jpg",
+						"label": "AI驱动的国际化工具 简化i18n流程。",
+						"logo": "/logo/20240610/6/10/20240610_7e68b054.jpg",
+						"description": "AutoPilotI18n 是一款利用 AI 技术提供精确翻译的国际化工具，可自动化翻译任务，简化 i18n 流程。其主要优点在于精确翻译、多框架支持、高效工作流程，适用于 React、Vue、Angular 等。AutoPilotI18n 定价透明，提供免费和付费版本。",
+						"tags": ["AI", "国际化", "多框架支持", "自动化翻译", "开发工具"]
+					},
+					{
+						"source": "",
+						"title": "Codestral-22B-v0.1",
+						"path": "kaifazhegongju/codestral-22b-v0-1",
+						"cover": "/cover/20240610/6/10/20240610_bb1ba31d.jpg",
+						"label": "一款支持80+编程语言的AI代码生成模型",
+						"logo": "/logo/20240610/6/10/20240610_23de1d48.jpg",
+						"description": "Codestral-22B-v0.1是由Mistral AI Team开发的大型语言模型，它经过了80多种编程语言的训练，包括Python、Java、C、C++、JavaScript和Bash等。该模型能够根据指令生成代码，或对代码片段进行解释、重构等。它还支持Fill in the Middle (FIM)功能，用于预测代码中的中间部分，特别适合软件开发工具的插件使用，如VS Code。该模型目前没有内容审查机制，但开发团队正在寻求社区合作，以实现在需要内容审查的环境中部署。",
+						"tags": ["AI编程", "代码生成", "多语言支持", "软件开发"]
+					},
+					{
+						"source": "",
+						"title": "Codestral",
+						"path": "kaifazhegongju/codestral",
+						"cover": "/cover/20240610/6/10/20240610_317a366d.jpg",
+						"label": "Codestral是为代码生成任务设计的AI模型。",
+						"logo": "/logo/20240610/6/10/20240610_7e6ddce8.jpg",
+						"description": "Codestral是Mistral AI团队推出的首个代码生成AI模型，它能够通过共享指令和完成API端点帮助开发者编写和与代码交互。它在80多种编程语言上进行了训练，包括Python、Java、C、C++、JavaScript和Bash等，能够完成编码功能、编写测试和使用中间填充机制完成部分代码。Codestral在性能上设立了新的标准，它拥有32k的上下文窗口，比竞争对手的4k、8k或16k更大，从而在RepoBench上超越了所有其他模型。此外，它还提供了专用的API端点codestral.mistral.ai，允许用户在IDE中使用Instruct或Fill-In-the-Middle路由，并且提供了8周的免费beta期。Codestral还集成到了LlamaIndex和LangChain等应用框架中，以及VSCode和JetBrains环境中，使得开发者可以在这些环境中生成和与代码进行交互。",
+						"tags": ["代码生成", "AI辅助开发", "集成开发环境", "多语言支持"]
+					},
+					{
+						"source": "",
+						"title": "Dev Home",
+						"path": "kaifazhegongju/dev-home",
+						"cover": "/cover/20240610/6/10/20240610_c5bb465c.jpg",
+						"label": "Windows开发者的一站式控制中心",
+						"logo": "/logo/20240610/6/10/20240610_da50a8a0.jpg",
+						"description": "Dev Home是微软为Windows开发者推出的一款桌面客户端，旨在提供一个集中的控制中心，帮助开发者监控项目、设置开发环境、连接开发者账户和工具，并创建专用的存储空间。它通过自定义的仪表板小部件，使开发者能够监控工作流程、跟踪开发项目、编码任务、Azure DevOps查询、GitHub问题、拉取请求、可用SSH连接以及系统的CPU、GPU、内存和网络性能。Dev Home 0.14 预览版更新集成了 PowerToys 模块，以及基于 AI 的 Quickstart Playground 功能。",
+						"tags": ["开发工具", "项目管理", "性能监控", "集成开发环境"]
+					},
+					{
+						"source": "",
+						"title": "Farspeak",
+						"path": "kaifazhegongju/farspeak",
+						"cover": "/cover/20240610/6/10/20240610_10548896.jpg",
+						"label": "LLM应用开发平台，提升文档处理能力。",
+						"logo": "/logo/20240610/6/10/20240610_c9ec11e3.jpg",
+						"description": "Farspeak是一个LLM应用开发平台，它允许开发者通过API接入，使用自然语言查询（NLQ）和自然语言开发（NLD）技术，与MongoDB Atlas等数据库进行交互，处理结构化和非结构化数据。其主要优点包括实时嵌入更新、单一存储解决方案以及对多种数据库的支持。",
+						"tags": ["自然语言处理", "数据库集成", "开发平台"]
+					},
+					{
+						"source": "",
+						"title": "iTerm2",
+						"path": "kaifazhegongju/iterm2",
+						"cover": "/cover/20240610/6/10/20240610_45133175.jpg",
+						"label": "macOS平台上的现代终端替代品。",
+						"logo": "/logo/20240610/6/10/20240610_d637aae4.jpg",
+						"description": "iTerm2是一款macOS平台上的终端替代软件，它为开发者和系统管理员提供了丰富的功能，使得命令行的使用更加高效和便捷。它支持多标签、多窗口、分屏显示，还有丰富的定制选项，如颜色主题、快捷键等。iTerm2通过持续的更新，不断引入新特性，如AI辅助命令生成、性能改进等，以满足专业用户的需求。",
+						"tags": ["终端", "命令行", "开发工具", "系统管理"]
+					},
+					{
+						"source": "",
+						"title": "Jovu",
+						"path": "kaifazhegongju/jovu",
+						"cover": "/cover/20240610/6/10/20240610_8f7d82a2.jpg",
+						"label": "AI驱动的代码生成，快速实现从想法到生产。",
+						"logo": "/logo/20240610/6/10/20240610_081a8982.jpg",
+						"description": "Jovu是一个AI驱动的代码生成模型，旨在帮助开发者快速构建新服务或扩展现有应用程序。它通过AI技术生成生产就绪的代码，确保一致性、可预测性，并遵循最高标准。Jovu能够加速开发过程，从概念到部署只需几分钟，提供完全可操作的、健壮的后端服务，准备立即上线。它还通过简化开发工作流程、减少时间、优化资源来提高效率和速度。",
+						"tags": ["AI代码生成", "快速开发", "生产就绪", ".NET", "Node.js"]
+					}
+				]
+			}
+		]
 	},
 	{
-		"name": "效率助手",
-		"cover": "https://images.unsplash.com/photo-1446185250204-f94591f7d702?w=300&dpr=2&q=80"
+		"title": "音频",
+		"name": "yinpin",
+		"href": "/yinpin",
+		"total": 1211,
+		"items": [
+			{
+				"title": "音乐创作",
+				"name": "yinlechuangzuo",
+				"href": "/discover/yinlechuangzuo",
+				"total": 391,
+				"products": [
+					{
+						"source": "",
+						"title": "AI Clone Voice Free",
+						"path": "yinlechuangzuo/ai-clone-voice-free",
+						"cover": "/cover/20240610/6/10/20240610_77085fdd.jpg",
+						"label": "免费的人声克隆工具 支持多种语言和口音。",
+						"logo": "/logo/20240610/6/10/20240610_980446a7.jpg",
+						"description": "AI 克隆声音是一项利用机器学习技术生成与特定人声相似的语音的技术。无需特殊设备，可在浏览器中快速生成高质量的克隆声音。价格分为免费基础服务和付费高级服务，提供更多的声音定制选项。",
+						"tags": ["音乐", "声音合成", "语音克隆"]
+					},
+					{
+						"source": "",
+						"title": "Algoriddim",
+						"path": "yinlechuangzuo/algoriddim",
+						"cover": "/cover/20240610/6/10/20240610_157133af.jpg",
+						"label": "djay是一款获奖的DJ软件，与Apple Music完美集成，提供直观而强大的DJ体验。",
+						"logo": "/logo/20240610/6/10/20240610_7c77cdbb.jpg",
+						"description": "djay是一款与Apple Music无缝集成的获奖DJ软件。它提供了直观而强大的DJ体验，可以混合您最喜欢的音乐或启用自动混音模式。djay适用于移动设备、桌面设备和空间设备。",
+						"tags": ["DJ软件", "音乐软件", "Apple Music"]
+					},
+					{
+						"source": "",
+						"title": "Amped Studio",
+						"path": "yinlechuangzuo/amped-studio",
+						"cover": "/cover/20240610/6/10/20240610_ea5edcfc.jpg",
+						"label": "Amped Studio - 在线制作音乐",
+						"logo": "/logo/20240610/6/10/20240610_c4b8a814.jpg",
+						"description": "Amped Studio是一个在线音乐制作平台，提供创建音乐、节拍制作、音频编辑、声音录制和工程等功能。在这里可以找到一切创作音乐所需的工具！",
+						"tags": [
+							"音乐制作",
+							"在线工具",
+							"音频编辑",
+							"声音录制",
+							"AI",
+							"人工智能",
+							"创意",
+							"学习",
+							"工程",
+							"音乐技术",
+							"音乐创作"
+						]
+					},
+					{
+						"source": "",
+						"title": "AUDOIR",
+						"path": "yinlechuangzuo/audoir",
+						"cover": "/cover/20240610/6/10/20240610_8533c5b6.jpg",
+						"label": "免费AI歌词、音乐和歌曲生成应用。快速歌词AI、韵律AI、AI歌词助手、AI音乐魔术、AI音乐生成器和歌词转音乐AI。现在可在网页应用、App Store和Google Play上使用。",
+						"logo": "/logo/20240610/6/10/20240610_8b4aebfc.jpg",
+						"description": "AUDOIR提供免费的AI歌词、音乐和歌曲生成应用。这些应用包括快速歌词AI、韵律AI、AI歌词助手、AI音乐魔术、AI音乐生成器和歌词转音乐AI。它们利用人工智能技术生成高质量的歌词、音乐和歌曲，帮助用户在创作音乐方面提供灵感和支持。产品具有高度的自动化和智能化，可以提供个性化的创作体验。AUDOIR的目标是使音乐创作变得更加简单、快速和有趣。",
+						"tags": ["音乐", "创作", "人工智能", "歌曲生成", "歌词生成"]
+					},
+					{
+						"source": "",
+						"title": "ComfyUI-StableAudioSampler",
+						"path": "yinlechuangzuo/comfyui-stableaudiosampler",
+						"cover": "/cover/20240610/6/10/20240610_943a0ef4.jpg",
+						"label": "音频采样器，创造音乐节奏",
+						"logo": "/logo/20240610/6/10/20240610_62fa92c0.jpg",
+						"description": "ComfyUI-StableAudioSampler 是一款集成在 ComfyUI 节点中的音频采样器插件，它允许用户生成音频并输出原始字节和采样率，支持所有原始 Stable Audio Open 参数，并可以保存音频到文件。这个插件是开源的，并且正在积极开发中，旨在为音乐制作者提供一个易于使用且功能强大的工具。",
+						"tags": ["音频处理", "音乐制作", "开源"]
+					},
+					{
+						"source": "",
+						"title": "CoverArtist",
+						"path": "yinlechuangzuo/coverartist",
+						"cover": "/cover/20240610/6/10/20240610_be5716ab.jpg",
+						"label": "创造属于自己的专辑封面艺术",
+						"logo": "/logo/20240610/6/10/20240610_187b79d0.jpg",
+						"description": "CoverArtist是一个使用人工智能技术生成专辑封面艺术的在线工具。它可以根据歌曲标题和歌词等信息，快速生成独特而令人赏心悦目的专辑封面。CoverArtist提供快速、简单、经济高效的封面艺术生成服务，让音乐人能够专注于创作。",
+						"tags": ["音乐", "设计", "艺术", "人工智能", "创作工具"]
+					},
+					{
+						"source": "",
+						"title": "Drumless",
+						"path": "yinlechuangzuo/drumless",
+						"cover": "/cover/20240610/6/10/20240610_3e51a624.jpg",
+						"label": "鼓曲剥离器 - 移除您最喜欢的歌曲中的鼓声。",
+						"logo": "/logo/20240610/6/10/20240610_aea06692.jpg",
+						"description": "Drumless是一个能够从任何歌曲中剥离鼓声的工具。通过使用人工智能技术，您可以练习和玩乐，并成为一名更好的鼓手。Drumless的主要优点是帮助鼓手实现与他们最喜欢的乐队音乐的合作，创造出全新、自由和富有创造力的方式。",
+						"tags": ["鼓手", "音乐", "练习", "创作", "音轨"]
+					},
+					{
+						"source": "",
+						"title": "Fryderyk",
+						"path": "yinlechuangzuo/fryderyk",
+						"cover": "/cover/20240610/6/10/20240610_25d64493.jpg",
+						"label": "AI辅助的音乐创作伙伴",
+						"logo": "/logo/20240610/6/10/20240610_accd839f.jpg",
+						"description": "Fryderyk是一个集成了AI助手的音乐制作网页应用程序，它提供了一个浏览器内的音乐创作环境，支持即插即用，连接麦克风或任何MIDI乐器。用户可以访问广泛的虚拟乐器库，应用混响、失真、延迟等效果和混合工具，进行音频编辑、录制和编辑音频。Fryderyk还提供云存储功能，项目自动保存并同步至所有设备。它的内置生成性AI能够扩展用户的想法或在用户遇到创作瓶颈时提供新的想法。",
+						"tags": ["音乐创作", "AI辅助", "云同步", "音效编辑"]
+					},
+					{
+						"source": "",
+						"title": "HeyMusic.AI",
+						"path": "yinlechuangzuo/heymusic-ai",
+						"cover": "/cover/20240610/6/10/20240610_314e5a8d.jpg",
+						"label": "将文字转化为音乐的第一款AI音乐生成平台",
+						"logo": "/logo/20240610/6/10/20240610_e8685cf0.jpg",
+						"description": "HeyMusic.AI是一款基于AI算法的生成音乐平台，可以根据用户提供的歌词创作音乐。它可以在几秒钟内根据用户的提示创建定制的AI音乐，让用户轻松释放创造力。HeyMusic.AI提供了比Suno AI和Udio更好的生成AI音乐的功能。",
+						"tags": ["AI音乐", "创作", "音乐生成"]
+					},
+					{
+						"source": "",
+						"title": "MusicGPT",
+						"path": "yinlechuangzuo/musicgpt",
+						"cover": "/cover/20240610/6/10/20240610_b87f9b65.jpg",
+						"label": "在本地使用 LLMs 根据自然语言提示生成音乐。",
+						"logo": "/logo/20240610/6/10/20240610_bed85af9.jpg",
+						"description": "MusicGPT 是一款允许在任何平台上以高性能方式在本地运行最新音乐生成 AI 模型的应用程序。它支持文本条件音乐生成、旋律条件音乐生成以及不确定长度 / 无限音乐流。产品优势在于无需安装重型依赖如 Python 或机器学习框架，能够本地运行 AI 模型，提供自然语言提示生成音乐的功能。",
+						"tags": ["音乐", "人工智能", "本地运行", "自然语言处理"]
+					}
+				]
+			},
+			{
+				"title": "音频处理",
+				"name": "yinpinchuli",
+				"href": "/discover/yinpinchuli",
+				"total": 232,
+				"products": [
+					{
+						"source": "",
+						"title": "AI-Powered Sleep Story Generator",
+						"path": "yinpinchuli/ai-powered-sleep-story-generator",
+						"cover": "/cover/20240610/6/10/20240610_1e93713e.jpg",
+						"label": "个性化AI助眠故事生成器，助你安然入梦",
+						"logo": "/logo/20240610/6/10/20240610_a217c302.jpg",
+						"description": "AI-Powered Sleep Story Generator是一款创新的AI驱动工具，旨在帮助用户进入深度而宁静的睡眠。用户可以描述自己理想的睡眠场景，AI将利用最新技术制作出舒缓而沉浸式的音频故事，安抚心灵，帮助用户放松进入梦乡。该工具将个性化提升到新水平，根据用户的特定偏好和需求定制每个故事，无论是轻柔的自然声音、舒缓的叙述，还是两者的结合，AI技术都能确保完美适应用户的睡前例程。",
+						"tags": ["AI", "助眠", "个性化", "音频故事"]
+					},
+					{
+						"source": "",
+						"title": "Amped Studio",
+						"path": "yinpinchuli/amped-studio",
+						"cover": "/cover/20240610/6/10/20240610_ea5edcfc.jpg",
+						"label": "Amped Studio - 在线制作音乐",
+						"logo": "/logo/20240610/6/10/20240610_c4b8a814.jpg",
+						"description": "Amped Studio是一个在线音乐制作平台，提供创建音乐、节拍制作、音频编辑、声音录制和工程等功能。在这里可以找到一切创作音乐所需的工具！",
+						"tags": [
+							"音乐制作",
+							"在线工具",
+							"音频编辑",
+							"声音录制",
+							"AI",
+							"人工智能",
+							"创意",
+							"学习",
+							"工程",
+							"音乐技术",
+							"音乐创作"
+						]
+					},
+					{
+						"source": "",
+						"title": "AniTalker",
+						"path": "yinpinchuli/anitalker",
+						"cover": "/cover/20240610/6/10/20240610_2df11be1.jpg",
+						"label": "将静态肖像和输入音频转化为生动的动画对话视频",
+						"logo": "/logo/20240610/6/10/20240610_24f6bbf8.jpg",
+						"description": "AniTalker是一个创新的框架，它能够从单一的肖像生成逼真的对话面部动画。它通过两个自监督学习策略增强了动作表现力，同时通过度量学习开发了一个身份编码器，有效减少了对标记数据的需求。AniTalker不仅能够创建详细且逼真的面部动作，还强调了其在现实世界应用中制作动态头像的潜力。",
+						"tags": ["动画", "面部表情", "音频同步", "自监督学习", "身份编码"]
+					},
+					{
+						"source": "",
+						"title": "AudioLCM",
+						"path": "yinpinchuli/audiolcm",
+						"cover": "/cover/20240610/6/10/20240610_1a22f34b.jpg",
+						"label": "高效的文本到音频生成模型，具有潜在一致性。",
+						"logo": "/logo/20240610/6/10/20240610_9762965b.jpg",
+						"description": "AudioLCM是一个基于PyTorch实现的文本到音频生成模型，它通过潜在一致性模型来生成高质量且高效的音频。该模型由Huadai Liu等人开发，提供了开源的实现和预训练模型。它能够将文本描述转化为接近真实的音频，具有重要的应用价值，尤其是在语音合成、音频制作等领域。",
+						"tags": ["文本到音频", "语音合成", "音频生成", "PyTorch"]
+					},
+					{
+						"source": "",
+						"title": "AudiowaveAI",
+						"path": "yinpinchuli/audiowaveai",
+						"cover": "/cover/20240610/6/10/20240610_15c23c9a.jpg",
+						"label": "将任何文本转换为有声读物质量的声音。",
+						"logo": "/logo/20240610/6/10/20240610_2ef3318d.jpg",
+						"description": "AudiowaveAI是一款利用人工智能技术将文本转换成高质量音频的应用程序。它与传统的文本到语音技术不同，提供了更加自然、富有情感的语音输出，让听众在学习和享受内容时获得更好的听觉体验。产品背景信息包括它是由全球创新公司和自由职业者信赖的产品，其主要优点在于其引人入胜的声音、自然的声音效果以及令人愉悦的听觉享受。产品定位为教育工具，旨在帮助用户在移动中学习，享受夏日阳光。",
+						"tags": ["人工智能", "文本到语音", "教育工具", "移动学习", "高质量音频"]
+					},
+					{
+						"source": "",
+						"title": "必剪 Studio",
+						"path": "yinpinchuli/bijian-studio",
+						"cover": "/cover/20240610/6/10/20240610_49739dba.jpg",
+						"label": "必剪 Studio 是一款支持形象驱动、音色定制的数字分身工具。",
+						"logo": "/logo/20240610/6/10/20240610_2261b18b.jpg",
+						"description": "必剪 Studio 是一款数字分身工具，支持形象驱动和音色定制。用户可以定制专属数字分身，用于配音、口播等场景。产品背景为解决用户在音频制作中个性化需求的问题，定位于提供便捷的数字分身创作工具。",
+						"tags": ["数字分身", "音色定制", "AI 技术", "音频制作"]
+					},
+					{
+						"source": "",
+						"title": "ComfyUI-StableAudioSampler",
+						"path": "yinpinchuli/comfyui-stableaudiosampler",
+						"cover": "/cover/20240610/6/10/20240610_943a0ef4.jpg",
+						"label": "音频采样器，创造音乐节奏",
+						"logo": "/logo/20240610/6/10/20240610_62fa92c0.jpg",
+						"description": "ComfyUI-StableAudioSampler 是一款集成在 ComfyUI 节点中的音频采样器插件，它允许用户生成音频并输出原始字节和采样率，支持所有原始 Stable Audio Open 参数，并可以保存音频到文件。这个插件是开源的，并且正在积极开发中，旨在为音乐制作者提供一个易于使用且功能强大的工具。",
+						"tags": ["音频处理", "音乐制作", "开源"]
+					},
+					{
+						"source": "",
+						"title": "ElevenLabs Text to Sound Effects",
+						"path": "yinpinchuli/elevenlabs-text-to-sound-effects",
+						"cover": "/cover/20240610/6/10/20240610_df1ebfc6.jpg",
+						"label": "AI生成音效，从文本描述到声音效果的创新工具。",
+						"logo": "/logo/20240610/6/10/20240610_ec53bc4f.jpg",
+						"description": "Text to Sound Effects是ElevenLabs开发的最新AI音频模型，能够根据文本提示生成各种音效、短音乐曲目、音景和角色声音。它代表了音频制作领域的重大创新，为电影电视工作室、视频游戏开发者和社交媒体内容创作者提供了快速、经济、大规模生成丰富沉浸式音景的工具。该产品通过与Shutterstock的合作，利用其丰富的音频库中的授权曲目，经过精细调整，为现代创作者创造了一个多功能的新工具。",
+						"tags": ["AI音频模型", "音效生成", "文本到声音", "音景制作", "角色声音"]
+					},
+					{
+						"source": "",
+						"title": "HitPaw Edimakor",
+						"path": "yinpinchuli/hitpaw-edimakor",
+						"cover": "/cover/20240610/6/10/20240610_222d18e9.jpg",
+						"label": "HitPaw Edimakor是一款功能强大的高级AI视频编辑器，旨在帮助您以简单创意的方式编辑视频。试试它，创作专业视频！",
+						"logo": "/logo/20240610/6/10/20240610_48b23fe5.jpg",
+						"description": "HitPaw Edimakor是一款功能强大的高级AI视频编辑器，旨在帮助您以简单创意的方式编辑视频。它提供了无限轨道的时间轴上轻松编辑工具，包括贴纸、转场、滤镜、文字等，可以轻松创建令人惊艳的视频。它还具有AI驱动的功能，如语音转文本、AI脚本生成、AI音频编辑等。HitPaw Edimakor适用于创意专业人士和想要将多个视频片段制作成令人难忘的蒙太奇的个人用户。",
+						"tags": ["视频编辑", "AI", "创意", "音频编辑"]
+					},
+					{
+						"source": "",
+						"title": "Illuminate",
+						"path": "yinpinchuli/illuminate",
+						"cover": "/cover/20240610/6/10/20240610_5f27f2ad.jpg",
+						"label": "将学术论文转化为AI生成的音频讨论。",
+						"logo": "/logo/20240610/6/10/20240610_013d114c.jpg",
+						"description": "Illuminate是谷歌推出的一个创新的教育工具，它利用人工智能技术将复杂的学术论文转化为易于理解的音频讨论，帮助用户以更直观、互动的方式学习和理解学术内容。该产品通过简化学习过程，提高了学习效率，尤其适合快节奏和多样化的学习需求。",
+						"tags": ["学术", "教育", "人工智能", "音频学习"]
+					}
+				]
+			},
+			{
+				"title": "语音处理",
+				"name": "yuyinchuli",
+				"href": "/discover/yuyinchuli",
+				"total": 588,
+				"products": [
+					{
+						"source": "",
+						"title": "AI Clone Voice Free",
+						"path": "yuyinchuli/ai-clone-voice-free",
+						"cover": "/cover/20240610/6/10/20240610_77085fdd.jpg",
+						"label": "免费的人声克隆工具 支持多种语言和口音。",
+						"logo": "/logo/20240610/6/10/20240610_980446a7.jpg",
+						"description": "AI 克隆声音是一项利用机器学习技术生成与特定人声相似的语音的技术。无需特殊设备，可在浏览器中快速生成高质量的克隆声音。价格分为免费基础服务和付费高级服务，提供更多的声音定制选项。",
+						"tags": ["音乐", "声音合成", "语音克隆"]
+					},
+					{
+						"source": "",
+						"title": "AudioLCM",
+						"path": "yuyinchuli/audiolcm",
+						"cover": "/cover/20240610/6/10/20240610_1a22f34b.jpg",
+						"label": "高效的文本到音频生成模型，具有潜在一致性。",
+						"logo": "/logo/20240610/6/10/20240610_9762965b.jpg",
+						"description": "AudioLCM是一个基于PyTorch实现的文本到音频生成模型，它通过潜在一致性模型来生成高质量且高效的音频。该模型由Huadai Liu等人开发，提供了开源的实现和预训练模型。它能够将文本描述转化为接近真实的音频，具有重要的应用价值，尤其是在语音合成、音频制作等领域。",
+						"tags": ["文本到音频", "语音合成", "音频生成", "PyTorch"]
+					},
+					{
+						"source": "",
+						"title": "AudiowaveAI",
+						"path": "yuyinchuli/audiowaveai",
+						"cover": "/cover/20240610/6/10/20240610_15c23c9a.jpg",
+						"label": "将任何文本转换为有声读物质量的声音。",
+						"logo": "/logo/20240610/6/10/20240610_2ef3318d.jpg",
+						"description": "AudiowaveAI是一款利用人工智能技术将文本转换成高质量音频的应用程序。它与传统的文本到语音技术不同，提供了更加自然、富有情感的语音输出，让听众在学习和享受内容时获得更好的听觉体验。产品背景信息包括它是由全球创新公司和自由职业者信赖的产品，其主要优点在于其引人入胜的声音、自然的声音效果以及令人愉悦的听觉享受。产品定位为教育工具，旨在帮助用户在移动中学习，享受夏日阳光。",
+						"tags": ["人工智能", "文本到语音", "教育工具", "移动学习", "高质量音频"]
+					},
+					{
+						"source": "",
+						"title": "Carteisa Sonic",
+						"path": "yuyinchuli/carteisa-sonic",
+						"cover": "/cover/20240610/6/10/20240610_3ea608c4.jpg",
+						"label": "低延迟语音模型，生成逼真语音",
+						"logo": "/logo/20240610/6/10/20240610_de46e4cd.jpg",
+						"description": "Sonic是由Carteisa团队开发的低延迟语音模型，旨在为各种设备提供逼真的语音生成能力。该模型利用了创新的状态空间模型架构，以实现高分辨率音频和视频的高效、低延迟生成。Sonic模型的延迟仅为135毫秒，是同类模型中最快的。Carteisa团队专注于优化智能的效率，使它更快、更便宜、更易于访问。Sonic模型的发布，标志着实时对话式AI和长期记忆的计算平台的初步进展，预示着未来AI在实时游戏、客户支持等领域的新体验。",
+						"tags": ["语音生成", "低延迟", "多语言", "实时交互", "API"]
+					},
+					{
+						"source": "",
+						"title": "ChatTTS.com",
+						"path": "yuyinchuli/chattts-com",
+						"cover": "/cover/20240610/6/10/20240610_56947b5e.jpg",
+						"label": "自然对话场景下的文字转语音模型",
+						"logo": "/logo/20240610/6/10/20240610_e4a216c9.jpg",
+						"description": "ChatTTS是一个为对话场景设计的声音生成模型，特别适用于大型语言模型助手的对话任务，以及对话式音频和视频介绍等应用。它支持中英文，通过使用约10万小时的中英文数据训练，展现出高质量和自然度的语音合成能力。",
+						"tags": ["语音合成", "对话", "多语言", "开源"]
+					},
+					{
+						"source": "",
+						"title": "ChatTTS-ui",
+						"path": "yuyinchuli/chattts-ui",
+						"cover": "/cover/20240610/6/10/20240610_1f18c4c1.jpg",
+						"label": "为ChatTTS创建的web界面和API接口",
+						"logo": "/logo/20240610/6/10/20240610_3e2ddc6c.jpg",
+						"description": "ChatTTS-ui是一个为ChatTTS项目提供的web界面和API接口，允许用户通过网页进行语音合成操作，并通过API接口进行远程调用。它支持多种音色选择，用户可以自定义语音合成的参数，如笑声、停顿等。此项目为语音合成技术提供了一个易于使用的界面，降低了技术门槛，使得语音合成更加便捷。",
+						"tags": ["语音合成", "web界面", "API接口", "多音色选择", "自定义参数"]
+					},
+					{
+						"source": "",
+						"title": "ChatTTS",
+						"path": "yuyinchuli/chattts",
+						"cover": "/cover/20240610/6/10/20240610_fbbe159a.jpg",
+						"label": "一个用于文本到语音转换的开源项目。",
+						"logo": "/logo/20240610/6/10/20240610_f3c8c75a.jpg",
+						"description": "ChatTTS是一个开源的文本到语音转换(TTS)模型，它允许用户将文本转换为语音。该模型主要面向学术研究和教育目的，不适用于商业或法律用途。它使用深度学习技术，能够生成自然流畅的语音输出，适合研究和开发语音合成技术的人员使用。",
+						"tags": ["文本到语音", "深度学习", "学术研究", "开源项目"]
+					},
+					{
+						"source": "",
+						"title": "EngineerDraft",
+						"path": "yuyinchuli/engineerdraft",
+						"cover": "/cover/20240610/6/10/20240610_66123681.jpg",
+						"label": "实时字幕生成工具",
+						"logo": "/logo/20240610/6/10/20240610_3a413ec7.jpg",
+						"description": "BeMyEars 是一款实时字幕生成工具，利用本地设备完成语音识别，为听障人士和需要字幕的用户提供极致体验。其主要优点包括多语言支持、多源输入、隐私保护等。",
+						"tags": ["听障人士", "字幕生成", "语音识别", "隐私保护"]
+					},
+					{
+						"source": "",
+						"title": "LookOnceToHear",
+						"path": "yuyinchuli/lookoncetohear",
+						"cover": "/cover/20240610/6/10/20240610_e46302b5.jpg",
+						"label": "实时语音提取智能耳机交互系统",
+						"logo": "/logo/20240610/6/10/20240610_35493a70.jpg",
+						"description": "LookOnceToHear 是一种创新的智能耳机交互系统，允许用户通过简单的视觉识别来选择想要听到的目标说话者。这项技术在 CHI 2024 上获得了最佳论文荣誉提名。它通过合成音频混合、头相关传输函数(HRTFs)和双耳房间脉冲响应(BRIRs)来实现实时语音提取，为用户提供了一种新颖的交互方式。",
+						"tags": ["语音识别", "实时处理", "智能耳机", "交互系统"]
+					},
+					{
+						"source": "",
+						"title": "MiGPT",
+						"path": "yuyinchuli/migpt",
+						"cover": "/cover/20240610/6/10/20240610_22b1e7a6.jpg",
+						"label": "将小爱音箱接入ChatGPT，打造专属智能家居语音助手。",
+						"logo": "/logo/20240610/6/10/20240610_14fd3603.jpg",
+						"description": "MiGPT是一个通过将小爱音箱与ChatGPT的智能理解能力相结合，实现智能家居语音控制的项目。它不仅支持设备自动化，还能够通过角色扮演、流式响应、长短期记忆等技术，让智能家居设备更智能、更贴心地响应用户的指令。MiGPT支持Docker和Node.js两种启动方式，用户可以根据自己的需求进行选择。",
+						"tags": ["智能家居", "语音助手", "ChatGPT", "小爱音箱"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "视频",
+		"name": "shipin",
+		"href": "shipin",
+		"total": 1193,
+		"items": [
+			{
+				"title": "视频创作",
+				"name": "shipinchuangzuo",
+				"href": "/discover/shipinchuangzuo",
+				"total": 1070,
+				"products": [
+					{
+						"source": "",
+						"title": "AnimateAnyone",
+						"path": "shipinchuangzuo/animateanyone",
+						"cover": "/cover/20240610/6/10/20240610_ae4d446e.jpg",
+						"label": "由Novita AI提供的非官方Animate Anyone实现",
+						"logo": "/logo/20240610/6/10/20240610_6af72dfe.jpg",
+						"description": "AnimateAnyone是一个基于深度学习的视频生成模型，它能够将静态图片或视频转换为动画。该模型由Novita AI非官方实现，灵感来源于MooreThreads/Moore-AnimateAnyone的实现，并在训练过程和数据集上进行了调整。",
+						"tags": ["视频生成", "深度学习", "动画", "AI"]
+					},
+					{
+						"source": "",
+						"title": "CamCo",
+						"path": "shipinchuangzuo/camco",
+						"cover": "/cover/20240610/6/10/20240610_620b213d.jpg",
+						"label": "3D一致性的视频生成框架",
+						"logo": "/logo/20240610/6/10/20240610_d6e63d0d.jpg",
+						"description": "CamCo是一个创新的图像到视频生成框架，它能够生成具有3D一致性的高质量视频。该框架通过Plücker坐标引入相机信息，并提出了一种符合几何一致性的双线约束注意力模块。此外，CamCo在通过运动结构算法估计相机姿态的真实世界视频上进行了微调，以更好地合成物体运动。",
+						"tags": ["视频生成", "3D一致性", "相机控制", "图像到视频"]
+					},
+					{
+						"source": "",
+						"title": "Clixie AI",
+						"path": "shipinchuangzuo/clixie-ai",
+						"cover": "/cover/20240610/6/10/20240610_8b2ddc71.jpg",
+						"label": "互动视频平台，提升学习与参与度",
+						"logo": "/logo/20240610/6/10/20240610_f33fd8a0.jpg",
+						"description": "Clixie AI 是一个互动视频平台，它利用人工智能技术将普通视频和音频文件快速转换为具有互动性的体验，包括测验、章节、书签等。该平台致力于使学习变得有趣且参与度高，通过互动内容使学习者保持参与并提供有关他们学习体验的宝贵数据。Clixie AI 易于使用，无需编码，支持快速更新，并通过直观的创作工具和一目了然的数据仪表板，帮助用户轻松管理内容和做出决策。",
+						"tags": ["互动视频", "人工智能", "教育技术", "企业培训", "内容创作"]
+					},
+					{
+						"source": "",
+						"title": "Detail",
+						"path": "shipinchuangzuo/detail",
+						"cover": "/cover/20240610/6/10/20240610_a0ac313a.jpg",
+						"label": "视频制作新标杆，AI助力视频编辑。",
+						"logo": "/logo/20240610/6/10/20240610_9bcbbbd1.jpg",
+						"description": "Detail是一款专为iPad设计的APP，适用于TikTok爱好者、播客创作者和Instagram影响者。它集成了强大的视频编辑器、便捷的提词器、智能字幕和尖端的摄像技术，通过AI驱动的编辑功能和即时视频预设，使创建惊人视频变得快速而简单。",
+						"tags": ["视频编辑", "AI字幕", "直播", "多摄像头", "滤镜效果"]
+					},
+					{
+						"source": "",
+						"title": "EasyAnimate",
+						"path": "shipinchuangzuo/easyanimate",
+						"cover": "/cover/20240610/6/10/20240610_8057ab47.jpg",
+						"label": "生成高分辨率和长视频的端到端解决方案",
+						"logo": "/logo/20240610/6/10/20240610_b9f0eee5.jpg",
+						"description": "EasyAnimate 是一个基于 transformer 架构的流水线，可以用于生成 AI 照片和视频，训练基线模型和 Lora 模型以用于 Diffusion Transformer。支持直接从预训练的 EasyAnimate 模型进行预测，生成不同分辨率、约 6 秒（24fps）的视频。用户还可以训练自己的基线模型和 Lora 模型以执行特定风格转换。",
+						"tags": ["AI视频生成", "transformer", "视频编辑"]
+					},
+					{
+						"source": "",
+						"title": "I2VEdit",
+						"path": "shipinchuangzuo/i2vedit",
+						"cover": "/cover/20240610/6/10/20240610_16133f1a.jpg",
+						"label": "一种基于图像到视频扩散模型的视频编辑技术",
+						"logo": "/logo/20240610/6/10/20240610_fd174924.jpg",
+						"description": "I2VEdit是一种创新的视频编辑技术，通过预训练的图像到视频模型，将单一帧的编辑扩展到整个视频。这项技术能够适应性地保持源视频的视觉和运动完整性，并有效处理全局编辑、局部编辑以及适度的形状变化，这是现有方法所不能实现的。I2VEdit的核心包括两个主要过程：粗略运动提取和外观细化，通过粗粒度注意力匹配进行精确调整。此外，还引入了跳过间隔策略，以减轻多个视频片段自动回归生成过程中的质量下降。实验结果表明，I2VEdit在细粒度视频编辑方面的优越性能，证明了其能够产生高质量、时间一致的输出。",
+						"tags": ["视频编辑", "图像到视频", "扩散模型"]
+					},
+					{
+						"source": "",
+						"title": "可灵大模型",
+						"path": "shipinchuangzuo/kelingdamoxing",
+						"cover": "/cover/20240610/6/10/20240610_427cd126.jpg",
+						"label": "可灵大模型是由快手大模型团队自研打造的视频生成大模型，让用户可以轻松高效地完成艺术视频创作。",
+						"logo": "/logo/20240610/6/10/20240610_d2c09889.jpg",
+						"description": "可灵大模型是一款具备强大视频生成能力的自研大模型，采用先进的技术实现长达 2 分钟视频生成、模拟物理世界特性、概念组合能力等，可生成电影级画面。",
+						"tags": ["视频生成", "艺术创作", "模拟物理"]
+					},
+					{
+						"source": "",
+						"title": "快影",
+						"path": "shipinchuangzuo/kuaiying",
+						"cover": "/cover/20240610/6/10/20240610_e1cb9ded.jpg",
+						"label": "快手官方视频剪辑神器，创作有趣的视频",
+						"logo": "/logo/20240610/6/10/20240610_3d74e984.jpg",
+						"description": "快影是快手官方推出的视频剪辑应用，提供全面的视频编辑功能，包括剪辑、音频、字幕、特效等，旨在帮助用户轻松创作出有趣且专业的视频内容。它具备AI动漫视频功能，能够将视频转化为动漫风格，提供多种风格选择，如动漫风、国潮风、日漫风等。此外，快影还拥有AI创作工具，如AI绘画、AI文生图、AI文案库，以辅助用户进行创作。快影还提供创作中心，帮助用户查看数据、寻找灵感，以及提供强大的素材库，包括贴纸、热梗等，以提升用户的网感。",
+						"tags": ["视频剪辑", "AI动漫", "创作工具", "素材库"]
+					},
+					{
+						"source": "",
+						"title": "Latercut",
+						"path": "shipinchuangzuo/latercut",
+						"cover": "/cover/20240610/6/10/20240610_4cc2084d.jpg",
+						"label": "快速制作社交媒体短视频。",
+						"logo": "/logo/20240610/6/10/20240610_73c7cd94.jpg",
+						"description": "Latercut是一个专注于短视频制作的在线平台，支持快速剪辑和发布到各大社交媒体平台。它利用AI模板技术，简化视频编辑流程，帮助用户节省时间，提高内容创作效率。",
+						"tags": ["短视频", "社交媒体", "AI编辑", "内容创作"]
+					},
+					{
+						"source": "",
+						"title": "MusePose",
+						"path": "shipinchuangzuo/musepose",
+						"cover": "/cover/20240610/6/10/20240610_928f56e5.jpg",
+						"label": "虚拟人物生成的图像到视频框架",
+						"logo": "/logo/20240610/6/10/20240610_dccbaa44.jpg",
+						"description": "MusePose是由腾讯音乐娱乐的Lyra Lab开发的一款图像到视频的生成框架，旨在通过姿势控制信号生成虚拟人物的视频。它是Muse开源系列的最后一个构建块，与MuseV和MuseTalk一起，旨在推动社区向生成具有全身运动和交互能力的虚拟人物的愿景迈进。MusePose基于扩散模型和姿势引导，能够生成参考图像中人物的舞蹈视频，并且结果质量超越了当前几乎所有同一主题的开源模型。",
+						"tags": ["虚拟人物", "图像到视频", "姿势控制", "AI生成内容"]
+					}
+				]
+			},
+			{
+				"title": "视频生成",
+				"name": "shipinshengcheng",
+				"href": "/discover/shipinshengcheng",
+				"total": 123,
+				"products": [
+					{
+						"source": "",
+						"title": "AI Video Generator - Text to Video By Sora",
+						"path": "shipinshengcheng/ai-video-generator-text-to-video-by-sora",
+						"cover": "/cover/20240610/6/10/20240610_ac0e175c.jpg",
+						"label": "无需麦克风、摄像机、演员或工作室，通过文本生成专业视频",
+						"logo": "/logo/20240610/6/10/20240610_d588f88b.ico",
+						"description": "AI视频生成器让每个人都能通过文本创作出令人惊叹的视频。功能包括：创意转视频、博客转视频、PPT转视频、推文转视频、头像视频、产品转视频等。适用于内容创作、商业营销、教育培训、电子商务等领域。",
+						"tags": ["视频生成器", "AI视频", "文本到视频"]
+					},
+					{
+						"source": "",
+						"title": "AnimateAnyone",
+						"path": "shipinshengcheng/animateanyone",
+						"cover": "/cover/20240610/6/10/20240610_ae4d446e.jpg",
+						"label": "由Novita AI提供的非官方Animate Anyone实现",
+						"logo": "/logo/20240610/6/10/20240610_6af72dfe.jpg",
+						"description": "AnimateAnyone是一个基于深度学习的视频生成模型，它能够将静态图片或视频转换为动画。该模型由Novita AI非官方实现，灵感来源于MooreThreads/Moore-AnimateAnyone的实现，并在训练过程和数据集上进行了调整。",
+						"tags": ["视频生成", "深度学习", "动画", "AI"]
+					},
+					{
+						"source": "",
+						"title": "apob ai",
+						"path": "shipinshengcheng/apob-ai",
+						"cover": "/cover/20240610/6/10/20240610_a1c8484a.jpg",
+						"label": "APOB是一个AI创造者工具，可以生成完美反映您风格、声音和本质的独特AI形象。轻松生成引人注目的内容，提升您的受众参与度。",
+						"logo": "/logo/20240610/6/10/20240610_2be503ec.jpg",
+						"description": "APOB是一个AI创造者工具，可以生成独特的AI形象，为用户带来无限的创作可能。它可以用于生成图片和视频，适用于各种用途，包括数字孪生、明星致敬和动漫角色动画等。APOB具有灵活性和创造力，可以根据用户的喜好进行个性化定制。",
+						"tags": ["创造者", "AI形象生成", "图片生成", "视频生成"]
+					},
+					{
+						"source": "",
+						"title": "CamCo",
+						"path": "shipinshengcheng/camco",
+						"cover": "/cover/20240610/6/10/20240610_620b213d.jpg",
+						"label": "3D一致性的视频生成框架",
+						"logo": "/logo/20240610/6/10/20240610_d6e63d0d.jpg",
+						"description": "CamCo是一个创新的图像到视频生成框架，它能够生成具有3D一致性的高质量视频。该框架通过Plücker坐标引入相机信息，并提出了一种符合几何一致性的双线约束注意力模块。此外，CamCo在通过运动结构算法估计相机姿态的真实世界视频上进行了微调，以更好地合成物体运动。",
+						"tags": ["视频生成", "3D一致性", "相机控制", "图像到视频"]
+					},
+					{
+						"source": "",
+						"title": "Darwin Studio",
+						"path": "shipinshengcheng/darwin-studio",
+						"cover": "/cover/20240610/6/10/20240610_95fe75fc.jpg",
+						"label": "AI图像、视频和广告生成器",
+						"logo": "/logo/20240610/6/10/20240610_6ad0a5c5.jpg",
+						"description": "Darwin Studio是一款AI图像、视频和广告生成器，通过使用AI技术和算法，帮助用户快速生成高质量的图像、视频和广告。它具有高效、智能、创新的特点，可以大大提升创意工作效率。",
+						"tags": ["AI", "图像生成", "视频生成", "广告生成", "创意工具"]
+					},
+					{
+						"source": "",
+						"title": "EasyAnimate",
+						"path": "shipinshengcheng/easyanimate",
+						"cover": "/cover/20240610/6/10/20240610_8057ab47.jpg",
+						"label": "生成高分辨率和长视频的端到端解决方案",
+						"logo": "/logo/20240610/6/10/20240610_b9f0eee5.jpg",
+						"description": "EasyAnimate 是一个基于 transformer 架构的流水线，可以用于生成 AI 照片和视频，训练基线模型和 Lora 模型以用于 Diffusion Transformer。支持直接从预训练的 EasyAnimate 模型进行预测，生成不同分辨率、约 6 秒（24fps）的视频。用户还可以训练自己的基线模型和 Lora 模型以执行特定风格转换。",
+						"tags": ["AI视频生成", "transformer", "视频编辑"]
+					},
+					{
+						"source": "",
+						"title": "FIFO-Diffusion",
+						"path": "shipinshengcheng/fifo-diffusion",
+						"cover": "/cover/20240610/6/10/20240610_823fad2b.jpg",
+						"label": "生成无限长度视频的文本条件视频生成技术",
+						"logo": "/logo/20240610/6/10/20240610_8844e3eb.jpg",
+						"description": "FIFO-Diffusion是一种基于预训练扩散模型的新颖推理技术，用于文本条件视频生成。它能够无需训练生成无限长的视频，通过迭代执行对角去噪，同时处理队列中一系列连续帧的逐渐增加的噪声水平；该方法在头部出队一个完全去噪的帧，同时在尾部入队一个新的随机噪声帧。此外，引入了潜在分割来减少训练推理差距，并通过前瞻去噪来利用前向引用的好处。",
+						"tags": ["视频生成", "AI技术", "无需训练", "高分辨率"]
+					},
+					{
+						"source": "",
+						"title": "ID-Animator",
+						"path": "shipinshengcheng/id-animator",
+						"cover": "/cover/20240610/6/10/20240610_fc8537ef.jpg",
+						"label": "零样本身份保持人类视频生成技术",
+						"logo": "/logo/20240610/6/10/20240610_bef0e930.jpg",
+						"description": "ID-Animator是一种零样本人类视频生成方法，能够在不需要进一步训练的情况下，根据单个参考面部图像进行个性化视频生成。该技术继承了现有的基于扩散的视频生成框架，并加入了面部适配器以编码与身份相关的嵌入。通过这种方法，ID-Animator能够在视频生成过程中保持人物身份的细节，同时提高训练效率。",
+						"tags": ["人工智能", "视频生成", "身份保持", "个性化内容"]
+					},
+					{
+						"source": "",
+						"title": "可灵大模型",
+						"path": "shipinshengcheng/kelingdamoxing",
+						"cover": "/cover/20240610/6/10/20240610_427cd126.jpg",
+						"label": "可灵大模型是由快手大模型团队自研打造的视频生成大模型，让用户可以轻松高效地完成艺术视频创作。",
+						"logo": "/logo/20240610/6/10/20240610_d2c09889.jpg",
+						"description": "可灵大模型是一款具备强大视频生成能力的自研大模型，采用先进的技术实现长达 2 分钟视频生成、模拟物理世界特性、概念组合能力等，可生成电影级画面。",
+						"tags": ["视频生成", "艺术创作", "模拟物理"]
+					},
+					{
+						"source": "",
+						"title": "KREA Video",
+						"path": "shipinshengcheng/krea-video",
+						"cover": "/cover/20240610/6/10/20240610_8d85bc4d.jpg",
+						"label": "实时视频生成与增强工具",
+						"logo": "/logo/20240610/6/10/20240610_f82c7034.jpg",
+						"description": "KREA Video 是一款在线视频生成和增强工具，它利用先进的人工智能技术，为用户提供实时视频生成和编辑功能。它允许用户上传图片或文本提示，生成具有动画效果的视频，并且可以调整视频的时长和关键帧。KREA Video 的主要优点是操作简便，用户界面友好，能够快速生成高质量的视频内容，适用于内容创作者、广告制作者和视频编辑专业人士。",
+						"tags": ["视频生成", "人工智能", "内容创作", "广告制作"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "商业",
+		"name": "shangye",
+		"href": "shangye",
+		"total": 5754,
+		"items": [
+			{
+				"title": "金融",
+				"name": "jinrong",
+				"href": "/discover/jinrong",
+				"total": 125,
+				"products": [
+					{
+						"source": "",
+						"title": "AML Watcher",
+						"path": "jinrong/aml-watcher",
+						"cover": "/cover/20240610/6/10/20240610_1692e025.jpg",
+						"label": "助力AML合规工具",
+						"logo": "/logo/20240610/6/10/20240610_bada288f.jpg",
+						"description": "AML Watcher提供了一整套AML合规解决方案,包括制裁/监管名单、敏感人士(PEP)筛查、生物特征AML、案例管理、集成API等,帮助MLRO和合规团队无缝实施全面且一致的AML合规框架。",
+						"tags": ["AML", "合规", "制裁", "监管", "金融"]
+					},
+					{
+						"source": "",
+						"title": "FactBox.ai | Factsheet Builder",
+						"path": "jinrong/factbox-ai-factsheet-builder",
+						"cover": "/cover/20240610/6/10/20240610_40df26dd.jpg",
+						"label": "创建、共享和管理金融事实表",
+						"logo": "/logo/20240610/6/10/20240610_ff7ff97a.jpg",
+						"description": "FactBox AI是一个可轻松创建、共享和管理综合事实表的平台。它提供丰富的模板库和直观的拖放界面，让您可以自定义布局并展示有效的信息。您可以轻松上传CSV数据，利用自定义和高级小部件增强事实表。通过生成公共URL，您可以方便地分享事实表。同时，您可以一键导出事实表为PDF格式，便于离线访问和打印。",
+						"tags": ["金融", "事实表", "数据可视化", "CSV导入", "共享", "PDF导出"]
+					},
+					{
+						"source": "",
+						"title": "Finpilot",
+						"path": "jinrong/finpilot",
+						"cover": "/cover/20240610/6/10/20240610_4e5717e4.jpg",
+						"label": "人工智能助手,帮助金融分析师提高工作效率",
+						"logo": "/logo/20240610/6/10/20240610_3691d6de.jpg",
+						"description": "Finpilot是一个人工智能助手,专为金融分析师设计,可以帮助他们快速搜集和分析金融数据、编写报告以及进行数据可视化,大大提高工作效率。它可以自动化搜集和分析公开的财务数据,节省大量手动工作时间,同时提供可验证的信息来源,保证研究质量。用户只需与Finpilot聊天即可获得直接的答复和可靠的洞见,从而简化金融分析工作流程。",
+						"tags": ["人工智能", "金融分析", "投资研究", "数据挖掘"]
+					},
+					{
+						"source": "",
+						"title": "FinRobot",
+						"path": "jinrong/finrobot",
+						"cover": "/cover/20240610/6/10/20240610_7f358fdf.jpg",
+						"label": "开源AI代理平台，专为金融应用设计。",
+						"logo": "/logo/20240610/6/10/20240610_082d44c1.jpg",
+						"description": "FinRobot是一个开源的AI代理平台，利用大型语言模型（LLMs）为金融应用提供全面的解决方案。它整合了多种AI技术，超越了单纯的语言模型，展现了平台的多功能性和适应性，满足金融行业的多样化需求。FinRobot的AI代理概念是指使用大型语言模型作为其大脑来感知环境、做出决策并执行动作的智能实体。与传统人工智能不同，AI代理具有独立思考和使用工具以逐步实现给定目标的能力。",
+						"tags": ["金融", "AI代理", "市场预测", "文档分析", "交易策略"]
+					},
+					{
+						"source": "",
+						"title": "Intuit Assist",
+						"path": "jinrong/intuit-assist",
+						"cover": "/cover/20240610/6/10/20240610_1e1c6f57.jpg",
+						"label": "你的新一代AI财务助手",
+						"logo": "/logo/20240610/6/10/20240610_d7d04abd.jpg",
+						"description": "Intuit Assist 是一款全球金融科技平台，旨在通过 TurboTax、Credit Karma、QuickBooks 和 Mailchimp 帮助您实现财务自信。无论您是小企业主、消费者还是自由职业者，Intuit 的平台都能为您提供支持。TurboTax 可以帮助您正确完成税务申报，无论是自己操作还是由税务专家协助。Intuit Assist 通过社区努力帮助社区繁荣发展，支持和庆祝女性经营的企业，推动LGBTQ+成员的真正盟友关系，支持初创企业等。",
+						"tags": ["财务", "税务", "金融科技", "社区支持"]
+					},
+					{
+						"source": "",
+						"title": "Kairos Financial",
+						"path": "jinrong/kairos-financial",
+						"cover": "/cover/20240610/6/10/20240610_6ccd0fce.jpg",
+						"label": "为普通人提供财富管理",
+						"logo": "/logo/20240610/6/10/20240610_755d4f1d.jpg",
+						"description": "Kairos Financial 是一款为普通人提供财富管理的产品。他们通过自家的人工智能技术为用户推荐适合他们的金融产品，帮助他们建立可持续的财富。用户可以设置自己的财务目标，并追踪进展。此外，Kairos 还提供了财经教育资源，帮助用户提升金融素养。所有推荐的产品都经过严格的评估，确保用户能够信任并放心使用。",
+						"tags": ["财富管理", "个人理财", "金融教育"]
+					},
+					{
+						"source": "",
+						"title": "Kniru",
+						"path": "jinrong/kniru",
+						"cover": "/cover/20240610/6/10/20240610_5c186d56.jpg",
+						"label": "AI驱动的金融顾问",
+						"logo": "/logo/20240610/6/10/20240610_fa8c4392.jpg",
+						"description": "Kniru是一款AI驱动的金融顾问，可以回答您的各种金融问题，并提供财富、退休、税务和支出方面的建议。Kniru为您提供洞察力和可见性，帮助您做出更好的决策。Kniru提供全球账户覆盖，包括银行、投资和房地产等资产与负债情况的仪表板，以及支出分析、账单提醒、预算警报等功能。",
+						"tags": ["金融顾问", "个人财务", "退休规划", "税务建议", "支出管理"]
+					},
+					{
+						"source": "",
+						"title": "Mylnvestment-Al: Investing Made Easy",
+						"path": "jinrong/mylnvestment-al-investing-made-easy",
+						"cover": "/cover/20240610/6/10/20240610_81419b42.jpg",
+						"label": "个性化投资规划，AI驱动",
+						"logo": "/logo/20240610/6/10/20240610_e76d3444.jpg",
+						"description": "Mylnvestment-Al: Investing Made Easy是一款基于人工智能的投资规划工具，通过先进的算法分析用户的财务数据、目标和风险承受能力，为用户量身定制个性化的投资策略。用户可根据自身情况选择不同的投资方案，获得详细的投资规划，并且根据个人喜好和风险偏好进行定制。该工具不仅提供快速、个性化和数据驱动的投资规划，还能快速适应用户财务状况或目标的变化，随时为用户提供最新的建议。",
+						"tags": ["个性化", "投资规划", "人工智能", "财务", "投资", "金融"]
+					},
+					{
+						"source": "",
+						"title": "Overwatch Data",
+						"path": "jinrong/overwatch-data",
+						"cover": "/cover/20240610/6/10/20240610_ec88e421.jpg",
+						"label": "实时全球理解",
+						"logo": "/logo/20240610/6/10/20240610_a2c3f974.jpg",
+						"description": "Overwatch Data构建了开源情报的共同操作平台，为公司和政府机构提供发现、监测和理解最重要的信息和风险的能力。它提供实时的新闻、社交媒体和暗网监控，以及欺诈、金融犯罪、全球情报和重大事件的智能分析。Overwatch提供完全可定制的平台，简化用户的使用体验，并提供直观的数据可视化。它还提供实时的执行摘要和自由问答功能，帮助用户更好地了解和分析数据。Overwatch适用于欺诈、安全、品牌保护、金融犯罪情报等场景。",
+						"tags": ["欺诈", "安全", "品牌保护", "金融犯罪情报", "全球情报"]
+					},
+					{
+						"source": "",
+						"title": "QashBoard",
+						"path": "jinrong/qashboard",
+						"cover": "/cover/20240610/6/10/20240610_ee3078cd.jpg",
+						"label": "综合金融仪表盘",
+						"logo": "/logo/20240610/6/10/20240610_b01da4bf.jpg",
+						"description": "Qashboard.com是一个综合金融仪表盘，可以连接所有银行和信用卡账户，浏览交易和分析支出。它提供深入的财务洞察力，可视化您的财务状况，并跟踪重复交易。Qashboard还提供个人AI助手，提供精确的见解和实时投资信息。用户可以通过聊天界面获得快速回答，并保证数据和隐私的安全。",
+						"tags": ["金融", "财务", "洞察力", "AI"]
+					}
+				]
+			},
+			{
+				"title": "客户服务",
+				"name": "kehufuwu",
+				"href": "/discover/kehufuwu",
+				"total": 439,
+				"products": [
+					{
+						"source": "",
+						"title": "BrowseBuddy",
+						"path": "kehufuwu/browsebuddy",
+						"cover": "/cover/20240610/6/10/20240610_0b143704.jpg",
+						"label": "AI购物助手，提升电商购物体验",
+						"logo": "/logo/20240610/6/10/20240610_0149c531.jpg",
+						"description": "BrowseBuddy是一款AI驱动的聊天机器人，旨在通过提供个性化的帮助来增强在线购物体验。它利用自然语言处理技术来理解客户查询，提供量身定制的产品推荐和支持。BrowseBuddy通过智能产品匹配、实时解决方案、多语言支持等技术，为电商企业提供了一种提升客户满意度和销售效率的解决方案。",
+						"tags": ["AI", "电商", "个性化推荐", "多语言", "客户支持"]
+					},
+					{
+						"source": "",
+						"title": "Chat-Flow",
+						"path": "kehufuwu/chat-flow",
+						"cover": "/cover/20240610/6/10/20240610_b5bc2b80.jpg",
+						"label": "AI驱动的客户支持解决方案，提升中小企业的客户满意度。",
+						"logo": "/logo/20240610/6/10/20240610_33114e3d.jpg",
+						"description": "ChatFlow是一款为初创企业和中小企业设计的AI驱动客户支持平台。它通过现代化、可扩展和智能的解决方案，帮助企业构建客户满意度。主要功能包括实时聊天、AI驱动的聊天机器人、自动化票务系统、多渠道集成、分析和报告以及知识库。ChatFlow的AI聊天机器人能够处理常规咨询，释放人工客服处理更复杂的任务。此外，它还提供24/7的自动化客户支持，无需等待，即时解决客户问题。",
+						"tags": ["AI", "客户支持", "自动化", "多渠道", "知识库"]
+					},
+					{
+						"source": "",
+						"title": "Chatmate",
+						"path": "kehufuwu/chatmate",
+						"cover": "/cover/20240610/6/10/20240610_6ded3329.jpg",
+						"label": "AI客服聊天机器人，快速解决80%的客户咨询。",
+						"logo": "/logo/20240610/6/10/20240610_1d0a5551.jpg",
+						"description": "Chatmate是一个AI客服聊天机器人平台，旨在通过定制化的AI代理，为企业提供快速准确的客户服务。它允许企业根据自己公司的业务和客户需求，创建个性化的AI客服代理。Chatmate提供了易于定制的聊天窗口小部件，以及丰富的分析功能，帮助企业跟踪AI客服的效果，了解客户的兴趣点。此外，Chatmate还提供了模型定制，允许企业根据品牌的声音和语调调整AI代理，选择顶级AI模型如GPT-4、LLaMA 70B和Mixtral。Chatmate还内置了安全措施，以确保AI代理不会提供误导性的回答，并诚实地表达其局限性。Chatmate的定价简单，适合所有规模的企业，提供免费试用和多种付费计划。",
+						"tags": ["AI客服", "客户服务", "聊天机器人", "个性化", "分析"]
+					},
+					{
+						"source": "",
+						"title": "Choice Chaser",
+						"path": "kehufuwu/choice-chaser",
+						"cover": "/cover/20240610/6/10/20240610_3e23ce2a.jpg",
+						"label": "AI助手，帮助您收集潜在客户信息并过滤噪音",
+						"logo": "/logo/20240610/6/10/20240610_4b706a10.jpg",
+						"description": "Choice Chaser是一个AI助手，通过持续监测各种网站和社交媒体平台，帮助您收集潜在客户的需求和推荐信息。它能够快速分析和筛选出相关信息，并在第一时间通知您。Choice Chaser的主要优点是节省时间、提高效率，帮助您更好地找到潜在客户。",
+						"tags": ["AI助手", "潜在客户", "数据收集", "自动化"]
+					},
+					{
+						"source": "",
+						"title": "ColdHunt",
+						"path": "kehufuwu/coldhunt",
+						"cover": "/cover/20240610/6/10/20240610_12f83982.jpg",
+						"label": "利用AI技术，高效生成潜在客户名单",
+						"logo": "/logo/20240610/6/10/20240610_13c0d993.jpg",
+						"description": "ColdHunt是一个专注于商业领域的AI冷启动外联工具，旨在帮助企业通过人工智能技术生成更多的潜在客户名单。它通过分析市场数据和用户行为，智能识别目标客户群体，从而提高销售和市场推广的效率。",
+						"tags": ["AI", "客户生成", "市场分析", "销售工具"]
+					},
+					{
+						"source": "",
+						"title": "Feedback Navigator",
+						"path": "kehufuwu/feedback-navigator",
+						"cover": "/cover/20240610/6/10/20240610_c76cb32e.jpg",
+						"label": "快速收集并提取客户反馈的宝贵见解。",
+						"logo": "/logo/20240610/6/10/20240610_99f1543e.jpg",
+						"description": "Feedback Navigator 是一个AI驱动的客户反馈分析平台，它允许用户从多个平台导入客户反馈，通过内置的数据源、自定义类别、情感分析等工具，迅速提取有价值的见解。该平台支持自动化工作流，并通过CSV导出功能，使用户能够在外部进行自定义分析或可视化。",
+						"tags": ["客户反馈", "情感分析", "自动化", "数据导出"]
+					},
+					{
+						"source": "",
+						"title": "Hillda",
+						"path": "kehufuwu/hillda",
+						"cover": "/cover/20240610/6/10/20240610_7268e649.jpg",
+						"label": "AI驱动的智能助手，提供沉浸式3D头像和无缝语言翻译。",
+						"logo": "/logo/20240610/6/10/20240610_62315203.jpg",
+						"description": "Hillda是一个利用先进AI技术和沉浸式3D技术提供卓越客户支持的平台。它通过复杂的数据挖掘和检索、动态知识库管理、先进的语言翻译能力、沉浸式3D头像、上下文和定制化的交互以及强大的安全性和数据完整性，来提升客户服务的效率和质量。",
+						"tags": ["AI", "客户服务", "语言翻译", "3D头像", "数据安全"]
+					},
+					{
+						"source": "",
+						"title": "hoop.dev",
+						"path": "kehufuwu/hoop-dev",
+						"cover": "/cover/20240610/6/10/20240610_51492873.jpg",
+						"label": "用户友好的Web数据库客户端，简化数据库访问，保障数据安全。",
+						"logo": "/logo/20240610/6/10/20240610_41b6265e.jpg",
+						"description": "hoop.dev是一个现代的、基于Web的数据库客户端，旨在简化数据库访问流程，同时不牺牲安全性。它通过AI数据掩码技术保护个人可识别信息，支持从浏览器即时登录访问数据库，无需安装等待。此外，它还提供实时更新和Slack集成，确保团队成员间的信息同步和安全。hoop.dev支持将脚本转化为无代码应用，通过链接Git仓库、嵌入变量来实现。它还提供了多种快速启动选项，如Kubernetes、Docker、Unix等，适用于金融科技、健康科技等高度监管的行业。",
+						"tags": ["数据库管理", "AI", "Web客户端", "团队协作", "安全性"]
+					},
+					{
+						"source": "",
+						"title": "Ivee",
+						"path": "kehufuwu/ivee",
+						"cover": "/cover/20240610/6/10/20240610_be4fb1ab.jpg",
+						"label": "B2B影响者营销平台",
+						"logo": "/logo/20240610/6/10/20240610_4141720a.jpg",
+						"description": "Ivee是一个B2B影响者营销平台，旨在帮助企业与行业专家合作，以增长收入、产生潜在客户并提升品牌。它通过AI驱动的搜索引擎集中来自Linkedin、Youtube、Substack和Apple podcast等平台的数据，帮助企业找到与品牌DNA和目标最相关的行业领导者。Ivee还提供数据驱动的洞察来评估受众质量和相关性，并帮助企业建立业务驱动的合作关系，提高运营效率。",
+						"tags": ["B2B营销", "影响者合作", "AI驱动", "品牌建设", "潜在客户生成"]
+					},
+					{
+						"source": "",
+						"title": "LeadShark",
+						"path": "kehufuwu/leadshark",
+						"cover": "/cover/20240610/6/10/20240610_2250e7c1.jpg",
+						"label": "自动化B2B销售自动化工具，通过智能推荐和ICP，简化冷启动，并生成更多潜在客户。",
+						"logo": "/logo/20240610/6/10/20240610_a82620e1.jpg",
+						"description": "LeadShark是一款B2B销售自动化工具，通过智能推荐和ICP（理想客户画像），简化冷启动过程。它可以帮助用户寻找更多潜在客户，并提供验证的联系方式。LeadShark还提供自动化的潜在客户生成，以扩大销售渠道。用户可以将潜在客户导出到Excel或Google Sheets，并将其上传到CRM系统或开始营销活动。通过LeadShark，用户可以加速潜在客户的开发，并以更快的速度关闭销售。",
+						"tags": ["B2B", "销售", "自动化", "潜在客户", "冷启动"]
+					}
+				]
+			},
+			{
+				"title": "电子商务",
+				"name": "dianzishangwu",
+				"href": "/discover/dianzishangwu",
+				"total": 172,
+				"products": [
+					{
+						"source": "",
+						"title": "airepli.io",
+						"path": "dianzishangwu/airepli-io",
+						"cover": "/cover/20240610/6/10/20240610_070e2ffc.jpg",
+						"label": "AI生成即时回复",
+						"logo": "/logo/20240610/6/10/20240610_67db36e4.jpg",
+						"description": "AI Response Generator是一款AI生成即时回复的产品。它通过AI智能回复，帮助用户在商务沟通中节省时间和提高效率。产品提供多种模式选择和个性化回复，支持跨平台集成，同时保证用户的通信隐私和数据安全。定价灵活，适用于各种场景。",
+						"tags": ["人工智能", "商务沟通", "效率工具"]
+					},
+					{
+						"source": "",
+						"title": "amara",
+						"path": "dianzishangwu/amara",
+						"cover": "/cover/20240610/6/10/20240610_38e221d4.jpg",
+						"label": "AI驱动的社交商务解决方案，帮助美容院和水疗中心销售更多产品，预约更多服务。",
+						"logo": "/logo/20240610/6/10/20240610_44b7f244.jpg",
+						"description": "Amarakey是一个AI驱动的社交商务平台，为美容院和水疗中心提供帮助，提高产品销售和预约服务的效率。它利用AI技术优化产品销售和预约服务，并提供定制化的在线商店和推送通知功能，帮助提升用户体验。",
+						"tags": ["社交商务", "美容院", "水疗中心", "预约服务", "产品销售"]
+					},
+					{
+						"source": "",
+						"title": "AutoChat",
+						"path": "dianzishangwu/autochat",
+						"cover": "/cover/20240610/6/10/20240610_855d54de.jpg",
+						"label": "先进的WhatsApp自动化平台，助力商业升级。",
+						"logo": "/logo/20240610/6/10/20240610_b5a8e910.jpg",
+						"description": "AutoChat是一个基于云的WhatsApp自动化平台，提供强大的自动化功能，帮助企业简化运营并实现商业目标。它通过无代码聊天机器人构建器、批量消息发送、团队收件箱、GPT-4 AI聊天机器人、原生WhatsApp购物体验等功能，帮助企业提升客户服务水平，增强客户信任，并提高销售效率。",
+						"tags": ["WhatsApp", "自动化", "商务", "聊天机器人", "电子商务"]
+					},
+					{
+						"source": "",
+						"title": "By The Numbers",
+						"path": "dianzishangwu/by-the-numbers",
+						"cover": "/cover/20240610/6/10/20240610_5583bc23.jpg",
+						"label": "解锁宝贵洞察力，简化数据驱动决策。",
+						"logo": "/logo/20240610/6/10/20240610_74229dd8.jpg",
+						"description": "By the Numbers是一个数据驱动的Shopify分析应用程序，帮助您了解您的受众，他们的价值以及驱动这个价值的因素。它使用人工智能和数据为您提供所需的报告，帮助您做出基于数据的决策。它的主要优点是提供了准确的洞察力和预测，帮助您增长收入和优化业务。",
+						"tags": ["数据分析", "电子商务", "营销", "数据驱动", "预测"]
+					},
+					{
+						"source": "",
+						"title": "Darbee",
+						"path": "dianzishangwu/darbee",
+						"cover": "/cover/20240610/6/10/20240610_630d47ff.jpg",
+						"label": "Darbee是一个强大的电子商务工具，利用人工智能为您的Etsy列表生成标题、描述和标签。",
+						"logo": "/logo/20240610/6/10/20240610_fa417636.jpg",
+						"description": "Darbee是一个强大的电子商务工具，利用人工智能为您的Etsy列表生成标题、描述和标签。它具有自动化生成列表内容的功能，大大节省了您的时间和精力。Darbee还提供了多种语言选项，方便您在不同的市场中推广您的产品。",
+						"tags": ["电子商务", "人工智能", "Etsy", "标题生成", "描述生成", "标签生成"]
+					},
+					{
+						"source": "",
+						"title": "Detective Naani Automation Tool",
+						"path": "dianzishangwu/detective-naani-automation-tool",
+						"cover": "/cover/20240610/6/10/20240610_d3e679b9.jpg",
+						"label": "快速在Linkedin上与合适的人建立联系，以完成交易。",
+						"logo": "/logo/20240610/6/10/20240610_d08cc663.jpg",
+						"description": "Linkedin Learning Tool是一款自动化工具，可以帮助您在Linkedin上快速与合适的人建立联系，以完成交易。它可以帮助您找到招聘经理，招聘独特的候选人，并自动发送邮件和定制通知。该工具还提供了Coach和Creators两个功能，可以自动化教练和网络功能。",
+						"tags": ["Linkedin", "自动化", "商务招聘", "社交网络", "教练", "创作者"]
+					},
+					{
+						"source": "",
+						"title": "easywithai.com",
+						"path": "dianzishangwu/easywithai-com",
+						"cover": "/cover/20240610/6/10/20240610_afa8d77b.jpg",
+						"label": "Easy With AI是一个集成了50多个不同类别AI工具和资源的平台。",
+						"logo": "/logo/20240610/6/10/20240610_de6f2ff3.jpg",
+						"description": "Easy With AI是一个拥有互联网上最大的AI工具和资源收藏的平台。您可以在50多个不同的类别中查找和搜索AI工具。Easy With AI为各种用户提供了便利和丰富的AI工具资源，包括AI写作助手、社交媒体工具、电子邮件工具、AI内容检测工具、客户服务工具、网站建设工具、电子商务工具、图像工具、音频工具、视频工具、音乐生成器、视频生成器、播客工具、演示制作工具、设计工具、直播工具、聊天机器人、语音工具、移动应用、转录工具、会议助手、建筑工具、生产力工具、教育工具、AI Chrome扩展和更多。您可以根据您的需求和兴趣，在Easy With AI上找到适合您的AI工具。",
+						"tags": [
+							"AI工具",
+							"资源",
+							"写作",
+							"社交媒体",
+							"电子邮件",
+							"网站建设",
+							"电子商务",
+							"图像",
+							"音频",
+							"视频",
+							"音乐",
+							"演示",
+							"设计",
+							"直播",
+							"聊天机器人",
+							"语音",
+							"移动应用",
+							"转录",
+							"会议",
+							"建筑",
+							"生产力",
+							"教育",
+							"Chrome扩展"
+						]
+					},
+					{
+						"source": "",
+						"title": "Fotographer AI",
+						"path": "dianzishangwu/fotographer-ai",
+						"cover": "/cover/20240610/6/10/20240610_241c1720.jpg",
+						"label": "通过生成式人工智能创造带有惊喜和情感的视觉效果，降低电子商务和营销的创意制作成本。",
+						"logo": "/logo/20240610/6/10/20240610_fb82ce53.jpg",
+						"description": "Fotographer.ai是一个AI产品图像生成器，通过生成式人工智能创造出令人惊喜和情感的视觉效果。它可以帮助降低电子商务和营销领域的创意制作成本。该产品使用先进的AI技术，可以根据指定的文本或产品图像，快速生成逼真的照片和背景图像。它不仅可以节省摄影产品和模特的时间和费用，还提供了丰富的AI模特照片库，可以用于广告和营销。",
+						"tags": ["AI", "图像生成器", "电子商务", "营销", "摄影"]
+					},
+					{
+						"source": "",
+						"title": "geni",
+						"path": "dianzishangwu/geni",
+						"cover": "/cover/20240610/6/10/20240610_88142ea4.jpg",
+						"label": "免费将您的普通产品转变为非凡的产品",
+						"logo": "/logo/20240610/6/10/20240610_d71db73d.jpg",
+						"description": "geni-e是一款一体化的AI产品图像解决方案，企业可以使用该解决方案自动生成更好的产品图像。通过使用我们预设的背景设置，上传产品图像或使用自定义提示生成产品图像，您可以将在线商店的形象提升到一个新的水平。",
+						"tags": ["图片", "电子商务", "人工智能"]
+					},
+					{
+						"source": "",
+						"title": "Growth Suite Shopify App",
+						"path": "dianzishangwu/growth-suite-shopify-app",
+						"cover": "/cover/20240610/6/10/20240610_e83f9e32.jpg",
+						"label": "创造紧迫感，提高销售额",
+						"logo": "/logo/20240610/6/10/20240610_99b2cf22.jpg",
+						"description": "Growth Suite是一款能够帮助您收集更多电子邮件、增加销售额并保护品牌的智能助手。它集成在您的Shopify商店中，利用实时购买意向分析、智能折扣和购物车回收等功能，帮助您创造紧迫感、增加销售额。购买意向算法能够计算每个顾客购买的可能性，根据购买意向设置不同的折扣和时限，提供有限的一次性折扣和倒计时，增加购买动力。Growth Suite还提供无缝的体验，与您的Shopify商店完美融合，通过自动折扣应用、清晰的倒计时显示和透明的说明，提升品牌形象并提高转化率。",
+						"tags": ["购物", "销售", "电子商务"]
+					}
+				]
+			},
+			{
+				"title": "人力资源",
+				"name": "renliziyuan",
+				"href": "/discover/renliziyuan",
+				"total": 557,
+				"products": [
+					{
+						"source": "",
+						"title": "AIJ",
+						"path": "renliziyuan/aij",
+						"cover": "/cover/20240610/6/10/20240610_54392456.jpg",
+						"label": "AIJ是一个能够帮助用户节省时间和精力的AI工具，它可以为用户申请工作、回答常见问题等。",
+						"logo": "/logo/20240610/6/10/20240610_d209e2fd.jpg",
+						"description": "AIJ是一个能够自动为用户申请工作、回答常见问题的AI工具。它的主要优点是节省用户的时间和精力，背景信息、价格、定位等。",
+						"tags": ["工作", "求职", "人工智能", "自动化"]
+					},
+					{
+						"source": "",
+						"title": "AutoApply Auto Apply Jobs",
+						"path": "renliziyuan/autoapply-auto-apply-jobs",
+						"cover": "/cover/20240610/6/10/20240610_63507f11.jpg",
+						"label": "AutoApply Jobs是求职者的AI助手。一键自动申请工作，无需任何人工干预。",
+						"logo": "/logo/20240610/6/10/20240610_3e897145.jpg",
+						"description": "AutoApply Auto Apply Jobs是求职者的AI助手，可以一键自动申请工作，无需任何人工干预。它可以帮助求职者节省时间和精力，快速申请多个工作机会。该插件的主要优点是自动化申请流程，提高效率。它适用于所有需要频繁申请工作的求职者，尤其是大规模招聘的公司或招聘中心。",
+						"tags": ["求职", "招聘", "自动化"]
+					},
+					{
+						"source": "",
+						"title": "CoverBot",
+						"path": "renliziyuan/coverbot",
+						"cover": "/cover/20240610/6/10/20240610_a2d85d91.jpg",
+						"label": "生成个性化求职信的AI应用",
+						"logo": "/logo/20240610/6/10/20240610_2bd04320.jpg",
+						"description": "CoverBot是一个使用AI生成求职信的网站应用。它能够从你的简历和职位描述中提取相关信息，并生成一封独特的求职信。CoverBot可以快速、准确地生成专业级的求职信，突出你的技能、经验和成就。",
+						"tags": ["求职", "简历", "自动化"]
+					},
+					{
+						"source": "",
+						"title": "Detective Naani Automation Tool",
+						"path": "renliziyuan/detective-naani-automation-tool",
+						"cover": "/cover/20240610/6/10/20240610_d3e679b9.jpg",
+						"label": "快速在Linkedin上与合适的人建立联系，以完成交易。",
+						"logo": "/logo/20240610/6/10/20240610_d08cc663.jpg",
+						"description": "Linkedin Learning Tool是一款自动化工具，可以帮助您在Linkedin上快速与合适的人建立联系，以完成交易。它可以帮助您找到招聘经理，招聘独特的候选人，并自动发送邮件和定制通知。该工具还提供了Coach和Creators两个功能，可以自动化教练和网络功能。",
+						"tags": ["Linkedin", "自动化", "商务招聘", "社交网络", "教练", "创作者"]
+					},
+					{
+						"source": "",
+						"title": "Eztrackr",
+						"path": "renliziyuan/eztrackr",
+						"cover": "/cover/20240610/6/10/20240610_78a4cb2e.jpg",
+						"label": "在一个地方跟踪和管理来自各个网站的求职申请，告别繁琐的电子表格！",
+						"logo": "/logo/20240610/6/10/20240610_dee9446d.jpg",
+						"description": "Eztrackr - 超级加速你的求职，轻松跟踪和管理来自各个网站的求职申请，告别繁琐的电子表格。通过一键操作轻松保存LinkedIn、Indeed、Lever等流行平台的求职岗位。将求职岗位的URL、标题、公司、地点等信息保存在一个方便的地方。预填充来自LinkedIn等求职网站的数据，让你的求职流程更加轻松。定制化看板追踪求职申请的状态。强大的统计数据和有价值的洞察力，帮助你跟踪进度并找出改进的方向。保存联系人并将其链接到你的求职岗位。保存简历、求职信等文件并将其链接到你的求职岗位。引入EzAI，你的求职伴侣，生成个性化的求职申请答案。安装Eztrackr的Chrome插件，发掘求职搜索的全部潜力。",
+						"tags": ["求职", "跟踪", "管理", "工具", "Chrome插件"]
+					},
+					{
+						"source": "",
+						"title": "Get Hired",
+						"path": "renliziyuan/get-hired",
+						"cover": "/cover/20240610/6/10/20240610_ec340260.jpg",
+						"label": "使用AI自动化简历编写、求职回复和求职信，使您的技能突出并通过人力资源筛选",
+						"logo": "/logo/20240610/6/10/20240610_519b95e2.jpg",
+						"description": "自动化求职AI通过使用AI自动搜索和申请工作，并根据您的简历自动修改简历以通过企业的AI筛选。同时自动化生成个性化求职信。产品的主要优点是节省时间、提高求职成功率，并帮助您的技能得到更好的展示。价格和定位信息需要进一步确认。",
+						"tags": ["求职", "简历", "AI", "自动化"]
+					},
+					{
+						"source": "",
+						"title": "Heero",
+						"path": "renliziyuan/heero",
+						"cover": "/cover/20240610/6/10/20240610_c8ee611c.jpg",
+						"label": "使用最好的AI求职信生成器轻松创建专业的求职信。免费基于工作描述生成AI生成的求职信。",
+						"logo": "/logo/20240610/6/10/20240610_e6afe0ea.jpg",
+						"description": "Heero是一个AI增强的求职工具，包括AI求职信生成器。通过AI生成的求职信，根据工作描述轻松地打造专业的求职信。突出产品的AI生成求职信和求职信扫描等功能，强调其提供的优势和背景信息，定位为职业发展的必备工具。",
+						"tags": ["AI求职信", "简历生成器", "职业发展", "求职工具"]
+					},
+					{
+						"source": "",
+						"title": "inhub",
+						"path": "renliziyuan/inhub",
+						"cover": "/cover/20240610/6/10/20240610_c566703f.jpg",
+						"label": "解锁您的完整职业潜力，用全面的AI驱动解决方案提升您的就业能力",
+						"logo": "/logo/20240610/6/10/20240610_ab5e4205.jpg",
+						"description": "在今天竞争激烈的就业市场中，脱颖而出比以往任何时候都更重要。inHub AI不仅仅优化您的LinkedIn个人资料，还提供一套完整的AI驱动就业能力解决方案。从LinkedIn审核到AI简历构建、心理评估和技能缺口分析，我们致力于在您的职业道路的每一步赋予您权力。",
+						"tags": ["AI", "职业发展", "人才招聘"]
+					},
+					{
+						"source": "",
+						"title": "IntrvuAI",
+						"path": "renliziyuan/intrvuai",
+						"cover": "/cover/20240610/6/10/20240610_d278d744.jpg",
+						"label": "技术面试的个人AI教练",
+						"logo": "/logo/20240610/6/10/20240610_03b51a2d.jpg",
+						"description": "IntrvuAI是一个在线平台，使用人工智能技术帮助用户准备技术面试。它提供了模拟面试、个性化反馈和简历评估服务，帮助用户提高面试技巧，增强自信心，并确保他们的简历能够吸引潜在雇主的注意。",
+						"tags": ["技术面试", "AI教练", "模拟面试", "个性化反馈", "简历评估"]
+					},
+					{
+						"source": "",
+						"title": "JobCopilot",
+						"path": "renliziyuan/jobcopilot",
+						"cover": "/cover/20240610/6/10/20240610_d3e8d008.jpg",
+						"label": "自动化求职助手，提升面试机会",
+						"logo": "/logo/20240610/6/10/20240610_be53878c.jpg",
+						"description": "JobCopilot是一款在线求职自动化工具，旨在帮助求职者通过自动化技术提高求职效率，节省时间，增加面试机会。它通过人工智能技术，帮助用户自动搜索和申请工作，跟踪申请进度，并提供AI简历和求职信的构建服务。JobCopilot的背景是现代求职者需要面对大量的职位申请，手动填写申请表既耗时又重复，而JobCopilot通过自动化服务，简化了这一过程，帮助用户专注于更重要的事情，如面试准备和职业发展。",
+						"tags": ["求职", "自动化", "AI", "简历", "求职信"]
+					}
+				]
+			},
+			{
+				"title": "团队协作",
+				"name": "tuanduixiezuo",
+				"href": "/discover/tuanduixiezuo",
+				"total": 586,
+				"products": [
+					{
+						"source": "",
+						"title": "AI Menti Builder",
+						"path": "tuanduixiezuo/ai-menti-builder",
+						"cover": "/cover/20240610/6/10/20240610_e30e6d56.jpg",
+						"label": "AI驱动的快速演示文稿制作工具",
+						"logo": "/logo/20240610/6/10/20240610_b4d508bd.jpg",
+						"description": "AI Menti Builder是一个在线工具，它利用人工智能技术帮助用户快速创建演示文稿。这个工具能够根据用户输入的主题，即时生成一个可交互的演示文稿草稿，用户可以根据自己的需求进行调整和完善。它适用于团队会议、研讨会、讲座、调查、趣味测验等多种场合，大大减少准备时间，提高效率。",
+						"tags": ["AI", "演示文稿", "教育", "团队协作", "互动"]
+					},
+					{
+						"source": "",
+						"title": "Dailycrowds",
+						"path": "tuanduixiezuo/dailycrowds",
+						"cover": "/cover/20240610/6/10/20240610_c1496a27.jpg",
+						"label": "一个连接一切的社交网络和灵感引擎。",
+						"logo": "/logo/20240610/6/10/20240610_d2f454bf.jpg",
+						"description": "Dailycrowds是一个旨在成为您日常娱乐和成就助手的协作社区和灵感引擎，通过一个专注于实际效用的社交网络概念，帮助您使日常生活更加有趣、有组织和鼓舞人心。",
+						"tags": ["社交网络", "灵感", "个性化推荐", "社区协作", "日常助手"]
+					},
+					{
+						"source": "",
+						"title": "Docu Dig",
+						"path": "tuanduixiezuo/docu-dig",
+						"cover": "/cover/20240610/6/10/20240610_8d68a044.jpg",
+						"label": "AI驱动的智能文档搜索与洞察",
+						"logo": "/logo/20240610/6/10/20240610_2865273e.jpg",
+						"description": "Docu Dig是一个利用尖端AI技术提供安全、高效的文档内容搜索和洞察的商业解决方案。它通过先进的加密技术保护数据安全，提供上下文智能搜索，与传统搜索方法相比，能够提供更准确的文档洞察，提高团队效率，并改善信息获取。此外，它还支持团队协作，允许团队成员在共享文档上协作，提高工作效率。适用于需要处理大量文档的行业，如法律、医疗和金融领域。",
+						"tags": ["AI", "文档搜索", "数据安全", "团队协作", "行业定制"]
+					},
+					{
+						"source": "",
+						"title": "FlowMapp",
+						"path": "tuanduixiezuo/flowmapp",
+						"cover": "/cover/20240610/6/10/20240610_5ce81208.jpg",
+						"label": "直观的网站规划平台，提供视觉站点Map、用户流程和线框图设计工具。",
+						"logo": "/logo/20240610/6/10/20240610_00a6fadc.jpg",
+						"description": "FlowMapp是一款专注于网站和产品规划的在线工具，它通过提供视觉站点、用户流程和高保真原型设计等功能，帮助团队和个人更高效地进行网站和应用的用户体验设计。它支持实时协作、内容管理、SEO优化等功能，是UX设计师、产品经理和开发人员的理想选择。",
+						"tags": ["UX设计", "原型设计", "站点Map", "用户流程", "协作工具"]
+					},
+					{
+						"source": "",
+						"title": "fydback",
+						"path": "tuanduixiezuo/fydback",
+						"cover": "/cover/20240610/6/10/20240610_346e2526.jpg",
+						"label": "利用AI提供团队自动化绩效反馈。",
+						"logo": "/logo/20240610/6/10/20240610_febb138b.jpg",
+						"description": "fydback是一个专注于提供自动化绩效反馈的在线平台，旨在帮助团队成员提升工作表现。它使用人工智能技术，根据用户输入的评分和信息，生成定制化的反馈报告。产品的主要优点包括详细的评分系统、多语言支持、以及简单直观的价格结构。背景信息显示，该平台致力于通过AI技术简化反馈流程，促进团队成员的成长和进步。",
+						"tags": ["绩效反馈", "人工智能", "团队管理", "个性化反馈"]
+					},
+					{
+						"source": "",
+						"title": "GPTResearcher",
+						"path": "tuanduixiezuo/gptresearcher",
+						"cover": "/cover/20240610/6/10/20240610_e4a8f493.jpg",
+						"label": "AI助力的快速洞察和全面研究助手",
+						"logo": "/logo/20240610/6/10/20240610_031e772e.jpg",
+						"description": "GPT Researcher是一个领先的自主研究代理，专为多代理框架设计，提供实时、准确和事实性的结果。它能够简化数据收集，通过一个函数调用提供可信赖、聚合和策划的结果。它支持超过100种不同的大型语言模型(LLMs)，并且可以与任何搜索引擎协作，从Google到DuckDuckGo。用户可以轻松搜索本地文档和文件，并生成超过2000字的长篇报告，支持多种格式的导出，如PDF、Word、Markdown、JSON和CSV。",
+						"tags": ["AI研究", "数据收集", "多格式导出", "多代理协作"]
+					},
+					{
+						"source": "",
+						"title": "hoop.dev",
+						"path": "tuanduixiezuo/hoop-dev",
+						"cover": "/cover/20240610/6/10/20240610_51492873.jpg",
+						"label": "用户友好的Web数据库客户端，简化数据库访问，保障数据安全。",
+						"logo": "/logo/20240610/6/10/20240610_41b6265e.jpg",
+						"description": "hoop.dev是一个现代的、基于Web的数据库客户端，旨在简化数据库访问流程，同时不牺牲安全性。它通过AI数据掩码技术保护个人可识别信息，支持从浏览器即时登录访问数据库，无需安装等待。此外，它还提供实时更新和Slack集成，确保团队成员间的信息同步和安全。hoop.dev支持将脚本转化为无代码应用，通过链接Git仓库、嵌入变量来实现。它还提供了多种快速启动选项，如Kubernetes、Docker、Unix等，适用于金融科技、健康科技等高度监管的行业。",
+						"tags": ["数据库管理", "AI", "Web客户端", "团队协作", "安全性"]
+					},
+					{
+						"source": "",
+						"title": "Iterate",
+						"path": "tuanduixiezuo/iterate",
+						"cover": "/cover/20240610/6/10/20240610_2a3d12b9.jpg",
+						"label": "一键式GPT提示管理工具",
+						"logo": "/logo/20240610/6/10/20240610_4aaec266.jpg",
+						"description": "Iterate是一个旨在简化GPT提示管理的网站，它允许用户存储、测试和分享GPT提示，通过一键操作来验证提示的一致性和质量，确保获得可靠的结果。它支持版本控制，方便用户调整每个词和句子，而不会丢失进度。此外，它还支持团队协作，使得每个团队成员都能成为提示工程的专家。",
+						"tags": ["GPT提示", "一键测试", "版本控制", "团队协作", "内容生成"]
+					},
+					{
+						"source": "",
+						"title": "Mamouth",
+						"path": "tuanduixiezuo/mamouth",
+						"cover": "/cover/20240610/6/10/20240610_b4f9832a.jpg",
+						"label": "AI模型和图像生成服务的集成平台",
+						"logo": "/logo/20240610/6/10/20240610_a8a4235b.jpg",
+						"description": "Mamouth是一个集成了多种先进AI模型和图像生成服务的平台，旨在帮助用户保持在人工智能技术的前沿。平台提供包括GPT-4o、Claude、Llama、Mistral、Gemini等在内的AI语言模型，以及Dall-E、Midjourney和Stable Diffusion等图像生成工具。Mamouth通过订阅服务模式，为用户提供高效、便捷的AI使用体验，同时支持团队管理和工作空间功能，满足不同用户的需求。",
+						"tags": ["AI模型", "图像生成", "生产力工具", "团队协作"]
+					},
+					{
+						"source": "",
+						"title": "Marlee",
+						"path": "tuanduixiezuo/marlee",
+						"cover": "/cover/20240610/6/10/20240610_31dddaa0.jpg",
+						"label": "AI协作与绩效助手，提升团队协作与个人发展。",
+						"logo": "/logo/20240610/6/10/20240610_457cd454.jpg",
+						"description": "Marlee是一款致力于提升团队协作和个人绩效的AI工具。它通过个性化洞察，帮助团队成员在工作流程中相互促进，提供连接、激励、协作和发展的解决方案。Marlee利用科学支持的问题和分析，以高达98%的可靠性度量48种工作动机，帮助团队成员感到被看见和接受，从而在工作中展现最佳状态。此外，Marlee还提供人才招聘、人才发展、解决冲突、团队绩效和沟通等方面的帮助，以及在并购中预测文化协同的可能性。",
+						"tags": ["团队协作", "个人发展", "AI分析", "人才招聘", "沟通优化"]
+					}
+				]
+			},
+			{
+				"title": "销售管理",
+				"name": "xiaoshouguanli",
+				"href": "/discover/xiaoshouguanli",
+				"total": 548,
+				"products": [
+					{
+						"source": "",
+						"title": "ChatTTS",
+						"path": "xiaoshouguanli/chattts",
+						"cover": "/cover/20240610/6/10/20240610_fbbe159a.jpg",
+						"label": "一个用于文本到语音转换的开源项目。",
+						"logo": "/logo/20240610/6/10/20240610_f3c8c75a.jpg",
+						"description": "ChatTTS是一个开源的文本到语音转换(TTS)模型，它允许用户将文本转换为语音。该模型主要面向学术研究和教育目的，不适用于商业或法律用途。它使用深度学习技术，能够生成自然流畅的语音输出，适合研究和开发语音合成技术的人员使用。",
+						"tags": ["文本到语音", "深度学习", "学术研究", "开源项目"]
+					},
+					{
+						"source": "",
+						"title": "ColdHunt",
+						"path": "xiaoshouguanli/coldhunt",
+						"cover": "/cover/20240610/6/10/20240610_12f83982.jpg",
+						"label": "利用AI技术，高效生成潜在客户名单",
+						"logo": "/logo/20240610/6/10/20240610_13c0d993.jpg",
+						"description": "ColdHunt是一个专注于商业领域的AI冷启动外联工具，旨在帮助企业通过人工智能技术生成更多的潜在客户名单。它通过分析市场数据和用户行为，智能识别目标客户群体，从而提高销售和市场推广的效率。",
+						"tags": ["AI", "客户生成", "市场分析", "销售工具"]
+					},
+					{
+						"source": "",
+						"title": "Colibri",
+						"path": "xiaoshouguanli/colibri",
+						"cover": "/cover/20240610/6/10/20240610_fc60d5f7.jpg",
+						"label": "Colibri.ai是一款AI会议记录和对话智能化的产品，提供实时转录、AI生成的会议摘要和对话分析。",
+						"logo": "/logo/20240610/6/10/20240610_4b103dc6.jpg",
+						"description": "Colibri.ai是一款AI会议记录和对话智能化的产品。它提供实时转录功能，可以将会议内容转录成文字，并生成AI生成的会议摘要和下一步行动。Colibri.ai还提供AI驱动的议程，帮助会议保持有序。所有的通话记录、转录和会议摘要都存储在可搜索的通话库中。通过分析每个对话，Colibri.ai可以提供易于阅读的仪表盘，以获取对话的洞察和数据分析。Colibri.ai还有Sales Copilot功能，可以在销售人员的每次通话中提供实时指导。Colibri.ai与Zoom、Slack和Salesforce等工具进行集成。",
+						"tags": ["会议记录", "转录", "摘要", "对话分析", "销售指导", "数据分析"]
+					},
+					{
+						"source": "",
+						"title": "Dev Home",
+						"path": "xiaoshouguanli/dev-home",
+						"cover": "/cover/20240610/6/10/20240610_c5bb465c.jpg",
+						"label": "Windows开发者的一站式控制中心",
+						"logo": "/logo/20240610/6/10/20240610_da50a8a0.jpg",
+						"description": "Dev Home是微软为Windows开发者推出的一款桌面客户端，旨在提供一个集中的控制中心，帮助开发者监控项目、设置开发环境、连接开发者账户和工具，并创建专用的存储空间。它通过自定义的仪表板小部件，使开发者能够监控工作流程、跟踪开发项目、编码任务、Azure DevOps查询、GitHub问题、拉取请求、可用SSH连接以及系统的CPU、GPU、内存和网络性能。Dev Home 0.14 预览版更新集成了 PowerToys 模块，以及基于 AI 的 Quickstart Playground 功能。",
+						"tags": ["开发工具", "项目管理", "性能监控", "集成开发环境"]
+					},
+					{
+						"source": "",
+						"title": "Falcon AI",
+						"path": "xiaoshouguanli/falcon-ai",
+						"cover": "/cover/20240610/6/10/20240610_5b131a29.jpg",
+						"label": "为产品和工程经理节省时间，帮助项目更快交付",
+						"logo": "/logo/20240610/6/10/20240610_bc9e3876.jpg",
+						"description": "Falcon AI是一款AI Scrum Master工具，通过提供实时更新和进展、帮助创建详细文档、与现有工具集成等功能，帮助团队节省时间和资源，确保清晰的沟通和责任分工。Falcon AI旨在提高会议效率，使团队能够更快地交付项目。",
+						"tags": ["项目管理", "团队协作", "人工智能", "实时更新", "文档管理"]
+					},
+					{
+						"source": "",
+						"title": "Flockjay",
+						"path": "xiaoshouguanli/flockjay",
+						"cover": "/cover/20240610/6/10/20240610_16a197f9.jpg",
+						"label": "Flockjay是一个知识共享平台，旨在帮助销售团队的成长和发展。我们的目标是帮助销售领导者捕捉和分享顶级销售代表的最佳实践，以便整个团队都能发挥最佳水平。",
+						"logo": "/logo/20240610/6/10/20240610_351ac31e.jpg",
+						"description": "Flockjay是一个现代化的统一学习和内容管理系统，为您的销售推动需要提供生成性AI和50个集成，使正确的知识在正确的时间传递给正确的人。我们的AI驱动的内容管理系统可以提供高速的语义搜索、内容标记和组织，让您的团队可以轻松管理销售团队的内容、学习、交易见解和教练等。Flockjay还提供实时自动化的教练功能，可以为每个交易和销售代表提供适当的支持。",
+						"tags": ["销售", "学习", "内容管理", "教练", "AI"]
+					},
+					{
+						"source": "",
+						"title": "Geleza.app",
+						"path": "xiaoshouguanli/geleza-app",
+						"cover": "/cover/20240610/6/10/20240610_4b8a2936.jpg",
+						"label": "AI动力写手geleza.app，为您的业务生成高质量的推广文案和内容。",
+						"logo": "/logo/20240610/6/10/20240610_1b2524f4.jpg",
+						"description": "geleza.app是一款基于人工智能的写作助手，为您的业务生成高质量的推广文案和内容。它能够快速创建需要最少努力、时间和成本的高质量内容，包括关键词生成、博客主题头脑风暴、博客段落写作、故事创作、关键词提取、电子邮件写作、推文生成等功能。通过geleza.app，您可以更轻松地编写销售推广内容，加快发布内容的速度，并提高销售业绩。",
+						"tags": ["营销", "销售", "内容创作", "人工智能", "写作助手"]
+					},
+					{
+						"source": "",
+						"title": "LeadShark",
+						"path": "xiaoshouguanli/leadshark",
+						"cover": "/cover/20240610/6/10/20240610_2250e7c1.jpg",
+						"label": "自动化B2B销售自动化工具，通过智能推荐和ICP，简化冷启动，并生成更多潜在客户。",
+						"logo": "/logo/20240610/6/10/20240610_a82620e1.jpg",
+						"description": "LeadShark是一款B2B销售自动化工具，通过智能推荐和ICP（理想客户画像），简化冷启动过程。它可以帮助用户寻找更多潜在客户，并提供验证的联系方式。LeadShark还提供自动化的潜在客户生成，以扩大销售渠道。用户可以将潜在客户导出到Excel或Google Sheets，并将其上传到CRM系统或开始营销活动。通过LeadShark，用户可以加速潜在客户的开发，并以更快的速度关闭销售。",
+						"tags": ["B2B", "销售", "自动化", "潜在客户", "冷启动"]
+					},
+					{
+						"source": "",
+						"title": "LinkedCRM",
+						"path": "xiaoshouguanli/linkedcrm",
+						"cover": "/cover/20240610/6/10/20240610_1267c6e0.jpg",
+						"label": "AI驱动的LinkedIn销售工具",
+						"logo": "/logo/20240610/6/10/20240610_a6f5ca50.jpg",
+						"description": "LinkedCRM是一个为销售专业人士设计的Chrome扩展程序，它集成在LinkedIn生态系统中，专注于销售的GPT工具。它通过AI技术帮助用户在LinkedIn上自动搜索潜在客户，提供精准的电子邮件搜索，丰富客户信息，并与CRM系统同步数据，从而提高销售效率和安全性。",
+						"tags": ["AI", "销售", "LinkedIn", "CRM", "自动化"]
+					},
+					{
+						"source": "",
+						"title": "MidiCall",
+						"path": "xiaoshouguanli/midicall",
+						"cover": "/cover/20240610/6/10/20240610_fdd8493c.jpg",
+						"label": "MidiCall是一个通过滑动来呼叫的应用程序，从一个私人的商业列表中生成。免费试用，每天有五个免费呼叫或滑动。",
+						"logo": "/logo/20240610/6/10/20240610_038bf9a1.jpg",
+						"description": "MidiCall是一个通过滑动来呼叫的CRM，可以与您的客户和潜在客户进行联系。它使用人工智能技术提供功能，并强调其主要优点是帮助企业找到客户和潜在用户测试者。它适用于初创企业和其他寻找客户或潜在用户测试者的企业。",
+						"tags": ["销售", "客户联系", "人工智能", "CRM"]
+					}
+				]
+			},
+			{
+				"title": "交易助手",
+				"name": "jiaoyizhushou",
+				"href": "/discover/jiaoyizhushou",
+				"total": 92,
+				"products": [
+					{
+						"source": "",
+						"title": "AI-signals",
+						"path": "jiaoyizhushou/ai-signals",
+						"cover": "/cover/20240610/6/10/20240610_21c7ad61.jpg",
+						"label": "AI-signals - AI 交易指标",
+						"logo": "/logo/20240610/6/10/20240610_9bffec8a.jpg",
+						"description": "AI-signals 利用复杂算法和实时数据指示最准确的买卖点、反转点、供需区域等，帮助您在交易中降低情绪干扰并遵循一个系统。",
+						"tags": ["AI", "交易", "指标"]
+					},
+					{
+						"source": "",
+						"title": "AskToSell",
+						"path": "jiaoyizhushou/asktosell",
+						"cover": "/cover/20240610/6/10/20240610_eaf85560.jpg",
+						"label": "自动化销售工具",
+						"logo": "/logo/20240610/6/10/20240610_d17c59d3.jpg",
+						"description": "AskToSell是一款帮助企业自动化销售小交易的AI销售工具。它能够自主完成销售流程，包括联系潜在客户、确认需求、准备报价、处理异议、协商和关闭交易。使用AskToSell可以帮助企业更快地增加收入。定价灵活，可根据需求扩展或缩减使用规模。",
+						"tags": ["销售工具", "自动化", "人工智能", "小交易"]
+					},
+					{
+						"source": "",
+						"title": "BTCAura",
+						"path": "jiaoyizhushou/btcaura",
+						"cover": "/cover/20240610/6/10/20240610_7c72b34a.jpg",
+						"label": "BTCAura是一个新闻聚合平台，为交易者和比特币爱好者提供有关价格和市场影响的信息。",
+						"logo": "/logo/20240610/6/10/20240610_2da2345c.jpg",
+						"description": "BTCAura是一个新闻聚合平台，为交易者和比特币爱好者提供有关比特币价格和市场影响的新闻摘要和最新发展动态。它提供快速、准确的比特币新闻摘要和深度分析，帮助用户保持领先。",
+						"tags": ["比特币", "新闻聚合", "交易", "投资"]
+					},
+					{
+						"source": "",
+						"title": "CEOBuySell.com",
+						"path": "jiaoyizhushou/ceobuysell-com",
+						"cover": "/cover/20240610/6/10/20240610_edbc377b.jpg",
+						"label": "CEOBUYSELL - 跟踪内幕CEO股票交易",
+						"logo": "/logo/20240610/6/10/20240610_cd90df5c.jpg",
+						"description": "CEOBUYSELL跟踪并报告公共公司CEO的内幕股票交易。跟随企业领导人买入或卖出自己公司的股份。",
+						"tags": ["投资", "股票", "内幕交易"]
+					},
+					{
+						"source": "",
+						"title": "ChartEye - AI Chart Analysis",
+						"path": "jiaoyizhushou/charteye-ai-chart-analysis",
+						"cover": "/cover/20240610/6/10/20240610_fb5b904e.jpg",
+						"label": "一键提供AI生成的图表技术分析",
+						"logo": "/logo/20240610/6/10/20240610_d588f88b.ico",
+						"description": "ChartEye是一款提供AI生成的图表技术分析的插件。它通过先进的算法快速识别关键模式、趋势和潜在交易信号，帮助交易者节省时间，提高决策准确性。",
+						"tags": ["图表分析", "AI", "交易"]
+					},
+					{
+						"source": "",
+						"title": "DeepNode",
+						"path": "jiaoyizhushou/deepnode",
+						"cover": "/cover/20240610/6/10/20240610_5ba44cc2.jpg",
+						"label": "基于AI演化算法的股票短线交易软件",
+						"logo": "/logo/20240610/6/10/20240610_97b0ef18.jpg",
+						"description": "Deep Node 开发了一款基于AI演化算法的股票短线交易软件。该软件中的交易模型是活的,能够适应不断变化的市场条件,以盈利方式进行多资产的短期交易。主要功能有:1. 演化型计算平台:通过AI演化算法优化交易模型;2. 多细胞AI系统:模拟自组织系统,实现更稳定的模型;3. 提供智能、架构和平台等服务,帮助用户获得额外收益。关键优势是交易模型能够实时演化和适应市场,实现稳定盈利。定位是高端股票交易辅助工具。",
+						"tags": ["AI", "演化算法", "股票交易", "短线交易"]
+					},
+					{
+						"source": "",
+						"title": "风平智能",
+						"path": "jiaoyizhushou/fengpingzhineng",
+						"cover": "/cover/20240610/6/10/20240610_d3566626.jpg",
+						"label": "提供虚拟数字人定制、AI 短视频内容生产和数字人直播的智能化 IP 打造平台。",
+						"logo": "/logo/20240610/6/10/20240610_f357d949.jpg",
+						"description": "风平 IP 智造平台是基于 AIGC 的智能化 IP 打造平台，致力于提供虚拟数字人定制、AI 短视频内容生产和数字人直播的一站式解决方案。通过结合领先的 AI 技术，平台实现了数字人的高质量生产和互动能力，为用户打造全新的数字人 IP 体验。",
+						"tags": ["数字人", "虚拟人物", "AI 内容生产", "IP 交易"]
+					},
+					{
+						"source": "",
+						"title": "FinRobot",
+						"path": "jiaoyizhushou/finrobot",
+						"cover": "/cover/20240610/6/10/20240610_7f358fdf.jpg",
+						"label": "开源AI代理平台，专为金融应用设计。",
+						"logo": "/logo/20240610/6/10/20240610_082d44c1.jpg",
+						"description": "FinRobot是一个开源的AI代理平台，利用大型语言模型（LLMs）为金融应用提供全面的解决方案。它整合了多种AI技术，超越了单纯的语言模型，展现了平台的多功能性和适应性，满足金融行业的多样化需求。FinRobot的AI代理概念是指使用大型语言模型作为其大脑来感知环境、做出决策并执行动作的智能实体。与传统人工智能不同，AI代理具有独立思考和使用工具以逐步实现给定目标的能力。",
+						"tags": ["金融", "AI代理", "市场预测", "文档分析", "交易策略"]
+					},
+					{
+						"source": "",
+						"title": "Hero",
+						"path": "jiaoyizhushou/hero",
+						"cover": "/cover/20240610/6/10/20240610_9aeceb38.jpg",
+						"label": "利用AI快速销售物品",
+						"logo": "/logo/20240610/6/10/20240610_1a0b86e8.jpg",
+						"description": "Hero是一款利用先进的视觉模型和AI技术帮助用户快速识别、定价和上架闲置物品的应用程序。它可以通过简单地用手机对准物品,实时扫描识别物品类型、生成标题、描述、条件和图片,一键在Hero平台及其他多个闲置交易市场同步发布上架。Hero致力于为用户提供一站式的智能化二手交易体验,大幅节省时间和精力,让闲置变现更加简单高效。",
+						"tags": ["AI", "智能", "二手交易", "变现", "高效"]
+					},
+					{
+						"source": "",
+						"title": "HypeIndex Ai",
+						"path": "jiaoyizhushou/hypeindex-ai",
+						"cover": "/cover/20240610/6/10/20240610_f6c56af5.jpg",
+						"label": "解锁实时新闻分析的力量 | HypeIndex",
+						"logo": "/logo/20240610/6/10/20240610_c7c6f3d2.jpg",
+						"description": "HypeIndex是股票交易领域中的一个重要工具，通过简化新闻研究、提供即时新闻报告和支持明智决策，帮助交易者和投资者保持市场变化的领先地位。",
+						"tags": ["股票交易", "投资", "实时新闻分析"]
+					}
+				]
+			},
+			{
+				"title": "法律助手",
+				"name": "falvzhushou",
+				"href": "/discover/falvzhushou",
+				"total": 143,
+				"products": [
+					{
+						"source": "",
+						"title": "Advomate",
+						"path": "falvzhushou/advomate",
+						"cover": "/cover/20240610/6/10/20240610_9d0a076c.jpg",
+						"label": "自动化法律流程的AI助手",
+						"logo": "/logo/20240610/6/10/20240610_f85b895a.jpg",
+						"description": "Advomate是一个旨在帮助律师通过自动化法律流程，如研究、文件审查以及与法规和案例法的工作，来提高工作效率的AI平台。它通过人工智能技术快速生成搜索结果，提供法律文件的详细分析，并与相关法规和案例法链接。Advomate注重数据安全和保护，为用户提供了一个用户友好的界面来搜索法律和法院决定。",
+						"tags": ["法律", "自动化", "人工智能", "研究", "文档分析"]
+					},
+					{
+						"source": "",
+						"title": "AI Lawyer Lab",
+						"path": "falvzhushou/ai-lawyer-lab",
+						"cover": "/cover/20240610/6/10/20240610_865857c2.jpg",
+						"label": "AI律师实验室是一个AI学习平台，旨在帮助法律人为法律行业的AI未来做好准备。",
+						"logo": "/logo/20240610/6/10/20240610_27ff56a0.jpg",
+						"description": "AI律师实验室是一个AI学习平台，由律师创立，旨在帮助法律人将专业知识转化为AI解决方案。通过工程化专业知识，律师可以使用AI技术来自动执行法律任务，提高效率并创造更多创新。该实验室提供丰富的工具和资源，帮助律师学习如何应用AI技术，并提升他们的专业知识工程能力。",
+						"tags": ["AI", "法律", "律师", "专业知识工程", "工具", "资源", "效率提升"]
+					},
+					{
+						"source": "",
+						"title": "BetterLegal",
+						"path": "falvzhushou/betterlegal",
+						"cover": "/cover/20240610/6/10/20240610_b70dc930.jpg",
+						"label": "BetterLegal提供一站式服务，帮助您在几天内在您选择的州份成立有限责任公司(LLC)或股份公司(Corporation)。",
+						"logo": "/logo/20240610/6/10/20240610_699054db.jpg",
+						"description": "BetterLegal提供一站式服务，帮助您在几天内在您选择的州份成立有限责任公司(LLC)或股份公司(Corporation)。它提供所有必要的文件和法律文件，使您的公司在短短两个工作日内成为官方认可的实体。 BetterLegal是一家值得信赖的公司，已帮助成立了超过20,000家企业。",
+						"tags": ["企业成立", "法律文件", "注册代理", "合规服务"]
+					},
+					{
+						"source": "",
+						"title": "ChatLegal",
+						"path": "falvzhushou/chatlegal",
+						"cover": "/cover/20240610/6/10/20240610_295e5016.jpg",
+						"label": "ChatLegal是一款AI助手，提供即时法律咨询和指导。",
+						"logo": "/logo/20240610/6/10/20240610_e1e40e48.jpg",
+						"description": "ChatLegal是一款AI助手，通过提供即时法律咨询和指导，帮助用户解决各种法律问题。它的主要优点包括提供快速和经济高效的法律帮助、24/7全天候服务、保护用户隐私、适用于个人和商业用户等。",
+						"tags": ["法律", "法律咨询", "法律帮助", "AI助手"]
+					},
+					{
+						"source": "",
+						"title": "ContractCrab",
+						"path": "falvzhushou/contractcrab",
+						"cover": "/cover/20240610/6/10/20240610_cc7035d4.jpg",
+						"label": "在线合同摘要生成器",
+						"logo": "/logo/20240610/6/10/20240610_f4af254a.jpg",
+						"description": "ContractCrab是一个在线合同摘要生成器，旨在简化合同审阅的过程。它可以帮助用户快速、轻松地从冗长的合同文本中提取关键信息，节省时间并做出明智的决策。该工具提供合同文本的自动摘要和要点提取，以及合同条款的解释和解读。",
+						"tags": ["合同摘要", "法律文件", "在线工具"]
+					},
+					{
+						"source": "",
+						"title": "creativesai",
+						"path": "falvzhushou/creativesai",
+						"cover": "/cover/20240610/6/10/20240610_f6980739.jpg",
+						"label": "你的数字员工",
+						"logo": "/logo/20240610/6/10/20240610_e6212b4a.jpg",
+						"description": "AI团队是一个在线的数字员工平台，提供多个虚拟员工角色，包括财务专家、商务专家、数据分析专家、程序员、律师、摄影师、音乐专家、写作专家等，为用户提供全方位的服务支持。AI团队能够执行各种任务，如财务管理、数据分析、法律咨询、摄影拍摄、音乐创作、写作等，帮助用户提高工作效率，实现个人和商业目标。",
+						"tags": ["财务", "数据分析", "法律", "摄影", "音乐", "写作"]
+					},
+					{
+						"source": "",
+						"title": "法行宝",
+						"path": "falvzhushou/fahangbao",
+						"cover": "/cover/20240610/6/10/20240610_e9024e87.jpg",
+						"label": "AI智能法律分析工具",
+						"logo": "/logo/20240610/6/10/20240610_f78246be.jpg",
+						"description": "法行宝是一款集成了人工智能技术的法律服务平台，旨在为用户提供专业的法律意见和文书参考。通过预设问题引导用户提供必要信息，结合《中华人民共和国民法典》等相关法律法规，生成详细的法律意见书。法行宝不仅提供离婚流程指导、文书模板下载，还包含人性化的行动建议和扩展资料，帮助用户全面理解并应对法律问题。",
+						"tags": ["法律咨询", "离婚案件", "文书模板", "法律流程"]
+					},
+					{
+						"source": "",
+						"title": "法唠AI",
+						"path": "falvzhushou/falaoai",
+						"cover": "/cover/20240610/6/10/20240610_c3fb9ed5.jpg",
+						"label": "AI法律人，模拟神经元网络对话",
+						"logo": "/logo/20240610/6/10/20240610_b386150f.jpg",
+						"description": "法唠AI，也称为法律人工智能，是一种结合了人工智能和法律领域的技术。它利用大语言模型预训练的机器人对法律知识和案例进行深度学习和分析，以提供法律咨询、法律文书撰写、法律案例研究等服务。法唠A|的出现，对律师行业的专业提供方式及案例判例研究方面产生了深远的影响，它能够提供更快速、准确、全面的法服务，同时也为法律行业带来了新的机遇和挑战。",
+						"tags": ["AI", "法律", "知识图谱", "深度学习"]
+					},
+					{
+						"source": "",
+						"title": "Judichat",
+						"path": "falvzhushou/judichat",
+						"cover": "/cover/20240610/6/10/20240610_94f8fd99.jpg",
+						"label": "将来的法律研究尽在掌握，通过Judichat浏览法院决定并导出PDF格式以进行查询，利用智能法律聊天机器人获取准确答案。",
+						"logo": "/logo/20240610/6/10/20240610_5b3d51c5.jpg",
+						"description": "Judichat是一款智能法律研究工具，可以浏览法院决定并将其导出为PDF格式以供查询。它还提供了智能法律聊天机器人，可以回答具体问题。Judichat的主要优点是方便快捷地获取准确的法律信息，并且可以帮助用户培养和训练自己的人工智能模型。",
+						"tags": ["法律研究", "法律决定", "法律聊天机器人"]
+					},
+					{
+						"source": "",
+						"title": "Kallo",
+						"path": "falvzhushou/kallo",
+						"cover": "/cover/20240610/6/10/20240610_d0084e05.jpg",
+						"label": "您的AI合作伙伴 | 教育、STEM、法律",
+						"logo": "/logo/20240610/6/10/20240610_0dca0d6a.jpg",
+						"description": "Kallo是您个人文档和资源库的即时专家，为您提供答案、生成见解，并邀请您的团队进行多用户协作。我们专注于使复杂的文档和信息易于访问和高度可操作。",
+						"tags": ["AI合作伙伴", "教育", "STEM", "法律"]
+					}
+				]
+			},
+			{
+				"title": "数据分析",
+				"name": "shujufenxi",
+				"href": "/discover/shujufenxi",
+				"total": 1312,
+				"products": [
+					{
+						"source": "",
+						"title": "Aurora",
+						"path": "shujufenxi/aurora",
+						"cover": "/cover/20240610/6/10/20240610_3e5b79be.jpg",
+						"label": "大规模基础模型，革新大气预测",
+						"logo": "/logo/20240610/6/10/20240610_d3c2ef17.jpg",
+						"description": "Aurora 是由微软研究院开发的大规模基础模型，它利用超过百万小时的多样化天气和气候数据进行训练。Aurora 利用基础模型方法的优势，为各种大气预测问题提供操作性预测，包括那些训练数据有限、变量异质性和极端事件的问题。Aurora 能在不到一分钟内生成5天的全球空气污染预测和10天的高分辨率天气预报，性能超越了最先进的传统模拟工具和最好的专业深度学习模型。这些结果表明，基础模型可以改变环境预测。",
+						"tags": ["深度学习", "大气预测", "环境科学", "数据驱动"]
+					},
+					{
+						"source": "",
+						"title": "ChatGPT Edu",
+						"path": "shujufenxi/chatgpt-edu",
+						"cover": "/cover/20240610/6/10/20240610_1e7f4436.jpg",
+						"label": "AI助力教育，智能校园助手",
+						"logo": "/logo/20240610/6/10/20240610_3f28c531.jpg",
+						"description": "ChatGPT Edu是OpenAI为大学校园设计的一款AI模型，旨在负责任地将人工智能技术引入学生、教职工、研究人员和校园运营中。该模型基于GPT-4o构建，能够进行文本和视觉推理，并使用数据分析等高级工具。它具有企业级的安全和控制功能，价格对教育机构而言是可承受的。ChatGPT Edu的推出基于牛津大学、宾夕法尼亚大学沃顿商学院、德克萨斯大学奥斯汀分校、亚利桑那州立大学和纽约哥伦比亚大学等在使用ChatGPT企业版时取得的成功。",
+						"tags": ["AI教育", "智能助手", "校园AI", "数据分析"]
+					},
+					{
+						"source": "",
+						"title": "橙篇AI",
+						"path": "shujufenxi/chengpianai",
+						"cover": "/cover/20240610/6/10/20240610_dfb53419.jpg",
+						"label": "智能写作助手，一键生成内容，提升写作效率。",
+						"logo": "/logo/20240610/6/10/20240610_4326386f.jpg",
+						"description": "橙篇AI是一款针对写作领域的智能工具，旨在通过AI技术提升用户的写作效率和质量。它拥有一键生成长文、资料搜索、文档总结、全文校正等功能，帮助用户快速整理思路、搜集资料和校对文本。橙篇AI的背景是随着AI技术的发展，越来越多的行业开始利用AI来提高工作效率，尤其是在内容创作领域。产品定位于辅助用户进行高效写作，无论是学术论文、商业报告还是日常笔记，都能通过橙篇AI得到快速生成和优化。目前产品提供免费试用，具体价格未在页面上明确标注。",
+						"tags": ["AI写作", "资料搜索", "文本校对", "格式整理", "数据可视化"]
+					},
+					{
+						"source": "",
+						"title": "Docu Dig",
+						"path": "shujufenxi/docu-dig",
+						"cover": "/cover/20240610/6/10/20240610_8d68a044.jpg",
+						"label": "AI驱动的智能文档搜索与洞察",
+						"logo": "/logo/20240610/6/10/20240610_2865273e.jpg",
+						"description": "Docu Dig是一个利用尖端AI技术提供安全、高效的文档内容搜索和洞察的商业解决方案。它通过先进的加密技术保护数据安全，提供上下文智能搜索，与传统搜索方法相比，能够提供更准确的文档洞察，提高团队效率，并改善信息获取。此外，它还支持团队协作，允许团队成员在共享文档上协作，提高工作效率。适用于需要处理大量文档的行业，如法律、医疗和金融领域。",
+						"tags": ["AI", "文档搜索", "数据安全", "团队协作", "行业定制"]
+					},
+					{
+						"source": "",
+						"title": "Eloquence",
+						"path": "shujufenxi/eloquence",
+						"cover": "/cover/20240610/6/10/20240610_e72cb8dc.jpg",
+						"label": "无需编码，基于数据做出决策。",
+						"logo": "/logo/20240610/6/10/20240610_8b90dbda.jpg",
+						"description": "Eloquence是一个使决策基于数据的商业智能工具。它允许用户无需编码即可通过结构化的自然语言提出问题，快速连接数据库，过滤所需数据，并立即获得结果。Eloquence注重安全性，采用行业标准的加密技术保护数据，支持在线使用或部署在公司防火墙内，并且承诺不保存任何数据。",
+						"tags": ["数据分析", "商业智能", "自然语言处理", "数据安全"]
+					},
+					{
+						"source": "",
+						"title": "Exante",
+						"path": "shujufenxi/exante",
+						"cover": "/cover/20240610/6/10/20240610_70895f69.jpg",
+						"label": "AI驱动的合同管理平台，提高效率，降低风险。",
+						"logo": "/logo/20240610/6/10/20240610_501d00e6.jpg",
+						"description": "Exante是一个AI驱动的合同管理平台，旨在通过自动化合同数据提取、集中化的合同仪表板和个性化的AI合同助手，简化合同管理流程，提供可操作的洞察，并实现无需复杂实施即可使用的解决方案。它为忙碌的商业运营者提供了一种现代化的合同管理方法，帮助他们提高效率，降低风险，并发现有价值的洞察。",
+						"tags": ["AI", "合同管理", "自动化", "数据分析", "合规性"]
+					},
+					{
+						"source": "",
+						"title": "Farspeak",
+						"path": "shujufenxi/farspeak",
+						"cover": "/cover/20240610/6/10/20240610_10548896.jpg",
+						"label": "LLM应用开发平台，提升文档处理能力。",
+						"logo": "/logo/20240610/6/10/20240610_c9ec11e3.jpg",
+						"description": "Farspeak是一个LLM应用开发平台，它允许开发者通过API接入，使用自然语言查询（NLQ）和自然语言开发（NLD）技术，与MongoDB Atlas等数据库进行交互，处理结构化和非结构化数据。其主要优点包括实时嵌入更新、单一存储解决方案以及对多种数据库的支持。",
+						"tags": ["自然语言处理", "数据库集成", "开发平台"]
+					},
+					{
+						"source": "",
+						"title": "Feedback Navigator",
+						"path": "shujufenxi/feedback-navigator",
+						"cover": "/cover/20240610/6/10/20240610_c76cb32e.jpg",
+						"label": "快速收集并提取客户反馈的宝贵见解。",
+						"logo": "/logo/20240610/6/10/20240610_99f1543e.jpg",
+						"description": "Feedback Navigator 是一个AI驱动的客户反馈分析平台，它允许用户从多个平台导入客户反馈，通过内置的数据源、自定义类别、情感分析等工具，迅速提取有价值的见解。该平台支持自动化工作流，并通过CSV导出功能，使用户能够在外部进行自定义分析或可视化。",
+						"tags": ["客户反馈", "情感分析", "自动化", "数据导出"]
+					},
+					{
+						"source": "",
+						"title": "GPTResearcher",
+						"path": "shujufenxi/gptresearcher",
+						"cover": "/cover/20240610/6/10/20240610_e4a8f493.jpg",
+						"label": "AI助力的快速洞察和全面研究助手",
+						"logo": "/logo/20240610/6/10/20240610_031e772e.jpg",
+						"description": "GPT Researcher是一个领先的自主研究代理，专为多代理框架设计，提供实时、准确和事实性的结果。它能够简化数据收集，通过一个函数调用提供可信赖、聚合和策划的结果。它支持超过100种不同的大型语言模型(LLMs)，并且可以与任何搜索引擎协作，从Google到DuckDuckGo。用户可以轻松搜索本地文档和文件，并生成超过2000字的长篇报告，支持多种格式的导出，如PDF、Word、Markdown、JSON和CSV。",
+						"tags": ["AI研究", "数据收集", "多格式导出", "多代理协作"]
+					},
+					{
+						"source": "",
+						"title": "Hillda",
+						"path": "shujufenxi/hillda",
+						"cover": "/cover/20240610/6/10/20240610_7268e649.jpg",
+						"label": "AI驱动的智能助手，提供沉浸式3D头像和无缝语言翻译。",
+						"logo": "/logo/20240610/6/10/20240610_62315203.jpg",
+						"description": "Hillda是一个利用先进AI技术和沉浸式3D技术提供卓越客户支持的平台。它通过复杂的数据挖掘和检索、动态知识库管理、先进的语言翻译能力、沉浸式3D头像、上下文和定制化的交互以及强大的安全性和数据完整性，来提升客户服务的效率和质量。",
+						"tags": ["AI", "客户服务", "语言翻译", "3D头像", "数据安全"]
+					}
+				]
+			},
+			{
+				"title": "办公助手",
+				"name": "bangongzhushou",
+				"href": "/discover/bangongzhushou",
+				"total": 438,
+				"products": [
+					{
+						"source": "",
+						"title": "360AI 甄选",
+						"path": "bangongzhushou/360ai-zhenxuan",
+						"cover": "/cover/20240610/6/10/20240610_7bd08932.jpg",
+						"label": "工具就是全，提高办公生活效率，全网最好用的办公导航，优质海量工具",
+						"logo": "/logo/20240610/6/10/20240610_2a113772.jpg",
+						"description": "360AI 甄选是全网最好用的办公导航，提供优质海量工具，旨在提高办公生活效率。它集成了各种工具，方便用户快速找到所需的工具，并提供高质量的应用。360AI 甄选以其全面性、实用性和高效性而受到广泛关注。它为用户提供了丰富的功能和技术，以及方便的用户界面和操作方式。",
+						"tags": ["办公导航", "工具", "生产力"]
+					},
+					{
+						"source": "",
+						"title": "360AI浏览器APP",
+						"path": "bangongzhushou/360ailiulanqiapp",
+						"cover": "/cover/20240610/6/10/20240610_771b5995.jpg",
+						"label": "360AI 浏览器，AI 赋能，秒懂一切。",
+						"logo": "/logo/20240610/6/10/20240610_a1f449c4.jpg",
+						"description": "360AI 浏览器利用人工智能技术，提供智能搜索、PDF、视频、网页总结等功能，旨在帮助用户高效获取知识，提升阅读体验。",
+						"tags": ["智能搜索", "PDF 阅读", "视频播放", "网页浏览", "广告过滤", "播放器"]
+					},
+					{
+						"source": "",
+						"title": "AI Menti Builder",
+						"path": "bangongzhushou/ai-menti-builder",
+						"cover": "/cover/20240610/6/10/20240610_e30e6d56.jpg",
+						"label": "AI驱动的快速演示文稿制作工具",
+						"logo": "/logo/20240610/6/10/20240610_b4d508bd.jpg",
+						"description": "AI Menti Builder是一个在线工具，它利用人工智能技术帮助用户快速创建演示文稿。这个工具能够根据用户输入的主题，即时生成一个可交互的演示文稿草稿，用户可以根据自己的需求进行调整和完善。它适用于团队会议、研讨会、讲座、调查、趣味测验等多种场合，大大减少准备时间，提高效率。",
+						"tags": ["AI", "演示文稿", "教育", "团队协作", "互动"]
+					},
+					{
+						"source": "",
+						"title": "Ai-to-pptx",
+						"path": "bangongzhushou/ai-to-pptx",
+						"cover": "/cover/20240610/6/10/20240610_cc351611.jpg",
+						"label": "使用AI技术来自动生成PPTX 支持在线修改",
+						"logo": "/logo/20240610/6/10/20240610_e32d8205.jpg",
+						"description": "Ai-to-pptx 是一个使用 AI 技术 (ChatGpt 和 Gemini) 制作 PPTX 的助手，支持在线修改和导出 PPTX。主要功能包括使用 ChatGPT 等大语言模型生成大纲、允许用户再次修改内容、选择不同模板、在线修改 PPTX 的文字、样式、图片等，支持导出 PPTX、PDF、PNG 等多种格式。价格为付费，商业授权价格为 22000 元人民币或 3000 美元。",
+						"tags": ["PPTX", "AI 技术", "在线修改"]
+					},
+					{
+						"source": "",
+						"title": "Amplifiles",
+						"path": "bangongzhushou/amplifiles",
+						"cover": "/cover/20240610/6/10/20240610_73a3c578.jpg",
+						"label": "转化PDF为动态体验",
+						"logo": "/logo/20240610/6/10/20240610_5b9b6f72.jpg",
+						"description": "Amplifiles可以将PDF转化为动态体验，为销售和营销专业人员提供AI语音解说、自定义CTA、CRM集成等功能，提升销售效果。详细定价和功能列表请访问官网了解。",
+						"tags": ["PDF转化", "销售工具", "营销工具"]
+					},
+					{
+						"source": "",
+						"title": "Asa.team",
+						"path": "bangongzhushou/asa-team",
+						"cover": "/cover/20240610/6/10/20240610_70cfb4a1.jpg",
+						"label": "Asa.Team是一个可以帮助团队工作、娱乐和学习的助手。",
+						"logo": "/logo/20240610/6/10/20240610_20c226ce.jpg",
+						"description": "Asa.Team是一个可以帮助改善与团队的关系的助手，无论是在办公室还是远程工作。它可以帮助团队准时上下班、追踪心理健康、连接到Slack、Microsoft Teams和Telegram等工作平台。Asa.Team还可以提供团队心理健康和士气的支持。它是一个数字日记，可以推荐旅程等方式来帮助团队放松和提高工作效率。",
+						"tags": ["团队管理", "办公效率", "心理健康", "远程工作", "日记"]
+					},
+					{
+						"source": "",
+						"title": "创脑",
+						"path": "bangongzhushou/chuangnao",
+						"cover": "/cover/20240610/6/10/20240610_7fd1e3e1.jpg",
+						"label": "提供行业专家 / AI 写作 / 办公 / 绘画 / 数字员工等领域的 AI 机器人各类助手，是提升工作效率、生活便利的 AI 全能工具库。",
+						"logo": "/logo/20240610/6/10/20240610_5b94b530.jpg",
+						"description": "创脑是国内知名 AI 机器人社区，用户可以免费使用各类 AI 机器人助手，包括行业专家、AI 写作、办公助手等，帮助提升工作效率和生活便利。",
+						"tags": ["AI 机器人", "办公助手", "知识变现", "行业专家", "创作写作"]
+					},
+					{
+						"source": "",
+						"title": "DocSolver",
+						"path": "bangongzhushou/docsolver",
+						"cover": "/cover/20240610/6/10/20240610_e4d3bbb8.jpg",
+						"label": "使用GPT-4 API构建的多大型PDF文件聊天机器人。",
+						"logo": "/logo/20240610/6/10/20240610_6af569d2.jpg",
+						"description": "DocSolver是一个利用GPT-4 API技术构建的聊天机器人，专为处理和分析大型PDF文件设计。它能够通过自然语言处理技术，理解和回应用户关于PDF文件内容的查询，提供高效的信息检索和文档管理解决方案。",
+						"tags": ["GPT-4", "PDF处理", "聊天机器人", "文档管理"]
+					},
+					{
+						"source": "",
+						"title": "豆包桌面 AI 助手",
+						"path": "bangongzhushou/doubaozhuomian-ai-zhushou",
+						"cover": "/cover/20240610/6/10/20240610_16382b72.jpg",
+						"label": "你的全能 AI 助手，助力每日工作学习",
+						"logo": "/logo/20240610/6/10/20240610_67132262.jpg",
+						"description": "豆包桌面 AI 助手是一款集成了多种 AI 功能的桌面应用程序，豆包电脑版客户端旨在提升用户的工作和学习效率。它通过 AI 划词翻译、搜索、AI 伴读 PDF 等功能，帮助用户快速获取信息，节省时间，提高生产力。产品由北京春田知韵科技有限公司开发，拥有简洁的界面和强大的功能，是现代办公和学习的得力助手。",
+						"tags": ["AI", "翻译", "搜索", "PDF", "效率", "创作"]
+					},
+					{
+						"source": "",
+						"title": "Glasp Web Highlighter",
+						"path": "bangongzhushou/glasp-web-highlighter",
+						"cover": "/cover/20240610/6/10/20240610_6629855f.jpg",
+						"label": "Web高亮器，可用于PDF和网站。免费且易于使用。高亮和注释PDF、网站和YouTube视频。",
+						"logo": "/logo/20240610/6/10/20240610_9b2bb642.jpg",
+						"description": "Glasp是一款PDF和Web高亮器，可帮助您从网络上收集和组织您喜欢的引用和想法。您还可以访问其他志同道合的人的学习成果，并从您的高亮和笔记中构建您的AI副本。它支持多种高亮颜色选项，可在网页和PDF上进行高亮和注释，并且具有AI支持的摘要功能。",
+						"tags": ["PDF", "网页", "高亮", "注释"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "其他",
+		"name": "qita",
+		"href": "qita",
+		"total": 3137,
+		"items": [
+			{
+				"title": "学习教育",
+				"name": "xuexijiaoyu",
+				"href": "/discover/xuexijiaoyu",
+				"total": 1443,
+				"products": [
+					{
+						"source": "",
+						"title": "100% FREE Mindmap Generator",
+						"path": "xuexijiaoyu/100-free-mindmap-generator",
+						"cover": "/cover/20240610/6/10/20240610_9e3dfb54.jpg",
+						"label": "使用AI在5分钟内生成任何课程的思维导图",
+						"logo": "/logo/20240610/6/10/20240610_40547c15.jpg",
+						"description": "EverLearns提供了一个免费的在线思维导图生成器，利用人工智能技术帮助内容创作者、教育工作者、教师、助教、家教以及在家教育的父母轻松创建、组织和可视化他们的想法。该工具特别适合用于为观众、学生或孩子展示概念。",
+						"tags": ["AI辅助", "教育工具", "思维导图", "免费使用"]
+					},
+					{
+						"source": "",
+						"title": "Adaptiv Creator Platform",
+						"path": "xuexijiaoyu/adaptiv-creator-platform",
+						"cover": "/cover/20240610/6/10/20240610_a3cb0237.jpg",
+						"label": "AI驱动的创作平台，快速生成并发布学习材料。",
+						"logo": "/logo/20240610/6/10/20240610_b61d31bf.jpg",
+						"description": "Adaptiv Creator Platform是一个利用人工智能技术，帮助用户在极短的时间内生成并发布学习材料的在线平台。它允许用户选择主题和受众，定制语言和语调，并快速地从主题到发布课程。平台结合了AI和人类智能，用户可以审查和编辑AI生成的内容，并添加自己的见解。Adaptiv旨在通过提供最新的信息，帮助学习者为未来做好准备。",
+						"tags": ["AI", "教育", "内容创作", "微学习", "个性化"]
+					},
+					{
+						"source": "",
+						"title": "ainave",
+						"path": "xuexijiaoyu/ainave",
+						"cover": "/cover/20240610/6/10/20240610_43385880.jpg",
+						"label": "AI社区，分享知识，启发灵感，发现突破性想法。",
+						"logo": "/logo/20240610/6/10/20240610_c521aabc.jpg",
+						"description": "ainave是一个专注于人工智能领域的社区平台，提供讨论、工具、文章、问答和职业发展等多元化内容。该平台旨在帮助用户提升AI技能，分享知识，获取灵感，并发现AI领域的突破性想法。目前处于BETA测试阶段，不断优化和更新。",
+						"tags": ["AI社区", "知识分享", "职业发展", "BETA测试"]
+					},
+					{
+						"source": "",
+						"title": "Chat-Flow",
+						"path": "xuexijiaoyu/chat-flow",
+						"cover": "/cover/20240610/6/10/20240610_b5bc2b80.jpg",
+						"label": "AI驱动的客户支持解决方案，提升中小企业的客户满意度。",
+						"logo": "/logo/20240610/6/10/20240610_33114e3d.jpg",
+						"description": "ChatFlow是一款为初创企业和中小企业设计的AI驱动客户支持平台。它通过现代化、可扩展和智能的解决方案，帮助企业构建客户满意度。主要功能包括实时聊天、AI驱动的聊天机器人、自动化票务系统、多渠道集成、分析和报告以及知识库。ChatFlow的AI聊天机器人能够处理常规咨询，释放人工客服处理更复杂的任务。此外，它还提供24/7的自动化客户支持，无需等待，即时解决客户问题。",
+						"tags": ["AI", "客户支持", "自动化", "多渠道", "知识库"]
+					},
+					{
+						"source": "",
+						"title": "Clixie AI",
+						"path": "xuexijiaoyu/clixie-ai",
+						"cover": "/cover/20240610/6/10/20240610_8b2ddc71.jpg",
+						"label": "互动视频平台，提升学习与参与度",
+						"logo": "/logo/20240610/6/10/20240610_f33fd8a0.jpg",
+						"description": "Clixie AI 是一个互动视频平台，它利用人工智能技术将普通视频和音频文件快速转换为具有互动性的体验，包括测验、章节、书签等。该平台致力于使学习变得有趣且参与度高，通过互动内容使学习者保持参与并提供有关他们学习体验的宝贵数据。Clixie AI 易于使用，无需编码，支持快速更新，并通过直观的创作工具和一目了然的数据仪表板，帮助用户轻松管理内容和做出决策。",
+						"tags": ["互动视频", "人工智能", "教育技术", "企业培训", "内容创作"]
+					},
+					{
+						"source": "",
+						"title": "EnchantedPages.Ai",
+						"path": "xuexijiaoyu/enchantedpages-ai",
+						"cover": "/cover/20240610/6/10/20240610_00a87dfc.jpg",
+						"label": "AI驱动的个性化儿童故事创作平台",
+						"logo": "/logo/20240610/6/10/20240610_5d2b907c.jpg",
+						"description": "EnchantedPages.Ai是一个利用人工智能技术为儿童创作个性化故事的平台。它允许父母通过简单的点击操作，将自己的孩子置于故事的中心，成为故事的英雄。该平台旨在通过引人入胜的故事讲述，提升亲子间的一对一时间质量，并通过教育性内容激发孩子的兴趣。",
+						"tags": ["AI创作", "儿童故事", "个性化", "教育", "亲子互动"]
+					},
+					{
+						"source": "",
+						"title": "FastGPT",
+						"path": "xuexijiaoyu/fastgpt",
+						"cover": "/cover/20240610/6/10/20240610_24e1fbf5.jpg",
+						"label": "基于LLM大模型的开源AI知识库构建平台",
+						"logo": "/logo/20240610/6/10/20240610_b3427649.jpg",
+						"description": "FastGPT是一个开源的AI知识库构建平台，提供数据处理、模型调用、RAG检索、可视化AI工作流编排等能力，帮助用户轻松构建复杂的AI应用。它支持特定领域AI客服的构建，自动化数据预处理，工作流编排，以及强大的API集成。FastGPT的优势在于其开源性、独特的QA结构、可视化工作流、无限扩展性、便于调试，并支持多种模型。",
+						"tags": ["AI", "知识库", "自动化", "开源", "模型调用"]
+					},
+					{
+						"source": "",
+						"title": "HippoRAG",
+						"path": "xuexijiaoyu/hipporag",
+						"cover": "/cover/20240610/6/10/20240610_c58e1f9f.jpg",
+						"label": "基于人类长期记忆的新型RAG框架",
+						"logo": "/logo/20240610/6/10/20240610_9d6afab3.jpg",
+						"description": "HippoRAG是一个启发自人类长期记忆的新型检索增强生成(RAG)框架，它使得大型语言模型(LLMs)能够持续地整合跨外部文档的知识。该框架通过实验表明，HippoRAG能够以更低的计算成本提供通常需要昂贵且高延迟迭代LLM流水线的RAG系统能力。",
+						"tags": ["自然语言处理", "知识整合", "语言模型", "检索增强生成"]
+					},
+					{
+						"source": "",
+						"title": "Illuminate",
+						"path": "xuexijiaoyu/illuminate",
+						"cover": "/cover/20240610/6/10/20240610_5f27f2ad.jpg",
+						"label": "将学术论文转化为AI生成的音频讨论。",
+						"logo": "/logo/20240610/6/10/20240610_013d114c.jpg",
+						"description": "Illuminate是谷歌推出的一个创新的教育工具，它利用人工智能技术将复杂的学术论文转化为易于理解的音频讨论，帮助用户以更直观、互动的方式学习和理解学术内容。该产品通过简化学习过程，提高了学习效率，尤其适合快节奏和多样化的学习需求。",
+						"tags": ["学术", "教育", "人工智能", "音频学习"]
+					},
+					{
+						"source": "",
+						"title": "Mapify",
+						"path": "xuexijiaoyu/mapify",
+						"cover": "/cover/20240610/6/10/20240610_fa0f2d63.jpg",
+						"label": "AI 思维导图，解析一切",
+						"logo": "/logo/20240610/6/10/20240610_92cfaea0.jpg",
+						"description": "Mapify 是一款 AI 驱动的思维导图工具，能够帮助用户从多种文件格式、网页内容或视频等资料中快速提取核心观点，并整理输出为结构化的思维导图。它通过一键做图、缩放导图、内置 AI 模板等功能，极大提升了用户的生产力和创造力。Mapify 还具备与 AI 对话、实时网络访问和图像生成等高级功能，使用户能够更高效地展示和分享思维导图。",
+						"tags": ["AI", "思维导图", "生产力工具", "信息整理", "知识管理"]
+					}
+				]
+			},
+			{
+				"title": "趣味游戏",
+				"name": "quweiyouxi",
+				"href": "/discover/quweiyouxi",
+				"total": 925,
+				"products": [
+					{
+						"source": "",
+						"title": "Avatic",
+						"path": "quweiyouxi/avatic",
+						"cover": "/cover/20240610/6/10/20240610_e5aa7c6f.jpg",
+						"label": "定制3D头像，提升在线身份",
+						"logo": "/logo/20240610/6/10/20240610_0d9126c6.jpg",
+						"description": "Avatic 3D Avatars是一个定制3D头像服务，适用于游戏、社交和职业平台。通过将您的照片转换为个性化的半逼真3D头像，提升您的在线身份。无论您是为了保护隐私还是为了给您的在线形象添加独特的个性，我们的定制3D头像服务都是您一直在寻找的解决方案。我们的头像由经验丰富的3D艺术家使用Blender和Photoshop制作，呈现出独特的玩具感。我们提供100%的退款保证和无限次的修改，以确保您对最终成品完全满意。",
+						"tags": ["3D头像", "个性化", "游戏", "社交", "职业平台"]
+					},
+					{
+						"source": "",
+						"title": "Backseat AI",
+						"path": "quweiyouxi/backseat-ai",
+						"cover": "/cover/20240610/6/10/20240610_901c328d.jpg",
+						"label": "与Tyler1一起在《英雄联盟》中获得专业级实时指导",
+						"logo": "/logo/20240610/6/10/20240610_c8378af6.jpg",
+						"description": "Backseat AI是由Tyler1联合创立的应用程序，它通过先进的AI技术为《英雄联盟》玩家提供实时的指导、洞察和评论。它旨在通过专业级的游戏分析帮助玩家提高游戏表现，同时保持电脑性能不受影响。Backseat AI是免费的，玩家可以选择升级到高级订阅以获得无广告体验和额外功能。",
+						"tags": ["游戏辅助", "AI教练", "实时反馈", "玩家互动"]
+					},
+					{
+						"source": "",
+						"title": "Brainrot Translator",
+						"path": "quweiyouxi/brainrot-translator",
+						"cover": "/cover/20240610/6/10/20240610_8b7efef4.jpg",
+						"label": "将文本转换成Skibidi。",
+						"logo": "/logo/20240610/6/10/20240610_3ce372fe.jpg",
+						"description": "Brainrot Translator是一个将文本转换成Skibidi的网站。它的主要优点是可以将普通文本转换成具有特殊效果的Skibidi文本，增加了文本的趣味性和创意性。",
+						"tags": ["文本转换", "创意", "趣味", "社交媒体"]
+					},
+					{
+						"source": "",
+						"title": "Copilot for Telegram",
+						"path": "quweiyouxi/copilot-for-telegram",
+						"cover": "/cover/20240610/6/10/20240610_6be983af.jpg",
+						"label": "Telegram上的AI伴侣，智能聊天新体验。",
+						"logo": "/logo/20240610/6/10/20240610_883acba3.jpg",
+						"description": "Copilot for Telegram是由微软推出的一款AI聊天助手，它通过GPT技术为用户提供智能聊天体验。用户可以与Copilot进行无缝对话，获取信息，享受更智能的聊天体验，所有这些功能都集成在Telegram应用中。Copilot for Telegram的主要优点包括提供个性化建议、娱乐内容、生活小贴士等，旨在提高用户的社交互动质量。",
+						"tags": ["AI", "聊天助手", "个性化", "娱乐", "生活建议"]
+					},
+					{
+						"source": "",
+						"title": "Fun Gifts",
+						"path": "quweiyouxi/fun-gifts",
+						"cover": "/cover/20240610/6/10/20240610_e72e2bb8.jpg",
+						"label": "个性化AI生成的桌面游戏，上传照片即可打印和邮寄一款独特的AI生成的个性化记忆卡片游戏。",
+						"logo": "/logo/20240610/6/10/20240610_d9019674.jpg",
+						"description": "FunGifts.AI是一个提供个性化AI生成的记忆游戏的平台。用户可以上传照片，通过AI生成独特的艺术作品，并打印成为一款记忆卡片游戏。这款游戏拥有30张卡片，印有训练人物的AI艺术作品。FunGifts.AI提供快速的打印和寄送服务，为用户打造一款独一无二的记忆游戏。",
+						"tags": ["个性化", "记忆游戏", "AI生成", "礼物", "游戏", "卡片", "艺术作品"]
+					},
+					{
+						"source": "",
+						"title": "换你来当爹",
+						"path": "quweiyouxi/huannilaidangdie",
+						"cover": "/cover/20240610/6/10/20240610_05d233eb.jpg",
+						"label": "体验虚拟角色养成，培养你的AI逆子成为大孝子。",
+						"logo": "/logo/20240610/6/10/20240610_525ce837.jpg",
+						"description": "这是一款趣味互动型网站，用户可以输入特定人物的名字，通过AI生成的内容来模拟与这些角色的互动，培养他们成为大孝子。产品以其创新性、互动性和娱乐性吸引用户，提供了一种全新的网络互动体验。",
+						"tags": ["互动", "养成", "AI", "娱乐"]
+					},
+					{
+						"source": "",
+						"title": "Kuki",
+						"path": "quweiyouxi/kuki",
+						"cover": "/cover/20240610/6/10/20240610_944c0312.jpg",
+						"label": "一款获奖的AI大脑，旨在娱乐人类。",
+						"logo": "/logo/20240610/6/10/20240610_8ca418ef.jpg",
+						"description": "Kuki是一个获奖的AI大脑，专为娱乐人类而设计。它能够通过聊天、互动等方式，为用户带来乐趣和陪伴。Kuki的技术背景深厚，它不仅能够提供娱乐，还能在商业领域中作为虚拟品牌大使，帮助企业扩大用户参与度。此外，Kuki还为开发者提供了API接口，使得Kuki的大脑可以被嵌入到各种应用和头像中，极大地扩展了其应用范围。",
+						"tags": ["AI", "聊天", "娱乐", "品牌大使", "开发者工具"]
+					},
+					{
+						"source": "",
+						"title": "Meme Fight Club",
+						"path": "quweiyouxi/meme-fight-club",
+						"cover": "/cover/20240610/6/10/20240610_7f2b97ba.jpg",
+						"label": "Meme Fight Club是一个基于MemeCoins的在线游戏。",
+						"logo": "/logo/20240610/6/10/20240610_95659054.jpg",
+						"description": "Meme Fight Club是一个在线游戏，使用MemeCoins参与比赛、购买道具和特殊技能。它提供了20个角色、特殊技能和多人在线竞技模式。",
+						"tags": ["MemeCoins", "在线游戏", "多人对战"]
+					},
+					{
+						"source": "",
+						"title": "NeoPaths",
+						"path": "quweiyouxi/neopaths",
+						"cover": "/cover/20240610/6/10/20240610_2981c2ab.jpg",
+						"label": "通过游戏化的方法提升生产力和教育。",
+						"logo": "/logo/20240610/6/10/20240610_d6c69329.jpg",
+						"description": "Neopaths是一款游戏化的个人成长平台，通过智能任务管理和微学习等功能，帮助用户开发潜力。该平台采用科学方法，提供个人成长和教育支持。Neopaths可以帮助用户提高注意力、支持长期记忆，并通过引入游戏元素和机制，使非游戏化内容更加有趣。Neopaths提供免费、有趣和简单的个人成长方法。",
+						"tags": ["neopaths", "微学习", "游戏化", "个人成长", "生产力"]
+					},
+					{
+						"source": "",
+						"title": "Pic2Game",
+						"path": "quweiyouxi/pic2game",
+						"cover": "/cover/20240610/6/10/20240610_9e83910e.jpg",
+						"label": "将您的图片变成游戏",
+						"logo": "/logo/20240610/6/10/20240610_6b5d3593.jpg",
+						"description": "Pic2Game AI是一个可以将您的照片转化成游戏场景和角色的工具。它使用AI技术来重新想象您的家庭、朋友、宠物、食物和风景，并以您喜爱的游戏中的艺术形式呈现。它的主要优点是可以将普通照片转化成富有创意和趣味性的游戏风格的图像。",
+						"tags": ["图像处理", "游戏", "AI"]
+					}
+				]
+			},
+			{
+				"title": "医疗健康",
+				"name": "yiliaojiankang",
+				"href": "/discover/yiliaojiankang",
+				"total": 559,
+				"products": [
+					{
+						"source": "",
+						"title": "aiTherapyCall",
+						"path": "yiliaojiankang/aitherapycall",
+						"cover": "/cover/20240610/6/10/20240610_f9032186.jpg",
+						"label": "体验AI驱动的疗法服务，提供个性化疗法和生活辅导，我们的平台提供24/7全天候访问，以满足您的情绪需求。从今天开始走向更好的心理健康之旅 - 负担得起且方便。",
+						"logo": "/logo/20240610/6/10/20240610_5c92d67e.jpg",
+						"description": "我们的AI疗法结合了疗法和生活辅导，为所有人提供了经济实惠且质量卓越的心理健康支持。我们的AI服务始终可用，无论朋友或治疗师是否在身边，它都能理解并回应您的情绪，提供个性化支持，显著改善您的健康状况。购买AI疗法立即提升福祉 - 为所有人提供质量AI疗法。",
+						"tags": ["心理健康", "AI疗法", "生活辅导", "经济实惠", "24/7支持"]
+					},
+					{
+						"source": "",
+						"title": "AiWatchfulCompanion",
+						"path": "yiliaojiankang/aiwatchfulcompanion",
+						"cover": "/cover/20240610/6/10/20240610_33f08143.jpg",
+						"label": "革命化的家庭护理方式，从婴儿到老年人。",
+						"logo": "/logo/20240610/6/10/20240610_919c3f1f.jpg",
+						"description": "AiWatchfulCompanion是一款旨在改变我们照顾亲人方式的应用程序，它通过使用人工智能技术，为远离家乡的护理者提供实时的关怀和支持。该应用利用计算机视觉和音频分析，实时响应亲人的需求，提供连续的安全和健康保障。它还具备紧急响应功能，在无法联系到护理者时，能够向紧急服务提供事故位置。",
+						"tags": ["人工智能", "家庭护理", "远程监控", "紧急响应", "健康分析"]
+					},
+					{
+						"source": "",
+						"title": "Asa.team",
+						"path": "yiliaojiankang/asa-team",
+						"cover": "/cover/20240610/6/10/20240610_70cfb4a1.jpg",
+						"label": "Asa.Team是一个可以帮助团队工作、娱乐和学习的助手。",
+						"logo": "/logo/20240610/6/10/20240610_20c226ce.jpg",
+						"description": "Asa.Team是一个可以帮助改善与团队的关系的助手，无论是在办公室还是远程工作。它可以帮助团队准时上下班、追踪心理健康、连接到Slack、Microsoft Teams和Telegram等工作平台。Asa.Team还可以提供团队心理健康和士气的支持。它是一个数字日记，可以推荐旅程等方式来帮助团队放松和提高工作效率。",
+						"tags": ["团队管理", "办公效率", "心理健康", "远程工作", "日记"]
+					},
+					{
+						"source": "",
+						"title": "Deepwander",
+						"path": "yiliaojiankang/deepwander",
+						"cover": "/cover/20240610/6/10/20240610_7bfe98b6.jpg",
+						"label": "Deepwander是一款AI驱动的自我探索工具，旨在增强自我意识，帮助用户与核心价值观和愿望更加接近。",
+						"logo": "/logo/20240610/6/10/20240610_c84ebeb4.jpg",
+						"description": "Deepwander是一款AI驱动的自我探索工具，通过互动反思帮助用户更深入地了解自己，并以更清晰的视角应对生活的挑战。其创新的三步流程利用最新的AI技术，根据心理学理论进行分析，提供个性化的反思体验，帮助用户实现心理健康和真实生活。",
+						"tags": ["自我探索", "心理健康", "个人成长"]
+					},
+					{
+						"source": "",
+						"title": "GoDiary",
+						"path": "yiliaojiankang/godiary",
+						"cover": "/cover/20240610/6/10/20240610_6e6e553d.jpg",
+						"label": "GoDiary是一款自动跟踪运动的健身应用",
+						"logo": "/logo/20240610/6/10/20240610_5d903e41.jpg",
+						"description": "GoDiary是一款能够自动跟踪运动的健身应用。它结合了GPS和专有的机器学习算法，以省电的方式监测用户的健身活动。通过GoDiary，用户可以轻松追踪自己的跑步、步行和骑行等运动，并提供个性化的目标跟踪和历史数据分析。",
+						"tags": ["健身", "跟踪", "运动", "健康"]
+					},
+					{
+						"source": "",
+						"title": "Journable",
+						"path": "yiliaojiankang/journable",
+						"cover": "/cover/20240610/6/10/20240610_01daab22.jpg",
+						"label": "欢迎来到Journable，通过简单的对话记录您的饮食和锻炼，让追踪饮食和锻炼变得简单。由先进的AI技术支持，我们的应用程序通过简单的聊天界面让您记录餐食和锻炼。它专为那些重视快速、简单和个性化的健康之旅的人士而设计。",
+						"logo": "/logo/20240610/6/10/20240610_96c53e39.jpg",
+						"description": "Journable是一个饮食和健身日记应用，通过AI聊天界面记录餐食和锻炼。用户可以设定个人健康目标，获得实时的餐食和锻炼分析，并跟踪卡路里摄入和消耗。Journable的优点在于简化了饮食和锻炼追踪的过程，提供个性化的建议和反馈，帮助用户更好地掌控健康。",
+						"tags": ["饮食", "健身", "日记", "卡路里追踪", "健康管理"]
+					},
+					{
+						"source": "",
+						"title": "LighTDiff",
+						"path": "yiliaojiankang/lightdiff",
+						"cover": "/cover/20240610/6/10/20240610_89a3304f.jpg",
+						"label": "一种用于手术内窥镜图像低光照增强的T-Diffusion模型。",
+						"logo": "/logo/20240610/6/10/20240610_63093ee4.jpg",
+						"description": "LighTDiff是一种针对手术内窥镜图像在低光照条件下进行增强的深度学习模型。该模型利用T-Diffusion技术，能够有效提升图像的亮度和清晰度，对于提高手术安全性和效率具有重要意义。该技术已被MICCAI2024会议提前接受，并且代码已经开源，可供研究和实际应用。",
+						"tags": ["图像增强", "深度学习", "医疗影像", "手术辅助"]
+					},
+					{
+						"source": "",
+						"title": "Llama3-Aloe-8B-Alpha",
+						"path": "yiliaojiankang/llama3-aloe-8b-alpha",
+						"cover": "/cover/20240610/6/10/20240610_672aa7a0.jpg",
+						"label": "Aloe是一款专为医疗领域设计的高性能语言模型，提供先进的文本生成和对话能力。",
+						"logo": "/logo/20240610/6/10/20240610_a9e91c4d.jpg",
+						"description": "Aloe是由HPAI开发的一款医疗领域的语言模型，基于Meta Llama 3 8B模型进行优化。它通过模型融合和先进的提示策略，达到了与其规模相匹配的最先进水平。Aloe在伦理和事实性指标上得分较高，这得益于红队和对齐工作的结合。该模型提供了医疗特定的风险评估，以促进这些系统的安全使用和部署。",
+						"tags": ["医疗", "语言模型", "文本生成", "对话系统", "伦理", "事实性"]
+					},
+					{
+						"source": "",
+						"title": "LuxAura AI",
+						"path": "yiliaojiankang/luxaura-ai",
+						"cover": "/cover/20240610/6/10/20240610_563f2984.jpg",
+						"label": "发现适合您的完美护肤程序",
+						"logo": "/logo/20240610/6/10/20240610_ca5da604.jpg",
+						"description": "LuxAuraAI是一款智能护肤程序，根据您的肤质需求提供个性化建议。它基于皮肤科医生和护肤专家的见解，以科学研究和验证结果为支撑，提供高质量的皮肤护理服务。LuxAuraAI拥有专业训练的护肤师团队，为您提供最高水平的客户服务和最放松的护理体验。",
+						"tags": ["护肤", "美容", "健康"]
+					},
+					{
+						"source": "",
+						"title": "Lyrebird Health",
+						"path": "yiliaojiankang/lyrebird-health",
+						"cover": "/cover/20240610/6/10/20240610_80362809.jpg",
+						"label": "Lyrebird Health正在通过AI革新医疗记录，我们的AI医疗记录员帮助医疗专业人士节省时间并改善患者护理。",
+						"logo": "/logo/20240610/6/10/20240610_b239c684.jpg",
+						"description": "Lyrebird Health通过AI技术监听、学习并生成医疗文档，帮助医生在几秒钟内轻松生成记录和文档。它可以学习医生的风格和用词，并根据需要生成各种文档。Lyrebird Health还提供数据加密和隐私保护，以及定制化的记录风格和语言。",
+						"tags": ["医疗", "AI", "文档", "记录"]
+					}
+				]
+			},
+			{
+				"title": "户外旅行",
+				"name": "huwailvhang",
+				"href": "/discover/huwailvhang",
+				"total": 210,
+				"products": [
+					{
+						"source": "",
+						"title": "Airbnb Generator",
+						"path": "huwailvhang/airbnb-generator",
+						"cover": "/cover/20240610/6/10/20240610_e649c364.jpg",
+						"label": "创建无法抗拒的Airbnb列表",
+						"logo": "/logo/20240610/6/10/20240610_8212bb66.jpg",
+						"description": "Airbnb生成器是一个强大的AI工具，可在几分钟内为您的出租房屋创建引人注目的列表。它结合了AI的精确度和个性化的优势，以唤起您的房屋的独特魅力。利用简单的表单填写，您将在2分钟内收到令人惊叹的Airbnb描述。让我们的工具为您的房屋提供完美的展示，您将有更多时间专注于为客人创造难忘的体验。",
+						"tags": ["Airbnb", "房屋出租", "旅行", "住宿", "房东"]
+					},
+					{
+						"source": "",
+						"title": "Biliki AI",
+						"path": "huwailvhang/biliki-ai",
+						"cover": "/cover/20240610/6/10/20240610_23a9cab7.jpg",
+						"label": "您的可持续旅行规划助手",
+						"logo": "/logo/20240610/6/10/20240610_2f677305.jpg",
+						"description": "Biliki AI是一款可持续旅行规划助手，提供个性化的行程建议，发现环保住宿和绿色出行选择，帮助减少碳足迹。通过Biliki AI，您可以轻松规划可持续旅行，体验更环保、更绿色的旅程。",
+						"tags": ["可持续旅行", "旅行规划", "环保住宿", "绿色出行"]
+					},
+					{
+						"source": "",
+						"title": "Globe Guide Ai",
+						"path": "huwailvhang/globe-guide-ai",
+						"cover": "/cover/20240610/6/10/20240610_07c2eeda.jpg",
+						"label": "一款帮助计划旅行的AI应用",
+						"logo": "/logo/20240610/6/10/20240610_d953807a.jpg",
+						"description": "GlobeGuide Aikey是一款帮助用户计划旅行的AI应用。它利用人工智能技术和旅行数据提供详细的旅行指南，帮助用户规划旅行路线、查找景点、预订酒店和交通等。该应用具有智能推荐功能和实时更新的旅行信息，让用户能够更轻松地享受旅行。",
+						"tags": ["旅行", "计划", "指南", "酒店", "交通"]
+					},
+					{
+						"source": "",
+						"title": "Go Eliza",
+						"path": "huwailvhang/go-eliza",
+						"cover": "/cover/20240610/6/10/20240610_5f8a630b.jpg",
+						"label": "AI旅行代理，为您定制酒店优惠。",
+						"logo": "/logo/20240610/6/10/20240610_b5d4aaf4.jpg",
+						"description": "Go Eliza是一个利用人工智能和机器学习技术，为用户提供个性化酒店预订服务的平台。其主要优势在于能够直接与酒店进行谈判，以获取最佳的个性化优惠价格。谈判过程通常需要几天到一周时间。",
+						"tags": ["AI", "旅行代理", "个性化服务", "酒店预订"]
+					},
+					{
+						"source": "",
+						"title": "Hadana",
+						"path": "huwailvhang/hadana",
+						"cover": "/cover/20240610/6/10/20240610_676f0c91.jpg",
+						"label": "智能旅行规划助手，个性化定制旅行计划。",
+						"logo": "/logo/20240610/6/10/20240610_76e5c2d4.jpg",
+						"description": "Hadana是一个基于人工智能的旅行规划平台，利用先进的算法为用户提供个性化的旅行计划。它考虑用户的预算、偏好和选择的景点，以打造一个完美的旅行体验。Hadana的AI技术简化了旅行规划过程，让用户告别无尽的滚动和犹豫，轻松定制下一个冒险旅程。",
+						"tags": ["旅行", "AI规划", "个性化", "美食推荐"]
+					},
+					{
+						"source": "",
+						"title": "Huuk",
+						"path": "huwailvhang/huuk",
+						"cover": "/cover/20240610/6/10/20240610_8fd10aa7.jpg",
+						"label": "个性化您的冒险，让AI为您提供支持。",
+						"logo": "/logo/20240610/6/10/20240610_7e484ab8.jpg",
+						"description": "HUUK.AI是一个旅行网站，通过AI技术个性化推荐适合您的冒险路线。它可以根据您的喜好和需求，为您提供旅行路线、景点推荐、交通信息等，让您的旅行更加方便和个性化。",
+						"tags": ["旅行", "个性化", "AI"]
+					},
+					{
+						"source": "",
+						"title": "LowPriceTravels",
+						"path": "huwailvhang/lowpricetravels",
+						"cover": "/cover/20240610/6/10/20240610_a92382e1.jpg",
+						"label": "LowPriceTravels是一款旅行规划的人工智能工具，生成个性化行程，并可寻找出发自亚利桑那州凤凰城、亚利桑那州梅萨、犹他州普罗沃和犹他州盐湖城的最便宜航班。",
+						"logo": "/logo/20240610/6/10/20240610_95edca0c.jpg",
+						"description": "LowPriceTravels是一款AI旅行规划工具，它可以生成个性化行程建议，帮助用户寻找出发自亚利桑那州凤凰城、亚利桑那州梅萨、犹他州普罗沃和犹他州盐湖城的最便宜航班。用户只需输入旅行日期和目的地，LowPriceTravels会根据用户的喜好和预算生成最佳行程安排，并提供搜索最便宜航班的功能。LowPriceTravels帮助用户节省时间和金钱，让旅行更加便宜和愉快。",
+						"tags": ["旅行", "航班搜索", "旅行规划"]
+					},
+					{
+						"source": "",
+						"title": "Mypaa AI",
+						"path": "huwailvhang/mypaa-ai",
+						"cover": "/cover/20240610/6/10/20240610_4937659d.jpg",
+						"label": "解锁你周围的世界",
+						"logo": "/logo/20240610/6/10/20240610_58700fff.jpg",
+						"description": "Mypaa AI是一款快速、强大且真正会话式的AI助手。它可以回答你对任何城市或城镇的问题，并提供实时答案。无论你是在旅行、工作还是生活中，Mypaa AI都可以帮助你解锁周围世界的信息。",
+						"tags": ["旅行", "AI助手", "实时答案", "城市信息"]
+					},
+					{
+						"source": "",
+						"title": "Nowadays",
+						"path": "huwailvhang/nowadays",
+						"cover": "/cover/20240610/6/10/20240610_a55ee73c.jpg",
+						"label": "AI助力的企业活动规划师",
+						"logo": "/logo/20240610/6/10/20240610_fe656f09.jpg",
+						"description": "Nowadays是一个AI驱动的企业活动规划平台，旨在简化活动策划流程，通过电子邮件和电话与最佳场地进行谈判，为公司活动找到合适的地点。它通过AI技术提供快速响应时间，作为IATA认证的旅行代理运营，并提供无限范围的场地搜索，确保结果与活动标准相匹配。此外，AI还协助全球范围内与场地进行谈判，帮助用户节省成本。",
+						"tags": ["AI", "活动策划", "企业服务", "旅行代理"]
+					},
+					{
+						"source": "",
+						"title": "sourcenext",
+						"path": "huwailvhang/sourcenext",
+						"cover": "/cover/20240610/6/10/20240610_af501490.jpg",
+						"label": "梦幻 AI 翻译机",
+						"logo": "/logo/20240610/6/10/20240610_dd1475f3.jpg",
+						"description": "ポケトーク是一款梦幻的 AI 翻译机，可以让无法交流的人进行对话，具有高度实用性和便携性，是旅行、商务等场景的理想助手。",
+						"tags": ["AI", "翻译", "旅行", "商务"]
+					}
+				]
+			}
+		]
 	}
 ]

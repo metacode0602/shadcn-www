@@ -1,81 +1,105 @@
-[
-	{
-		"name": "React-Rendezvous",
-		"title": "Ethan Byte",
-		"tags": ["AI作画", "编程"],
-		"description": "",
-		"source": "",
-		"href": "11-21/aibang",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=300&dpr=2&q=80"
-	},
-	{
-		"name": "Async-Awakenings",
-		"href": "11-21/aibang",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
-		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
-	},
-	{
-		"name": "The-Art-of-Reusability",
-		"href": "11-21/about",
-		"title": "Lena Logic",
-		"tags": ["AI作画", "编程"],
-		"description": "",
-		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1528143358888-6d3c7f67bd5d?w=300&dpr=2&q=80"
-	},
-	{
-		"name": "Stateful-Symphony",
-		"title": "Beth Binary",
-		"tags": ["AI作画", "编程"],
-		"description": "",
-		"href": "11-21/about",
-		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1490300472339-79e4adc6be4a?w=300&dpr=2&q=80"
-	},
-	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
-		"href": "11-21/about",
-		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
-	},
-	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"description": "",
-		"href": "11-21/about",
-
-		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
-	},
-	{
-		"name": "Async-Awakenings",
-		"title": "Nina Netcode",
-		"tags": ["AI作画", "编程"],
-		"href": "11-21/about",
-
-		"description": "",
-		"source": "",
-		"component": true,
-		"path": "11-21/aibang",
-		"cover": "https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?w=300&dpr=2&q=80"
-	}
-]
+{
+	"updateTime": "2024-06-12 06:23:21",
+	"items": [
+		{
+			"source": "",
+			"title": "Biofy",
+			"path": "shejiaomeiti/biofy",
+			"cover": "/cover/20240609/6/10/20240609_7fcbe786.jpg",
+			"label": "一站式社交媒体链接管理平台",
+			"logo": "/logo/20240609/6/10/20240609_40a9288c.jpg",
+			"description": "Biofy是一个多功能的社交媒体链接管理平台，它允许用户通过一个链接整合所有社交媒体和在线内容，包括链接到应用商店、YouTube深层链接、URL缩短、QR码生成和分析等。Biofy特别适用于内容创作者、品牌和企业，帮助他们更有效地管理和推广自己的在线存在。",
+			"tags": ["社交媒体", "链接管理", "内容推广", "品牌营销"]
+		},
+		{
+			"source": "",
+			"title": "AI-Powered Sleep Story Generator",
+			"path": "yinpinchuli/ai-powered-sleep-story-generator",
+			"cover": "/cover/20240610/6/10/20240610_1e93713e.jpg",
+			"label": "个性化AI助眠故事生成器，助你安然入梦",
+			"logo": "/logo/20240610/6/10/20240610_a217c302.jpg",
+			"description": "AI-Powered Sleep Story Generator是一款创新的AI驱动工具，旨在帮助用户进入深度而宁静的睡眠。用户可以描述自己理想的睡眠场景，AI将利用最新技术制作出舒缓而沉浸式的音频故事，安抚心灵，帮助用户放松进入梦乡。该工具将个性化提升到新水平，根据用户的特定偏好和需求定制每个故事，无论是轻柔的自然声音、舒缓的叙述，还是两者的结合，AI技术都能确保完美适应用户的睡前例程。",
+			"tags": ["AI", "助眠", "个性化", "音频故事"]
+		},
+		{
+			"source": "",
+			"title": "AI Video Generator - Text to Video By Sora",
+			"path": "shipinshengcheng/ai-video-generator-text-to-video-by-sora",
+			"cover": "/cover/20240610/6/10/20240610_ac0e175c.jpg",
+			"label": "无需麦克风、摄像机、演员或工作室，通过文本生成专业视频",
+			"logo": "/logo/20240610/6/10/20240610_d588f88b.ico",
+			"description": "AI视频生成器让每个人都能通过文本创作出令人惊叹的视频。功能包括：创意转视频、博客转视频、PPT转视频、推文转视频、头像视频、产品转视频等。适用于内容创作、商业营销、教育培训、电子商务等领域。",
+			"tags": ["视频生成器", "AI视频", "文本到视频"]
+		},
+		{
+			"source": "",
+			"title": "360AI 甄选",
+			"path": "bangongzhushou/360ai-zhenxuan",
+			"cover": "/cover/20240610/6/10/20240610_7bd08932.jpg",
+			"label": "工具就是全，提高办公生活效率，全网最好用的办公导航，优质海量工具",
+			"logo": "/logo/20240610/6/10/20240610_2a113772.jpg",
+			"description": "360AI 甄选是全网最好用的办公导航，提供优质海量工具，旨在提高办公生活效率。它集成了各种工具，方便用户快速找到所需的工具，并提供高质量的应用。360AI 甄选以其全面性、实用性和高效性而受到广泛关注。它为用户提供了丰富的功能和技术，以及方便的用户界面和操作方式。",
+			"tags": ["办公导航", "工具", "生产力"]
+		},
+		{
+			"source": "",
+			"title": "AI Anime Girl Studio",
+			"path": "yishuchuangzuo/ai-anime-girl-studio",
+			"cover": "/cover/20240610/6/10/20240610_29505be2.jpg",
+			"label": "AI生成二次元美少女",
+			"logo": "/logo/20240610/6/10/20240610_e5c099ef.jpg",
+			"description": "AI AnimeGirl Creator是一个免费的AI生成二次元美少女的工具。它可以轻松生成令人惊叹的二次元美少女艺术品。",
+			"tags": ["AI", "二次元", "美少女", "艺术创作"]
+		},
+		{
+			"source": "",
+			"title": "Boost Inbox",
+			"path": "youjianzhushou/boost-inbox",
+			"cover": "/cover/20240609/6/9/20240609_614d90f4.jpg",
+			"label": "提升收件箱，提高邮件送达率、开信率和参与度。",
+			"logo": "/logo/20240609/6/9/20240609_e69c7a9b.jpg",
+			"description": "Boost Inbox是一款优秀的邮件预热服务，可提高邮件的送达率、开信率和参与度。通过定制计划、实时监控和无缝集成，提供最佳的邮件预热体验。",
+			"tags": ["邮件预热", "送达率", "开信率", "参与度", "营销", "企业邮箱", "个人邮箱"]
+		},
+		{
+			"source": "",
+			"title": "AIJ",
+			"path": "renliziyuan/aij",
+			"cover": "/cover/20240610/6/10/20240610_54392456.jpg",
+			"label": "AIJ是一个能够帮助用户节省时间和精力的AI工具，它可以为用户申请工作、回答常见问题等。",
+			"logo": "/logo/20240610/6/10/20240610_d209e2fd.jpg",
+			"description": "AIJ是一个能够自动为用户申请工作、回答常见问题的AI工具。它的主要优点是节省用户的时间和精力，背景信息、价格、定位等。",
+			"tags": ["工作", "求职", "人工智能", "自动化"]
+		},
+		{
+			"source": "",
+			"title": "100% FREE Mindmap Generator",
+			"path": "xuexijiaoyu/100-free-mindmap-generator",
+			"cover": "/cover/20240610/6/10/20240610_9e3dfb54.jpg",
+			"label": "使用AI在5分钟内生成任何课程的思维导图",
+			"logo": "/logo/20240610/6/10/20240610_40547c15.jpg",
+			"description": "EverLearns提供了一个免费的在线思维导图生成器，利用人工智能技术帮助内容创作者、教育工作者、教师、助教、家教以及在家教育的父母轻松创建、组织和可视化他们的想法。该工具特别适合用于为观众、学生或孩子展示概念。",
+			"tags": ["AI辅助", "教育工具", "思维导图", "免费使用"]
+		},
+		{
+			"source": "",
+			"title": "Avatic",
+			"path": "quweiyouxi/avatic",
+			"cover": "/cover/20240610/6/10/20240610_e5aa7c6f.jpg",
+			"label": "定制3D头像，提升在线身份",
+			"logo": "/logo/20240610/6/10/20240610_0d9126c6.jpg",
+			"description": "Avatic 3D Avatars是一个定制3D头像服务，适用于游戏、社交和职业平台。通过将您的照片转换为个性化的半逼真3D头像，提升您的在线身份。无论您是为了保护隐私还是为了给您的在线形象添加独特的个性，我们的定制3D头像服务都是您一直在寻找的解决方案。我们的头像由经验丰富的3D艺术家使用Blender和Photoshop制作，呈现出独特的玩具感。我们提供100%的退款保证和无限次的修改，以确保您对最终成品完全满意。",
+			"tags": ["3D头像", "个性化", "游戏", "社交", "职业平台"]
+		},
+		{
+			"source": "",
+			"title": "airepli.io",
+			"path": "dianzishangwu/airepli-io",
+			"cover": "/cover/20240610/6/10/20240610_070e2ffc.jpg",
+			"label": "AI生成即时回复",
+			"logo": "/logo/20240610/6/10/20240610_67db36e4.jpg",
+			"description": "AI Response Generator是一款AI生成即时回复的产品。它通过AI智能回复，帮助用户在商务沟通中节省时间和提高效率。产品提供多种模式选择和个性化回复，支持跨平台集成，同时保证用户的通信隐私和数据安全。定价灵活，适用于各种场景。",
+			"tags": ["人工智能", "商务沟通", "效率工具"]
+		}
+	]
+}

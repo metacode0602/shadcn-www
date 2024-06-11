@@ -16,7 +16,7 @@
 <div class={cn('space-y-3', className)} {...$$restProps}>
 	<a
 		target="_blank"
-		href="/{parent}/{album.path}"
+		href="/{parent}/{album?.path}"
 		class={cn('items-start rounded-lg text-left text-sm transition-all hover:bg-accent')}
 	>
 		<ContextMenu.Root>
@@ -27,8 +27,8 @@
 							' object-cover transition-all hover:scale-105',
 							aspectRatio === 'portrait' ? 'aspect-[3/4]' : 'aspect-[5/3]'
 						)}
-						src={album.cover}
-						alt={album.title}
+						src={album?.cover}
+						alt={album?.title}
 						{width}
 						{height}
 					/>
@@ -43,11 +43,11 @@
 		</ContextMenu.Root>
 		<div class="space-y-2 my-3">
 			<h3 class="font-medium leading-none text-xl max-w-xs overflow-hidden whitespace-nowrap text-overflow-ellipsis">
-				{album.title}
+				{album?.title}
 			</h3>
-			<p class="max-w-xs overflow-hidden whitespace-nowrap text-overflow-ellipsis">{album.label}</p>
+			<p class="max-w-xs overflow-hidden whitespace-nowrap text-overflow-ellipsis">{album?.label}</p>
 			<p class="text-sm text-muted-foreground max-w-sm overflow-hidden text-ellipsis leading-tight line-clamp-2">
-				{album.description}
+				{album?.description}
 			</p>
 		</div>
 	</a>
