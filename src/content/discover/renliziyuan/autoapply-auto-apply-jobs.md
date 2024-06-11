@@ -51,9 +51,9 @@ AutoApply Jobs适用于所有需要频繁申请工作的求职者，尤其是大
 
 ### 使用教程
 * 在Chrome浏览器中打开插件链接：https://chrome.google.com/webstore/detail/autoapply-auto-apply-jobs/aihojinhpngojiaghgoekajdhcjenbce
-* 点击'添加至Chrome'按钮安装插件。
+* 点击添加至Chrome按钮安装插件。
 * 安装完成后，在求职网站上浏览工作机会页面，点击插件图标。
-* 点击'一键申请'按钮，插件将自动填写申请表格并提交申请。
+* 点击一键申请按钮，插件将自动填写申请表格并提交申请。
 * 重复以上步骤，快速申请多个工作机会。
 
   

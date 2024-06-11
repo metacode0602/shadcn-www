@@ -37,7 +37,7 @@ sort: 30962
 
 
 ### 需求人群
-"sherpa-onnx 适合开发者和研究人员，特别是那些需要在不同平台上实现语音识别和语音合成功能的用户。它提供了多种API，包括C++, C, Python, Go, C#, Java, Kotlin, JavaScript, Swift，方便不同背景的开发者使用。"
+sherpa-onnx 适合开发者和研究人员，特别是那些需要在不同平台上实现语音识别和语音合成功能的用户。它提供了多种API，包括C++, C, Python, Go, C#, Java, Kotlin, JavaScript, Swift，方便不同背景的开发者使用。
 
 ### 产品特色
 * 支持流式和非流式语音识别(ASR)。

@@ -49,8 +49,8 @@ GenSearch适用于各种用户，无论是有经验的开发人员还是技术�
 * 在编程过程中，使用GenSearch来快速搜索代码片段和文档。
 
 ### 使用教程
-* 访问https://www.gensearch.ai/，点击'Get Started'按钮
-* 选择你喜欢的语言参数，填写必要的信息，点击'Get Started'按钮
+* 访问https://www.gensearch.ai/，点击Get Started按钮
+* 选择你喜欢的语言参数，填写必要的信息，点击Get Started按钮
 * 根据提示选择搜索引擎后端，提供必要的凭据
 * 根据需要，添加额外的集成和自定义外观选项
 * 部署你的搜索引擎，并使用提供的链接进行测试和调整

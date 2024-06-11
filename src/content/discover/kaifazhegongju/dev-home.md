@@ -38,7 +38,7 @@ sort: 30687
 
 
 ### 需求人群
-"Dev Home的目标受众是Windows平台上的开发者，特别是那些需要高效管理多个开发项目、监控系统性能、以及与GitHub和Azure DevOps等工具紧密集成的专业人士。它通过提供一个统一的平台，帮助开发者提高工作效率，简化项目管理流程。"
+Dev Home的目标受众是Windows平台上的开发者，特别是那些需要高效管理多个开发项目、监控系统性能、以及与GitHub和Azure DevOps等工具紧密集成的专业人士。它通过提供一个统一的平台，帮助开发者提高工作效率，简化项目管理流程。
 
 ### 产品特色
 * 监控工作流程：通过自定义小部件在Dev Home仪表板上监控。
@@ -56,8 +56,8 @@ sort: 30687
 
 ### 使用教程
 * 安装Dev Home：在Windows Terminal中运行命令`winget upgrade Microsoft.DevHome`来安装或更新到最新版本。
-* 设置开发环境：选择'Machine configuration'来配置新机器或加入新项目。
-* 添加小部件：在Dev Home仪表板的右上角选择'Add a widget'，然后选择并自定义小部件。
+* 设置开发环境：选择Machine configuration来配置新机器或加入新项目。
+* 添加小部件：在Dev Home仪表板的右上角选择Add a widget，然后选择并自定义小部件。
 * 连接GitHub和Azure：安装相应的扩展并连接账户，以使用集成功能。
 * 创建Dev Drive：通过Dev Home创建专用的存储空间来优化项目文件和Git仓库的管理。
 * 管理环境：使用Dev Home集中管理虚拟或云环境，快速启动、停止或同步环境。

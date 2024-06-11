@@ -36,7 +36,7 @@ sort: 30776
 
 
 ### 需求人群
-"TopMixLabs 适合需要快速生成专业动画的企业和个人，无需视频编辑经验即可获得高质量的动画效果，是提升品牌形象和数字营销的理想选择。"
+TopMixLabs 适合需要快速生成专业动画的企业和个人，无需视频编辑经验即可获得高质量的动画效果，是提升品牌形象和数字营销的理想选择。
 
 ### 产品特色
 * MixLoop™能够在几分钟内生成高质量的动画。
@@ -49,8 +49,8 @@ sort: 30776
 * MixLoop™设计直观，每个人都能快速上手，创造出令人惊艳的内容。
 
 ### 使用场景示例
-* Tony's construction 使用 TopMixLabs 制作突出效果的视频宣传。
-* Jamie's Tattoo Studio 通过 TopMixLabs 获得引人注目的动画，吸引顾客咨询。
+* Tonys construction 使用 TopMixLabs 制作突出效果的视频宣传。
+* Jamies Tattoo Studio 通过 TopMixLabs 获得引人注目的动画，吸引顾客咨询。
 * YourBrand 借助 TopMixLabs 轻松创作独特而吸引人的动画，提升品牌形象。
 
 ### 使用教程

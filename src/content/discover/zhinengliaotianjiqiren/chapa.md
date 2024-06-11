@@ -52,7 +52,7 @@ Chapa适合任何需要提高生产力和效率的用户。无论是在工作中
 
 ### 使用教程
 * 在Chrome浏览器上访问Chapa的网址：https://chrome.google.com/webstore/detail/chapa-your-ai-assistant-p/lhdjjndpipjcmlbkglbaphamfpjiiipo
-* 点击“添加至Chrome”按钮安装插件
+* 点击添加至Chrome按钮安装插件
 * 安装完成后，在浏览器上方工具栏中找到Chapa图标
 * 点击图标即可使用Chapa的聊天、上下文感知和文本纠错功能
 * 根据需要，自定义设置和使用Chapa的其他功能
