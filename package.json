@@ -1,19 +1,19 @@
 {
-	"name": "www",
+	"name": "shadcn-www",
 	"version": "0.1.0",
 	"author": {
-		"name": "huntabyte",
-		"url": "https://twitter.com/huntabyte"
+		"name": "docsify@163.com",
+		"url": "https://github.com/metacode0602"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/huntabyte/shadcn-svelte.git",
-		"directory": "apps/www"
+		"url": "https://github.com/metacode0602/shadcn-www.git",
+		"directory": "."
 	},
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"build": "NODE_OPTIONS='--max-old-space-size=8192' vite build",
 		"build:registry": "tsx scripts/build-registry.ts",
 		"br": "pnpm build:registry",
 		"preview": "vite preview",
@@ -26,6 +26,7 @@
 	"devDependencies": {
 		"@playwright/test": "^1.44.1",
 		"@prettier/sync": "0.5.2",
+		"@sveltejs/adapter-cloudflare": "^4.4.0",
 		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/enhanced-img": "^0.2.1",
 		"@sveltejs/kit": "^2.5.10",

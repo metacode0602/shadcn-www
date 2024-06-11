@@ -110,3 +110,6 @@ generated-assets
 .svelte-kit
 .yarn
 node_modules
+
+src/content/discover/zhinengliaotianjiqiren/lluminous.md
+src/content/discover/sousuoyinqingyouhua/perplexica.md

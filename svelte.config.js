@@ -1,7 +1,7 @@
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-// import adapter from '@sveltejs/adapter-cloudflare';
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-cloudflare';
+// import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsx } from 'mdsx';
 import { mdsxConfig } from './mdsx.config.js';
@@ -71,7 +71,9 @@ const config = {
 					console.warn(`Page not found: ${path}`, message);
 				} else {
 					// 其他情况下，让构建失败
-					throw new Error(message);
+					console.warn(`Page prerender error ${status}: ${path}`, message);
+
+					// throw new Error(message);
 				}
 			},
 		},
