@@ -9,336 +9,281 @@ export const docsConfig: DocsConfig = {
 	mainNav: [
 		{
 			title: "首页",
-			href: "/docs",
+			href: "/",
 		},
 		{
-			title: "组件",
-			href: "/docs/components/accordion",
+			title: "产品库",
+			href: "/home",
 		},
 		{
-			title: "Themes",
-			href: "/themes",
+			title: "开源项目",
+			href: "/projects",
 		},
 		{
-			title: "Examples",
-			href: "/examples/dashboard",
+			title: "创意海报",
+			href: "/posters",
 		},
 		{
-			title: "Blocks",
-			href: "/blocks",
-		},
-		{
-			title: "GitHub",
-			href: "https://github.com/huntabyte/shadcn-svelte",
-			external: true,
-		},
+			title: "知识库",
+			href: "/knowleges",
+		}
 	],
 	sidebarNav: [
 		{
-			title: "Getting Started",
-			items: [
+			"title": "文本",
+			"name": "wenben",
+			"href": "wenben",
+			"total": 8462,
+			"items": [
 				{
-					title: "Introduction",
-					href: "/docs",
-					items: [],
+					"title": "文案写作",
+					"name": "wenanxiezuo",
+					"href": "/discover/wenanxiezuo",
+					"total": 2486
 				},
 				{
-					title: "Installation",
-					href: "/docs/installation",
-					items: [],
+					"title": "邮件助手",
+					"name": "dianziyoujianzhushou",
+					"href": "/discover/dianziyoujianzhushou",
+					"total": 408
 				},
 				{
-					title: "components.json",
-					href: "/docs/components-json",
-					items: [],
+					"title": "聊天机器人",
+					"name": "liaotianjiqiren",
+					"href": "/discover/zhinengliaotianjiqiren",
+					"total": 2588
 				},
 				{
-					title: "Theming",
-					href: "/docs/theming",
-					items: [],
+					"title": "社交媒体",
+					"name": "shejiaomeiti",
+					"href": "/discover/shejiaomeiti",
+					"total": 1852
 				},
 				{
-					title: "Dark mode",
-					href: "/docs/dark-mode",
-					items: [],
+					"title": "搜索引擎优化",
+					"name": "sousuoyinqingyouhua",
+					"href": "/discover/sousuoyinqingyouhua",
+					"total": 584
 				},
 				{
-					title: "CLI",
-					href: "/docs/cli",
-					items: [],
-				},
-				{
-					title: "Typography",
-					href: "/docs/typography",
-					items: [],
-				},
-				{
-					title: "Figma",
-					href: "/docs/figma",
-					items: [],
-				},
-				{
-					title: "Changelog",
-					href: "/docs/changelog",
-					items: [],
-				},
-				{
-					title: "About",
-					href: "/docs/about",
-					items: [],
-				},
-			],
+					"title": "智能翻译",
+					"name": "zhinengfanyi",
+					"href": "/discover/zhinengfanyi",
+					"total": 544
+				}
+			]
 		},
 		{
-			title: "Components",
-			items: [
+			"title": "图片",
+			"name": "tupian",
+			"href": "tupian",
+			"total": 4262,
+			"items": [
 				{
-					title: "Accordion",
-					href: "/docs/components/accordion",
-					items: [],
+					"title": "艺术创作",
+					"name": "yishuchuangzuo",
+					"href": "/discover/yishuchuangzuo",
+					"total": 703
 				},
 				{
-					title: "Alert",
-					href: "/docs/components/alert",
-					items: [],
+					"title": "头像生成",
+					"name": "touxiangshengcheng",
+					"href": "/discover/touxiangshengcheng",
+					"total": 160
 				},
 				{
-					title: "Alert Dialog",
-					href: "/docs/components/alert-dialog",
-					items: [],
+					"title": "图标生成",
+					"name": "tubiaoshengcheng",
+					"href": "/discover/tubiaoshengcheng",
+					"total": 69
 				},
 				{
-					title: "Aspect Ratio",
-					href: "/docs/components/aspect-ratio",
-					items: [],
+					"title": "图像生成",
+					"name": "tuxiangshengcheng",
+					"href": "/discover/tuxiangshengcheng",
+					"total": 1948
 				},
 				{
-					title: "Avatar",
-					href: "/docs/components/avatar",
-					items: [],
-				},
-				{
-					title: "Badge",
-					href: "/docs/components/badge",
-					items: [],
-				},
-				{
-					title: "Breadcrumb",
-					href: "/docs/components/breadcrumb",
-					items: [],
-				},
-				{
-					title: "Button",
-					href: "/docs/components/button",
-					items: [],
-				},
-				{
-					title: "Calendar",
-					href: "/docs/components/calendar",
-					items: [],
-				},
-				{
-					title: "Card",
-					href: "/docs/components/card",
-					items: [],
-				},
-				{
-					title: "Carousel",
-					href: "/docs/components/carousel",
-					items: [],
-				},
-				{
-					title: "Checkbox",
-					href: "/docs/components/checkbox",
-					items: [],
-				},
-				{
-					title: "Collapsible",
-					href: "/docs/components/collapsible",
-					items: [],
-				},
-				{
-					title: "Combobox",
-					href: "/docs/components/combobox",
-					items: [],
-				},
-				{
-					title: "Command",
-					href: "/docs/components/command",
-					items: [],
-				},
-				{
-					title: "Context Menu",
-					href: "/docs/components/context-menu",
-					items: [],
-				},
-				{
-					title: "Data Table",
-					href: "/docs/components/data-table",
-					items: [],
-				},
-				{
-					title: "Date Picker",
-					href: "/docs/components/date-picker",
-					items: [],
-				},
-				{
-					title: "Dialog",
-					href: "/docs/components/dialog",
-					items: [],
-				},
-				{
-					title: "Drawer",
-					href: "/docs/components/drawer",
-					items: [],
-				},
-				{
-					title: "Dropdown Menu",
-					href: "/docs/components/dropdown-menu",
-					items: [],
-				},
-				{
-					title: "Form",
-					href: "/docs/components/form",
-					items: [],
-				},
-				{
-					title: "Hover Card",
-					href: "/docs/components/hover-card",
-					items: [],
-				},
-				{
-					title: "Input",
-					href: "/docs/components/input",
-					items: [],
-				},
-				{
-					title: "Label",
-					href: "/docs/components/label",
-					items: [],
-				},
-				{
-					title: "Menubar",
-					href: "/docs/components/menubar",
-					items: [],
-				},
-				// {
-				//   title: "Navigation Menu",
-				//   href: "#",
-				//   label: "Soon",
-				//   disabled: true,
-				//   items: []
-				// },
-				{
-					title: "Pagination",
-					href: "/docs/components/pagination",
-					items: [],
-				},
-				{
-					title: "Popover",
-					href: "/docs/components/popover",
-					items: [],
-				},
-				{
-					title: "Progress",
-					href: "/docs/components/progress",
-					items: [],
-				},
-				{
-					title: "Radio Group",
-					href: "/docs/components/radio-group",
-					items: [],
-				},
-				{
-					title: "Range Calendar",
-					href: "/docs/components/range-calendar",
-					items: [],
-				},
-				{
-					title: "Resizable",
-					href: "/docs/components/resizable",
-					items: [],
-				},
-				{
-					title: "Scroll Area",
-					href: "/docs/components/scroll-area",
-					items: [],
-				},
-				{
-					title: "Select",
-					href: "/docs/components/select",
-					items: [],
-				},
-				{
-					title: "Separator",
-					href: "/docs/components/separator",
-					items: [],
-				},
-				{
-					title: "Sheet",
-					href: "/docs/components/sheet",
-					items: [],
-				},
-				{
-					title: "Skeleton",
-					href: "/docs/components/skeleton",
-					items: [],
-				},
-				{
-					title: "Slider",
-					href: "/docs/components/slider",
-					items: [],
-				},
-				{
-					title: "Sonner",
-					href: "/docs/components/sonner",
-					items: [],
-				},
-				{
-					title: "Switch",
-					href: "/docs/components/switch",
-					items: [],
-				},
-				{
-					title: "Table",
-					href: "/docs/components/table",
-					items: [],
-				},
-				{
-					title: "Tabs",
-					href: "/docs/components/tabs",
-					items: [],
-				},
-				{
-					title: "Textarea",
-					href: "/docs/components/textarea",
-					items: [],
-				},
-				// {
-				//   title: "Toast",
-				//   href: "#",
-				//   label: "Soon",
-				//   disabled: true,
-				//   items: []
-				// },
-				{
-					title: "Toggle",
-					href: "/docs/components/toggle",
-					items: [],
-				},
-				{
-					title: "Toggle Group",
-					href: "/docs/components/toggle-group",
-					items: [],
-				},
-				{
-					title: "Tooltip",
-					href: "/docs/components/tooltip",
-					items: [],
-				},
-			],
+					"title": "设计助手",
+					"name": "shejizhushou",
+					"href": "/discover/shejizhushou",
+					"total": 1355
+				}
+			]
 		},
-	],
+		{
+			"title": "代码",
+			"name": "daima",
+			"href": "daima",
+			"total": 2286,
+			"items": [
+				{
+					"title": "代码辅助",
+					"name": "daimafuzhu",
+					"href": "/discover/daimafuzhu",
+					"total": 1210
+				},
+				{
+					"title": "低代码/无代码",
+					"name": "didaimawudaima",
+					"href": "/discover/didaimawudaima",
+					"total": 207
+				},
+				{
+					"title": "开发者工具",
+					"name": "kaifazhegongju",
+					"href": "/discover/kaifazhegongju",
+					"total": 869
+				}
+			]
+		},
+		{
+			"title": "音频",
+			"name": "yinpin",
+			"href": "/yinpin",
+			"total": 1211,
+			"items": [
+				{
+					"title": "音乐创作",
+					"name": "yinlechuangzuo",
+					"href": "/discover/yinlechuangzuo",
+					"total": 391
+				},
+				{
+					"title": "音频处理",
+					"name": "yinpinchuli",
+					"href": "/discover/yinpinchuli",
+					"total": 232
+				},
+				{
+					"title": "语音处理",
+					"name": "yuyinchuli",
+					"href": "/discover/yuyinchuli",
+					"total": 588
+				}
+			]
+		},
+		{
+			"title": "视频",
+			"name": "shipin",
+			"href": "shipin",
+			"total": 1193,
+			"items": [
+				{
+					"title": "视频创作",
+					"name": "shipinchuangzuo",
+					"href": "/discover/shipinchuangzuo",
+					"total": 1070
+				},
+				{
+					"title": "视频生成",
+					"name": "shipinshengcheng",
+					"href": "/discover/shipinshengcheng",
+					"total": 123
+				}
+			]
+		},
+		{
+			"title": "商业",
+			"name": "shangye",
+			"href": "shangye",
+			"total": 5754,
+			"items": [
+				{
+					"title": "金融",
+					"name": "jinrong",
+					"href": "/discover/jinrong",
+					"total": 125
+				},
+				{
+					"title": "客户服务",
+					"name": "kehufuwu",
+					"href": "/discover/kehufuwu",
+					"total": 439
+				},
+				{
+					"title": "电子商务",
+					"name": "dianzishangwu",
+					"href": "/discover/dianzishangwu",
+					"total": 172
+				},
+				{
+					"title": "人力资源",
+					"name": "renliziyuan",
+					"href": "/discover/renliziyuan",
+					"total": 557
+				},
+				{
+					"title": "团队协作",
+					"name": "tuanduixiezuo",
+					"href": "/discover/tuanduixiezuo",
+					"total": 586
+				},
+				{
+					"title": "销售管理",
+					"name": "xiaoshouguanli",
+					"href": "/discover/xiaoshouguanli",
+					"total": 548
+				},
+				{
+					"title": "交易助手",
+					"name": "jiaoyizhushou",
+					"href": "/discover/jiaoyizhushou",
+					"total": 92
+				},
+				{
+					"title": "法律助手",
+					"name": "falvzhushou",
+					"href": "/discover/falvzhushou",
+					"total": 143
+				},
+				{
+					"title": "数据分析",
+					"name": "shujufenxi",
+					"href": "/discover/shujufenxi",
+					"total": 1312
+				},
+				{
+					"title": "办公助手",
+					"name": "bangongzhushou",
+					"href": "/discover/bangongzhushou",
+					"total": 438
+				}
+			]
+		},
+		{
+			"title": "其他",
+			"name": "qita",
+			"href": "qita",
+			"total": 3137,
+			"items": [
+				{
+					"title": "学习教育",
+					"name": "xuexijiaoyu",
+					"href": "/discover/xuexijiaoyu",
+					"total": 1443
+				},
+				{
+					"title": "趣味游戏",
+					"name": "quweiyouxi",
+					"href": "/discover/quweiyouxi",
+					"total": 925
+				},
+				{
+					"title": "医疗健康",
+					"name": "yiliaojiankang",
+					"href": "/discover/yiliaojiankang",
+					"total": 559
+				},
+				{
+					"title": "户外旅行",
+					"name": "huwailvhang",
+					"href": "/discover/huwailvhang",
+					"total": 210
+				}
+			]
+		}
+	]
 };
 
 type Example = {

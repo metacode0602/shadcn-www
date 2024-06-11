@@ -1,18 +1,11 @@
 <script lang="ts">
-	import {
-		CommandMenu,
-		Icons,
-		MainNav,
-		MobileNav,
-		ModeToggle,
-	} from "$lib/components/docs/index.js";
-	import { buttonVariants } from "$lib/registry/new-york/ui/button/index.js";
-	import { siteConfig } from "$lib/config/site.js";
-	import { cn } from "$lib/utils.js";
-	import LoginDialog from "$lib/components/island/login-dialog.svelte";
+	import { CommandMenu, Icons, MainNav, MobileNav, ModeToggle } from '$lib/components/docs/index.js';
+	import { buttonVariants } from '$lib/registry/new-york/ui/button/index.js';
+	import { siteConfig } from '$lib/config/site.js';
+	import { cn } from '$lib/utils.js';
+	import LoginDialog from '$lib/components/island/login-dialog.svelte';
 
 	let showLoginDialog = false;
-
 </script>
 
 <header
@@ -30,26 +23,28 @@
 					<div
 						class={cn(
 							buttonVariants({
-								size: "sm",
-								variant: "ghost",
+								size: 'sm',
+								variant: 'ghost',
 							}),
-							"w-9 px-0"
+							'w-9 px-0'
 						)}
 					>
 						<Icons.gitHub class="h-4 w-4" />
 						<span class="sr-only">GitHub</span>
 					</div>
 				</a>
-				<button on:click={
-					() => {showLoginDialog = true;}
-				}>
+				<button
+					on:click={() => {
+						showLoginDialog = true;
+					}}
+				>
 					<div
 						class={cn(
 							buttonVariants({
-								size: "sm",
-								variant: "ghost",
+								size: 'sm',
+								variant: 'ghost',
 							}),
-							"w-9 px-0"
+							'w-9 px-0'
 						)}
 					>
 						<Icons.twitter class="h-3 w-3 fill-current" />

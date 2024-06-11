@@ -71,23 +71,25 @@
 		</Command.Group>
 		{#each sidebarNav as group}
 			<Command.Group heading={group.title}>
-				{#each group.items as navItem}
-					<Command.Item
-						value={navItem.title}
-						onSelect={() =>
-							runCommand(() => {
-								navItem.href && goto(navItem.href);
-							})}
-					>
-						<div class="mr-2 flex h-4 w-4 items-center justify-center">
-							<Circle class="h-3 w-3" />
-						</div>
-						{navItem.title}
-					</Command.Item>
-				{/each}
+				{#if group.items && group.items.length}
+					{#each group.items as navItem}
+						<Command.Item
+							value={navItem.title}
+							onSelect={() =>
+								runCommand(() => {
+									navItem.href && goto(navItem.href);
+								})}
+						>
+							<div class="mr-2 flex h-4 w-4 items-center justify-center">
+								<Circle class="h-3 w-3" />
+							</div>
+							{navItem.title}
+						</Command.Item>
+					{/each}
+				{/if}
 			</Command.Group>
 		{/each}
-		<Command.Separator />
+		<!-- <Command.Separator />
 		<Command.Group heading="Theme">
 			<Command.Item value="light" onSelect={() => runCommand(() => setMode('light'))}>
 				<Sun class="mr-2 h-4 w-4" />
@@ -101,6 +103,6 @@
 				<Laptop class="mr-2 h-4 w-4" />
 				System
 			</Command.Item>
-		</Command.Group>
+		</Command.Group> -->
 	</Command.List>
 </Command.Dialog>
