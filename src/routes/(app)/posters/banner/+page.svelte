@@ -21,7 +21,7 @@
 	<div class="flex items-center justify-center py-1 col-span-3">
 		<div class="flex h-full w-full flex-col p-4">
 			<div
-				class="border rounded-xl border-dashed border-2 border-secondary-300 hover:bg-gray-100 flex flex-col h-full items-center justify-center text-sm"
+				class=" rounded-xl border-dashed border-2 border-secondary-300 hover:bg-gray-100 flex flex-col h-full items-center justify-center p-10 text-sm"
 			>
 				<div><Book /></div>
 				<!-- 假设 Book 是一个组件 -->
@@ -31,7 +31,7 @@
 		</div>
 	</div>
 
-	<div class="hidden lg:block col-span-2 py-5 pr-4">
+	<div class=" lg:block col-span-2 py-5 pr-4">
 		<ScrollArea>
 			<form class="grid w-full items-start">
 				<fieldset class="grid gap-6 rounded-lg border p-4">

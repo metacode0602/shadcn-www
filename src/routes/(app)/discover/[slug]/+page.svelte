@@ -22,7 +22,7 @@
 
 <svelte:window on:scrollend={handleScroll} />
 
-<div class="hidden md:block">
+<div class="md:block">
 	<div class="border-t">
 		<div class="bg-background">
 			<div class="w-full h-full px-4 py-6 lg:px-8">
@@ -34,9 +34,9 @@
 					</div>
 					<Separator class="my-6" />
 					<div class="relative">
-						<div class="grid grid-cols-3 gap-6">
+						<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
 							{#each visibleItems as album}
-								<AlbumFrontMatter parent="discover" {album} width={321} height={221} />
+								<AlbumFrontMatter parent="discover" {album} />
 							{/each}
 						</div>
 					</div>

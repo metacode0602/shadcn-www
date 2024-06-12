@@ -8,12 +8,10 @@
 	export let album: FrontMatterWithPath;
 	export let parent: string = 'discover';
 	export let aspectRatio: 'portrait' | 'square' = 'square';
-	export let width: number;
-	export let height: number;
 	export { className as class };
 </script>
 
-<div class={cn('space-y-3', className)} {...$$restProps}>
+<div class={cn('space-y-3 p-3', className)} {...$$restProps}>
 	<a
 		target="_blank"
 		href="/{parent}/{album?.path}"
@@ -29,8 +27,6 @@
 						)}
 						src={album?.cover}
 						alt={album?.title}
-						{width}
-						{height}
 					/>
 				</div>
 			</ContextMenu.Trigger>
@@ -42,11 +38,11 @@
 			</ContextMenu.Content>
 		</ContextMenu.Root>
 		<div class="space-y-2 my-3">
-			<h3 class="font-medium leading-none text-xl max-w-xs overflow-hidden whitespace-nowrap text-overflow-ellipsis">
+			<h3 class="font-medium leading-none text-xl overflow-hidden whitespace-nowrap text-overflow-ellipsis">
 				{album?.title}
 			</h3>
-			<p class="max-w-xs overflow-hidden whitespace-nowrap text-overflow-ellipsis">{album?.label}</p>
-			<p class="text-sm text-muted-foreground max-w-sm overflow-hidden text-ellipsis leading-tight line-clamp-2">
+			<p class=" text-sm text-muted-foreground overflow-hidden text-ellipsis whitespace-nowrap">{album?.label}</p>
+			<p class="text-sm text-muted-foreground overflow-hidden text-ellipsis leading-tight line-clamp-2">
 				{album?.description}
 			</p>
 		</div>

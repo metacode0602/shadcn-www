@@ -29,7 +29,7 @@
 	$: homeNewData = data.homeNewData; //新品推荐商品列表
 </script>
 
-<div class="hidden md:block">
+<div class="md:block">
 	<div class="border-t">
 		<div class="bg-background">
 			<div class="w-full h-full px-4 py-6 lg:px-8">
@@ -42,7 +42,7 @@
 					</div>
 					<Separator class="my-4" />
 					<div class="relative">
-						<div class="grid grid-cols-5 gap-6">
+						<div class="lg:grid lg:grid-cols-5 md:grid md:grid-cols-1 lg:gap-6">
 							{#each homeNewData.items as album}
 								<AlbumFrontMatter {album} width={251} height={231} />
 							{/each}
@@ -66,7 +66,7 @@
 											<h2 class="text-2xl font-semibold tracking-tight mx-8">
 												{category.title}
 											</h2>
-											<Tabs.List>
+											<Tabs.List class="hidden lg:block">
 												{#each category.items as child}
 													{#if child.products && child.products.length}
 														<Tabs.Trigger
@@ -82,7 +82,7 @@
 												{/each}
 											</Tabs.List>
 										</div>
-										<div class="space-between flex items-center">
+										<div class="flex items-center">
 											<div class="ml-auto mr-4">
 												<Button href="/discover/{$stringStringRecord.get(category.name) ?? category.items[0].name}">
 													<PlusCircled class="mr-2 h-4 w-4" />
@@ -97,7 +97,7 @@
 											<Tabs.Content value={child.name} class="border-none p-0 outline-none">
 												<div class="relative">
 													{#if child.products && child.products.length > 0}
-														<div class="grid grid-cols-5 gap-6">
+														<div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
 															{#each child.products as album}
 																{#if album.cover}
 																	<AlbumFrontMatter {album} width={320} height={241} />

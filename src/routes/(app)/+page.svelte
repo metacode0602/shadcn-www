@@ -19,7 +19,7 @@
     </div>
   </PageHeader.Root>
 
-  <section class="hidden md:block">
+  <section class="md:block">
 		<div class="grid sm:grid-cols-2 gap-4 sm:gap-6">
 			<LinkedCard href="/home">
 				<p class="font-medium text-2xl">产品库</p>

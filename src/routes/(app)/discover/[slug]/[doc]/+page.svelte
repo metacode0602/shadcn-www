@@ -33,9 +33,9 @@
 			<div class="font-medium text-foreground">{doc?.title}</div>
 		</div>
 
-		<main class="relative py-6 lg:gap-10 lg:py-8 grid lg:grid-cols-5">
-			<div class="hidden text-sm xl:block col-span-2">
-				<div class="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] overflow-hidden pt-6">
+		<main class="relative py-6 lg:gap-10 lg:py-8 lg:grid lg:grid-cols-5">
+			<div class="text-sm xl:block col-span-2">
+				<div class="lg:sticky top-16 -mt-10 lg:h-[calc(100vh-3.5rem)] overflow-hidden pt-6">
 					<img src={doc?.cover} alt={doc?.title} />
 				</div>
 			</div>
@@ -53,7 +53,7 @@
 						{/if}
 					</h1>
 					{#if doc?.description}
-						<p class="text-balance text-lg text-muted-foreground">
+						<p class=" text-lg text-muted-foreground">
 							{doc?.description}
 						</p>
 					{/if}

@@ -11,7 +11,7 @@
 	$: faveritesData = data.faveritesData; //收藏最多商品列表
 </script>
 
-<div class="hidden md:block">
+<div class="md:block">
 	<div class="border-t">
 		<div class="bg-background">
 			<div class="w-full h-full px-4 py-6 lg:px-8">
@@ -30,10 +30,10 @@
 					</div>
 					<Separator class="my-6" />
 					<div class="relative">
-						<div class="grid grid-cols-4 gap-6">
+						<div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
 							{#each faveritesData as album}
 								{#if album}
-									<AlbumFrontMatter {album} width={221} height={221} />
+									<AlbumFrontMatter {album} />
 								{/if}
 							{/each}
 						</div>
