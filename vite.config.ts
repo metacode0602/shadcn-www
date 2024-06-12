@@ -7,4 +7,12 @@ export default defineConfig({
 	test: {
 		include: ["src/**/*.{test,spec}.{js,ts}"],
 	},
+	server: {
+		port: 5171,
+		host: '0.0.0.0'
+	},
+	preview: {
+		port: 8103,
+		host: '0.0.0.0'
+	},
 });
