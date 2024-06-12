@@ -319,11 +319,6 @@ export const examples: Example[] = [
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/playground",
 	},
 	{
-		name: "艺术灵感",
-		href: "/examples/forms",
-		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/forms",
-	},
-	{
 		name: "开发编程",
 		href: "/examples/music",
 		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/apps/www/src/routes/(app)/examples/music",
