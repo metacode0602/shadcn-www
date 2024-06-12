@@ -37,6 +37,7 @@ const config = {
 					'<build>',
 					// prerendered content
 					'/docs/*',
+					'/discover/*',
 					'/blocks/*',
 					'/blocks.html',
 					'/docs.html',
