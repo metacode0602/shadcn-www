@@ -2,9 +2,9 @@
 title: 豆包桌面 AI 助手
 path: bangongzhushou/doubaozhuomian-ai-zhushou
 description: >-
-  豆包桌面 AI 助手是一款集成了多种 AI 功能的桌面应用程序，豆包电脑版客户端旨在提升用户的工作和学习效率。它通过 AI 划词翻译、搜索、AI 伴读
-  PDF 等功能，帮助用户快速获取信息，节省时间，提高生产力。产品由北京春田知韵科技有限公司开发，拥有简洁的界面和强大的功能，是现代办公和学习的得力助手。
-source: 'https://www.doubao.com/download/desktop'
+    豆包桌面 AI 助手是一款集成了多种 AI 功能的桌面应用程序，豆包电脑版客户端旨在提升用户的工作和学习效率。它通过 AI 划词翻译、搜索、AI 伴读
+    PDF 等功能，帮助用户快速获取信息，节省时间，提高生产力。产品由北京春田知韵科技有限公司开发，拥有简洁的界面和强大的功能，是现代办公和学习的得力助手。
+source: https://www.doubao.com/download/desktop
 cover: /cover/20240610/6/10/20240610_16382b72.jpg
 logo: /logo/20240610/6/10/20240610_67132262.jpg
 label: 你的全能 AI 助手，助力每日工作学习
@@ -16,12 +16,12 @@ procformname: 桌面客户端
 proctype: 2
 proctypename: 优质新品
 tags:
-  - AI
-  - 翻译
-  - 搜索
-  - PDF
-  - 效率
-  - 创作
+    - AI
+    - 翻译
+    - 搜索
+    - PDF
+    - 效率
+    - 创作
 createTime: '2024-06-04 16:32:10'
 updateTime: '2024-06-04 16:38:15'
 lang: zh
@@ -33,6 +33,7 @@ iscom: 2
 price: 免费
 catname: 生产力
 sort: 30885
+
 ---
 
 

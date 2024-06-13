@@ -2,7 +2,7 @@
 title: Glasp Web Highlighter
 path: bangongzhushou/glasp-web-highlighter
 description: >-
-  Glasp是一款PDF和Web高亮器，可帮助您从网络上收集和组织您喜欢的引用和想法。您还可以访问其他志同道合的人的学习成果，并从您的高亮和笔记中构建您的AI副本。它支持多种高亮颜色选项，可在网页和PDF上进行高亮和注释，并且具有AI支持的摘要功能。
+    Glasp是一款PDF和Web高亮器，可帮助您从网络上收集和组织您喜欢的引用和想法。您还可以访问其他志同道合的人的学习成果，并从您的高亮和笔记中构建您的AI副本。它支持多种高亮颜色选项，可在网页和PDF上进行高亮和注释，并且具有AI支持的摘要功能。
 source: ''
 cover: /cover/20240610/6/10/20240610_6629855f.jpg
 logo: /logo/20240610/6/10/20240610_9b2bb642.jpg
@@ -15,10 +15,10 @@ procformname: 网站
 proctype: 1
 proctypename: 普通产品
 tags:
-  - PDF
-  - 网页
-  - 高亮
-  - 注释
+    - PDF
+    - 网页
+    - 高亮
+    - 注释
 createTime: '2024-05-21 13:16:39'
 updateTime: '2024-05-21 14:12:25'
 lang: en
@@ -30,6 +30,7 @@ iscom: 2
 price: 免费
 catname: 生产力
 sort: 30589
+
 ---
 
 

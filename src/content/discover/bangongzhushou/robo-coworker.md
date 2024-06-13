@@ -2,9 +2,9 @@
 title: Robo Coworker
 path: bangongzhushou/robo-coworker
 description: >-
-  Robo
-  Coworker是一款智能插件，通过使用机器学习和自然语言处理技术，能够帮助用户完成各种办公任务。它能够自动发送邮件、处理文档、转换文件格式等，极大提高了工作效率。
-source: 'https://robocoworker.com'
+    Robo
+    Coworker是一款智能插件，通过使用机器学习和自然语言处理技术，能够帮助用户完成各种办公任务。它能够自动发送邮件、处理文档、转换文件格式等，极大提高了工作效率。
+source: https://robocoworker.com
 cover: /cover/20240610/6/10/20240610_5d18e5f2.jpg
 logo: /logo/20240610/6/10/20240610_597096fc.jpg
 label: 一个能够与人类共同工作的机器人助手。
@@ -16,10 +16,10 @@ procformname: 网站
 proctype: 1
 proctypename: 普通产品
 tags:
-  - 办公工具
-  - 邮件处理
-  - 文件转换
-  - 自动化
+    - 办公工具
+    - 邮件处理
+    - 文件转换
+    - 自动化
 createTime: '2024-04-28 08:06:28'
 updateTime: '2024-04-28 08:06:28'
 lang: zh
@@ -31,6 +31,7 @@ iscom: 2
 price: 免费试用
 catname: 生产力
 sort: 29930
+
 ---
 
 

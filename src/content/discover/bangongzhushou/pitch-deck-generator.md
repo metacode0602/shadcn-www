@@ -2,9 +2,9 @@
 title: Pitch Deck Generator
 path: bangongzhushou/pitch-deck-generator
 description: >-
-  Pitch Deck Generator
-  是一个在线工具，旨在帮助用户通过其7步模板工作流程，快速创建出具有说服力的演示文稿。它从识别问题或机会到自信地提出请求，通过引导性的提示帮助用户创建清晰、简洁的演示，展示其独特的解决方案和团队。
-source: 'https://mindpal.space/workflow/pitch-deck-generator-9f13807b'
+    Pitch Deck Generator
+    是一个在线工具，旨在帮助用户通过其7步模板工作流程，快速创建出具有说服力的演示文稿。它从识别问题或机会到自信地提出请求，通过引导性的提示帮助用户创建清晰、简洁的演示，展示其独特的解决方案和团队。
+source: https://mindpal.space/workflow/pitch-deck-generator-9f13807b
 cover: /cover/20240610/6/10/20240610_e624e2b2.jpg
 logo: /logo/20240610/6/10/20240610_c271459e.jpg
 label: 快速创建有说服力的演示文稿
@@ -16,9 +16,9 @@ procformname: 网站
 proctype: 1
 proctypename: 普通产品
 tags:
-  - 演示文稿
-  - 商业工具
-  - AI辅助
+    - 演示文稿
+    - 商业工具
+    - AI辅助
 createTime: '2024-05-26 07:53:48'
 updateTime: '2024-05-26 07:53:48'
 lang: en
@@ -30,6 +30,7 @@ iscom: 2
 price: 免费试用
 catname: 生产力
 sort: 30711
+
 ---
 
 

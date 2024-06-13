@@ -2,8 +2,8 @@
 	import PlusCircled from 'svelte-radix/PlusCircled.svelte';
 	import { cn } from '$lib/utils.js';
 	import * as ContextMenu from '$lib/registry/new-york/ui/context-menu/index.js';
-	import type { FrontMatter, FrontMatterWithPath } from '$lib/types/docs.js';
-	import { IMG_BASE_URL } from '$lib/constants.js';
+	import type { FrontMatterWithPath } from '$lib/types/docs.js';
+	import { IMG_BASE_URL, IMG_PLACEHOLDER } from '$lib/constants.js';
 	let className: string | undefined | null = undefined;
 	export let album: FrontMatterWithPath;
 	export let parent: string = 'discover';
@@ -25,7 +25,7 @@
 							' object-cover transition-all hover:scale-105',
 							aspectRatio === 'portrait' ? 'aspect-[3/4]' : 'aspect-[5/3]'
 						)}
-						src={album?.cover ? IMG_BASE_URL + album?.cover : '/images/placeholder.svg'}
+						src={album?.cover ? IMG_BASE_URL + album?.cover : IMG_PLACEHOLDER}
 						alt={album?.title}
 					/>
 				</div>

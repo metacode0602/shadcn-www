@@ -2,7 +2,7 @@
 title: 创脑
 path: bangongzhushou/chuangnao
 description: 创脑是国内知名 AI 机器人社区，用户可以免费使用各类 AI 机器人助手，包括行业专家、AI 写作、办公助手等，帮助提升工作效率和生活便利。
-source: 'https://ichuangnao.com/introduction'
+source: https://ichuangnao.com/introduction
 cover: /cover/20240610/6/10/20240610_7fd1e3e1.jpg
 logo: /logo/20240610/6/10/20240610_5b94b530.jpg
 label: 提供行业专家 / AI 写作 / 办公 / 绘画 / 数字员工等领域的 AI 机器人各类助手，是提升工作效率、生活便利的 AI 全能工具库。
@@ -14,11 +14,11 @@ procformname: 网站
 proctype: 3
 proctypename: 中文精选
 tags:
-  - AI 机器人
-  - 办公助手
-  - 知识变现
-  - 行业专家
-  - 创作写作
+    - AI 机器人
+    - 办公助手
+    - 知识变现
+    - 行业专家
+    - 创作写作
 createTime: '2024-04-24 14:55:10'
 updateTime: '2024-04-24 14:55:10'
 lang: zh
@@ -30,6 +30,7 @@ iscom: 2
 price: 免费
 catname: 聊天
 sort: 29722
+
 ---
 
 

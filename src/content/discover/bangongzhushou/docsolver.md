@@ -2,9 +2,9 @@
 title: DocSolver
 path: bangongzhushou/docsolver
 description: >-
-  DocSolver是一个利用GPT-4
-  API技术构建的聊天机器人，专为处理和分析大型PDF文件设计。它能够通过自然语言处理技术，理解和回应用户关于PDF文件内容的查询，提供高效的信息检索和文档管理解决方案。
-source: 'https://docsolver.spotty.com.cn/'
+    DocSolver是一个利用GPT-4
+    API技术构建的聊天机器人，专为处理和分析大型PDF文件设计。它能够通过自然语言处理技术，理解和回应用户关于PDF文件内容的查询，提供高效的信息检索和文档管理解决方案。
+source: https://docsolver.spotty.com.cn/
 cover: /cover/20240610/6/10/20240610_e4d3bbb8.jpg
 logo: /logo/20240610/6/10/20240610_6af569d2.jpg
 label: 使用GPT-4 API构建的多大型PDF文件聊天机器人。
@@ -16,10 +16,10 @@ procformname: 网站
 proctype: 2
 proctypename: 优质新品
 tags:
-  - GPT-4
-  - PDF处理
-  - 聊天机器人
-  - 文档管理
+    - GPT-4
+    - PDF处理
+    - 聊天机器人
+    - 文档管理
 createTime: '2024-06-07 15:43:01'
 updateTime: '2024-06-07 15:43:01'
 lang: en
@@ -31,6 +31,7 @@ iscom: 2
 price: 免费试用
 catname: 生产力
 sort: 30961
+
 ---
 
 

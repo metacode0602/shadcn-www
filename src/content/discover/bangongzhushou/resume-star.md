@@ -2,9 +2,9 @@
 title: resume star
 path: bangongzhushou/resume-star
 description: >-
-  简历生成器通过精准针对目标工作生成简历，处理繁琐的格式设置。用户填写信息后，即可立即获得适当格式的 PDF
-  简历，可打印、发送电子邮件或在线提交。简单透明的收费模式，先下载简历，满意后再付费。
-source: 'https://www.resumestarapp.com/'
+    简历生成器通过精准针对目标工作生成简历，处理繁琐的格式设置。用户填写信息后，即可立即获得适当格式的 PDF
+    简历，可打印、发送电子邮件或在线提交。简单透明的收费模式，先下载简历，满意后再付费。
+source: https://www.resumestarapp.com/
 cover: /cover/20240610/6/10/20240610_66dfab3e.jpg
 logo: /logo/20240610/6/10/20240610_dc6ead2f.jpg
 label: 通过填写信息，快速生成专业简历或 PDF 简历。
@@ -16,10 +16,10 @@ procformname: 网站
 proctype: 1
 proctypename: 普通产品
 tags:
-  - 简历
-  - PDF
-  - 生成器
-  - 就业
+    - 简历
+    - PDF
+    - 生成器
+    - 就业
 createTime: '2024-04-24 11:06:28'
 updateTime: '2024-04-24 11:06:58'
 lang: zh
@@ -31,6 +31,7 @@ iscom: 2
 price: 免费
 catname: 生产力
 sort: 29715
+
 ---
 
 

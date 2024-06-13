@@ -2,9 +2,9 @@
 title: Asa.team
 path: bangongzhushou/asa-team
 description: >-
-  Asa.Team是一个可以帮助改善与团队的关系的助手，无论是在办公室还是远程工作。它可以帮助团队准时上下班、追踪心理健康、连接到Slack、Microsoft
-  Teams和Telegram等工作平台。Asa.Team还可以提供团队心理健康和士气的支持。它是一个数字日记，可以推荐旅程等方式来帮助团队放松和提高工作效率。
-source: 'https://asa.team'
+    Asa.Team是一个可以帮助改善与团队的关系的助手，无论是在办公室还是远程工作。它可以帮助团队准时上下班、追踪心理健康、连接到Slack、Microsoft
+    Teams和Telegram等工作平台。Asa.Team还可以提供团队心理健康和士气的支持。它是一个数字日记，可以推荐旅程等方式来帮助团队放松和提高工作效率。
+source: https://asa.team
 cover: /cover/20240610/6/10/20240610_70cfb4a1.jpg
 logo: /logo/20240610/6/10/20240610_20c226ce.jpg
 label: Asa.Team是一个可以帮助团队工作、娱乐和学习的助手。
@@ -16,11 +16,11 @@ procformname: 网站
 proctype: 1
 proctypename: 普通产品
 tags:
-  - 团队管理
-  - 办公效率
-  - 心理健康
-  - 远程工作
-  - 日记
+    - 团队管理
+    - 办公效率
+    - 心理健康
+    - 远程工作
+    - 日记
 createTime: '2024-05-20 14:08:33'
 updateTime: '2024-05-20 15:18:44'
 lang: en
@@ -32,6 +32,7 @@ iscom: 2
 price: 免费
 catname: 生产力
 sort: 30502
+
 ---
 
 

@@ -8,6 +8,7 @@
 	export let data: PageData;
 	import { AlbumFrontMatter } from '$lib/components/island/index.js';
 	import { Badge } from '$lib/registry/new-york/ui/badge/index.js';
+	import { IMG_BASE_URL, IMG_PLACEHOLDER } from '$lib/constants.js';
 
 	type Component = $$Generic<ComponentType>;
 	$: component = data.component as unknown as Component;
@@ -36,7 +37,7 @@
 		<main class="relative py-6 lg:gap-10 lg:py-8 lg:grid lg:grid-cols-5">
 			<div class="text-sm xl:block col-span-2">
 				<div class="lg:sticky top-16 -mt-10 lg:h-[calc(100vh-3.5rem)] overflow-hidden pt-6">
-					<img src={doc?.cover} alt={doc?.title} />
+					<img src={doc?.cover ? IMG_BASE_URL + doc.cover : IMG_PLACEHOLDER} alt={doc?.title} />
 				</div>
 			</div>
 			<div class="col-span-3">

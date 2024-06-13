@@ -2,7 +2,7 @@
 title: 360AI浏览器APP
 path: bangongzhushou/360ailiulanqiapp
 description: 360AI 浏览器利用人工智能技术，提供智能搜索、PDF、视频、网页总结等功能，旨在帮助用户高效获取知识，提升阅读体验。
-source: 'https://mse.360.cn/ai?channel=800012'
+source: https://mse.360.cn/ai?channel=800012
 cover: /cover/20240610/6/10/20240610_771b5995.jpg
 logo: /logo/20240610/6/10/20240610_a1f449c4.jpg
 label: 360AI 浏览器，AI 赋能，秒懂一切。
@@ -14,12 +14,12 @@ procformname: APP
 proctype: 1
 proctypename: 普通产品
 tags:
-  - 智能搜索
-  - PDF 阅读
-  - 视频播放
-  - 网页浏览
-  - 广告过滤
-  - 播放器
+    - 智能搜索
+    - PDF 阅读
+    - 视频播放
+    - 网页浏览
+    - 广告过滤
+    - 播放器
 createTime: '2024-04-29 15:59:57'
 updateTime: '2024-04-29 16:00:53'
 lang: zh
@@ -31,6 +31,7 @@ iscom: 2
 price: 免费
 catname: 生产力
 sort: 30000
+
 ---
 
 ### 需求人群

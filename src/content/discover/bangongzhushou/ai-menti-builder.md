@@ -2,9 +2,9 @@
 title: AI Menti Builder
 path: bangongzhushou/ai-menti-builder
 description: >-
-  AI Menti
-  Builder是一个在线工具，它利用人工智能技术帮助用户快速创建演示文稿。这个工具能够根据用户输入的主题，即时生成一个可交互的演示文稿草稿，用户可以根据自己的需求进行调整和完善。它适用于团队会议、研讨会、讲座、调查、趣味测验等多种场合，大大减少准备时间，提高效率。
-source: 'https://www.mentimeter.com/features/ai-builder'
+    AI Menti
+    Builder是一个在线工具，它利用人工智能技术帮助用户快速创建演示文稿。这个工具能够根据用户输入的主题，即时生成一个可交互的演示文稿草稿，用户可以根据自己的需求进行调整和完善。它适用于团队会议、研讨会、讲座、调查、趣味测验等多种场合，大大减少准备时间，提高效率。
+source: https://www.mentimeter.com/features/ai-builder
 cover: /cover/20240610/6/10/20240610_e30e6d56.jpg
 logo: /logo/20240610/6/10/20240610_b4d508bd.jpg
 label: AI驱动的快速演示文稿制作工具
@@ -16,11 +16,11 @@ procformname: 网站
 proctype: 1
 proctypename: 普通产品
 tags:
-  - AI
-  - 演示文稿
-  - 教育
-  - 团队协作
-  - 互动
+    - AI
+    - 演示文稿
+    - 教育
+    - 团队协作
+    - 互动
 createTime: '2024-05-28 08:34:38'
 updateTime: '2024-05-28 08:34:38'
 lang: en
@@ -32,6 +32,7 @@ iscom: 2
 price: 免费试用
 catname: 生产力
 sort: 30747
+
 ---
 
 

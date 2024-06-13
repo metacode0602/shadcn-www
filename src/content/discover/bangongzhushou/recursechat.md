@@ -2,8 +2,8 @@
 title: RecurseChat
 path: bangongzhushou/recursechat
 description: >-
-  RecurseChat是一款离线、私密的个人AI聊天应用程序，它代表了使用本地AI进行聊天的功能和技术。其主要优点包括：离线聊天、保护隐私、无需配置、支持PDF和markdown格式的聊天、全文搜索等功能。RecurseChat的定位是提供简单易用、功能强大的本地AI聊天工具。
-source: 'https://recurse.chat'
+    RecurseChat是一款离线、私密的个人AI聊天应用程序，它代表了使用本地AI进行聊天的功能和技术。其主要优点包括：离线聊天、保护隐私、无需配置、支持PDF和markdown格式的聊天、全文搜索等功能。RecurseChat的定位是提供简单易用、功能强大的本地AI聊天工具。
+source: https://recurse.chat
 cover: /cover/20240610/6/10/20240610_9951f866.jpg
 logo: /logo/20240610/6/10/20240610_7ac11c78.jpg
 label: RecurseChat是一款可以与本地AI聊天的个人AI应用程序，支持离线和私密聊天。
@@ -15,14 +15,14 @@ procformname: 网站
 proctype: 1
 proctypename: 普通产品
 tags:
-  - 离线
-  - 隐私保护
-  - 聊天
-  - AI
-  - PDF
-  - markdown
-  - 全文搜索
-  - 多模态输入
+    - 离线
+    - 隐私保护
+    - 聊天
+    - AI
+    - PDF
+    - markdown
+    - 全文搜索
+    - 多模态输入
 createTime: '2024-04-23 17:22:52'
 updateTime: '2024-04-23 17:22:52'
 lang: zh
@@ -34,6 +34,7 @@ iscom: 2
 price: 免费
 catname: 聊天
 sort: 29672
+
 ---
 
 

@@ -2,8 +2,8 @@
 title: NoteButler
 path: bangongzhushou/notebutler
 description: >-
-  NoteButler通过自动将PDF转换为文本，并在同一页添加AI摘要，使得在Notion中的PDF文档具有搜索功能。它能够提供OCR功能，并添加AI摘要，让那些通常无法在Notion中搜索的内容变得可搜索和可访问。
-source: 'https://notebutler.app'
+    NoteButler通过自动将PDF转换为文本，并在同一页添加AI摘要，使得在Notion中的PDF文档具有搜索功能。它能够提供OCR功能，并添加AI摘要，让那些通常无法在Notion中搜索的内容变得可搜索和可访问。
+source: https://notebutler.app
 cover: /cover/20240610/6/10/20240610_9efc53e1.jpg
 logo: /logo/20240610/6/10/20240610_aa822dc1.jpg
 label: NoteButler是一个可以在Notion中使PDF文档具有搜索功能的工具。
@@ -15,10 +15,10 @@ procformname: 网站
 proctype: 1
 proctypename: 普通产品
 tags:
-  - 生产力
-  - PDF
-  - 搜索
-  - AI
+    - 生产力
+    - PDF
+    - 搜索
+    - AI
 createTime: '2024-04-28 02:32:26'
 updateTime: '2024-04-28 02:32:26'
 lang: zh
@@ -30,6 +30,7 @@ iscom: 2
 price: 免费试用
 catname: 生产力
 sort: 29920
+
 ---
 
 
