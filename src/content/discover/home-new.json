@@ -1,105 +1,165 @@
 {
-	"updateTime": "2024-06-12 06:23:21",
+	"updateTime": "2024-06-13 10:24:25",
 	"items": [
 		{
 			"source": "",
-			"title": "Biofy",
-			"path": "shejiaomeiti/biofy",
-			"cover": "/cover/20240609/6/10/20240609_7fcbe786.jpg",
-			"label": "一站式社交媒体链接管理平台",
-			"logo": "/logo/20240609/6/10/20240609_40a9288c.jpg",
-			"description": "Biofy是一个多功能的社交媒体链接管理平台，它允许用户通过一个链接整合所有社交媒体和在线内容，包括链接到应用商店、YouTube深层链接、URL缩短、QR码生成和分析等。Biofy特别适用于内容创作者、品牌和企业，帮助他们更有效地管理和推广自己的在线存在。",
-			"tags": ["社交媒体", "链接管理", "内容推广", "品牌营销"]
+			"title": "3D One AI",
+			"path": "daimafuzhu/3d-one-ai",
+			"cover": "/cover/20240612/6/12/20240612_90fb75fe.jpg",
+			"label": "虚拟电子硬件、机器人编程",
+			"logo": "/logo/20240612/6/12/20240612_b627ebdd.jpg",
+			"description": "3D One AI基于物理刚体运动与三维数据处理技术，融合开源硬件、人工智能、编程等多学科实践，支持通过界面交互或编程控制物体的运动。3D One AI平台还提供虚拟开源硬件技术与人工智能技术，支持进行动态的人工智能行为仿真，以及输出三维动画。该软件支持小学、初中、高中阶段的人工智能教育，匹配国家教育标准与课标要求，助力普及化开课和科技人才培养。",
+			"tags": ["人工智能", "编程", "虚拟仿真", "教育", "教育学习"]
 		},
 		{
 			"source": "",
-			"title": "AI-Powered Sleep Story Generator",
-			"path": "yinpinchuli/ai-powered-sleep-story-generator",
-			"cover": "/cover/20240610/6/10/20240610_1e93713e.jpg",
-			"label": "个性化AI助眠故事生成器，助你安然入梦",
-			"logo": "/logo/20240610/6/10/20240610_a217c302.jpg",
-			"description": "AI-Powered Sleep Story Generator是一款创新的AI驱动工具，旨在帮助用户进入深度而宁静的睡眠。用户可以描述自己理想的睡眠场景，AI将利用最新技术制作出舒缓而沉浸式的音频故事，安抚心灵，帮助用户放松进入梦乡。该工具将个性化提升到新水平，根据用户的特定偏好和需求定制每个故事，无论是轻柔的自然声音、舒缓的叙述，还是两者的结合，AI技术都能确保完美适应用户的睡前例程。",
-			"tags": ["AI", "助眠", "个性化", "音频故事"]
+			"title": "42Signals",
+			"path": "dianzishangwu/42signals",
+			"cover": "/cover/20240612/6/12/20240612_e7106495.jpg",
+			"label": "智能商务洞察解决方案",
+			"logo": "/logo/20240612/6/12/20240612_b71fb0a3.jpg",
+			"description": "42Signals是一种基于人工智能的解决方案套件，帮助消费品牌预测消费者需求，追踪竞争对手，优化数字货架，并促进在线销售增长。通过电子商务洞察，我们帮助品牌在在线零售环境中取得成功。",
+			"tags": ["电子商务", "人工智能", "洞察分析", "竞争对手", "产品优化"]
 		},
 		{
 			"source": "",
-			"title": "AI Video Generator - Text to Video By Sora",
-			"path": "shipinshengcheng/ai-video-generator-text-to-video-by-sora",
-			"cover": "/cover/20240610/6/10/20240610_ac0e175c.jpg",
-			"label": "无需麦克风、摄像机、演员或工作室，通过文本生成专业视频",
-			"logo": "/logo/20240610/6/10/20240610_d588f88b.ico",
-			"description": "AI视频生成器让每个人都能通过文本创作出令人惊叹的视频。功能包括：创意转视频、博客转视频、PPT转视频、推文转视频、头像视频、产品转视频等。适用于内容创作、商业营销、教育培训、电子商务等领域。",
-			"tags": ["视频生成器", "AI视频", "文本到视频"]
+			"title": "AI Contract Analysis",
+			"path": "falvzhushou/ai-contract-analysis",
+			"cover": "/cover/20240612/6/12/20240612_6e34a7b4.jpg",
+			"label": "基于AI的合同分析工具",
+			"logo": "/logo/20240612/6/12/20240612_c08d220c.jpg",
+			"description": "BetterLegal Assistant是一款基于AI的在线合同分析工具。它可以在几分钟内分析合同的关键条款,帮助用户理解合同的隐藏影响,避免盲目签署法律文件。该工具支持50多种语言,提供合同公平性评估、潜在负面影响、建议谈判要点等六大功能。定价仅需几美元,大大节省了昂贵的法律顾问费用。",
+			"tags": ["合同分析", "法律咨询", "谈判辅助", "智能法律"]
 		},
 		{
 			"source": "",
-			"title": "360AI 甄选",
-			"path": "bangongzhushou/360ai-zhenxuan",
-			"cover": "/cover/20240610/6/10/20240610_7bd08932.jpg",
-			"label": "工具就是全，提高办公生活效率，全网最好用的办公导航，优质海量工具",
-			"logo": "/logo/20240610/6/10/20240610_2a113772.jpg",
-			"description": "360AI 甄选是全网最好用的办公导航，提供优质海量工具，旨在提高办公生活效率。它集成了各种工具，方便用户快速找到所需的工具，并提供高质量的应用。360AI 甄选以其全面性、实用性和高效性而受到广泛关注。它为用户提供了丰富的功能和技术，以及方便的用户界面和操作方式。",
-			"tags": ["办公导航", "工具", "生产力"]
+			"title": "Loulou Investments Limited",
+			"path": "jiaoyizhushou/loulou-investments-limited",
+			"cover": "/cover/20240612/6/12/20240612_88f4b451.jpg",
+			"label": "智能投资与交易平台",
+			"logo": "/logo/20240612/6/12/20240612_da1d4005.jpg",
+			"description": "Loulou Investments Limited 是一家提供智能投资与交易服务的平台。我们利用人工智能技术，结合投资和交易策略，为客户提供令人惊叹的投资机会。我们的人工智能系统能够进行快速而准确的决策，帮助客户实现财务增长。通过加入我们的平台，客户可以与数千名其他投资者一起赚钱。",
+			"tags": ["智能投资", "交易平台"]
 		},
 		{
 			"source": "",
-			"title": "AI Anime Girl Studio",
-			"path": "yishuchuangzuo/ai-anime-girl-studio",
-			"cover": "/cover/20240610/6/10/20240610_29505be2.jpg",
-			"label": "AI生成二次元美少女",
-			"logo": "/logo/20240610/6/10/20240610_e5c099ef.jpg",
-			"description": "AI AnimeGirl Creator是一个免费的AI生成二次元美少女的工具。它可以轻松生成令人惊叹的二次元美少女艺术品。",
-			"tags": ["AI", "二次元", "美少女", "艺术创作"]
+			"title": "2048 AI",
+			"path": "quweiyouxi/2048-ai",
+			"cover": "/cover/20240612/6/12/20240612_c26b21c7.jpg",
+			"label": "AI助手玩2048游戏，帮助用户轻松获得2048分数",
+			"logo": "/logo/20240612/6/12/20240612_72ce8778.jpg",
+			"description": "2048 AI是一个AI助手，可帮助用户玩2048游戏并轻松获得2048分数。它可以自动玩游戏、加速游戏速度、一步一步操作游戏或停止游戏。用户可以通过安装该插件，并在2048游戏的官方网站https://play2048.co/上使用。也可以在作者的分支网站http://sleepycoder.github.io/2048/上使用AI助手。2048 AI可以大大提高玩家在2048游戏中的分数和成绩。",
+			"tags": ["AI", "游戏助手", "轻松获得高分"]
 		},
 		{
 			"source": "",
-			"title": "Boost Inbox",
-			"path": "youjianzhushou/boost-inbox",
-			"cover": "/cover/20240609/6/9/20240609_614d90f4.jpg",
-			"label": "提升收件箱，提高邮件送达率、开信率和参与度。",
-			"logo": "/logo/20240609/6/9/20240609_e69c7a9b.jpg",
-			"description": "Boost Inbox是一款优秀的邮件预热服务，可提高邮件的送达率、开信率和参与度。通过定制计划、实时监控和无缝集成，提供最佳的邮件预热体验。",
-			"tags": ["邮件预热", "送达率", "开信率", "参与度", "营销", "企业邮箱", "个人邮箱"]
+			"title": "Ager.fun",
+			"path": "quweiyouxi/ager-fun",
+			"cover": "/cover/20240612/6/12/20240612_48f44734.jpg",
+			"label": "看见自己不同年龄的神奇应用！",
+			"logo": "/logo/20240612/6/12/20240612_cddf210a.jpg",
+			"description": "Ager.fun是一款革命性的应用程序，可以让你看到自己不同年龄的模样！只需上传一张照片，等待几分钟，就会收到从0岁到100岁的10张不同年龄的照片。但这还不是全部 - 我们还会给你一张动态的GIF图，展示你所有年龄的变化，让你实时看到变化。",
+			"tags": ["年龄转换", "照片编辑", "娱乐"]
 		},
 		{
 			"source": "",
-			"title": "AIJ",
-			"path": "renliziyuan/aij",
-			"cover": "/cover/20240610/6/10/20240610_54392456.jpg",
-			"label": "AIJ是一个能够帮助用户节省时间和精力的AI工具，它可以为用户申请工作、回答常见问题等。",
-			"logo": "/logo/20240610/6/10/20240610_d209e2fd.jpg",
-			"description": "AIJ是一个能够自动为用户申请工作、回答常见问题的AI工具。它的主要优点是节省用户的时间和精力，背景信息、价格、定位等。",
-			"tags": ["工作", "求职", "人工智能", "自动化"]
+			"title": "ADXL AI",
+			"path": "dianzishangwu/adxl-ai",
+			"cover": "/cover/20240612/6/12/20240612_3d0d21ef.jpg",
+			"label": "多渠道AI自动化广告管理工具",
+			"logo": "/logo/20240612/6/12/20240612_0bad13d9.jpg",
+			"description": "ADXL是一款多渠道AI自动化广告管理工具，能够帮助用户在Google、Facebook、LinkedIn、TikTok、Instagram和Twitter等平台上轻松运营广告，实现更好的效果。通过ADXL，用户可以扩大覆盖范围，提升广告控制能力，快速吸引潜在客户，实现销售目标。ADXL采用AI优化的复制策略，自动智能定位受众，跨平台优化广告投放，无需任何技术技能即可管理广告。ADXL还提供即时潜在客户广告和自动化的重定向功能，以及跨平台的预构建受众群组。通过ADXL，用户可以轻松管理多个广告渠道，实现更好的广告投放效果。",
+			"tags": ["广告管理", "多渠道广告", "AI自动化", "市场营销", "电子商务"]
 		},
 		{
 			"source": "",
-			"title": "100% FREE Mindmap Generator",
-			"path": "xuexijiaoyu/100-free-mindmap-generator",
-			"cover": "/cover/20240610/6/10/20240610_9e3dfb54.jpg",
-			"label": "使用AI在5分钟内生成任何课程的思维导图",
-			"logo": "/logo/20240610/6/10/20240610_40547c15.jpg",
-			"description": "EverLearns提供了一个免费的在线思维导图生成器，利用人工智能技术帮助内容创作者、教育工作者、教师、助教、家教以及在家教育的父母轻松创建、组织和可视化他们的想法。该工具特别适合用于为观众、学生或孩子展示概念。",
-			"tags": ["AI辅助", "教育工具", "思维导图", "免费使用"]
+			"title": "AI Surge Cloud",
+			"path": "didaimawudaima/ai-surge-cloud",
+			"cover": "/cover/20240612/6/12/20240612_a9e5c949.jpg",
+			"label": "5-10倍提升数据敏捷性与灵活性",
+			"logo": "/logo/20240612/6/12/20240612_b1641715.jpg",
+			"description": "低代码数据融合平台帮助企业以5-10倍的速度交付数据，为他们提供所需的敏捷性和灵活性，提高工作效率。该平台提供数据准备和探索性数据分析的低代码多人员解决方案，可以免费部署预测模型，还可获得1300美元的AWS信用和300美元的Databricks DBU信用。",
+			"tags": [
+				"低代码",
+				"数据融合",
+				"数据敏捷性",
+				"数据灵活性",
+				"数据准备",
+				"数据分析",
+				"预测模型",
+				"AWS",
+				"Databricks"
+			]
 		},
 		{
 			"source": "",
-			"title": "Avatic",
-			"path": "quweiyouxi/avatic",
-			"cover": "/cover/20240610/6/10/20240610_e5aa7c6f.jpg",
-			"label": "定制3D头像，提升在线身份",
-			"logo": "/logo/20240610/6/10/20240610_0d9126c6.jpg",
-			"description": "Avatic 3D Avatars是一个定制3D头像服务，适用于游戏、社交和职业平台。通过将您的照片转换为个性化的半逼真3D头像，提升您的在线身份。无论您是为了保护隐私还是为了给您的在线形象添加独特的个性，我们的定制3D头像服务都是您一直在寻找的解决方案。我们的头像由经验丰富的3D艺术家使用Blender和Photoshop制作，呈现出独特的玩具感。我们提供100%的退款保证和无限次的修改，以确保您对最终成品完全满意。",
-			"tags": ["3D头像", "个性化", "游戏", "社交", "职业平台"]
+			"title": "AI Bot Builder",
+			"path": "didaimawudaima/ai-bot-builder",
+			"cover": "/cover/20240612/6/12/20240612_50af994c.jpg",
+			"label": "构建强大的AI机器人",
+			"logo": "/logo/20240612/6/12/20240612_a6b349e6.jpg",
+			"description": "AI Bot是一个可视化的低代码平台，可以帮助您快速构建和定制强大的AI机器人。您可以使用它构建基于图像、声音和文本的机器人，集成各种服务，并轻松部署到Google Cloud。AI Bot支持WhatsApp、Twitter、SMS、Telegram等多种渠道，灵活扩展，安全可靠。",
+			"tags": ["AI", "机器人", "低代码", "可视化", "聊天"]
 		},
 		{
 			"source": "",
-			"title": "airepli.io",
-			"path": "dianzishangwu/airepli-io",
-			"cover": "/cover/20240610/6/10/20240610_070e2ffc.jpg",
-			"label": "AI生成即时回复",
-			"logo": "/logo/20240610/6/10/20240610_67db36e4.jpg",
-			"description": "AI Response Generator是一款AI生成即时回复的产品。它通过AI智能回复，帮助用户在商务沟通中节省时间和提高效率。产品提供多种模式选择和个性化回复，支持跨平台集成，同时保证用户的通信隐私和数据安全。定价灵活，适用于各种场景。",
-			"tags": ["人工智能", "商务沟通", "效率工具"]
+			"title": "Abbot",
+			"path": "kehufuwu/abbot",
+			"cover": "/cover/20240612/6/12/20240612_037b9f1a.jpg",
+			"label": "Slack机器人，帮助企业监控、自动化客户对话",
+			"logo": "/logo/20240612/6/12/20240612_f078bef6.jpg",
+			"description": "Abbot是一款Slack机器人，帮助企业监控、自动化客户对话。Abbot可以监控支持频道中的对话，并确保客户及时得到回复。它还可以与常见的票务系统（如Zendesk和GitHub）集成，并轻松与内部系统集成。Abbot可以根据客户对话触发操作，并提供自动摘要和建议下一步操作。Abbot还可以根据文档进行培训，并在客户询问如何完成某些操作时提供帮助。",
+			"tags": ["Slack机器人", "客户对话", "自动化", "文档培训", "票务系统集成"]
+		},
+		{
+			"source": "",
+			"title": "AlgoVue",
+			"path": "jiaoyizhushou/algovue",
+			"cover": "/cover/20240612/6/12/20240612_3f446d68.jpg",
+			"label": "ChatGPT powered no-code editor for algotrading",
+			"logo": "/logo/20240612/6/12/20240612_140ca816.jpg",
+			"description": "AlgoVue是一款使用ChatGPT进行交易算法编辑的无代码编辑器。用户可以使用技术指标创建复杂的嵌套条件逻辑，并实现多种交易策略，如组合再平衡、配对交易、买入低点等。通过集成ChatGPT-3.5-turbo，用户可以获取交易想法的转录或建议。同时，AlgoVue还提供回测功能，用户可以将策略与选定的基准进行可视化比较。AlgoVue采用Flutter构建，提供美观的桌面应用体验。",
+			"tags": ["交易", "无代码编辑器", "技术指标", "回测", "ChatGPT"]
+		},
+		{
+			"source": "",
+			"title": "BlackHedge",
+			"path": "jiaoyizhushou/blackhedge",
+			"cover": "/cover/20240612/6/12/20240612_6477546d.jpg",
+			"label": "AI辅助的增强交易体验",
+			"logo": "/logo/20240612/6/12/20240612_01906cc8.jpg",
+			"description": "BlackHedge是一款AI辅助的股票交易工具，由普通投资者为普通投资者打造。通过预测性的AI模型，提供数据驱动的交易决策支持；通过直观的图表可视化，帮助用户了解个股、ETF、ADRs等的未来价格走势；通过友好的用户界面，降低新手投资者对股市交易的复杂性的恐惧感；通过自动化的研究，节省用户在股票分析上的时间。BlackHedge使用先进的人工智能技术来预测股市趋势，旨在为用户提供管理投资组合的技术，并提供超过市场平均水平的回报。",
+			"tags": ["AI", "股票", "交易", "预测"]
+		},
+		{
+			"source": "",
+			"title": "Avionero",
+			"path": "huwailvhang/avionero",
+			"cover": "/cover/20240612/6/12/20240612_59d429de.jpg",
+			"label": "找到最便宜、最方便的机票",
+			"logo": "/logo/20240612/6/12/20240612_9efb5788.jpg",
+			"description": "Avionero 是一个帮助用户轻松找到最便宜、最方便的机票的平台。我们拥有互联网上最大的航班库存，为您提供最全面的航班选择。通过 Avionero，您可以根据您的出行偏好和需求，找到最适合您的机票，节省时间和金钱。我们还提供酒店和体验的搜索，使您的旅行计划更加完整。",
+			"tags": ["机票", "航班", "酒店", "旅行", "航空"]
+		},
+		{
+			"source": "",
+			"title": "AI Excel Bot",
+			"path": "bangongzhushou/ai-excel-bot",
+			"cover": "/cover/20240612/6/12/20240612_19e33935.jpg",
+			"label": "AI Excel Bot-公式编写速度快10倍",
+			"logo": "/logo/20240612/6/12/20240612_2234b33e.jpg",
+			"description": "AI Excel Bot是一个能够帮助用户更快速地编写Excel和Google Sheets公式的插件。它可以根据简单的文本指令生成复杂的公式，让用户在几秒钟内完成。AI Excel Bot还支持VBA代码的编写和解释，无需用户浪费时间去理解和编写VBA。此外，它还提供Chrome插件，让用户在不离开Google Sheets或Excel的情况下使用AI的功能。AI Excel Bot的定价简单明了，有免费版和Pro版可供选择，Pro Annual版更是可以节省30%的费用。用户可以通过官方网站联系创始人，解决技术问题或提供反馈意见。",
+			"tags": ["Excel", "Google Sheets", "公式", "VBA", "插件"]
+		},
+		{
+			"source": "",
+			"title": "ConsumerAI",
+			"path": "jinrong/consumerai",
+			"cover": "/cover/20240612/6/12/20240612_c6e7f77e.jpg",
+			"label": "快速解决你的金融问题",
+			"logo": "/logo/20240612/6/12/20240612_720ccfcf.jpg",
+			"description": "Moneykey是一个金融服务平台，提供各种解决个人和企业金融问题的产品。无论是贷款、借款、投资还是理财，Moneykey都能提供一站式解决方案。通过快速申请、简化流程和优质服务，Moneykey帮助用户快速解决各种金融问题。",
+			"tags": ["金融服务", "贷款", "借款", "投资", "理财"]
 		}
 	]
 }
