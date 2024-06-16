@@ -56,10 +56,10 @@
 			</a>
 
 			<a
-				href="/knowledges"
+				href="/docs"
 				class={cn(
 					'transition-colors hover:text-foreground/80',
-					$page.url.pathname.startsWith('/knowledges') ? 'text-foreground' : 'text-foreground/60'
+					$page.url.pathname.startsWith('/docs') ? 'text-foreground' : 'text-foreground/60'
 				)}
 			>
 				知识库

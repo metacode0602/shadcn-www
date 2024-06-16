@@ -37,21 +37,18 @@ export const load: PageLoad = async (event) => {
 	};
 };
 
-export const entries: EntryGenerator = () => {
-	console.info("Prerendering /docs");
-	const modules = import.meta.glob("/src/content/discover/**/*.md");
-	const entries = [];
+// export const entries: EntryGenerator = () => {
+// 	console.info("Prerendering /docs");
+// 	const modules = import.meta.glob("/src/content/discover/**/*.md");
+// 	const entries = [];
 
-	for (const path of Object.keys(modules)) {
-		if (!path.endsWith("index.md")) {//非index.md
-			const slug = path.replace("/src/content/discover/", "").replace(".md", "").split("/");
-			console.warn("in slug/doc page.ts split:", slug);
-			entries.push({ slug: slug[0], doc: slug[1] });
-		}
-		// const slug = path.replace("/src/content/discover/", "").replace(".md", "").replace("/index", "");
-		// console.warn("EntryGenerator:", JSON.stringify(slug))
-		// entries.push({ slug });
-	}
+// 	for (const path of Object.keys(modules)) {
+// 		if (!path.endsWith("index.md")) {//非index.md
+// 			const slug = path.replace("/src/content/discover/", "").replace(".md", "").split("/");
+// 			console.warn("in slug/doc page.ts split:", slug);
+// 			entries.push({ slug: slug[0], doc: slug[1] });
+// 		}
+// 	}
 
-	return entries;
-};
+// 	return entries;
+// };
