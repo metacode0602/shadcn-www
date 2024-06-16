@@ -1,26 +1,26 @@
 <script lang="ts">
-	import type { ComponentType } from "svelte";
-	import { Icons } from "./icons/index.js";
-	import * as Tabs from "$lib/registry/new-york/ui/tabs/index.js";
-	import { Index } from "$lib/../__registry__/index.js";
-	import { config } from "$lib/stores/index.js";
-	import { cn } from "$lib/utils.js";
-	import { StyleSwitcher, ThemeWrapper } from "$lib/components/docs/index.js";
+	import type { ComponentType } from 'svelte';
+	import { Icons } from './icons/index.js';
+	import * as Tabs from '$lib/registry/new-york/ui/tabs/index.js';
+	// import { Index } from "$lib/../__registry__/index.js";
+	import { config } from '$lib/stores/index.js';
+	import { cn } from '$lib/utils.js';
+	import { StyleSwitcher, ThemeWrapper } from '$lib/components/docs/index.js';
 
-	export let name: keyof (typeof Index)["default"];
-	export let align: "center" | "start" | "end" = "center";
+	export let name: 'default';
+	export let align: 'center' | 'start' | 'end' = 'center';
 
 	let className: string;
 	export { className as class };
 
-	$: component = Index[$config.style][name]?.component() as Promise<ComponentType>;
+	// $: component = Index[$config.style][name]?.component() as Promise<ComponentType>;
 
 	export let form: unknown;
 
-	export let style = "";
+	export let style = '';
 </script>
 
-<div class={cn("group relative my-4 flex flex-col space-y-2", className)} {...$$restProps}>
+<div class={cn('group relative my-4 flex flex-col space-y-2', className)} {...$$restProps}>
 	<Tabs.Root value="preview" class="relative mr-auto w-full">
 		<div class="flex items-center justify-between pb-3">
 			<Tabs.List class="w-full justify-start rounded-none border-b bg-transparent p-0">
@@ -45,18 +45,18 @@
 			<ThemeWrapper defaultTheme="zinc">
 				<div
 					class={cn(
-						"preview flex min-h-[350px] w-full justify-center p-10",
+						'preview flex min-h-[350px] w-full justify-center p-10',
 						{
-							"items-center": align === "center",
-							"items-start": align === "start",
-							"items-end": align === "end",
+							'items-center': align === 'center',
+							'items-start': align === 'start',
+							'items-end': align === 'end',
 						},
 						className
 					)}
 					{style}
 				>
 					<slot name="example">
-						{#await component}
+						<!-- {#await component}
 							<div class="flex items-center text-sm text-muted-foreground">
 								<Icons.spinner class="mr-2 h-4 w-4 animate-spin" />
 								Loading...
@@ -73,16 +73,14 @@
 								</code>
 								not found in registry.
 							</p>
-						{/await}
+						{/await} -->
 					</slot>
 				</div>
 			</ThemeWrapper>
 		</Tabs.Content>
 		<Tabs.Content value="code">
 			<ThemeWrapper defaultTheme="zinc">
-				<div
-					class="w-full rounded-md [&_pre]:my-0 [&_pre]:max-h-[350px] [&_pre]:overflow-auto"
-				>
+				<div class="w-full rounded-md [&_pre]:my-0 [&_pre]:max-h-[350px] [&_pre]:overflow-auto">
 					<slot />
 				</div>
 			</ThemeWrapper>

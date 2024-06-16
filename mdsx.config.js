@@ -1,21 +1,21 @@
 //@ts-check
-import { readFileSync } from "node:fs";
-import process from "node:process";
-import { join, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
-import prettier from "@prettier/sync";
-import rehypePrettyCode from "rehype-pretty-code";
-import rehypeSlug from "rehype-slug";
-import { codeImport } from "remark-code-import";
-import remarkGfm from "remark-gfm";
-import { visit } from "unist-util-visit";
-import { u } from "unist-builder";
-import { getHighlighter } from "shiki";
-import { defineConfig } from "mdsx";
-import { Index } from "./src/__registry__/index.js";
-import { codeBlockPrettierConfig } from "./other/code-block-prettier.js";
+import { readFileSync } from 'node:fs';
+import process from 'node:process';
+import { join, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import prettier from '@prettier/sync';
+import rehypePrettyCode from 'rehype-pretty-code';
+import rehypeSlug from 'rehype-slug';
+import { codeImport } from 'remark-code-import';
+import remarkGfm from 'remark-gfm';
+import { visit } from 'unist-util-visit';
+import { u } from 'unist-builder';
+import { getHighlighter } from 'shiki';
+import { defineConfig } from 'mdsx';
+// import { Index } from "./src/__registry__/index.js";
+import { codeBlockPrettierConfig } from './other/code-block-prettier.js';
 
-const __dirname = fileURLToPath(new URL(".", import.meta.url));
+const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
 /**
  * @typedef {import('mdast').Root} MdastRoot
@@ -28,37 +28,37 @@ const __dirname = fileURLToPath(new URL(".", import.meta.url));
  * @type {import('rehype-pretty-code').Options}
  */
 const prettyCodeOptions = {
-	theme: JSON.parse(String(readFileSync(resolve(__dirname, "./other/themes/dark.json")))),
+	theme: JSON.parse(String(readFileSync(resolve(__dirname, './other/themes/dark.json')))),
 	getHighlighter: (options) =>
 		getHighlighter({
 			...options,
 			langs: [
-				"plaintext",
-				import("shiki/langs/javascript.mjs"),
-				import("shiki/langs/typescript.mjs"),
-				import("shiki/langs/css.mjs"),
-				import("shiki/langs/svelte.mjs"),
-				import("shiki/langs/shellscript.mjs"),
-				import("shiki/langs/markdown.mjs"),
+				'plaintext',
+				import('shiki/langs/javascript.mjs'),
+				import('shiki/langs/typescript.mjs'),
+				import('shiki/langs/css.mjs'),
+				import('shiki/langs/svelte.mjs'),
+				import('shiki/langs/shellscript.mjs'),
+				import('shiki/langs/markdown.mjs'),
 			],
 		}),
 	keepBackground: false,
 	onVisitLine(node) {
 		if (node.children.length === 0) {
 			// @ts-expect-error - we're changing the node type
-			node.children = { type: "text", value: " " };
+			node.children = { type: 'text', value: ' ' };
 		}
 	},
 	onVisitHighlightedLine(node) {
-		node.properties.className = ["line--highlighted"];
+		node.properties.className = ['line--highlighted'];
 	},
 	onVisitHighlightedChars(node) {
-		node.properties.className = ["chars--highlighted"];
+		node.properties.className = ['chars--highlighted'];
 	},
 };
 
 export const mdsxConfig = defineConfig({
-	extensions: [".md"],
+	extensions: ['.md'],
 	remarkPlugins: [remarkGfm, codeImport, remarkRemovePrettierIgnore],
 	rehypePlugins: [
 		rehypeSlug,
@@ -69,7 +69,7 @@ export const mdsxConfig = defineConfig({
 	],
 	blueprints: {
 		default: {
-			path: resolve(__dirname, "./src/lib/components/docs/markdown/blueprint.svelte"),
+			path: resolve(__dirname, './src/lib/components/docs/markdown/blueprint.svelte'),
 		},
 	},
 });
@@ -91,10 +91,8 @@ export const mdsxConfig = defineConfig({
  */
 function remarkRemovePrettierIgnore() {
 	return async (tree) => {
-		visit(tree, "code", (node) => {
-			node.value = node.value
-				.replaceAll("<!-- prettier-ignore -->\n", "")
-				.replaceAll("// prettier-ignore\n", "");
+		visit(tree, 'code', (node) => {
+			node.value = node.value.replaceAll('<!-- prettier-ignore -->\n', '').replaceAll('// prettier-ignore\n', '');
 		});
 	};
 }
@@ -106,24 +104,19 @@ function remarkRemovePrettierIgnore() {
 function rehypePreData() {
 	return (tree) => {
 		visit(tree, (node) => {
-			if (node?.type === "element" && node?.tagName === "pre") {
+			if (node?.type === 'element' && node?.tagName === 'pre') {
 				const [codeEl] = node.children;
-				if (codeEl.type !== "element") return;
-				if (codeEl.tagName !== "code") return;
+				if (codeEl.type !== 'element') return;
+				if (codeEl.tagName !== 'code') return;
 
-				if (
-					codeEl.data &&
-					"meta" in codeEl.data &&
-					codeEl.data.meta &&
-					typeof codeEl.data.meta === "string"
-				) {
+				if (codeEl.data && 'meta' in codeEl.data && codeEl.data.meta && typeof codeEl.data.meta === 'string') {
 					// Extract event from meta and pass it down the tree.
 					const regex = /event="([^"]*)"/;
 					const match = codeEl.data?.meta.match(regex);
 					if (match) {
 						// @ts-expect-error - this is fine
 						node.__event__ = match ? match[1] : null;
-						codeEl.data.meta = codeEl.data.meta.replace(regex, "");
+						codeEl.data.meta = codeEl.data.meta.replace(regex, '');
 					}
 				}
 
@@ -140,12 +133,12 @@ function rehypePreData() {
 
 const styles = [
 	{
-		name: "default",
-		label: "Default",
+		name: 'default',
+		label: 'Default',
 	},
 	{
-		name: "new-york",
-		label: "New York",
+		name: 'new-york',
+		label: 'New York',
 	},
 ];
 
@@ -158,7 +151,7 @@ export function rehypeComponentExample() {
 		const nameRegex = /name="([^"]+)"/;
 		visit(tree, (node, index, parent) => {
 			// @ts-expect-error - this is fine
-			if (node?.type === "raw" && node?.value?.startsWith("<ComponentPreview")) {
+			if (node?.type === 'raw' && node?.value?.startsWith('<ComponentPreview')) {
 				// @ts-expect-error - this is fine
 				const match = node.value.match(nameRegex);
 				const name = match ? match[1] : null;
@@ -167,53 +160,53 @@ export function rehypeComponentExample() {
 					return null;
 				}
 
-				try {
-					for (const style of styles) {
-						// @ts-expect-error - this is fine for now.
-						const component = Index[style.name][name];
-						const src = component.files[0].replace("/lib/", "/src/lib/");
-						let sourceCode = getComponentSourceFileContent(src);
-						if (!sourceCode || sourceCode === null) return;
+				// try {
+				// 	for (const style of styles) {
+				// 		// @ts-expect-error - this is fine for now.
+				// 		const component = Index[style.name][name];
+				// 		const src = component.files[0].replace("/lib/", "/src/lib/");
+				// 		let sourceCode = getComponentSourceFileContent(src);
+				// 		if (!sourceCode || sourceCode === null) return;
 
-						sourceCode = sourceCode.replaceAll(
-							"$lib/registry/new-york/",
-							"$lib/components/"
-						);
-						sourceCode = sourceCode.replaceAll(
-							"$lib/registry/default/",
-							"$lib/components/"
-						);
+				// 		sourceCode = sourceCode.replaceAll(
+				// 			"$lib/registry/new-york/",
+				// 			"$lib/components/"
+				// 		);
+				// 		sourceCode = sourceCode.replaceAll(
+				// 			"$lib/registry/default/",
+				// 			"$lib/components/"
+				// 		);
 
-						const sourceCodeNode = u("element", {
-							tagName: "pre",
-							properties: {
-								__src__: src,
-								__style__: style.name,
-								className: ["code"],
-							},
-							children: [
-								u("element", {
-									tagName: "code",
-									properties: {
-										className: [`language-svelte`],
-									},
-									attributes: {},
-									children: [
-										{
-											type: "text",
-											value: sourceCode,
-										},
-									],
-								}),
-							],
-						});
-						if (!index) return;
-						// @ts-expect-error - this is fine
-						parent?.children.splice(index + 1, 0, sourceCodeNode);
-					}
-				} catch (e) {
-					console.error(e);
-				}
+				// 		const sourceCodeNode = u("element", {
+				// 			tagName: "pre",
+				// 			properties: {
+				// 				__src__: src,
+				// 				__style__: style.name,
+				// 				className: ["code"],
+				// 			},
+				// 			children: [
+				// 				u("element", {
+				// 					tagName: "code",
+				// 					properties: {
+				// 						className: [`language-svelte`],
+				// 					},
+				// 					attributes: {},
+				// 					children: [
+				// 						{
+				// 							type: "text",
+				// 							value: sourceCode,
+				// 						},
+				// 					],
+				// 				}),
+				// 			],
+				// 		});
+				// 		if (!index) return;
+				// 		// @ts-expect-error - this is fine
+				// 		parent?.children.splice(index + 1, 0, sourceCodeNode);
+				// 	}
+				// } catch (e) {
+				// 	console.error(e);
+				// }
 			}
 		});
 	};
@@ -229,23 +222,23 @@ export function rehypeComponentExample() {
 function rehypeHandleMetadata() {
 	return async (tree) => {
 		visit(tree, (node) => {
-			if (node?.type === "element" && node?.tagName === "figure") {
-				if (!("data-rehype-pretty-code-figure" in node.properties)) {
+			if (node?.type === 'element' && node?.tagName === 'figure') {
+				if (!('data-rehype-pretty-code-figure' in node.properties)) {
 					return;
 				}
 
 				const preElement = node.children.at(-1);
-				if (preElement && "tagName" in preElement && preElement.tagName !== "pre") {
+				if (preElement && 'tagName' in preElement && preElement.tagName !== 'pre') {
 					return;
 				}
 
 				const firstChild = node.children.at(0);
 
-				if (firstChild && "tagName" in firstChild && firstChild.tagName === "figcaption") {
-					node.properties["data-metadata"] = "";
+				if (firstChild && 'tagName' in firstChild && firstChild.tagName === 'figcaption') {
+					node.properties['data-metadata'] = '';
 					const lastChild = node.children.at(-1);
-					if (lastChild && "properties" in lastChild) {
-						lastChild.properties["data-metadata"] = "";
+					if (lastChild && 'properties' in lastChild) {
+						lastChild.properties['data-metadata'] = '';
 					}
 				}
 			}
@@ -253,17 +246,14 @@ function rehypeHandleMetadata() {
 	};
 }
 
-function getComponentSourceFileContent(src = "") {
-	const newSrc = src.replace("../", "./");
+function getComponentSourceFileContent(src = '') {
+	const newSrc = src.replace('../', './');
 	if (!newSrc) return null;
 
 	// Read the source file.
 	const filePath = join(process.cwd(), newSrc);
 
-	const formattedSource = prettier.format(
-		readFileSync(filePath, "utf-8"),
-		codeBlockPrettierConfig
-	);
+	const formattedSource = prettier.format(readFileSync(filePath, 'utf-8'), codeBlockPrettierConfig);
 
 	return formattedSource;
 }
