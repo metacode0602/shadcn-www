@@ -1,0 +1,152 @@
+[
+	{
+		"source": "",
+		"title": "BetterLegal Assistant",
+		"path": "falvzhushou/betterlegal-assistant",
+		"cover": "/cover/20240612/6/12/20240612_f876303f.jpg",
+		"label": "将复杂的法律术语转化为易于理解的语言",
+		"logo": "/logo/20240612/6/12/20240612_6713e7b2.jpg",
+		"description": "BetterLegal Assistant是一款基于人工智能的Chrome插件，可以将复杂的法律文本转化为易于理解的语言。它适用于技术专业人士、投资者和创始人。插件还提供了独特的海盗模式，为用户带来有趣、引人入胜的体验。立即下载，轻松理解法律术语。",
+		"tags": ["法律", "插件"]
+	},
+	{
+		"source": "",
+		"title": "Airstrip AI",
+		"path": "falvzhushou/airstrip-ai",
+		"cover": "/cover/20240612/6/12/20240612_44046ac3.jpg",
+		"label": "智能AI法律助手",
+		"logo": "/logo/20240612/6/12/20240612_aebf15d5.jpg",
+		"description": "Airstrip AI是每个创业公司的法律副驾驶员。使用AI技术提供个性化法律文件和专业法律协助，让创业更加自信。Airstrip AI让您可以放心启动！",
+		"tags": ["法律助手", "AI", "创业", "法律文件"]
+	},
+	{
+		"source": "",
+		"title": "AgentHub",
+		"path": "daimafuzhu/agenthub",
+		"cover": "/cover/20240612/6/12/20240612_98e4880a.jpg",
+		"label": "无需编码，构建和托管AI驱动的业务自动化",
+		"logo": "/logo/20240612/6/12/20240612_a3b49dae.jpg",
+		"description": "AgentHub是一个无代码平台，用于构建和托管AI驱动的业务自动化。它允许用户使用AI来自动化任何工作流程，无需编写一行代码。AgentHub提供了丰富的节点库，用户可以轻松地拖放和部署定制工具来满足业务需求。无论您是销售、软件开发、媒体、人力资源、财务分析、求职、教育、行政管理还是法律等领域，AgentHub都能帮助您实现自动化。",
+		"tags": ["AI自动化", "无代码", "工作流程", "业务自动化"]
+	},
+	{
+		"source": "",
+		"title": "AI Resume Builder - Supawork AI",
+		"path": "renliziyuan/ai-resume-builder-supawork-ai",
+		"cover": "/cover/20240612/6/12/20240612_fef404e3.jpg",
+		"label": "AI简历生成器，助你实现梦想工作",
+		"logo": "/logo/20240612/6/12/20240612_d588f88b.ico",
+		"description": "Supawork AI是一款AI简历生成器，通过分析你的经验和技能，生成出一份突出的简历，提高你找工作的机会。它还提供AI职位筛选、AI职位匹配、关键词优化、求职数据统计等功能，帮助你在求职过程中更加高效和自信。",
+		"tags": ["简历生成器", "求职", "AI助手", "职位筛选", "关键词优化"]
+	},
+	{
+		"source": "",
+		"title": "1-Click Summarizer & Web Toolbar by Skim AI",
+		"path": "bangongzhushou/1-click-summarizer-web-toolbar-by-skim-ai",
+		"cover": "/cover/20240612/6/12/20240612_b079b4c6.jpg",
+		"label": "智能AI助手，一键摘要，浏览器工具栏",
+		"logo": "/logo/20240612/6/12/20240612_81eefe32.jpg",
+		"description": "1-Click Summarizer & Web Toolbar by Skim AI是一款智能AI助手，通过处理和摘要新闻、研究和PDF文档，帮助用户更快地完成工作。它可以在浏览器中一键摘要新闻和PDF文档，双击选中的句子可以保存并在后续查看，还可以通过主题进行整理和引用。Skim AI致力于为用户提供机器学习工具，帮助用户更快、更准确地做出决策。",
+		"tags": ["摘要", "智能助手", "浏览器工具栏", "新闻", "研究", "PDF"]
+	},
+	{
+		"source": "",
+		"title": "hoopsAI",
+		"path": "jiaoyizhushou/hoopsai",
+		"cover": "/cover/20240612/6/12/20240612_087e2fbe.jpg",
+		"label": "实时生成个性化交易建议",
+		"logo": "/logo/20240612/6/12/20240612_1132e94c.jpg",
+		"description": "hoopsAI是一款基于人工智能的交易分析平台，提供实时生成的个性化交易建议。通过深度学习技术，hoopsAI能够为用户提供针对各种资产（如股票、商品、货币等）的顶级分析和交易策略，帮助用户发现新的投资机会。平台根据用户的需求定制独特的交易思路，并持续监测和跟踪投资想法，帮助用户从中学习和理解市场。无论你是新手还是经验丰富的投资者，hoopsAI都能为你提供量身定制的交易建议和策略，助你在交易中取得更好的成果。",
+		"tags": ["人工智能", "交易分析", "个性化建议"]
+	},
+	{
+		"source": "",
+		"title": "AI GPT for SlidesTM",
+		"path": "bangongzhushou/ai-gpt-for-slidestm",
+		"cover": "/cover/20240612/6/12/20240612_beeb805f.jpg",
+		"label": "AI助手轻松创建专业演示文稿",
+		"logo": "/logo/20240612/6/12/20240612_f689c75e.jpg",
+		"description": "AI GPT for SlidesTM 是一款基于 GPT 技术的 Google Slides 插件,使用户能够通过简单的语音指令就能自动生成、翻译和生成高质量的演示文稿。该产品拥有强大的 GPT 模型,可生成标题、正文、列表等内容,还可自动搜索相关图片。用户只需简单描述所需的演示文稿主题,AI GPT for SlidesTM 就可以自动生成精美的演示文稿。关键功能包括语音输入、多语言支持、演示文稿智能生成等。适用于商业演示、学术报告、教学课件等场景。该产品可节省80%的演示文稿制作时间,是演示文稿制作的利器。",
+		"tags": ["表格处理", "演示文稿", "Ai办公助手", "AI文档工具"]
+	},
+	{
+		"source": "",
+		"title": "Aicotravel",
+		"path": "huwailvhang/aicotravel",
+		"cover": "/cover/20240612/6/12/20240612_fe5348ed.jpg",
+		"label": "AI 旅行行程规划",
+		"logo": "/logo/20240612/6/12/20240612_49ec3f69.jpg",
+		"description": "Aicotravel 是一款 AI 旅行行程规划工具，通过智能算法和数据分析，为用户提供个性化的旅行行程规划。用户可以根据自己的出行需求，输入旅行目的地和时间，Aicotravel 会自动为用户生成详细的旅行行程安排，包括景点推荐、交通路线、住宿安排等。Aicotravel 还提供全球热门目的地的旅行攻略和用户分享的旅行日记，让用户可以轻松探索世界。",
+		"tags": ["旅行", "旅行规划", "旅行攻略", "旅行日记", "智能算法"]
+	},
+	{
+		"source": "",
+		"title": "AI Anime Character Generator By Live3D",
+		"path": "kaifazhegongju/ai-anime-character-generator-by-live3d",
+		"cover": "/cover/20240612/6/12/20240612_4069eb63.jpg",
+		"label": "AI动漫角色生成器",
+		"logo": "/logo/20240612/6/12/20240612_b637af60.jpg",
+		"description": "利用Live3D的AI动漫角色生成器，轻松创建令人惊艳的AI动漫角色，开启角色风格的无限可能。免费在线试用。",
+		"tags": ["AI动漫角色生成器", "动漫创作", "角色设计", "游戏开发"]
+	},
+	{
+		"source": "",
+		"title": "amto.ai",
+		"path": "falvzhushou/amto-ai",
+		"cover": "/cover/20240612/6/12/20240612_2dcee6e2.jpg",
+		"label": "AI法律助手，助您草拟法律文件",
+		"logo": "/logo/20240612/6/12/20240612_3de9dc58.jpg",
+		"description": "Amto AI是世界上第一个由GPT3驱动的AI法律助手，帮助律师更好地起草法律文件，并提高效率。它使用最新的自然语言处理技术，通过对公共和专有法律内容进行人工强化学习，为律师提供强大的草拟功能。Amto AI可以节省律师每年约300小时的起草和修改合同的时间。",
+		"tags": ["AI助手", "法律文件", "起草合同", "律师助手"]
+	},
+	{
+		"source": "",
+		"title": "Abbot",
+		"path": "kehufuwu/abbot",
+		"cover": "/cover/20240612/6/12/20240612_037b9f1a.jpg",
+		"label": "Slack机器人，帮助企业监控、自动化客户对话",
+		"logo": "/logo/20240612/6/12/20240612_f078bef6.jpg",
+		"description": "Abbot是一款Slack机器人，帮助企业监控、自动化客户对话。Abbot可以监控支持频道中的对话，并确保客户及时得到回复。它还可以与常见的票务系统（如Zendesk和GitHub）集成，并轻松与内部系统集成。Abbot可以根据客户对话触发操作，并提供自动摘要和建议下一步操作。Abbot还可以根据文档进行培训，并在客户询问如何完成某些操作时提供帮助。",
+		"tags": ["Slack机器人", "客户对话", "自动化", "文档培训", "票务系统集成"]
+	},
+	{
+		"source": "",
+		"title": "AI Input",
+		"path": "kaifazhegongju/ai-input",
+		"cover": "/cover/20240612/6/12/20240612_f327d8e6.jpg",
+		"label": "用AI快速创建网站和UI",
+		"logo": "/logo/20240612/6/12/20240612_aa164def.jpg",
+		"description": "AI Input是一个利用人工智能（AI）技术来帮助用户创建网站和UI元素的平台。用户可以通过输入一些简单的指令（Prompts），让AI生成网站的代码、布局和内容。AI Input还可以根据用户的手绘草图，使用视觉API来创建网站的设计。AI Input支持多种语言，包括英语、中文、日语等。用户可以免费注册并使用AI Input，也可以选择付费升级以获得更多的功能和资源。AI Input是一个创新的网站和UI构建工具，让用户可以快速、轻松地利用AI的力量来创建自己的网站",
+		"tags": ["UI", "设计", "开发", "网站构建"]
+	},
+	{
+		"source": "",
+		"title": "AI Library",
+		"path": "kaifazhegongju/ai-library",
+		"cover": "/cover/20240612/6/12/20240612_10ab2d33.jpg",
+		"label": "AI 工具库，满足创作者和游戏开发者的需求",
+		"logo": "/logo/20240612/6/12/20240612_cc0a5bf6.jpg",
+		"description": "AI Library是最大最全的 AI 工具目录，包括 1800 + 神经网络和工具，可用于创作者和游戏开发者。具有语义搜索和筛选功能。提供的功能包括文本生成、图像处理、视频编辑、设计辅助等。定价根据不同产品而定，可以满足不同用户的需求。",
+		"tags": ["AI 工具", "创作者", "游戏开发者", "文案创作", "图像生成", "视频剪辑", "设计辅助"]
+	},
+	{
+		"source": "",
+		"title": "AdBuilder AI",
+		"path": "renliziyuan/adbuilder-ai",
+		"cover": "/cover/20240612/6/12/20240612_163bc7a3.jpg",
+		"label": "AI辅助招聘广告编写工具",
+		"logo": "/logo/20240612/6/12/20240612_dd826862.jpg",
+		"description": "AdBuilder是一款基于人工智能的广告编写工具，可在短短几秒钟内为招聘人员编写顶级的职位广告。最小的努力，最大的回报。立即免费试用。",
+		"tags": ["AI", "招聘", "广告", "人工智能"]
+	},
+	{
+		"source": "",
+		"title": "AI Copilot for Sheets - by Arcwise",
+		"path": "bangongzhushou/ai-copilot-for-sheets-by-arcwise",
+		"cover": "/cover/20240612/6/12/20240612_b1e39519.jpg",
+		"label": "使用ChatGPT的人工智能，在Sheets中解释、转换和导入数据",
+		"logo": "/logo/20240612/6/12/20240612_ddea112f.jpg",
+		"description": "AI Copilot for Sheets是一款基于Arcwise的早期访问Chrome插件，使用ChatGPT的人工智能，可以通过文本命令在Sheets中解释、转换和导入数据。可以通过命令询问关于电子表格的问题，使用文本命令清理数据，使用公式助手访问公式，从网页抓取数据并导入到Google Sheets等。插件免费使用，可以在https://arcwise.app上获取更多信息。",
+		"tags": ["电子表格", "数据解释", "数据清理", "公式助手", "数据导入"]
+	}
+]

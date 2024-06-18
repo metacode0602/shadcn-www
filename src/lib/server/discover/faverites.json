@@ -1,0 +1,202 @@
+[
+	{
+		"source": "",
+		"title": "BlogToPin",
+		"path": "shejiaomeiti/blogtopin",
+		"cover": "/cover/20240609/6/10/20240609_d8967d0c.jpg",
+		"label": "一键将博客文章转换为Pinterest引人入胜的图钉。",
+		"logo": "/logo/20240609/6/10/20240609_778209c5.jpg",
+		"description": "BlogToPin是一个专为Pinterest设计的工具，旨在帮助用户自动化地将博客文章转化为吸引人的图钉（Pins），从而吸引更多的有机流量和潜在客户。它通过简化图钉的创建和管理，让用户能够专注于内容创作，而不必花费大量时间在Pinterest上手动创建和安排图钉。",
+		"tags": ["Pinterest", "自动化", "内容营销", "社交媒体管理"]
+	},
+	{
+		"source": "",
+		"title": "Adaptiv Creator Platform",
+		"path": "xuexijiaoyu/adaptiv-creator-platform",
+		"cover": "/cover/20240610/6/10/20240610_a3cb0237.jpg",
+		"label": "AI驱动的创作平台，快速生成并发布学习材料。",
+		"logo": "/logo/20240610/6/10/20240610_b61d31bf.jpg",
+		"description": "Adaptiv Creator Platform是一个利用人工智能技术，帮助用户在极短的时间内生成并发布学习材料的在线平台。它允许用户选择主题和受众，定制语言和语调，并快速地从主题到发布课程。平台结合了AI和人类智能，用户可以审查和编辑AI生成的内容，并添加自己的见解。Adaptiv旨在通过提供最新的信息，帮助学习者为未来做好准备。",
+		"tags": ["AI", "教育", "内容创作", "微学习", "个性化"]
+	},
+	{
+		"source": "",
+		"title": "LighTDiff",
+		"path": "yiliaojiankang/lightdiff",
+		"cover": "/cover/20240610/6/10/20240610_89a3304f.jpg",
+		"label": "一种用于手术内窥镜图像低光照增强的T-Diffusion模型。",
+		"logo": "/logo/20240610/6/10/20240610_63093ee4.jpg",
+		"description": "LighTDiff是一种针对手术内窥镜图像在低光照条件下进行增强的深度学习模型。该模型利用T-Diffusion技术，能够有效提升图像的亮度和清晰度，对于提高手术安全性和效率具有重要意义。该技术已被MICCAI2024会议提前接受，并且代码已经开源，可供研究和实际应用。",
+		"tags": ["图像增强", "深度学习", "医疗影像", "手术辅助"]
+	},
+	{
+		"source": "",
+		"title": "AIxBlock",
+		"path": "didaimawudaima/aixblock",
+		"cover": "/cover/20240610/6/10/20240610_d22d2985.jpg",
+		"label": "一站式去中心化AI平台,集成了去中心化超级计算机",
+		"logo": "/logo/20240610/6/10/20240610_dfaef354.jpg",
+		"description": "AIxBlock是一个综合性的链上AI平台,集成了去中心化超级计算机。主要功能包括:数据引擎进行数据采集、整理和标注;低代码MLOps平台轻松构建和部署AI模型;通过链上共识机制实时验证AI模型质量;提供去中心化计算力交易市场,节省90%计算成本;基于P2P无手续费交易;通过区块链共识确保数据质量;所有交易在链上安全透明记录。适用于AI开发者、计算力供应商、自由职业者等。",
+		"tags": ["AI平台", "去中心化", "低代码", "MLOps", "计算力市场"]
+	},
+	{
+		"source": "",
+		"title": "可灵大模型",
+		"path": "shipinshengcheng/kelingdamoxing",
+		"cover": "/cover/20240610/6/10/20240610_427cd126.jpg",
+		"label": "可灵大模型是由快手大模型团队自研打造的视频生成大模型，让用户可以轻松高效地完成艺术视频创作。",
+		"logo": "/logo/20240610/6/10/20240610_d2c09889.jpg",
+		"description": "可灵大模型是一款具备强大视频生成能力的自研大模型，采用先进的技术实现长达 2 分钟视频生成、模拟物理世界特性、概念组合能力等，可生成电影级画面。",
+		"tags": ["视频生成", "艺术创作", "模拟物理"]
+	},
+	{
+		"source": "",
+		"title": "Better Headshots",
+		"path": "touxiangshengcheng/better-headshots",
+		"cover": "/cover/20240610/6/10/20240610_16a1c092.jpg",
+		"label": "专业头像AI摄影工具",
+		"logo": "/logo/20240610/6/10/20240610_442610e3.jpg",
+		"description": "Better Headshots一款专业的头像AI摄影工具，通过上传自拍照片，用户可以在两小时内获得专业的头像照片。用户可以选择不同风格的拍摄，包括个性化和公司风格。产品定价灵活，覆盖个人和企业用户，提供不同套餐选择。AI摄影师能够生成高质量的头像照片，并经过人工审核，确保专业性和质量。",
+		"tags": ["头像", "摄影", "AI"]
+	},
+	{
+		"source": "",
+		"title": "AutoPilotI18n",
+		"path": "kaifazhegongju/autopiloti18n",
+		"cover": "/cover/20240610/6/10/20240610_bf630b70.jpg",
+		"label": "AI驱动的国际化工具 简化i18n流程。",
+		"logo": "/logo/20240610/6/10/20240610_7e68b054.jpg",
+		"description": "AutoPilotI18n 是一款利用 AI 技术提供精确翻译的国际化工具，可自动化翻译任务，简化 i18n 流程。其主要优点在于精确翻译、多框架支持、高效工作流程，适用于 React、Vue、Angular 等。AutoPilotI18n 定价透明，提供免费和付费版本。",
+		"tags": ["AI", "国际化", "多框架支持", "自动化翻译", "开发工具"]
+	},
+	{
+		"source": "",
+		"title": "Adobe Express Logo Creator",
+		"path": "tubiaoshengcheng/adobe-express-logo-creator",
+		"cover": "/cover/20240610/6/10/20240610_a173eb14.jpg",
+		"label": "免费的Logo制作工具",
+		"logo": "/logo/20240610/6/10/20240610_375a2608.jpg",
+		"description": "Adobe Express Logo Creator是一款免费的Logo制作工具，用户可以通过输入品牌或商业名称、选择喜欢的风格、图标和字体等，快速生成高质量的Logo。该工具还提供了丰富的动画效果和字体推荐功能，用户可以在在线编辑器中进一步定制Logo，并将其下载为高质量的PNG和JPG文件，方便在各种平台上使用。",
+		"tags": ["Logo制作", "设计工具", "动画效果", "字体推荐", "艺术灵感", "Ai图标生成"]
+	},
+	{
+		"source": "",
+		"title": "创脑",
+		"path": "bangongzhushou/chuangnao",
+		"cover": "/cover/20240610/6/10/20240610_7fd1e3e1.jpg",
+		"label": "提供行业专家 / AI 写作 / 办公 / 绘画 / 数字员工等领域的 AI 机器人各类助手，是提升工作效率、生活便利的 AI 全能工具库。",
+		"logo": "/logo/20240610/6/10/20240610_5b94b530.jpg",
+		"description": "创脑是国内知名 AI 机器人社区，用户可以免费使用各类 AI 机器人助手，包括行业专家、AI 写作、办公助手等，帮助提升工作效率和生活便利。",
+		"tags": ["AI 机器人", "办公助手", "知识变现", "行业专家", "创作写作"]
+	},
+	{
+		"source": "",
+		"title": "橙篇AI",
+		"path": "wenanxiezuo/chengpianai",
+		"cover": "/cover/20240609/6/9/20240609_dfb53419.jpg",
+		"label": "智能写作助手，一键生成内容，提升写作效率。",
+		"logo": "/logo/20240609/6/9/20240609_4326386f.jpg",
+		"description": "橙篇AI是一款针对写作领域的智能工具，旨在通过AI技术提升用户的写作效率和质量。它拥有一键生成长文、资料搜索、文档总结、全文校正等功能，帮助用户快速整理思路、搜集资料和校对文本。橙篇AI的背景是随着AI技术的发展，越来越多的行业开始利用AI来提高工作效率，尤其是在内容创作领域。产品定位于辅助用户进行高效写作，无论是学术论文、商业报告还是日常笔记，都能通过橙篇AI得到快速生成和优化。目前产品提供免费试用，具体价格未在页面上明确标注。",
+		"tags": ["AI写作", "资料搜索", "文本校对", "格式整理", "数据可视化"]
+	},
+	{
+		"source": "",
+		"title": "Pic2Game",
+		"path": "quweiyouxi/pic2game",
+		"cover": "/cover/20240610/6/10/20240610_9e83910e.jpg",
+		"label": "将您的图片变成游戏",
+		"logo": "/logo/20240610/6/10/20240610_6b5d3593.jpg",
+		"description": "Pic2Game AI是一个可以将您的照片转化成游戏场景和角色的工具。它使用AI技术来重新想象您的家庭、朋友、宠物、食物和风景，并以您喜爱的游戏中的艺术形式呈现。它的主要优点是可以将普通照片转化成富有创意和趣味性的游戏风格的图像。",
+		"tags": ["图像处理", "游戏", "AI"]
+	},
+	{
+		"source": "",
+		"title": "Indie Affiliates",
+		"path": "shejiaomeiti/indie-affiliates",
+		"cover": "/cover/20240609/6/10/20240609_a6bd9d2f.jpg",
+		"label": "轻松分享你的联盟营销计划",
+		"logo": "/logo/20240609/6/10/20240609_f0612e38.jpg",
+		"description": "Indie Affiliates是一个帮助初创公司和企业轻松分享他们的联盟营销计划给全球联盟营销人员的平台，从而增加收入、反向链接和品牌曝光。",
+		"tags": ["联盟营销", "收入增加", "品牌曝光", "产品推广"]
+	},
+	{
+		"source": "",
+		"title": "AmbientGPT",
+		"path": "daimafuzhu/ambientgpt",
+		"cover": "/cover/20240610/6/10/20240610_d67674eb.jpg",
+		"label": "在本地运行GPT-4和基础模型，无需上传屏幕上下文。",
+		"logo": "/logo/20240610/6/10/20240610_dd4ace7e.jpg",
+		"description": "AmbientGPT是一个革命性的编程辅助工具，它允许开发者在本地运行GPT-4和基础模型，同时能够直接推断屏幕上下文，从而无需手动上传上下文信息。这大大提高了代码编写和问题解决的效率。产品目前处于测试阶段，适用于拥有ARM64架构MacBook的开发者，并且需要一个兼容的OpenAI API密钥。",
+		"tags": ["AI编程辅助", "本地模型运行", "屏幕上下文推断"]
+	},
+	{
+		"source": "",
+		"title": "AI Blog Articles",
+		"path": "sousuoyinqingyouhua/ai-blog-articles",
+		"cover": "/cover/20240610/6/10/20240610_a9777564.jpg",
+		"label": "在5分钟内生成高质量AI博客文章",
+		"logo": "/logo/20240610/6/10/20240610_de908dfc.jpg",
+		"description": "AI Blog Articles使用顶级AI模型为您生成最佳内容。发送关键字给我们，我们将生成超高质量的AI博客文章。",
+		"tags": ["SEO", "内容创作", "博客", "人工智能"]
+	},
+	{
+		"source": "",
+		"title": "BakedAvatar",
+		"path": "touxiangshengcheng/bakedavatar",
+		"cover": "/cover/20240610/6/10/20240610_ddc6151b.jpg",
+		"label": "使用单眼视频记录产生实时4D头像合成的神经网络方法",
+		"logo": "/logo/20240610/6/10/20240610_e7704a48.jpg",
+		"description": "BakedAvatar是一种用于实时神经头像合成的全新表示，可部署在标准多边形光栅化流水线中。该方法从学习到的头部等值面提取可变形的多层网格，并计算可烘焙到静态纹理中的表情、姿势和视角相关外观，从而为实时4D头像合成提供支持。我们提出了一个三阶段的神经头像合成流水线，包括学习连续变形、流形和辐射场，提取分层网格和纹理，以及通过微分光栅化来微调纹理细节。实验结果表明，我们的表示产生了与其他最先进方法相当的综合结果，并显著减少了所需的推理时间。我们进一步展示了从单眼视频中产生的各种头像合成结果，包括视图合成、面部重现、表情编辑和姿势编辑，所有这些都以交互式帧率进行。",
+		"tags": ["头像合成", "神经网络", "实时渲染"]
+	},
+	{
+		"source": "",
+		"title": "AI Assistant and Bot Builder",
+		"path": "didaimawudaima/ai-assistant-and-bot-builder",
+		"cover": "/cover/20240610/6/10/20240610_f4dd608a.jpg",
+		"label": "使用OpenAI、Claude 3和Azure等模型构建AI助手，轻松连接工具和数据库，并将其作为API聊天机器人或HTML嵌入式小部件发布",
+		"logo": "/logo/20240610/6/10/20240610_051f2dee.jpg",
+		"description": "AI助手构建器使用OpenAI、Claude和Azure等模型，提供了一个简单的无代码方式来构建AI助手。它可以轻松连接到您的工具和数据库，并以API聊天机器人或HTML嵌入式小部件的形式发布。它具有灵活的低代码功能，可以满足各种需求。",
+		"tags": ["AI助手", "聊天机器人", "无代码", "OpenAI", "Claude", "Azure"]
+	},
+	{
+		"source": "",
+		"title": "Kallo",
+		"path": "falvzhushou/kallo",
+		"cover": "/cover/20240610/6/10/20240610_d0084e05.jpg",
+		"label": "您的AI合作伙伴 | 教育、STEM、法律",
+		"logo": "/logo/20240610/6/10/20240610_0dca0d6a.jpg",
+		"description": "Kallo是您个人文档和资源库的即时专家，为您提供答案、生成见解，并邀请您的团队进行多用户协作。我们专注于使复杂的文档和信息易于访问和高度可操作。",
+		"tags": ["AI合作伙伴", "教育", "STEM", "法律"]
+	},
+	{
+		"source": "",
+		"title": "Dolphin 2.9.1 Mixtral 1x22b",
+		"path": "daimafuzhu/dolphin-2-9-1-mixtral-1x22b",
+		"cover": "/cover/20240610/6/10/20240610_46fa0d0e.jpg",
+		"label": "基于Dolphin-2.9-Mixtral-8x22b的先进AI模型",
+		"logo": "/logo/20240610/6/10/20240610_3da78cec.jpg",
+		"description": "Dolphin 2.9.1 Mixtral 1x22b是由Cognitive Computations团队精心训练和策划的AI模型，基于Dolphin-2.9-Mixtral-8x22b版本，拥有Apache-2.0许可。该模型具备64k上下文容量，通过16k序列长度的全权重微调，经过27小时在8个H100 GPU上的训练完成。Dolphin 2.9.1具有多样的指令、对话和编码技能，还具备初步的代理能力和支持函数调用。该模型未进行审查，数据集已过滤去除对齐和偏见，使其更加合规。建议在作为服务公开之前，实施自己的对齐层。",
+		"tags": ["AI模型", "文本生成", "编程辅助", "对话系统"]
+	},
+	{
+		"source": "",
+		"title": "Amazing.photos",
+		"path": "touxiangshengcheng/amazing-photos",
+		"cover": "/cover/20240610/6/10/20240610_fa829a98.jpg",
+		"label": "打造惊艳头像，AI助力完美形象",
+		"logo": "/logo/20240610/6/10/20240610_dc1aeff8.jpg",
+		"description": "Amazing.photos是一款AI头像生成工具，通过使用AI技术为用户生成高质量的个人头像。该产品利用AI模型创建逼真的头像，让用户在个人形象展示上脱颖而出。其优势在于提供数千张4K分辨率的头像图片，并承诺比其他同类产品提供更出色的成果。定价方面，用户可以免费生成头像，也可以花费21美元购买AI头像。产品定位于提供个性化、高质量的头像生成服务。",
+		"tags": ["头像生成", "AI", "个人形象", "图片处理"]
+	},
+	{
+		"source": "",
+		"title": "AI-signals",
+		"path": "jiaoyizhushou/ai-signals",
+		"cover": "/cover/20240610/6/10/20240610_21c7ad61.jpg",
+		"label": "AI-signals - AI 交易指标",
+		"logo": "/logo/20240610/6/10/20240610_9bffec8a.jpg",
+		"description": "AI-signals 利用复杂算法和实时数据指示最准确的买卖点、反转点、供需区域等，帮助您在交易中降低情绪干扰并遵循一个系统。",
+		"tags": ["AI", "交易", "指标"]
+	}
+]

@@ -1,25 +1,30 @@
 import type { EntryGenerator, PageLoad } from "./$types.js";
 import { error } from "@sveltejs/kit";
 import type { DocResolver, FrontMatterWithPath } from "$lib/types/docs.js";
-// 使用Record类型定义map
 
 export const load: PageLoad = async (event) => {
 	const slug = event.params.slug.replace(".md", "");//删除所有的.md后缀
-	const modules = import.meta.glob(`/src/content/discover/**/*.md`);
-	let match: { path?: string; resolver?: DocResolver } = {};
+	const modules = import.meta.glob(`/data/discover/**/*.md`);
+	// let match: { path?: string; resolver?: DocResolver } = {};
 	let indexMatch: { path?: string; resolver?: DocResolver } = {};
 	const items: FrontMatterWithPath[] = [];
 	let doc;
 	//获取目录下所有的文件
 	for (const [path, resolver] of Object.entries(modules)) {
-		if (path.startsWith("/src/content/discover/" + slug + "/")) {
+		if (path.startsWith("/data/discover/" + slug + "/")) {
+			console.warn("path:", path, " index:", path.includes("index.md"))
+
 			if (path.includes("index.md")) { //当前页面的index.md
-				indexMatch = { path, resolver: resolver as unknown as DocResolver };
+				// indexMatch = { path, resolver: resolver as unknown as DocResolver };
+				// console.warn("Index match:", indexMatch?.resolver());
+				// const result = svleteCompile(content.code, { generate: 'ssr' });
+				indexMatch = (await import(path)/* @vite-ignore */).metadata;
+				// console.warn("doc0", (await import(path)));
 			} else {//非index.md
-				match = { path, resolver: resolver as unknown as DocResolver };
-				doc = await match?.resolver?.();
-				if (doc && doc.metadata) {
-					items.push({ path: getSlugFilePath(slug, path), ...doc?.metadata });
+				// doc = await match?.resolver?.();
+				doc = (await import(path)/* @vite-ignore */).metadata;
+				if (doc) {
+					items.push({ path: getSlugFilePath(slug, path), ...doc });
 				}
 			}
 		}
@@ -37,13 +42,14 @@ export const load: PageLoad = async (event) => {
 	});
 
 	//获取index.md
-	doc = await indexMatch?.resolver?.();
+	// doc = await indexMatch?.resolver?.();
+
+	console.warn("index doc", indexMatch);
 	return {
-		component: doc?.default,
-		metadata: doc?.metadata,
-		title: doc?.metadata.title,
+		// component: doc?.default,
+		metadata: indexMatch,
 		slug,
-		items,
+		items
 	};
 };
 
@@ -55,7 +61,7 @@ export const entries: EntryGenerator = () => {
 	const entries = [];
 	console.warn("in discover [slug] modules is:", modules);
 	for (const path of Object.keys(modules)) {
-		if (!path.startsWith("/src/content/discover/index.md")){
+		if (!path.startsWith("/src/content/discover/index.md")) {
 			const slug = path.replace("/src/content/discover/", "").replace("/index.md", "");
 			entries.push({ slug });
 		}

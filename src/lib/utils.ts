@@ -239,21 +239,24 @@ export async function getDoc(slug: string) {
  * @returns
  */
 export async function getDocInDiscover(slug: string, redirect: boolean) {
-	const modules = import.meta.glob(`/src/content/discover/**/*.md`);
+	const modules = import.meta.glob(`/other/discover/**/*.md`);
 	// const match = findMatch(slug, modules);
+	// console.warn("modules", modules)
 	let match: { path?: string; resolver?: DocResolver } = {};
 	let temp: string;
 	for (const [path, resolver] of Object.entries(modules)) {
-		temp = path.replace("/src/content/discover/", "").replace(".md", "")
+		temp = path.replace("/other/discover/", "").replace(".md", "")
 		if (temp === slug) {
 			match = { path, resolver: resolver as unknown as DocResolver };
 			break;
 		}
 	}
+
 	const doc = await match?.resolver?.();
-	if ((!doc || !doc.metadata) && redirect) {
-		error(404);
-	}
+
+	// if ((!doc || !doc.metadata) && redirect) {
+	// 	error(404);
+	// }
 	return {
 		component: doc?.default,
 		metadata: doc?.metadata,

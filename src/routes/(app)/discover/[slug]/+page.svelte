@@ -17,7 +17,7 @@
 	}
 	$: doc = data.metadata;
 	$: items = data.items; //分类下所有的md文件列表
-	$: visibleItems = items.slice(0, itemsPerPage);
+	$: visibleItems = items?.slice(0, itemsPerPage);
 </script>
 
 <svelte:window on:scrollend={handleScroll} />
@@ -35,9 +35,11 @@
 					<Separator class="my-6" />
 					<div class="relative">
 						<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-							{#each visibleItems as album}
-								<AlbumFrontMatter parent="discover" {album} />
-							{/each}
+							{#if visibleItems}
+								{#each visibleItems as album}
+									<AlbumFrontMatter parent="discover" {album} />
+								{/each}
+							{/if}
 						</div>
 					</div>
 				</div>

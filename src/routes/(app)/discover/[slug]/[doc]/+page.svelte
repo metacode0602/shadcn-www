@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ComponentType } from 'svelte';
+	import type { ComponentType, SvelteComponent } from 'svelte';
 	import ChevronRight from 'lucide-svelte/icons/chevron-right';
 	import type { PageData } from './$types.js';
 	import { ProductPager } from '$lib/components/island/index.js';
@@ -9,9 +9,10 @@
 	import { AlbumFrontMatter } from '$lib/components/island/index.js';
 	import { Badge } from '$lib/registry/new-york/ui/badge/index.js';
 	import { IMG_BASE_URL, IMG_PLACEHOLDER } from '$lib/constants.js';
-
+	import { onMount } from 'svelte';
 	type Component = $$Generic<ComponentType>;
-	$: component = data.component as unknown as Component;
+	// $: component = data.component as unknown as Component;
+	// $: component = data.content as unknown as Component;
 	$: doc = data.metadata;
 	$: relates = data.relates; //推荐商品列表
 	$: slug = data.slug;
@@ -59,8 +60,11 @@
 						</p>
 					{/if}
 				</div>
-				<div class="markdown pb-12 pt-8" id="markdown">
+				<!-- <div class="markdown pb-12 pt-8" id="markdown">
 					<svelte:component this={component} />
+				</div> -->
+				<div class="markdown pb-12 pt-8" id="markdown">
+					{@html data.content.html}
 				</div>
 				<ProductPager />
 			</div>

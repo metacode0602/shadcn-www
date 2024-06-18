@@ -1,0 +1,165 @@
+{
+	"updateTime": "2024-06-13 10:24:25",
+	"items": [
+		{
+			"source": "",
+			"title": "3D One AI",
+			"path": "daimafuzhu/3d-one-ai",
+			"cover": "/cover/20240612/6/12/20240612_90fb75fe.jpg",
+			"label": "虚拟电子硬件、机器人编程",
+			"logo": "/logo/20240612/6/12/20240612_b627ebdd.jpg",
+			"description": "3D One AI基于物理刚体运动与三维数据处理技术，融合开源硬件、人工智能、编程等多学科实践，支持通过界面交互或编程控制物体的运动。3D One AI平台还提供虚拟开源硬件技术与人工智能技术，支持进行动态的人工智能行为仿真，以及输出三维动画。该软件支持小学、初中、高中阶段的人工智能教育，匹配国家教育标准与课标要求，助力普及化开课和科技人才培养。",
+			"tags": ["人工智能", "编程", "虚拟仿真", "教育", "教育学习"]
+		},
+		{
+			"source": "",
+			"title": "42Signals",
+			"path": "dianzishangwu/42signals",
+			"cover": "/cover/20240612/6/12/20240612_e7106495.jpg",
+			"label": "智能商务洞察解决方案",
+			"logo": "/logo/20240612/6/12/20240612_b71fb0a3.jpg",
+			"description": "42Signals是一种基于人工智能的解决方案套件，帮助消费品牌预测消费者需求，追踪竞争对手，优化数字货架，并促进在线销售增长。通过电子商务洞察，我们帮助品牌在在线零售环境中取得成功。",
+			"tags": ["电子商务", "人工智能", "洞察分析", "竞争对手", "产品优化"]
+		},
+		{
+			"source": "",
+			"title": "AI Contract Analysis",
+			"path": "falvzhushou/ai-contract-analysis",
+			"cover": "/cover/20240612/6/12/20240612_6e34a7b4.jpg",
+			"label": "基于AI的合同分析工具",
+			"logo": "/logo/20240612/6/12/20240612_c08d220c.jpg",
+			"description": "BetterLegal Assistant是一款基于AI的在线合同分析工具。它可以在几分钟内分析合同的关键条款,帮助用户理解合同的隐藏影响,避免盲目签署法律文件。该工具支持50多种语言,提供合同公平性评估、潜在负面影响、建议谈判要点等六大功能。定价仅需几美元,大大节省了昂贵的法律顾问费用。",
+			"tags": ["合同分析", "法律咨询", "谈判辅助", "智能法律"]
+		},
+		{
+			"source": "",
+			"title": "Loulou Investments Limited",
+			"path": "jiaoyizhushou/loulou-investments-limited",
+			"cover": "/cover/20240612/6/12/20240612_88f4b451.jpg",
+			"label": "智能投资与交易平台",
+			"logo": "/logo/20240612/6/12/20240612_da1d4005.jpg",
+			"description": "Loulou Investments Limited 是一家提供智能投资与交易服务的平台。我们利用人工智能技术，结合投资和交易策略，为客户提供令人惊叹的投资机会。我们的人工智能系统能够进行快速而准确的决策，帮助客户实现财务增长。通过加入我们的平台，客户可以与数千名其他投资者一起赚钱。",
+			"tags": ["智能投资", "交易平台"]
+		},
+		{
+			"source": "",
+			"title": "2048 AI",
+			"path": "quweiyouxi/2048-ai",
+			"cover": "/cover/20240612/6/12/20240612_c26b21c7.jpg",
+			"label": "AI助手玩2048游戏，帮助用户轻松获得2048分数",
+			"logo": "/logo/20240612/6/12/20240612_72ce8778.jpg",
+			"description": "2048 AI是一个AI助手，可帮助用户玩2048游戏并轻松获得2048分数。它可以自动玩游戏、加速游戏速度、一步一步操作游戏或停止游戏。用户可以通过安装该插件，并在2048游戏的官方网站https://play2048.co/上使用。也可以在作者的分支网站http://sleepycoder.github.io/2048/上使用AI助手。2048 AI可以大大提高玩家在2048游戏中的分数和成绩。",
+			"tags": ["AI", "游戏助手", "轻松获得高分"]
+		},
+		{
+			"source": "",
+			"title": "Ager.fun",
+			"path": "quweiyouxi/ager-fun",
+			"cover": "/cover/20240612/6/12/20240612_48f44734.jpg",
+			"label": "看见自己不同年龄的神奇应用！",
+			"logo": "/logo/20240612/6/12/20240612_cddf210a.jpg",
+			"description": "Ager.fun是一款革命性的应用程序，可以让你看到自己不同年龄的模样！只需上传一张照片，等待几分钟，就会收到从0岁到100岁的10张不同年龄的照片。但这还不是全部 - 我们还会给你一张动态的GIF图，展示你所有年龄的变化，让你实时看到变化。",
+			"tags": ["年龄转换", "照片编辑", "娱乐"]
+		},
+		{
+			"source": "",
+			"title": "ADXL AI",
+			"path": "dianzishangwu/adxl-ai",
+			"cover": "/cover/20240612/6/12/20240612_3d0d21ef.jpg",
+			"label": "多渠道AI自动化广告管理工具",
+			"logo": "/logo/20240612/6/12/20240612_0bad13d9.jpg",
+			"description": "ADXL是一款多渠道AI自动化广告管理工具，能够帮助用户在Google、Facebook、LinkedIn、TikTok、Instagram和Twitter等平台上轻松运营广告，实现更好的效果。通过ADXL，用户可以扩大覆盖范围，提升广告控制能力，快速吸引潜在客户，实现销售目标。ADXL采用AI优化的复制策略，自动智能定位受众，跨平台优化广告投放，无需任何技术技能即可管理广告。ADXL还提供即时潜在客户广告和自动化的重定向功能，以及跨平台的预构建受众群组。通过ADXL，用户可以轻松管理多个广告渠道，实现更好的广告投放效果。",
+			"tags": ["广告管理", "多渠道广告", "AI自动化", "市场营销", "电子商务"]
+		},
+		{
+			"source": "",
+			"title": "AI Surge Cloud",
+			"path": "didaimawudaima/ai-surge-cloud",
+			"cover": "/cover/20240612/6/12/20240612_a9e5c949.jpg",
+			"label": "5-10倍提升数据敏捷性与灵活性",
+			"logo": "/logo/20240612/6/12/20240612_b1641715.jpg",
+			"description": "低代码数据融合平台帮助企业以5-10倍的速度交付数据，为他们提供所需的敏捷性和灵活性，提高工作效率。该平台提供数据准备和探索性数据分析的低代码多人员解决方案，可以免费部署预测模型，还可获得1300美元的AWS信用和300美元的Databricks DBU信用。",
+			"tags": [
+				"低代码",
+				"数据融合",
+				"数据敏捷性",
+				"数据灵活性",
+				"数据准备",
+				"数据分析",
+				"预测模型",
+				"AWS",
+				"Databricks"
+			]
+		},
+		{
+			"source": "",
+			"title": "AI Bot Builder",
+			"path": "didaimawudaima/ai-bot-builder",
+			"cover": "/cover/20240612/6/12/20240612_50af994c.jpg",
+			"label": "构建强大的AI机器人",
+			"logo": "/logo/20240612/6/12/20240612_a6b349e6.jpg",
+			"description": "AI Bot是一个可视化的低代码平台，可以帮助您快速构建和定制强大的AI机器人。您可以使用它构建基于图像、声音和文本的机器人，集成各种服务，并轻松部署到Google Cloud。AI Bot支持WhatsApp、Twitter、SMS、Telegram等多种渠道，灵活扩展，安全可靠。",
+			"tags": ["AI", "机器人", "低代码", "可视化", "聊天"]
+		},
+		{
+			"source": "",
+			"title": "Abbot",
+			"path": "kehufuwu/abbot",
+			"cover": "/cover/20240612/6/12/20240612_037b9f1a.jpg",
+			"label": "Slack机器人，帮助企业监控、自动化客户对话",
+			"logo": "/logo/20240612/6/12/20240612_f078bef6.jpg",
+			"description": "Abbot是一款Slack机器人，帮助企业监控、自动化客户对话。Abbot可以监控支持频道中的对话，并确保客户及时得到回复。它还可以与常见的票务系统（如Zendesk和GitHub）集成，并轻松与内部系统集成。Abbot可以根据客户对话触发操作，并提供自动摘要和建议下一步操作。Abbot还可以根据文档进行培训，并在客户询问如何完成某些操作时提供帮助。",
+			"tags": ["Slack机器人", "客户对话", "自动化", "文档培训", "票务系统集成"]
+		},
+		{
+			"source": "",
+			"title": "AlgoVue",
+			"path": "jiaoyizhushou/algovue",
+			"cover": "/cover/20240612/6/12/20240612_3f446d68.jpg",
+			"label": "ChatGPT powered no-code editor for algotrading",
+			"logo": "/logo/20240612/6/12/20240612_140ca816.jpg",
+			"description": "AlgoVue是一款使用ChatGPT进行交易算法编辑的无代码编辑器。用户可以使用技术指标创建复杂的嵌套条件逻辑，并实现多种交易策略，如组合再平衡、配对交易、买入低点等。通过集成ChatGPT-3.5-turbo，用户可以获取交易想法的转录或建议。同时，AlgoVue还提供回测功能，用户可以将策略与选定的基准进行可视化比较。AlgoVue采用Flutter构建，提供美观的桌面应用体验。",
+			"tags": ["交易", "无代码编辑器", "技术指标", "回测", "ChatGPT"]
+		},
+		{
+			"source": "",
+			"title": "BlackHedge",
+			"path": "jiaoyizhushou/blackhedge",
+			"cover": "/cover/20240612/6/12/20240612_6477546d.jpg",
+			"label": "AI辅助的增强交易体验",
+			"logo": "/logo/20240612/6/12/20240612_01906cc8.jpg",
+			"description": "BlackHedge是一款AI辅助的股票交易工具，由普通投资者为普通投资者打造。通过预测性的AI模型，提供数据驱动的交易决策支持；通过直观的图表可视化，帮助用户了解个股、ETF、ADRs等的未来价格走势；通过友好的用户界面，降低新手投资者对股市交易的复杂性的恐惧感；通过自动化的研究，节省用户在股票分析上的时间。BlackHedge使用先进的人工智能技术来预测股市趋势，旨在为用户提供管理投资组合的技术，并提供超过市场平均水平的回报。",
+			"tags": ["AI", "股票", "交易", "预测"]
+		},
+		{
+			"source": "",
+			"title": "Avionero",
+			"path": "huwailvhang/avionero",
+			"cover": "/cover/20240612/6/12/20240612_59d429de.jpg",
+			"label": "找到最便宜、最方便的机票",
+			"logo": "/logo/20240612/6/12/20240612_9efb5788.jpg",
+			"description": "Avionero 是一个帮助用户轻松找到最便宜、最方便的机票的平台。我们拥有互联网上最大的航班库存，为您提供最全面的航班选择。通过 Avionero，您可以根据您的出行偏好和需求，找到最适合您的机票，节省时间和金钱。我们还提供酒店和体验的搜索，使您的旅行计划更加完整。",
+			"tags": ["机票", "航班", "酒店", "旅行", "航空"]
+		},
+		{
+			"source": "",
+			"title": "AI Excel Bot",
+			"path": "bangongzhushou/ai-excel-bot",
+			"cover": "/cover/20240612/6/12/20240612_19e33935.jpg",
+			"label": "AI Excel Bot-公式编写速度快10倍",
+			"logo": "/logo/20240612/6/12/20240612_2234b33e.jpg",
+			"description": "AI Excel Bot是一个能够帮助用户更快速地编写Excel和Google Sheets公式的插件。它可以根据简单的文本指令生成复杂的公式，让用户在几秒钟内完成。AI Excel Bot还支持VBA代码的编写和解释，无需用户浪费时间去理解和编写VBA。此外，它还提供Chrome插件，让用户在不离开Google Sheets或Excel的情况下使用AI的功能。AI Excel Bot的定价简单明了，有免费版和Pro版可供选择，Pro Annual版更是可以节省30%的费用。用户可以通过官方网站联系创始人，解决技术问题或提供反馈意见。",
+			"tags": ["Excel", "Google Sheets", "公式", "VBA", "插件"]
+		},
+		{
+			"source": "",
+			"title": "ConsumerAI",
+			"path": "jinrong/consumerai",
+			"cover": "/cover/20240612/6/12/20240612_c6e7f77e.jpg",
+			"label": "快速解决你的金融问题",
+			"logo": "/logo/20240612/6/12/20240612_720ccfcf.jpg",
+			"description": "Moneykey是一个金融服务平台，提供各种解决个人和企业金融问题的产品。无论是贷款、借款、投资还是理财，Moneykey都能提供一站式解决方案。通过快速申请、简化流程和优质服务，Moneykey帮助用户快速解决各种金融问题。",
+			"tags": ["金融服务", "贷款", "借款", "投资", "理财"]
+		}
+	]
+}

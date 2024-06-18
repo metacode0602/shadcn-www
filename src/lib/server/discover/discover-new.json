@@ -1,0 +1,164 @@
+[
+	{
+		"source": "",
+		"title": "AlgoVue",
+		"path": "jiaoyizhushou/algovue",
+		"cover": "/cover/20240612/6/12/20240612_3f446d68.jpg",
+		"label": "ChatGPT powered no-code editor for algotrading",
+		"logo": "/logo/20240612/6/12/20240612_140ca816.jpg",
+		"description": "AlgoVue是一款使用ChatGPT进行交易算法编辑的无代码编辑器。用户可以使用技术指标创建复杂的嵌套条件逻辑，并实现多种交易策略，如组合再平衡、配对交易、买入低点等。通过集成ChatGPT-3.5-turbo，用户可以获取交易想法的转录或建议。同时，AlgoVue还提供回测功能，用户可以将策略与选定的基准进行可视化比较。AlgoVue采用Flutter构建，提供美观的桌面应用体验。",
+		"tags": ["交易", "无代码编辑器", "技术指标", "回测", "ChatGPT"]
+	},
+	{
+		"source": "",
+		"title": "Ask GDPR",
+		"path": "falvzhushou/ask-gdpr",
+		"cover": "/cover/20240612/6/12/20240612_4058854b.jpg",
+		"label": "基于Rails的法律人工智能聊天。",
+		"logo": "/logo/20240612/6/12/20240612_2aa884f0.jpg",
+		"description": "Ask GDPR是一个基于人工智能的法律咨询聊天机器人，专注于欧洲通用数据保护条例（GDPR）。它可以回答关于GDPR的各种问题，并提供有关合规性和数据隐私的建议。Ask GDPR具有直观的用户界面，能够根据用户提供的问题提供准确的答案。",
+		"tags": ["法律咨询", "聊天机器人", "智能聊天", "效率助手"]
+	},
+	{
+		"source": "",
+		"title": "AgentVerse",
+		"path": "daimafuzhu/agentverse",
+		"cover": "/cover/20240612/6/12/20240612_067f2a28.jpg",
+		"label": "AgentVerse 是一个用于构建自定义多智能体环境的框架",
+		"logo": "/logo/20240612/6/12/20240612_143b2fed.jpg",
+		"description": "AgentVerse 是一个提供灵活框架的多智能体环境模拟工具，简化了构建大型语言模型（LLMs）的自定义多智能体环境的过程。它提供了高效的环境构建、可定制的组件、工具插件支持等功能。AgentVerse 旨在帮助研究人员更轻松地进行多智能体环境的开发和定制，以便集中精力进行研究。",
+		"tags": ["开发编程", "环境模拟", "语言模型"]
+	},
+	{
+		"source": "",
+		"title": "1hero.ai",
+		"path": "kehufuwu/1hero-ai",
+		"cover": "/cover/20240612/6/12/20240612_3d147e72.jpg",
+		"label": "个性化AI客服代理",
+		"logo": "/logo/20240612/6/12/20240612_faf6ae18.jpg",
+		"description": "通过让1hero.ai从您的客服电子邮件中学习并处理它们，节省时间并降低成本。享受无忧的客户支持体验，我们使其变得简单。\n\n功能：\n1. 实时活动：平均响应时间仅为60分钟！不要让您的客户久等\n2. 智能筛选：使用1hero的可定制Gmail筛选器进行高效的工作流程管理\n3. 两种模式：草稿模式或完全自动模式，选择最适合您业务的模式\n4. Shopify API：一键设置\n5. 定制化的邮件回复：通过理解与客户的以往互动生成定制的回复\n6. Gmail集成：快速轻松连接到您的客户支持电子邮件\n\n定价：\n- Explorer计划：每月20封免费邮件\n- Pro计划：每月120封邮件，Autopilot模式\n\n定位：未来电子商务客户支持的发现者",
+		"tags": ["客户支持", "人工智能", "电子商务"]
+	},
+	{
+		"source": "",
+		"title": "AI Lawyer",
+		"path": "falvzhushou/ai-lawyer",
+		"cover": "/cover/20240612/6/12/20240612_a88bc277.jpg",
+		"label": "AI律师 - 即时AI提供法律帮助",
+		"logo": "/logo/20240612/6/12/20240612_5d57e260.jpg",
+		"description": "AI律师是一个即时AI提供法律帮助的下一代平台，随时随地为您提供专业的法律帮助。通过AI律师，您可以获得法律信息和帮助，简化法律术语，并更好地理解复杂的法律问题。AI律师还可以帮助律师们优化研究，提供法律策略建议，节省时间，提高效率，让律师能够专注于更高级别的任务，提高客户满意度。同时，AI律师还为法学生提供学习和实践法律研究和分析技能的机会，了解当前的法律趋势和问题，为他们在法律职业生涯做好准备。",
+		"tags": ["法律", "AI", "律师"]
+	},
+	{
+		"source": "",
+		"title": "AI 表单生成器",
+		"path": "bangongzhushou/ai-biaodanshengchengqi",
+		"cover": "/cover/20240612/6/12/20240612_97794f6f.jpg",
+		"label": "用 AI 生成表单，智能导入现有表单或生成新表单",
+		"logo": "/logo/20240612/6/12/20240612_671f50dc.jpg",
+		"description": "AI 表单生成器是一款使用人工智能技术的在线工具，可以帮助用户快速生成各种类型的表单，包括调查问卷、表格和测验等。它提供了多种创建表单的方式，用户可以通过描述所需表单的内容，或者通过导入现有的表单进行修改。AI 表单生成器还可以根据用户的要求智能优化问题的生成，并提供自定义主题和样式的功能。用户可以使用 AI 表单生成器来简化表单创建的过程，提高工作效率。",
+		"tags": ["AI 表单", "在线表单", "调查问卷", "表格", "测验"]
+	},
+	{
+		"source": "",
+		"title": "AI Resume Builder for LinkedIn™ - LinkedRadar",
+		"path": "renliziyuan/ai-resume-builder-for-linkedin-linkedradar",
+		"cover": "/cover/20240612/6/12/20240612_7f2ca48a.jpg",
+		"label": "优化LinkedIn个人简历，构建精美模板的AI简历生成工具",
+		"logo": "/logo/20240612/6/12/20240612_f34874dc.jpg",
+		"description": "LinkedRadar是一个强大的AI简历生成工具，通过LinkedIn的AI算法优化个人简历关键词和写作，提高在招聘人员搜索中的可见性。用户可以在10秒内根据LinkedIn个人资料自动生成专业的简历，并选择适合自己的模板。LinkedRadar还提供个性化的标题和简介建议，使个人简历更具吸引力。详情请访问官方网址。",
+		"tags": ["简历优化", "AI生成", "LinkedIn"]
+	},
+	{
+		"source": "",
+		"title": "BotStacks",
+		"path": "falvzhushou/botstacks",
+		"cover": "/cover/20240612/6/12/20240612_05d12c28.jpg",
+		"label": "设计、构建和部署无缝的AI助手",
+		"logo": "/logo/20240612/6/12/20240612_b16fde4e.jpg",
+		"description": "BotStacks是一个聊天解决方案，通过使用机器人堆栈和多功能聊天解决方案，为对话增添动力，无缝设计、构建和部署AI助手。它提供了无代码机器人构建、AI模型集成、聊天界面定制、沙盒原型、集成自有机器人等功能。BotStacks可应用于各行各业，如客户支持、电子商务、旅游酒店、人力资源、游戏、法律服务等领域。",
+		"tags": [
+			"AI助手",
+			"聊天解决方案",
+			"无代码构建",
+			"AI模型集成",
+			"沙盒原型",
+			"客户支持",
+			"电子商务",
+			"旅游酒店",
+			"人力资源",
+			"游戏",
+			"法律服务"
+		]
+	},
+	{
+		"source": "",
+		"title": "ApplyPass",
+		"path": "renliziyuan/applypass",
+		"cover": "/cover/20240612/6/12/20240612_755f0246.jpg",
+		"label": "提交个性化工作申请，获得更多面试机会",
+		"logo": "/logo/20240612/6/12/20240612_5324b71b.jpg",
+		"description": "ApplyPass是一款专注于帮助用户获得更多工作面试机会的服务。用户通过提交个人简历，ApplyPass会代表用户每月提交200-400份个性化的工作申请，并且在首次使用时提供前100份工作申请免费。产品的优势包括经过30多年的招聘经验的验证、获得更高的面试回复率以及提供更多的面试机会。用户只需支付每月20美元的费用即可获得更多面试机会。定位于帮助用户提高求职成功率。",
+		"tags": ["求职", "面试", "工作申请", "简历"]
+	},
+	{
+		"source": "",
+		"title": "AgentX",
+		"path": "daimafuzhu/agentx",
+		"cover": "/cover/20240612/6/12/20240612_d8c576ff.jpg",
+		"label": "AI代理聊天机器人构建平台",
+		"logo": "/logo/20240612/6/12/20240612_003abae5.jpg",
+		"description": "AgentX是一个AI代理聊天机器人构建平台，允许用户在不到5分钟内构建并部署ChatGPT。它提供无代码构建、实时调整和多渠道集成，支持将AI代理部署到网站、Slack、WhatsApp、电子邮件等。",
+		"tags": ["AI聊天机器人", "无代码平台", "多渠道集成"]
+	},
+	{
+		"source": "",
+		"title": "60sec.site",
+		"path": "didaimawudaima/60sec-site",
+		"cover": "/cover/20240612/6/12/20240612_b867a382.jpg",
+		"label": "60秒内创建自定义落地页",
+		"logo": "/logo/20240612/6/12/20240612_55788788.jpg",
+		"description": "通过60sec.site，您可以在60秒内创建自定义的落地页。无需编码技能，只需简单描述您的产品、服务或想法，60sec.site将为您生成一个几乎完美的落地页。落地页设计精美，具有优化的SEO和加载速度，支持自定义域名和内置分析等功能。支持各种功能点，适用于各种使用场景。",
+		"tags": ["落地页", "自定义", "快速", "无代码", "SEO优化"]
+	},
+	{
+		"source": "",
+		"title": "AI Input",
+		"path": "kaifazhegongju/ai-input",
+		"cover": "/cover/20240612/6/12/20240612_f327d8e6.jpg",
+		"label": "用AI快速创建网站和UI",
+		"logo": "/logo/20240612/6/12/20240612_aa164def.jpg",
+		"description": "AI Input是一个利用人工智能（AI）技术来帮助用户创建网站和UI元素的平台。用户可以通过输入一些简单的指令（Prompts），让AI生成网站的代码、布局和内容。AI Input还可以根据用户的手绘草图，使用视觉API来创建网站的设计。AI Input支持多种语言，包括英语、中文、日语等。用户可以免费注册并使用AI Input，也可以选择付费升级以获得更多的功能和资源。AI Input是一个创新的网站和UI构建工具，让用户可以快速、轻松地利用AI的力量来创建自己的网站",
+		"tags": ["UI", "设计", "开发", "网站构建"]
+	},
+	{
+		"source": "",
+		"title": "AI Gone Wrong",
+		"path": "didaimawudaima/ai-gone-wrong",
+		"cover": "/cover/20240612/6/12/20240612_c0358fbd.jpg",
+		"label": "可视化无代码开发平台",
+		"logo": "/logo/20240612/6/12/20240612_a0884273.jpg",
+		"description": "Softr是一个可视化无代码开发平台，帮助用户快速搭建响应式网站和应用。它具有丰富的功能和优势，包括易于使用的拖放编辑器、自定义样式和布局、数据集成、在线支付集成、SEO优化等。Softr提供灵活的定价计划，适用于个人用户、创业者和企业客户。它的定位是帮助用户快速搭建专业的网站和应用，无需编码。",
+		"tags": ["无代码开发", "网站建设", "应用开发", "可视化编辑", "拖放式设计"]
+	},
+	{
+		"source": "",
+		"title": "ADXL AI",
+		"path": "dianzishangwu/adxl-ai",
+		"cover": "/cover/20240612/6/12/20240612_3d0d21ef.jpg",
+		"label": "多渠道AI自动化广告管理工具",
+		"logo": "/logo/20240612/6/12/20240612_0bad13d9.jpg",
+		"description": "ADXL是一款多渠道AI自动化广告管理工具，能够帮助用户在Google、Facebook、LinkedIn、TikTok、Instagram和Twitter等平台上轻松运营广告，实现更好的效果。通过ADXL，用户可以扩大覆盖范围，提升广告控制能力，快速吸引潜在客户，实现销售目标。ADXL采用AI优化的复制策略，自动智能定位受众，跨平台优化广告投放，无需任何技术技能即可管理广告。ADXL还提供即时潜在客户广告和自动化的重定向功能，以及跨平台的预构建受众群组。通过ADXL，用户可以轻松管理多个广告渠道，实现更好的广告投放效果。",
+		"tags": ["广告管理", "多渠道广告", "AI自动化", "市场营销", "电子商务"]
+	},
+	{
+		"source": "",
+		"title": "FinanceGPT",
+		"path": "jinrong/financegpt",
+		"cover": "/cover/20240612/6/12/20240612_ff2159ab.jpg",
+		"label": "解锁AI在金融分析中的潜力",
+		"logo": "/logo/20240612/6/12/20240612_29c3ea71.jpg",
+		"description": "FinanceGPT将生成AI的强大功能与专业人员的专业知识相结合，提供可访问的金融分析、研究和咨询服务。我们的平台提供可定制的财务预测、实时数据汇总、财务健康监测和高级分析工具，帮助投资者、财务经理和会计师保持财务状况并做出战略性决策。我们还提供资产管理、智能税务筹划和深入报告等功能，助您优化投资策略。通过整合金融数据、图表和专业知识，FinanceGPT赋能您的金融决策。",
+		"tags": ["FinGPT", "AI金融分析", "AI财务报告", "AI工具", "金融研究", "Ipoxcap", "Ipoxcap AI"]
+	}
+]

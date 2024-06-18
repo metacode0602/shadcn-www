@@ -9,6 +9,7 @@ export const load: PageLoad = async (event) => {
 
 	const { component, title, metadata } = await getDoc(event.params.slug);
 
+	console.warn("component", component);
 	return {
 		component,
 		metadata,
